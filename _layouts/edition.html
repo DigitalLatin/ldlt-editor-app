@@ -1,0 +1,93 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>{{ page.title }}</title>
+    <link rel="shortcut icon" href="/assets/images/favicon.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/css/styles.css"/>
+    <link rel="stylesheet" href="/assets/css/tei-html.css"/>
+    <link rel="stylesheet" href="/assets/js/jquery-ui-1.11.4.custom/jquery-ui.css"/>
+    <script type="text/javascript" src="/assets/js/CETEI.js"></script>
+    <script type="text/javascript" src="/assets/js/jquery/jquery-1.11.3.js"></script>
+    <script type="text/javascript" src="/assets/js/jquery-ui-1.11.4.custom/jquery-ui.js"></script>
+    <script type="text/javascript" src="/assets/js/appcrit.js"></script>
+    <script type="text/javascript" src="/assets/js/behaviors.js"></script>
+  </head>
+  <body>
+    <!-- Credit for this hack goes to https://code-boxx.com/lock-screen-orientation/ -->
+    <!-- (A) THIS WILL SHOW ON THE WRONG ORIENTATION -->
+    <div id="turn">
+      <p>Please rotate your device!</p>
+      <img src="/assets/images/DLL_logo_web_medium.png" alt="Digital Latin Library Home" />
+    </div>
+
+    <!-- (B) CONTENTS AS USUAL -->
+    <div id="container">
+      {% include svgs.html %}
+      {% include navbar.html %}
+        <div class="d-flex flex-column">
+            <div id="mainwrapper" class="container">    
+                <main role="main" class="container">
+                    <div class="row">
+                        <div class="col-md-10">
+                            <div id="main" class="container">
+        {{ content }}
+          </div>
+        </div>
+    </div>
+    <script>
+      let c = new CETEI({'ignoreFragmentId':true});
+      let app = new appcrit(c);
+      c.addBehaviors(behaviors);
+      c.processPage();
+      $("tei-listwit,tei-witness,tei-bibl,tei-listBibl,tei-handnote,tei-person,tei-item").each(function(i, el) {
+        if (el.hasAttribute("id")) {
+          let val = el.querySelector("tei-abbr[type=siglum]")?.innerHTML;
+          if (val) {
+            app.references['#' + el.getAttribute("id")] = val;
+          } else {
+            app.references['#' + el.getAttribute("id")] = el.getAttribute("id");
+          }
+        }
+      });
+      let tei = document.querySelector('div>tei-div[type="textpart"],[type="edition"],[type="section"],[type="commentary"]');
+      app.loadData(tei);
+      app.doSection($(tei));
+      let citables = {{ page.citables }};
+      let resolveCite = function() {
+        window.location = citables[document.querySelector("input[name=getcite]").value.toString()];
+      }
+      const links = Array.from(document.getElementById('navigation').querySelectorAll('a:not([href*="#"])')); 
+      const pg = window.location.pathname.replace(/.*\/([^\/]+)$/,'$1');
+      const prevNext = document.getElementById('prevNext');
+      prevNext.innerHTML = "";
+      for (let i = 0; i < links.length; i++) {
+        if (links[i].getAttribute('href') == pg) {
+          if (i > 0) {
+            prevNext.innerHTML += "↤ "
+            prevNext.innerHTML += links[i-1].outerHTML;
+            if (i < links.length - 1) {
+              prevNext.innerHTML += " | ";
+            }
+          }
+          if (i < links.length - 1) {
+            prevNext.innerHTML += links[i+1].outerHTML;
+            prevNext.innerHTML += " ↦";
+          }
+        }
+        if (links[i].innerHTML.length < 4) {
+          links[i].parentElement.parentElement.classList.add('inline');
+
+        }
+      }
+    </script>
+  </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</html>

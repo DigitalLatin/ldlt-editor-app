@@ -1,0 +1,391 @@
+---
+layout: edition
+title: "Bellum Alexandrinum: 12.1–2"
+citables: "{'1': '1.html','1.1': '1.html#1.1','1.2': '1.html#1.2','1.3': '1.html#1.3','1.4': '1.html#1.4','1.5': '1.html#1.5','2': '2.html','2.1': '2.html#2.1','2.2': '2.html#2.2','2.3': '2.html#2.3','2.4': '2.html#2.4','2.5': '2.html#2.5','3': '3.html','3.1': '3.html#3.1','3.2': '3.html#3.2','3.3': '3.html#3.3','3.4': '3.html#3.4','4': '4.html','4.1': '4.html#4.1','4.2': '4.html#4.2','5': '5.html','5.1': '5.html#5.1','5.2': '5.html#5.2','5.3': '5.html#5.3','6': '6.html','6.1': '6.html#6.1','6.2': '6.html#6.2','6.3': '6.html#6.3','7': '7.html','7.1': '7.html#7.1','7.2': '7.html#7.2','7.3': '7.html#7.3','8': '8.html','8.1': '8.html#8.1','8.2': '8.html#8.2','8.3': '8.html#8.3','8.4': '8.html#8.4','8.5': '8.html#8.5','8.6': '8.html#8.6','9': '9.html','9.1': '9.html#9.1','9.2': '9.html#9.2','9.3': '9.html#9.3','9.4': '9.html#9.4','10': '10.html','10.1': '10.html#10.1','10.2': '10.html#10.2','10.3': '10.html#10.3','10.4': '10.html#10.4','10.5': '10.html#10.5','10.6': '10.html#10.6','11': '11.html','11.1': '11.html#11.1','11.2': '11.html#11.2','11.3': '11.html#11.3','11.4': '11.html#11.4','11.5': '11.html#11.5','11.6': '11.html#11.6','12': '12.html','12.1': '12.html#12.1','12.2': '12.html#12.2','12.3': '12.html#12.3','12.4': '12.html#12.4','13': '13.html','13.1': '13.html#13.1','13.2': '13.html#13.2','13.3': '13.html#13.3','13.4': '13.html#13.4','13.5': '13.html#13.5','13.6': '13.html#13.6','14': '14.html','14.1': '14.html#14.1','14.2': '14.html#14.2','14.3': '14.html#14.3','14.4': '14.html#14.4','14.5': '14.html#14.5','15': '15.html','15.1': '15.html#15.1','15.2': '15.html#15.2','15.3': '15.html#15.3','15.4': '15.html#15.4','15.5': '15.html#15.5','15.6': '15.html#15.6','15.7': '15.html#15.7','15.8': '15.html#15.8','16': '16.html','16.1': '16.html#16.1','16.2': '16.html#16.2','16.3': '16.html#16.3','16.4': '16.html#16.4','16.5': '16.html#16.5','16.6': '16.html#16.6','16.7': '16.html#16.7','17': '17.html','17.1': '17.html#17.1','17.2': '17.html#17.2','17.3': '17.html#17.3','17.4': '17.html#17.4','17.5': '17.html#17.5','17.6': '17.html#17.6','18': '18.html','18.1': '18.html#18.1','18.2': '18.html#18.2','18.3': '18.html#18.3','18.4': '18.html#18.4','19': '19.html','19.1': '19.html#19.1','19.2': '19.html#19.2','19.3': '19.html#19.3','19.4': '19.html#19.4','19.5': '19.html#19.5','19.6': '19.html#19.6','20': '20.html','20.1': '20.html#20.1','20.2': '20.html#20.2','20.3': '20.html#20.3','20.4': '20.html#20.4','20.5': '20.html#20.5','20.6': '20.html#20.6','21': '21.html','21.1': '21.html#21.1','21.2': '21.html#21.2','21.3': '21.html#21.3','21.4': '21.html#21.4','21.5': '21.html#21.5','22': '22.html','22.1': '22.html#22.1','22.2': '22.html#22.2','23': '23.html','23.1': '23.html#23.1','23.2': '23.html#23.2','24': '24.html','24.1': '24.html#24.1','24.2': '24.html#24.2','24.3': '24.html#24.3','24.4': '24.html#24.4','24.5': '24.html#24.5','24.6': '24.html#24.6','25': '25.html','25.1': '25.html#25.1','25.2': '25.html#25.2','25.3': '25.html#25.3','25.4': '25.html#25.4','25.5': '25.html#25.5','25.6': '25.html#25.6','26': '26.html','26.1': '26.html#26.1','26.2': '26.html#26.2','26.3': '26.html#26.3','27': '27.html','27.1': '27.html#27.1','27.2': '27.html#27.2','27.3': '27.html#27.3','27.4': '27.html#27.4','27.5': '27.html#27.5','27.6': '27.html#27.6','27.7': '27.html#27.7','28': '28.html','28.1': '28.html#28.1','28.2': '28.html#28.2','28.3': '28.html#28.3','29': '29.html','29.1': '29.html#29.1','29.2': '29.html#29.2','29.3': '29.html#29.3','29.4': '29.html#29.4','29.5': '29.html#29.5','30': '30.html','30.1': '30.html#30.1','30.2': '30.html#30.2','30.3': '30.html#30.3','30.4': '30.html#30.4','30.5': '30.html#30.5','30.6': '30.html#30.6','31': '31.html','31.1': '31.html#31.1','31.2': '31.html#31.2','31.3': '31.html#31.3','31.4': '31.html#31.4','31.5': '31.html#31.5','31.6': '31.html#31.6','32': '32.html','32.1': '32.html#32.1','32.2': '32.html#32.2','32.3': '32.html#32.3','32.4': '32.html#32.4','33': '33.html','33.1': '33.html#33.1','33.2': '33.html#33.2','33.3': '33.html#33.3','33.4': '33.html#33.4','34': '34.html','34.1': '34.html#34.1','34.2': '34.html#34.2','34.3': '34.html#34.3','34.4': '34.html#34.4','34.5': '34.html#34.5','35': '35.html','35.1': '35.html#35.1','35.2': '35.html#35.2','35.3': '35.html#35.3','36': '36.html','36.1': '36.html#36.1','36.2': '36.html#36.2','36.3': '36.html#36.3','36.4': '36.html#36.4','36.5': '36.html#36.5','37': '37.html','37.1': '37.html#37.1','37.2': '37.html#37.2','37.3': '37.html#37.3','37.4': '37.html#37.4','37.5': '37.html#37.5','38': '38.html','38.1': '38.html#38.1','38.2': '38.html#38.2','38.3': '38.html#38.3','38.4': '38.html#38.4','39': '39.html','39.1': '39.html#39.1','39.2': '39.html#39.2','40': '40.html','40.1': '40.html#40.1','40.2': '40.html#40.2','40.3': '40.html#40.3','40.4': '40.html#40.4','40.5': '40.html#40.5','41': '41.html','41.1': '41.html#41.1','41.2': '41.html#41.2','42': '42.html','42.1': '42.html#42.1','42.2': '42.html#42.2','42.3': '42.html#42.3','42.4': '42.html#42.4','42.5': '42.html#42.5','43': '43.html','43.1': '43.html#43.1','43.2': '43.html#43.2','43.3': '43.html#43.3','44': '44.html','44.1': '44.html#44.1','44.2': '44.html#44.2','44.3': '44.html#44.3','44.4': '44.html#44.4','44.5': '44.html#44.5','45': '45.html','45.1': '45.html#45.1','45.2': '45.html#45.2','45.3': '45.html#45.3','45.4': '45.html#45.4','46': '46.html','46.1': '46.html#46.1','46.2': '46.html#46.2','46.3': '46.html#46.3','46.4': '46.html#46.4','46.5': '46.html#46.5','46.6': '46.html#46.6','46.7': '46.html#46.7','47': '47.html','47.1': '47.html#47.1','47.2': '47.html#47.2','47.3': '47.html#47.3','47.4': '47.html#47.4','47.5': '47.html#47.5','48': '48.html','48.1': '48.html#48.1','48.2': '48.html#48.2','48.3': '48.html#48.3','49': '49.html','49.1': '49.html#49.1','49.2': '49.html#49.2','49.3': '49.html#49.3','50': '50.html','50.1': '50.html#50.1','50.2': '50.html#50.2','50.3': '50.html#50.3','51': '51.html','51.1': '51.html#51.1','51.2': '51.html#51.2','51.3': '51.html#51.3','51.4': '51.html#51.4','52': '52.html','52.1': '52.html#52.1','52.2': '52.html#52.2','52.3': '52.html#52.3','52.4': '52.html#52.4','53': '53.html','53.1': '53.html#53.1','53.2': '53.html#53.2','53.3': '53.html#53.3','53.4': '53.html#53.4','53.5': '53.html#53.5','54': '54.html','54.1': '54.html#54.1','54.2': '54.html#54.2','54.3': '54.html#54.3','55': '55.html','55.1': '55.html#55.1','55.2': '55.html#55.2','55.3': '55.html#55.3','55.4': '55.html#55.4','55.5': '55.html#55.5','56': '56.html','56.1': '56.html#56.1','56.2': '56.html#56.2','56.3': '56.html#56.3','56.4': '56.html#56.4','56.5': '56.html#56.5','56.6': '56.html#56.6','57': '57.html','57.1': '57.html#57.1','57.2': '57.html#57.2','57.3': '57.html#57.3','57.4': '57.html#57.4','57.5': '57.html#57.5','57.6': '57.html#57.6','58': '58.html','58.1': '58.html#58.1','58.2': '58.html#58.2','58.3': '58.html#58.3','58.4': '58.html#58.4','59': '59.html','59.1': '59.html#59.1','59.2': '59.html#59.2','60': '60.html','60.1': '60.html#60.1','60.2': '60.html#60.2','60.3': '60.html#60.3','60.4': '60.html#60.4','60.5': '60.html#60.5','61': '61.html','61.1': '61.html#61.1','61.2': '61.html#61.2','61.3': '61.html#61.3','61.4': '61.html#61.4','61.5': '61.html#61.5','61.6': '61.html#61.6','62': '62.html','62.1': '62.html#62.1','62.2': '62.html#62.2','63': '63.html','63.1': '63.html#63.1','63.2': '63.html#63.2','63.3': '63.html#63.3','63.4': '63.html#63.4','63.5': '63.html#63.5','63.6': '63.html#63.6','64': '64.html','64.1': '64.html#64.1','64.2': '64.html#64.2','64.3': '64.html#64.3','65': '65.html','65.1': '65.html#65.1','65.2': '65.html#65.2','65.3': '65.html#65.3','65.4': '65.html#65.4','66': '66.html','66.1': '66.html#66.1','66.2': '66.html#66.2','66.3': '66.html#66.3','66.4': '66.html#66.4','66.5': '66.html#66.5','67': '67.html','67.1': '67.html#67.1','67.2': '67.html#67.2','68': '68.html','68.1': '68.html#68.1','68.2': '68.html#68.2','69': '69.html','69.1': '69.html#69.1','69.2': '69.html#69.2','69.3': '69.html#69.3','70': '70.html','70.1': '70.html#70.1','70.2': '70.html#70.2','70.3': '70.html#70.3','70.4': '70.html#70.4','70.5': '70.html#70.5','70.6': '70.html#70.6','70.7': '70.html#70.7','70.8': '70.html#70.8','71': '71.html','71.1': '71.html#71.1','71.2': '71.html#71.2','72': '72.html','72.1': '72.html#72.1','72.2': '72.html#72.2','72.3': '72.html#72.3','73': '73.html','73.1': '73.html#73.1','73.2': '73.html#73.2','73.3': '73.html#73.3','74': '74.html','74.1': '74.html#74.1','74.2': '74.html#74.2','74.3': '74.html#74.3','74.4': '74.html#74.4','75': '75.html','75.1': '75.html#75.1','75.2': '75.html#75.2','75.3': '75.html#75.3','76': '76.html','76.1': '76.html#76.1','76.2': '76.html#76.2','76.3': '76.html#76.3','76.4': '76.html#76.4','77': '77.html','77.1': '77.html#77.1','77.2': '77.html#77.2','78': '78.html','78.1': '78.html#78.1','78.2': '78.html#78.2','78.3': '78.html#78.3','78.4': '78.html#78.4','78.5': '78.html#78.5',}"
+--- 
+  <div id="prevNext">
+    -
+  </div><div class="TEI" id="tei"><tei-teiHeader xml:id="d2e5" id="d2e5" data-origname="teiHeader">
+      <tei-fileDesc xml:id="d2e7" id="d2e7" data-origname="fileDesc">
+         <tei-titleStmt xml:id="d2e9" id="d2e9" data-origname="titleStmt">
+            <tei-title xml:id="d2e11" id="d2e11" data-origname="title">Bellum Alexandrinum</tei-title>
+            <tei-editor ref="http://viaf.org/viaf/116523553" xml:id="d2e13" id="d2e13" data-origname="editor">Cynthia Damon, et al.</tei-editor>
+            <tei-sponsor xml:id="d2e16" id="d2e16" data-origname="sponsor">Society for Classical Studies</tei-sponsor>
+            <tei-respStmt xml:id="d2e18" id="d2e18" data-origname="respStmt">
+               <tei-resp xml:id="d2e20" id="d2e20" data-origname="resp">TEI XML encoding:</tei-resp>
+               <tei-name ref="https://orcid.org/0000-0002-8192-9385" xml:id="d2e22" id="d2e22" data-origname="name">Samuel J. Huskey</tei-name>
+            </tei-respStmt>
+            <tei-respStmt xml:id="d2e26" id="d2e26" data-origname="respStmt">
+               <tei-resp xml:id="d2e28" id="d2e28" data-origname="resp">Programming for automatic generation of TEI XML:</tei-resp>
+               <tei-name xml:id="d2e30" id="d2e30" data-origname="name">Virgina K. Felkner</tei-name>
+            </tei-respStmt>
+            <tei-respStmt xml:id="d2e34" id="d2e34" data-origname="respStmt">
+               <tei-resp xml:id="d2e36" id="d2e36" data-origname="resp">Coauthor of content related to section 2.5:</tei-resp>
+               <tei-name sameAs="#DSimons" xml:id="d2e38" id="d2e38" data-origname="name">Dallas Simons</tei-name>
+            </tei-respStmt>
+            <tei-respStmt xml:id="d2e42" id="d2e42" data-origname="respStmt">
+               <tei-resp xml:id="d2e44" id="d2e44" data-origname="resp">Coauthor of content related to sections 12.1–2 and 13.5:</tei-resp>
+               <tei-name sameAs="#Vozar" xml:id="d2e46" id="d2e46" data-origname="name">Tom Vozar</tei-name>
+            </tei-respStmt>
+            <tei-respStmt xml:id="d2e50" id="d2e50" data-origname="respStmt">
+               <tei-resp xml:id="d2e52" id="d2e52" data-origname="resp">Coauthor of content related to section 26.1–2:</tei-resp>
+               <tei-name sameAs="#Persyn" xml:id="d2e54" id="d2e54" data-origname="name">Marcie Persyn</tei-name>
+            </tei-respStmt>
+            <tei-respStmt xml:id="d2e58" id="d2e58" data-origname="respStmt">
+               <tei-resp xml:id="d2e60" id="d2e60" data-origname="resp">Coauthor of content related to sections 35.3 and 36.4–5:</tei-resp>
+               <tei-name sameAs="#Kovalchuk" xml:id="d2e62" id="d2e62" data-origname="name">Maria Kovalchuk</tei-name>
+            </tei-respStmt>
+            <tei-respStmt xml:id="d2e66" id="d2e66" data-origname="respStmt">
+               <tei-resp xml:id="d2e68" id="d2e68" data-origname="resp">Coauthor of content related to sections 47.2, 49.1, and 49.2–3:</tei-resp>
+               <tei-name sameAs="#Warnock" xml:id="d2e70" id="d2e70" data-origname="name">Tim Warnock</tei-name>
+            </tei-respStmt>
+            <tei-respStmt xml:id="d2e74" id="d2e74" data-origname="respStmt">
+               <tei-resp xml:id="d2e76" id="d2e76" data-origname="resp">Coauthor of content related to section 60.2:</tei-resp>
+               <tei-name sameAs="#Reinhardt" xml:id="d2e78" id="d2e78" data-origname="name">Isabella Reinhardt</tei-name>
+            </tei-respStmt>
+            <tei-respStmt xml:id="d2e83" id="d2e83" data-origname="respStmt">
+               <tei-resp xml:id="d2e85" id="d2e85" data-origname="resp">Coauthor of content related to sections 63.5 and 66.3–4:</tei-resp>
+               <tei-name sameAs="#Credo" xml:id="d2e87" id="d2e87" data-origname="name">Brian Credo</tei-name>
+            </tei-respStmt>
+            <tei-respStmt xml:id="d2e91" id="d2e91" data-origname="respStmt">
+               <tei-resp xml:id="d2e93" id="d2e93" data-origname="resp">Coauthor of content related to sections 67.1 and 68.1:</tei-resp>
+               <tei-name sameAs="#Bensch-Schaus" xml:id="d2e95" id="d2e95" data-origname="name">Amelia Bensch-Schaus</tei-name>
+            </tei-respStmt>
+            <tei-respStmt xml:id="d2e99" id="d2e99" data-origname="respStmt">
+               <tei-resp xml:id="d2e101" id="d2e101" data-origname="resp">Coauthor of content related to sections 72.2–3 and 74.4:</tei-resp>
+               <tei-name sameAs="#Hanson" xml:id="d2e103" id="d2e103" data-origname="name">Wes Hanson</tei-name>
+            </tei-respStmt>
+         </tei-titleStmt>
+         <tei-editionStmt xml:id="d2e108" id="d2e108" data-origname="editionStmt">
+            <tei-edition xml:id="d2e110" id="d2e110" data-origname="edition">First Edition</tei-edition>
+         </tei-editionStmt>
+         <tei-publicationStmt xml:id="d2e113" id="d2e113" data-origname="publicationStmt">
+            <tei-publisher xml:id="d2e115" id="d2e115" data-origname="publisher">The Digital Latin Library</tei-publisher>
+            <tei-address xml:id="d2e117" id="d2e117" data-origname="address">
+               <tei-street xml:id="d2e119" id="d2e119" data-origname="street">650 Parrington Oval</tei-street>
+               <tei-addrLine xml:id="d2e121" id="d2e121" data-origname="addrLine">Carnegie Building 101</tei-addrLine>
+               <tei-settlement xml:id="d2e123" id="d2e123" data-origname="settlement">Norman</tei-settlement>
+               <tei-name xml:id="d2e125" id="d2e125" data-origname="name">OK</tei-name>
+               <tei-postCode xml:id="d2e127" id="d2e127" data-origname="postCode">73071</tei-postCode>
+               <tei-country xml:id="d2e130" id="d2e130" data-origname="country">USA</tei-country>
+            </tei-address>
+            <tei-authority xml:id="d2e133" id="d2e133" data-origname="authority">The University of Oklahoma</tei-authority>
+            <tei-pubPlace xml:id="d2e135" id="d2e135" data-origname="pubPlace">Norman, OK</tei-pubPlace>
+            <tei-date xml:id="d2e137" id="d2e137" data-origname="date">2022</tei-date>
+            <tei-availability xml:id="d2e140" id="d2e140" data-origname="availability">
+               <tei-licence target="https://creativecommons.org/licenses/by-sa/4.0/legalcode" xml:id="d2e142" id="d2e142" data-origname="licence">Creative
+                  Commons Attribution-ShareAlike 4.0 International Licence (CC BY-SA 4.0)</tei-licence>
+            </tei-availability>
+         </tei-publicationStmt>
+         <tei-seriesStmt xml:id="d2e147" id="d2e147" data-origname="seriesStmt">
+            <tei-title level="s" xml:id="d2e149" id="d2e149" data-origname="title">Library of Digital Latin Texts</tei-title>
+            <tei-respStmt xml:id="d2e152" id="d2e152" data-origname="respStmt">
+               <tei-resp xml:id="d2e154" id="d2e154" data-origname="resp">Edited by</tei-resp>
+               <tei-name ref="https://orcid.org/0000-0002-8192-9385" xml:id="d2e156" id="d2e156" data-origname="name">Samuel J. Huskey</tei-name>
+            </tei-respStmt>
+            <tei-biblScope unit="volume" xml:id="d2e160" id="d2e160" data-origname="biblScope">1</tei-biblScope>
+            <tei-idno type="DOI" xml:id="d2e163" id="d2e163" data-origname="idno" data-empty="">​</tei-idno>
+         </tei-seriesStmt>
+         <tei-sourceDesc xml:id="d2e166" id="d2e166" data-origname="sourceDesc">
+            <tei-p xml:id="d2e168" id="d2e168" data-origname="p">Born digital.</tei-p>
+         </tei-sourceDesc>
+      </tei-fileDesc>
+     <tei-encodingDesc xml:id="d2e172" id="d2e172" data-origname="encodingDesc">
+       <tei-listPrefixDef xml:id="d2e174" id="d2e174" data-origname="listPrefixDef">
+         <tei-prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1" xml:id="d2e176" id="d2e176" data-origname="prefixDef" data-empty="">​</tei-prefixDef>
+       </tei-listPrefixDef>
+       <tei-refsDecl xml:id="d2e179" id="d2e179" data-origname="refsDecl">
+         
+         <tei-citeStructure match="//front/div[@xml:id='preface']" use="head" xml:id="d2e183" id="d2e183" data-origname="citeStructure">
+           
+           <tei-citeData property="dc:identifier" use="@xml:id" xml:id="d2e187" id="d2e187" data-origname="citeData" data-empty="">​</tei-citeData>
+           
+           <tei-citeData property="dc:title" use="head" xml:id="d2e191" id="d2e191" data-origname="citeData" data-empty="">​</tei-citeData>
+           
+           <tei-citeData property="function" use="'toc-entry'" xml:id="d2e196" id="d2e196" data-origname="citeData" data-empty="">​</tei-citeData>
+           <tei-citeStructure match="./div[@type='section']" use="head" delim=", " xml:id="d2e198" id="d2e198" data-origname="citeStructure">
+             <tei-citeData property="dc:title" use="head" xml:id="d2e200" id="d2e200" data-origname="citeData" data-empty="">​</tei-citeData>
+             <tei-citeData property="dc:identifier" use="@xml:id" xml:id="d2e202" id="d2e202" data-origname="citeData" data-empty="">​</tei-citeData>
+             <tei-citeData property="function" use="'toc-entry'" xml:id="d2e204" id="d2e204" data-origname="citeData" data-empty="">​</tei-citeData>
+             
+             <tei-citeData property="function" use="'split'" xml:id="d2e208" id="d2e208" data-origname="citeData" data-empty="">​</tei-citeData>
+             
+             <tei-citeData property="dc:requires" use="//front/div[@type='bibliography']" xml:id="d2e213" id="d2e213" data-origname="citeData" data-empty="">​</tei-citeData>
+           </tei-citeStructure>
+         </tei-citeStructure>
+         <tei-citeStructure match="//front/div[@xml:id='bibliography']" use="head" xml:id="d2e217" id="d2e217" data-origname="citeStructure">
+           <tei-citeData property="dc:identifier" use="@xml:id" xml:id="d2e219" id="d2e219" data-origname="citeData" data-empty="">​</tei-citeData>
+           <tei-citeData property="dc:title" use="head" xml:id="d2e221" id="d2e221" data-origname="citeData" data-empty="">​</tei-citeData>
+           <tei-citeData property="function" use="'toc-entry'" xml:id="d2e223" id="d2e223" data-origname="citeData" data-empty="">​</tei-citeData>
+           <tei-citeStructure match="./div[@type='section']" use="head" delim=", " xml:id="d2e225" id="d2e225" data-origname="citeStructure">
+             <tei-citeData property="dc:identifier" use="@xml:id" xml:id="d2e227" id="d2e227" data-origname="citeData" data-empty="">​</tei-citeData>
+             <tei-citeData property="dc:title" use="head" xml:id="d2e229" id="d2e229" data-origname="citeData" data-empty="">​</tei-citeData>
+             <tei-citeData property="function" use="'toc-entry'" xml:id="d2e231" id="d2e231" data-origname="citeData" data-empty="">​</tei-citeData>
+             <tei-citeData property="function" use="'split'" xml:id="d2e233" id="d2e233" data-origname="citeData" data-empty="">​</tei-citeData>
+           </tei-citeStructure>
+         </tei-citeStructure>
+         <tei-citeStructure match="//front/div[@xml:id='conspectus-editionum']" use="head" delim=", " xml:id="d2e237" id="d2e237" data-origname="citeStructure">
+           <tei-citeData property="dc:identifier" use="@xml:id" xml:id="d2e239" id="d2e239" data-origname="citeData" data-empty="">​</tei-citeData>
+           <tei-citeData property="dc:title" use="head" xml:id="d2e241" id="d2e241" data-origname="citeData" data-empty="">​</tei-citeData>
+           <tei-citeData property="function" use="'toc-entry'" xml:id="d2e243" id="d2e243" data-origname="citeData" data-empty="">​</tei-citeData>
+           <tei-citeData property="function" use="'split'" xml:id="d2e245" id="d2e245" data-origname="citeData" data-empty="">​</tei-citeData>
+         </tei-citeStructure>
+         
+         <tei-citeStructure match="//div[@type='edition']" use="head" xml:id="d2e251" id="d2e251" data-origname="citeStructure">
+           <tei-citeData property="dc:title" use="head" xml:id="d2e253" id="d2e253" data-origname="citeData" data-empty="">​</tei-citeData>
+           <tei-citeData property="function" use="'toc-entry'" xml:id="d2e255" id="d2e255" data-origname="citeData" data-empty="">​</tei-citeData>
+           <tei-citeStructure match="p" use="@n" unit="chapter" xml:id="d2e257" id="d2e257" data-origname="citeStructure">    
+             <tei-citeData property="dc:title" use="@n" xml:id="d2e259" id="d2e259" data-origname="citeData" data-empty="">​</tei-citeData>
+             <tei-citeData property="dc:identifier" use="@n" xml:id="d2e261" id="d2e261" data-origname="citeData" data-empty="">​</tei-citeData>
+             <tei-citeData property="function" use="'toc-entry'" xml:id="d2e263" id="d2e263" data-origname="citeData" data-empty="">​</tei-citeData>
+             <tei-citeData property="function" use="'split'" xml:id="d2e265" id="d2e265" data-origname="citeData" data-empty="">​</tei-citeData>
+             <tei-citeData property="dc:requires" use="//front/div[@xml:id='bibliography']" xml:id="d2e267" id="d2e267" data-origname="citeData" data-empty="">​</tei-citeData>
+             <tei-citeStructure match=".//seg" use="@n" delim="." unit="part" xml:id="d2e270" id="d2e270" data-origname="citeStructure" data-empty="">​</tei-citeStructure>
+           </tei-citeStructure>
+         </tei-citeStructure>
+          <tei-citeStructure match="//back/div[@type='commentary'][@xml:id='appendix-critica']" use="head" xml:id="d2e274" id="d2e274" data-origname="citeStructure">
+             <tei-citeData property="dc:identifier" use="@xml:id" xml:id="d2e276" id="d2e276" data-origname="citeData" data-empty="">​</tei-citeData>
+             <tei-citeData property="dc:title" use="head" xml:id="d2e278" id="d2e278" data-origname="citeData" data-empty="">​</tei-citeData>
+             <tei-citeData property="function" use="'toc-entry'" xml:id="d2e280" id="d2e280" data-origname="citeData" data-empty="">​</tei-citeData>
+             <tei-citeData property="function" use="'split'" xml:id="d2e282" id="d2e282" data-origname="citeData" data-empty="">​</tei-citeData>
+          </tei-citeStructure>
+         <tei-citeStructure match="//back/div[@type='commentary'][@xml:id='commentary']" use="head" xml:id="d2e285" id="d2e285" data-origname="citeStructure">
+           <tei-citeData property="dc:identifier" use="@xml:id" xml:id="d2e287" id="d2e287" data-origname="citeData" data-empty="">​</tei-citeData>
+           <tei-citeData property="dc:title" use="head" xml:id="d2e289" id="d2e289" data-origname="citeData" data-empty="">​</tei-citeData>
+           <tei-citeData property="function" use="'toc-entry'" xml:id="d2e291" id="d2e291" data-origname="citeData" data-empty="">​</tei-citeData>
+            <tei-citeStructure match="./div[@type='section']" use="head" xml:id="d2e293" id="d2e293" data-origname="citeStructure">
+               <tei-citeData property="dc:identifier" use="@xml:id" xml:id="d2e295" id="d2e295" data-origname="citeData" data-empty="">​</tei-citeData>
+               <tei-citeData property="dc:title" use="head" xml:id="d2e297" id="d2e297" data-origname="citeData" data-empty="">​</tei-citeData>
+               <tei-citeData property="function" use="'toc-entry'" xml:id="d2e299" id="d2e299" data-origname="citeData" data-empty="">​</tei-citeData>
+               <tei-citeData property="function" use="'split'" xml:id="d2e301" id="d2e301" data-origname="citeData" data-empty="">​</tei-citeData>
+            </tei-citeStructure>
+         </tei-citeStructure>
+       </tei-refsDecl>
+     </tei-encodingDesc>
+   </tei-teiHeader><tei-TEI xml:id="d2e3" id="d2e3" data-origname="TEI"><tei-text xml:id="d2e308" id="d2e308" data-origname="text"><tei-back xml:id="d2e17944" id="d2e17944" data-origname="back"><tei-div type="commentary" xml:id="commentary" id="commentary" data-origname="div"><tei-div type="section" xml:id="stba-12.1-2" id="stba-12.1-2" resp="#Vozar #Damon" data-origname="div">
+               <tei-head xml:id="d2e23958" id="d2e23958" data-origname="head">12.1–2</tei-head>
+
+               <tei-p rend="byline" xml:id="d2e23960" id="d2e23960" data-origname="p"><tei-hi rend="italic" xml:id="d2e23961" id="d2e23961" data-origname="hi">Tom Vozar and Cynthia Damon</tei-hi></tei-p>
+
+               <tei-quote rend="blockquote" xml:id="d2e23964" id="d2e23964" data-origname="quote">Eo detrimento adeo sunt fracti Alexandrini, cum iam non
+                  uirtute propugnatorum, sed scientia classiariorum se uictos uiderent, quibus et
+                     <tei-gap reason="lost" xml:id="d2e23966" id="d2e23966" data-origname="gap" data-empty="">​</tei-gap> superioribus locis subleuabantur, ut ex aedificiis defendi
+                  possent et materiam cunctam obicerent, quod nostrae classis oppugnationem etiam ad
+                  terram uerebantur. (2) Idem, posteaquam Ganymedes in concilio confirmauit sese et
+                  eas quae essent amissae restituturum et numerum adaucturum, magna spe et fiducia
+                  ueteres reficere naues accuratiusque huic rei studere atque inseruire
+                     instituerunt.<tei-note place="foot" xml:id="d2e23968" id="d2e23968" data-origname="note">“The Alexandrians were so crushed by this
+                     defeat, since they now saw themselves conquered not by the courage of the
+                     fighters but by the skill of the mariners, for whom both <tei-gap reason="lost" xml:id="d2e23970" id="d2e23970" data-origname="gap" data-empty="">​</tei-gap>
+                     in/from (?) the higher locations they were being supported, so that (?) they
+                     could be defended from the buildings and interposed all the wood as a barrier,
+                     because they feared an attack by our fleet even on land. (2) The very same
+                     people, after Ganymedes assured them in council that he would both restore
+                     those (<tei-hi rend="italic" xml:id="d2e23972" id="d2e23972" data-origname="hi">sc</tei-hi>. ships) that had been lost and increase their
+                     number, began with great hope and confidence to repair the old ships and quite
+                     diligently to apply and devote themselves to this matter.”</tei-note></tei-quote>
+
+               <tei-quote rend="blockquote" type="apparatus" xml:id="d2e23976" id="d2e23976" data-origname="quote">classiariorum <tei-hi rend="italic" xml:id="d2e23978" id="d2e23978" data-origname="hi">USTV et
+                        M<tei-hi rend="superscript" xml:id="d2e23980" id="d2e23980" data-origname="hi">supra lineam</tei-hi></tei-hi> | nauigatorum <tei-hi rend="italic" xml:id="d2e23983" id="d2e23983" data-origname="hi">M</tei-hi> | <tei-hi rend="italic" xml:id="d2e23986" id="d2e23986" data-origname="hi">post et lacunam statuimus, post</tei-hi>
+                  uiderent <tei-hi rend="italic" xml:id="d2e23989" id="d2e23989" data-origname="hi">Dauisius 1706, post</tei-hi> quibus <tei-hi rend="italic" xml:id="d2e23992" id="d2e23992" data-origname="hi">Nipperdey</tei-hi> || quibus] a quibus (<tei-hi rend="italic" xml:id="d2e23996" id="d2e23996" data-origname="hi">sc.</tei-hi> classiariis)
+                     <tei-hi rend="italic" xml:id="d2e23999" id="d2e23999" data-origname="hi">Rhellicanus</tei-hi> (<tei-hi rend="italic" xml:id="d2e24002" id="d2e24002" data-origname="hi">cf. Hirt. 8.9.4</tei-hi>) |
+                  qui (<tei-hi rend="italic" xml:id="d2e24005" id="d2e24005" data-origname="hi">sc</tei-hi>. Alexandrini) <tei-hi rend="italic" xml:id="d2e24008" id="d2e24008" data-origname="hi">Cellarius, qui
+                     Manutium infra sequitur</tei-hi> || ex] uix <tei-hi rend="italic" xml:id="d2e24011" id="d2e24011" data-origname="hi">Manutius (u. 18.1 et
+                     cf. BHisp 12.5)</tei-hi> | uix ex <tei-hi rend="italic" xml:id="d2e24015" id="d2e24015" data-origname="hi">Dinter</tei-hi> (<tei-hi rend="italic" xml:id="d2e24018" id="d2e24018" data-origname="hi">cf. 17.4 et u. infra</tei-hi>) || locis] temporibus <tei-hi rend="italic" xml:id="d2e24021" id="d2e24021" data-origname="hi">dubitanter
+                     Kübler</tei-hi> (<tei-hi rend="italic" xml:id="d2e24024" id="d2e24024" data-origname="hi">cf. BG 7.14.3</tei-hi>) || quibus … possent] ut uix
+                  ex aedificiis defendi posse se confiderent, quibus et superioribus locis
+                  subleuabantur <tei-hi rend="italic" xml:id="d2e24027" id="d2e24027" data-origname="hi">Dinter</tei-hi> || 2 confirmauit <tei-hi rend="italic" xml:id="d2e24030" id="d2e24030" data-origname="hi">MUS</tei-hi> | firm- <tei-hi rend="italic" xml:id="d2e24034" id="d2e24034" data-origname="hi">TV</tei-hi> || et<tei-hi rend="superscript" xml:id="d2e24037" id="d2e24037" data-origname="hi">1</tei-hi>
+                  <tei-hi rend="italic" xml:id="d2e24040" id="d2e24040" data-origname="hi">MU</tei-hi> | ut <tei-hi rend="italic" xml:id="d2e24043" id="d2e24043" data-origname="hi">STV</tei-hi> || amissae <tei-supplied reason="lost" xml:id="d2e24046" id="d2e24046" data-origname="supplied">naues</tei-supplied>
+                  <tei-hi rend="italic" xml:id="d2e24049" id="d2e24049" data-origname="hi">Müller</tei-hi> || restituturum <tei-hi rend="italic" xml:id="d2e24053" id="d2e24053" data-origname="hi">MSV</tei-hi> |
+                  restiturum <tei-hi rend="italic" xml:id="d2e24056" id="d2e24056" data-origname="hi">UT</tei-hi> | adaucturum <tei-hi rend="italic" xml:id="d2e24059" id="d2e24059" data-origname="hi">MUS</tei-hi> |
+                  adac- <tei-hi rend="italic" xml:id="d2e24062" id="d2e24062" data-origname="hi">TV</tei-hi>
+               </tei-quote>
+
+               <tei-p xml:id="d2e24066" id="d2e24066" data-origname="p">The first sentence of this passage, as transmitted, has a number of glaring
+                  problems. The most substantial is the incompatibility of the main clause, which is
+                  about a loss of morale (<tei-foreign xml:lang="la" xml:id="d2e24068" id="d2e24068" data-origname="foreign">adeo sunt fracti
+                     Alexandrini</tei-foreign>), and the apparent result clause, which is about
+                  defensive capability (<tei-foreign xml:lang="la" xml:id="d2e24071" id="d2e24071" data-origname="foreign">ut ex aedificiis defendi
+                     possent</tei-foreign>). The antecedent of <tei-foreign xml:lang="la" xml:id="d2e24074" id="d2e24074" data-origname="foreign">quibus</tei-foreign>
+                  is another puzzle: does the relative pronoun refer to Roman <tei-foreign xml:lang="la" xml:id="d2e24077" id="d2e24077" data-origname="foreign">classiarii</tei-foreign>, Alexandrians, or something that can function in tandem
+                  with <tei-foreign xml:lang="la" xml:id="d2e24080" id="d2e24080" data-origname="foreign">locis</tei-foreign>? And then there is the difficulty of
+                  making sense of <tei-foreign xml:lang="la" xml:id="d2e24084" id="d2e24084" data-origname="foreign">materiam cunctam</tei-foreign> in light of the
+                  earlier assertion that Alexandrian buildings contained no <tei-foreign xml:lang="la" xml:id="d2e24087" id="d2e24087" data-origname="foreign">materia</tei-foreign> (1.3 <tei-foreign xml:lang="la" xml:id="d2e24090" id="d2e24090" data-origname="foreign"><tei-supplied reason="lost" xml:id="d2e24091" id="d2e24091" data-origname="supplied">ab</tei-supplied> incendio fere tuta est Alexandria, quod sine contignatione ac
+                     materia sunt aedificia et structuris ac fornicibus continentur tectaque sunt
+                     rudere aut pauimentis</tei-foreign>). These problems are interconnected, which
+                  complicates the task of seeing and explaining solutions, but the context,
+                  especially the subsequent sentence (quoted above), provides something of a
+                  framework to use in approaching them.</tei-p>
+
+               <tei-p xml:id="d2e24097" id="d2e24097" data-origname="p">The passage we are concerned with reports the beginning of the aftermath of an
+                  unexpected naval defeat suffered by the Alexandrians, who had hoped to catch
+                  Caesar in a moment of vulnerability (10.3 <tei-foreign xml:lang="la" xml:id="d2e24099" id="d2e24099" data-origname="foreign">magnam sibi
+                     facultatem fortunam obtulisse bene gerendae rei crediderunt</tei-foreign>) but
+                  barely avoided losing their entire fleet (11.5 <tei-foreign xml:lang="la" xml:id="d2e24102" id="d2e24102" data-origname="foreign">Quod nisi
+                     nox proelium diremisset, tota classe hostium Caesar potitus esset</tei-foreign>).
+                  In the sentence immediately before our passage they return to Alexandria terrified
+                  (11.6 <tei-foreign xml:lang="la" xml:id="d2e24105" id="d2e24105" data-origname="foreign">perterritis</tei-foreign>). The immediately following
+                  sentence, introduced with an emphatic <tei-foreign xml:lang="la" xml:id="d2e24108" id="d2e24108" data-origname="foreign">idem</tei-foreign>, shows
+                  the resilience of their military commander, Ganymedes (see 4.2), and the revival
+                  of hope and confidence in the Alexandrians themselves. Details follow in
+                  12.3–13.4. This is the context into which our problematic sentence needs to
+                  fit.</tei-p>
+
+               <tei-p xml:id="d2e24112" id="d2e24112" data-origname="p">It will be helpful to begin by reviewing the (relatively) secure ground in our
+                  sentence. As was mentioned above, it begins with the Alexandrian loss of morale
+                     (<tei-foreign xml:lang="la" xml:id="d2e24114" id="d2e24114" data-origname="foreign">adeo sunt fracti Alexandrini</tei-foreign>). It ends with a
+                  causal clause concerning their fears about a possible fleet-based attack on the
+                  city (<tei-foreign rend="italic" xml:id="d2e24117" id="d2e24117" data-origname="foreign">quod nostrae classis oppugnationem etiam ad terram
+                     uerebantur</tei-foreign>). <tei-foreign xml:lang="la" xml:id="d2e24120" id="d2e24120" data-origname="foreign">Verebantur</tei-foreign> might be a
+                  restatement of <tei-foreign xml:lang="la" xml:id="d2e24123" id="d2e24123" data-origname="foreign">fracti</tei-foreign>, but it might also show
+                  that the Alexandrians have overcome their panic and started taking sensible
+                  precautions. In the latter scenario, our sentence mirrors the turnaround reported
+                  in 12.2. In the former scenario, our sentence stands in contrast to 12.2. The
+                  emphatic <tei-foreign xml:lang="la" xml:id="d2e24126" id="d2e24126" data-origname="foreign">idem</tei-foreign> is compatible with either scenario
+                  (parallel: <tei-hi rend="italic" xml:id="d2e24130" id="d2e24130" data-origname="hi">BG</tei-hi> 6.13.5, <tei-hi rend="italic" xml:id="d2e24133" id="d2e24133" data-origname="hi">BAfr</tei-hi> 22.2,
+                  28.2; contrasting: <tei-hi rend="italic" xml:id="d2e24136" id="d2e24136" data-origname="hi">BAlex</tei-hi> 18.3). According to the <tei-foreign xml:lang="la" xml:id="d2e24139" id="d2e24139" data-origname="foreign">cum</tei-foreign>-clause, the morale problem was particularly acute
+                  because the Alexandrians had been defeated in the arena where they felt most
+                  confident, the sea, and now needed to defend themselves on land, a situation that
+                  seems to underlie both <tei-foreign xml:lang="la" xml:id="d2e24142" id="d2e24142" data-origname="foreign">aedificiis defendi possent</tei-foreign>
+                  and <tei-foreign rend="italic" xml:id="d2e24145" id="d2e24145" data-origname="foreign">materiam … obicerent</tei-foreign>.</tei-p>
+
+               <tei-p xml:id="d2e24149" id="d2e24149" data-origname="p">Early editors left the spot alone, presumably taking the antecedent for <tei-foreign rend="italic" xml:id="d2e24151" id="d2e24151" data-origname="foreign">quibus</tei-foreign> to be <tei-foreign xml:lang="la" xml:id="d2e24154" id="d2e24154" data-origname="foreign">uirtus</tei-foreign>
+                  and <tei-foreign rend="italic" xml:id="d2e24157" id="d2e24157" data-origname="foreign">scientia</tei-foreign> and <tei-foreign xml:lang="la" xml:id="d2e24160" id="d2e24160" data-origname="foreign">quibus</tei-foreign> itself as an instrumental ablative parallel to <tei-foreign xml:lang="la" xml:id="d2e24163" id="d2e24163" data-origname="foreign">locis</tei-foreign> (cf. <tei-hi rend="italic" xml:id="d2e24167" id="d2e24167" data-origname="hi">BG</tei-hi> 1.40.6 <tei-foreign xml:lang="la" xml:id="d2e24170" id="d2e24170" data-origname="foreign">quos … usus ac disciplina … subleuarent</tei-foreign>). The lack of
+                     <tei-foreign xml:lang="la" xml:id="d2e24173" id="d2e24173" data-origname="foreign">materia</tei-foreign> in Alexandria is perhaps made less
+                  worrisome by a later passage about roof beams (13.2 <tei-foreign rend="italic" xml:id="d2e24176" id="d2e24176" data-origname="foreign">Porticus gymnasia publica aedificia detegebant, asseres remorum usum
+                     obtinebant</tei-foreign>) that encourages taking 1.3 <tei-foreign xml:lang="la" xml:id="d2e24179" id="d2e24179" data-origname="foreign">sine
+                     contignatione ac materia</tei-foreign> as a hendiadys, “without wooden decking.”
+                  But the larger sense problem eventually attracted attention and a variety of
+                  approaches.</tei-p>
+
+               <tei-p xml:id="d2e24183" id="d2e24183" data-origname="p"><tei-ref target="bibliography-modern-editions.html#Manutius">Manutius</tei-ref> proposed a simple solution to the
+                  aforementioned incompatibility, replacing <tei-foreign xml:lang="la" xml:id="d2e24187" id="d2e24187" data-origname="foreign">ex</tei-foreign> with
+                  the negation <tei-foreign xml:lang="la" xml:id="d2e24190" id="d2e24190" data-origname="foreign">uix</tei-foreign>: the Alexandrians are so
+                  dispirited by the naval disaster that they can <tei-hi rend="underline" xml:id="d2e24193" id="d2e24193" data-origname="hi">scarcely</tei-hi>
+                  feel secure in the city itself. It is easy enough to supposed that <tei-foreign xml:lang="la" xml:id="d2e24196" id="d2e24196" data-origname="foreign">uix</tei-foreign> was misread as <tei-foreign xml:lang="la" xml:id="d2e24199" id="d2e24199" data-origname="foreign">ex</tei-foreign>
+                  before <tei-foreign xml:lang="la" xml:id="d2e24203" id="d2e24203" data-origname="foreign">aedificiis</tei-foreign>, and a similar scene plays out
+                  later on Pharos Island with an explicit reference to the situation in Alexandria:
+                  18.1 <tei-foreign rend="italic" xml:id="d2e24206" id="d2e24206" data-origname="foreign">Neque uero diutius ea munitione se continere potuerunt
+                     etsi erat non dissimile atque Alexandriae genus aedificiorum, ut minora
+                     maioribus conferantur, turresque editae et coniunctae muri locum
+                     obtinebant</tei-foreign>.</tei-p>
+
+               <tei-p xml:id="d2e24210" id="d2e24210" data-origname="p">But neither <tei-ref target="bibliography-modern-editions.html#Manutius">Manutius</tei-ref>’ repair, nor <tei-ref target="bibliography-modern-editions.html#Dinter">Dinter</tei-ref>'s subsequent suggestion that <tei-foreign rend="italic" xml:id="d2e24218" id="d2e24218" data-origname="foreign">uix</tei-foreign> fell out before <tei-foreign xml:lang="la" xml:id="d2e24221" id="d2e24221" data-origname="foreign">ex</tei-foreign>, sits at all well with <tei-foreign xml:lang="la" xml:id="d2e24224" id="d2e24224" data-origname="foreign">cunctam</tei-foreign>. And
+                  yet the two subjunctive expressions seem to be aligned in content as well as
+                  form.</tei-p>
+
+               <tei-p xml:id="d2e24228" id="d2e24228" data-origname="p"><tei-ref target="bibliography-list-of-people.html#Rhellicanus">Rhellicanus</tei-ref> took a completely different approach,
+                  supplying (or understanding) <tei-foreign xml:lang="la" xml:id="d2e24232" id="d2e24232" data-origname="foreign">a</tei-foreign> before <tei-foreign xml:lang="la" xml:id="d2e24235" id="d2e24235" data-origname="foreign">quibus</tei-foreign> and specifying that the antecedent is <tei-foreign xml:lang="la" xml:id="d2e24238" id="d2e24238" data-origname="foreign">classiariorum</tei-foreign>.<tei-note place="foot" xml:id="d2e24241" id="d2e24241" data-origname="note">Rhellicanus’ note as
+                     quoted by <tei-ref target="bibliography-modern-editions.html#Jungermann">Jungermann</tei-ref> is not clear on this
+                     point, but it does not seem possible to take <tei-foreign xml:lang="la" xml:id="d2e24246" id="d2e24246" data-origname="foreign">quibus</tei-foreign> (without <tei-foreign xml:lang="la" xml:id="d2e24249" id="d2e24249" data-origname="foreign">a</tei-foreign>) as a
+                     separation ablative in context; Cellarius’ paraphrase of Rhellicanus includes
+                     the preposition. <tei-foreign xml:lang="la" xml:id="d2e24252" id="d2e24252" data-origname="foreign">Quibus</tei-foreign> is construed as an
+                     instrumental ablative parallel to <tei-foreign xml:lang="la" xml:id="d2e24255" id="d2e24255" data-origname="foreign">superioribus
+                        locis</tei-foreign> by Glandorp, taking the antecedent to be <tei-foreign xml:lang="la" xml:id="d2e24259" id="d2e24259" data-origname="foreign">classiarii sui</tei-foreign>, but the Alexandrian sailors are
+                     never called <tei-foreign xml:lang="la" xml:id="d2e24262" id="d2e24262" data-origname="foreign">classiarii</tei-foreign>.</tei-note> The idea is
+                  that the Alexandrians’ elevated positions provided them with assistance <tei-hi rend="underline" xml:id="d2e24266" id="d2e24266" data-origname="hi">against</tei-hi> attackers coming from the Roman fleet. Incertus
+                  does use the preposition <tei-foreign xml:lang="la" xml:id="d2e24270" id="d2e24270" data-origname="foreign">ab</tei-foreign> in this sense (78.2
+                     <tei-foreign xml:lang="la" xml:id="d2e24273" id="d2e24273" data-origname="foreign">prouincias … <tei-hi rend="underline" xml:id="d2e24275" id="d2e24275" data-origname="hi">a barbaris atque
+                        inimicis regibus</tei-hi> … muniuit</tei-foreign>, cf. 61.3 <tei-foreign xml:lang="la" xml:id="d2e24279" id="d2e24279" data-origname="foreign">ab oppugnatione tutus</tei-foreign>), and similar usages can be found elsewhere in
+                  the corpus (cf. esp. Hirt. 8.9.4 <tei-foreign xml:lang="la" xml:id="d2e24282" id="d2e24282" data-origname="foreign">ut <tei-hi rend="underline" xml:id="d2e24284" id="d2e24284" data-origname="hi">ab
+                        hostibus</tei-hi> duplici fossa, duplici propugnatorum ordine
+                     defenderentur</tei-foreign>), but nowhere with a verb like <tei-foreign xml:lang="la" xml:id="d2e24288" id="d2e24288" data-origname="foreign">subleuabantur</tei-foreign>, with which <tei-foreign xml:lang="la" xml:id="d2e24291" id="d2e24291" data-origname="foreign">a quibus</tei-foreign>
+                  would be much more likely to be construed as a personal agent (cf. <tei-hi rend="italic" xml:id="d2e24295" id="d2e24295" data-origname="hi">BG</tei-hi> 1.16.6 <tei-foreign xml:lang="la" xml:id="d2e24298" id="d2e24298" data-origname="foreign">grauiter eos accusat quod …
+                     ab iis non subleuetur</tei-foreign>). With this repair the point of <tei-foreign xml:lang="la" xml:id="d2e24301" id="d2e24301" data-origname="foreign">et</tei-foreign> is also hard to fathom.</tei-p>
+
+               <tei-p xml:id="d2e24306" id="d2e24306" data-origname="p"><tei-ref target="bibliography-modern-editions.html#Dauisius1706">Davies</tei-ref> postulated a lacuna in the text before
+                     <tei-foreign xml:lang="la" xml:id="d2e24310" id="d2e24310" data-origname="foreign">quibus</tei-foreign>. But therafter he rather throws up his
+                  hands, “cum de locis tam mutilis nihil certo possit definiri.” <tei-ref target="bibliography-modern-editions.html#Nipperdey">Nipperdey</tei-ref> placed the lacuna after <tei-foreign xml:lang="la" xml:id="d2e24316" id="d2e24316" data-origname="foreign">quibus</tei-foreign>, a position preferred by subsequent editors
+                  since it allows one to avoid specifying the identity of the antecedent: it could
+                  be the Romans or the Alexandrians, or for that matter <tei-foreign xml:lang="la" xml:id="d2e24319" id="d2e24319" data-origname="foreign">uirtus</tei-foreign> and <tei-foreign xml:lang="la" xml:id="d2e24322" id="d2e24322" data-origname="foreign">scientia</tei-foreign>. Both lacunas
+                  leave a space in which the meaning of <tei-foreign xml:lang="la" xml:id="d2e24326" id="d2e24326" data-origname="foreign">materia
+                     cuncta</tei-foreign> might have been made clear. But we will argue below that the
+                  expression <tei-foreign xml:lang="la" xml:id="d2e24329" id="d2e24329" data-origname="foreign">locis subleuabantur</tei-foreign> is
+                  problematic.</tei-p>
+
+               <tei-p xml:id="d2e24333" id="d2e24333" data-origname="p">First, however, another approach. <tei-ref target="bibliography-modern-editions.html#Dinter">Dinter</tei-ref> rewrote the
+                  passage:</tei-p>
+
+               <tei-quote rend="blockquote" xml:id="d2e24339" id="d2e24339" data-origname="quote"> adeo sunt fracti Alexandrini … ut uix ex aedificiis defendi
+                  posse se confiderent, quibus et superioribus locis subleuabantur, et materiam
+                  cunctam obicerent, quod nostrae classis oppugnationem etiam ad terram
+                  uerebantur.</tei-quote>
+
+               <tei-quote rend="blockquote" xml:id="d2e24342" id="d2e24342" data-origname="quote">The Alexandrians were so shattered … that they scarcely
+                  trusted that it was possible for themselves to be defended from the buildings,
+                  from which, as well as from their higher positions, they used to derive support,
+                  and interposed all the wood as a barrier, because they feared an attack by our
+                  fleet even on land.</tei-quote>
+
+               <tei-p xml:id="d2e24345" id="d2e24345" data-origname="p">The core of this repair is a transposition, but it also involves adding <tei-foreign xml:lang="la" xml:id="d2e24347" id="d2e24347" data-origname="foreign">uix</tei-foreign> before <tei-foreign xml:lang="la" xml:id="d2e24350" id="d2e24350" data-origname="foreign">ex</tei-foreign> (as was
+                  mentioned above) and emending <tei-foreign xml:lang="la" xml:id="d2e24353" id="d2e24353" data-origname="foreign">possent</tei-foreign> to <tei-foreign xml:lang="la" xml:id="d2e24356" id="d2e24356" data-origname="foreign">posse se confiderent</tei-foreign>.<tei-note place="foot" xml:id="d2e24359" id="d2e24359" data-origname="note">Many will
+                     share <tei-ref target="bibliography-secondary-sources.html#Larsen">Larsen</tei-ref>’s reaction (1886, 6): “hac tanta
+                     licentia locum sanari non posse, omnes statim intellegent.” Further changes are
+                     proposed by <tei-ref target="Fleischer" xml:id="d2e24364" id="d2e24364" data-origname="ref">Fleischer</tei-ref> 1879, 860.</tei-note> It also
+                  requires that the negation be taken with only the first of two parallel verbs,
+                  with <tei-foreign xml:lang="la" xml:id="d2e24369" id="d2e24369" data-origname="foreign">confiderent</tei-foreign> but not <tei-foreign xml:lang="la" xml:id="d2e24372" id="d2e24372" data-origname="foreign">obicerent</tei-foreign>. In other words, the syntax is difficult, the necessary
+                  sequence of innovations is implausibly complicated, and the mystery of <tei-foreign xml:lang="la" xml:id="d2e24375" id="d2e24375" data-origname="foreign">materia cuncta</tei-foreign> is revived.</tei-p>
+
+               <tei-p xml:id="d2e24379" id="d2e24379" data-origname="p"><tei-ref target="bibliography-secondary-sources.html#Kübler1896b">Kübler</tei-ref> shed welcome light on the problem of
+                     <tei-foreign xml:lang="la" xml:id="d2e24383" id="d2e24383" data-origname="foreign">locis</tei-foreign> by suggesting that it be emended to
+                     <tei-foreign xml:lang="la" xml:id="d2e24386" id="d2e24386" data-origname="foreign">temporibus</tei-foreign>, presumably by analogy with <tei-hi rend="italic" xml:id="d2e24389" id="d2e24389" data-origname="hi">BG</tei-hi> 7.14.3 <tei-foreign xml:lang="la" xml:id="d2e24392" id="d2e24392" data-origname="foreign">quod anni tempore
+                     subleuentur</tei-foreign>. He printed <tei-foreign xml:lang="la" xml:id="d2e24395" id="d2e24395" data-origname="foreign">locis</tei-foreign> here
+                  but <tei-foreign xml:lang="la" xml:id="d2e24399" id="d2e24399" data-origname="foreign">temporibus</tei-foreign> at a later problem spot also
+                  involving <tei-foreign xml:lang="la" xml:id="d2e24402" id="d2e24402" data-origname="foreign">locis</tei-foreign>.<tei-note place="foot" xml:id="d2e24405" id="d2e24405" data-origname="note">At 72.2
+                     Kübler prints <tei-foreign xml:lang="la" xml:id="d2e24407" id="d2e24407" data-origname="foreign">detrimentum … superioribus <tei-supplied reason="lost" xml:id="d2e24409" id="d2e24409" data-origname="supplied">acceptum</tei-supplied> temporibus</tei-foreign> for the
+                     transmitted <tei-foreign xml:lang="la" xml:id="d2e24413" id="d2e24413" data-origname="foreign">detrimentum … superioribus locis atque
+                        itineribus</tei-foreign>. For discussion see his note in <tei-hi rend="italic" xml:id="d2e24416" id="d2e24416" data-origname="hi">Philologus</tei-hi> 55 (1896) <tei-ref target="https://hdl.handle.net/2027/mdp.39015029918151?urlappend=%3Bseq=214" xml:id="d2e24419" id="d2e24419" data-origname="ref">154–55</tei-ref>.</tei-note> The argument for <tei-foreign xml:lang="la" xml:id="d2e24423" id="d2e24423" data-origname="foreign">temporibus</tei-foreign> here is admittedly weaker since he also accepted <tei-ref target="bibliography-modern-editions.html#Nipperdey">Nipperdey</tei-ref>’s lacuna, which makes it hard to see what
+                     <tei-foreign xml:lang="la" xml:id="d2e24429" id="d2e24429" data-origname="foreign">temporibus</tei-foreign> might refer to. But <tei-foreign xml:lang="la" xml:id="d2e24433" id="d2e24433" data-origname="foreign">locis</tei-foreign> does deserve scrutiny.</tei-p>
+
+               <tei-p xml:id="d2e24438" id="d2e24438" data-origname="p">One necessary step in wringing sense from the transmitted text is deciding whether
+                     <tei-foreign xml:lang="la" xml:id="d2e24440" id="d2e24440" data-origname="foreign">subleuabatur</tei-foreign> is to be taken literally (“raised
+                  up”) or metaphorically (“assisted”), and how <tei-foreign xml:lang="la" xml:id="d2e24443" id="d2e24443" data-origname="foreign">locis</tei-foreign> is to be construed with it. The verb is accompanied by simple
+                  ablatives in both its literal (<tei-hi rend="italic" xml:id="d2e24446" id="d2e24446" data-origname="hi">BG</tei-hi> 1.48.7 <tei-foreign xml:lang="la" xml:id="d2e24449" id="d2e24449" data-origname="foreign">iubis equorum subleuati</tei-foreign>) and metaphorical senses (e.g.,
+                     <tei-foreign xml:lang="la" xml:id="d2e24452" id="d2e24452" data-origname="foreign">re … frumentaria</tei-foreign>, <tei-foreign xml:lang="la" xml:id="d2e24456" id="d2e24456" data-origname="foreign">industria</tei-foreign>, <tei-foreign xml:lang="la" xml:id="d2e24459" id="d2e24459" data-origname="foreign">anni tempore</tei-foreign>, <tei-foreign xml:lang="la" xml:id="d2e24462" id="d2e24462" data-origname="foreign">opibus</tei-foreign>). But there are no good parallels for <tei-foreign xml:lang="la" xml:id="d2e24465" id="d2e24465" data-origname="foreign">locis</tei-foreign> with either sense of <tei-foreign xml:lang="la" xml:id="d2e24468" id="d2e24468" data-origname="foreign">subleuari</tei-foreign>. The expression <tei-foreign xml:lang="la" xml:id="d2e24471" id="d2e24471" data-origname="foreign">superioribus
+                     locis</tei-foreign> might suggest that literal lifting is appropriate here but the
+                  imperfect tense is against it.<tei-note place="foot" xml:id="d2e24475" id="d2e24475" data-origname="note">Unless the subject of <tei-foreign xml:lang="la" xml:id="d2e24477" id="d2e24477" data-origname="foreign">subleuabantur</tei-foreign> is something like <tei-foreign xml:lang="la" xml:id="d2e24480" id="d2e24480" data-origname="foreign">asseres</tei-foreign> (cf. 13.2) and the lost text shows that the
+                     imperfect has a sense other than “used to be.” This would clarify <tei-foreign xml:lang="la" xml:id="d2e24483" id="d2e24483" data-origname="foreign">materiam cunctam</tei-foreign> nicely.</tei-note> The sense of being
+                  assisted or even supplied from a place is paralleled in the <tei-hi rend="italic" xml:id="d2e24487" id="d2e24487" data-origname="hi">Bellum Africum</tei-hi> (41.2 <tei-foreign xml:lang="la" xml:id="d2e24490" id="d2e24490" data-origname="foreign">oppidum … unde aquari
+                     reliquisque rebus subleuari eius exercitus consuerat</tei-foreign>; cf. <tei-hi rend="italic" xml:id="d2e24493" id="d2e24493" data-origname="hi">BAlex</tei-hi> 43.1 <tei-foreign xml:lang="la" xml:id="d2e24496" id="d2e24496" data-origname="foreign">neque prouinciae
+                     facultatibus subleuabatur</tei-foreign>), and the sense of mounting a defense from
+                  an elevated place in the <tei-hi rend="italic" xml:id="d2e24499" id="d2e24499" data-origname="hi">Bellum Hispaniense</tei-hi> (12.5 <tei-foreign xml:lang="la" xml:id="d2e24503" id="d2e24503" data-origname="foreign">oppidani superiore loco defendebantur</tei-foreign>, 31.1 <tei-foreign xml:lang="la" xml:id="d2e24506" id="d2e24506" data-origname="foreign">aduersarii loco superiore se defendebant</tei-foreign>) but the
+                  constructions are different.<tei-note place="foot" xml:id="d2e24509" id="d2e24509" data-origname="note">The possibility of fighting
+                     against Caesar’s boats from Alexandria’s elevated locations and buildings was
+                     in fact mentioned earlier, in Caesar’s <tei-foreign xml:lang="la" xml:id="d2e24511" id="d2e24511" data-origname="foreign">contio</tei-foreign>:
+                     8.5–6 <tei-foreign xml:lang="la" xml:id="d2e24514" id="d2e24514" data-origname="foreign">Magnam autem moram et difficultatem ascensum in
+                        naues habere praesertim ex scaphis. Summam esse contra in Alexandrinis
+                        uelocitatem locorumque et aedificiorum notitiam. Hos … loca excelsiora atque
+                        aedificia occupaturos. Ita fuga nauibusque nostros prohibituros</tei-foreign>.
+                     But this passage provides no help for the construction of our passage.</tei-note>
+                  It therefore seems unlikely that the ablative is instrumental in our passage. As a
+                  local ablative <tei-foreign xml:lang="la" xml:id="d2e24518" id="d2e24518" data-origname="foreign">locis superioribus</tei-foreign> appears in the
+                  corpus both with and without the preposition <tei-foreign xml:lang="la" xml:id="d2e24521" id="d2e24521" data-origname="foreign">in</tei-foreign>.
+                  It might also be part of an ablative absolute (cf. <tei-hi rend="italic" xml:id="d2e24524" id="d2e24524" data-origname="hi">BG</tei-hi>
+                  1.23.3 <tei-foreign xml:lang="la" xml:id="d2e24528" id="d2e24528" data-origname="foreign">superioribus locis occupatis</tei-foreign>, Hirt. 8.13.3
+                     <tei-foreign xml:lang="la" xml:id="d2e24531" id="d2e24531" data-origname="foreign">amissis superioribus locis</tei-foreign>, 8.36.3 <tei-foreign xml:lang="la" xml:id="d2e24534" id="d2e24534" data-origname="foreign">relictis locis superioribus</tei-foreign>) or a separation ablative
+                  (e.g., <tei-hi rend="italic" xml:id="d2e24537" id="d2e24537" data-origname="hi">BG</tei-hi> 4.23.3 <tei-foreign xml:lang="la" xml:id="d2e24540" id="d2e24540" data-origname="foreign">ut ex locis
+                     superioribus in litus telum adigi posset</tei-foreign>; cf. <tei-hi rend="italic" xml:id="d2e24543" id="d2e24543" data-origname="hi">BAlex</tei-hi> 17.4 <tei-foreign xml:lang="la" xml:id="d2e24547" id="d2e24547" data-origname="foreign">ex tectis aedificiorum
+                     propugnabant</tei-foreign>). These three constructions either require or are
+                  compatible with a lacuna after <tei-foreign xml:lang="la" xml:id="d2e24550" id="d2e24550" data-origname="foreign">et</tei-foreign>.</tei-p>
+
+               <tei-p xml:id="d2e24554" id="d2e24554" data-origname="p">This leaves us with a relative clause beginning <tei-foreign xml:lang="la" xml:id="d2e24556" id="d2e24556" data-origname="foreign">quibus
+                     et</tei-foreign>. It probably contained either a laudatory description of the Roman
+                     <tei-foreign xml:lang="la" xml:id="d2e24559" id="d2e24559" data-origname="foreign">classiarii</tei-foreign> (26.1 <tei-foreign xml:lang="la" xml:id="d2e24562" id="d2e24562" data-origname="foreign">et
+                     uoluntate et … diligentia</tei-foreign>, 26.2 <tei-foreign xml:lang="la" xml:id="d2e24565" id="d2e24565" data-origname="foreign">et …
+                     magnitudine … et perseuerantia</tei-foreign>, 31.1 <tei-foreign xml:lang="la" xml:id="d2e24568" id="d2e24568" data-origname="foreign">et animi
+                     magnitudine et … scientia</tei-foreign>, 41.1 <tei-foreign xml:lang="la" xml:id="d2e24572" id="d2e24572" data-origname="foreign">et uictor et …
+                     rex</tei-foreign>, 43.4 <tei-foreign xml:lang="la" xml:id="d2e24575" id="d2e24575" data-origname="foreign">et fortuna … et uirtus</tei-foreign>) or
+                  an assessment of the Alexandrians’ plight (15.4 <tei-foreign xml:lang="la" xml:id="d2e24578" id="d2e24578" data-origname="foreign">et dedecori
+                     et dolori</tei-foreign>, 43.4 <tei-foreign xml:lang="la" xml:id="d2e24581" id="d2e24581" data-origname="foreign">et infelicitas … et …
+                     mors</tei-foreign>). The <tei-foreign xml:lang="la" xml:id="d2e24584" id="d2e24584" data-origname="foreign">et … et</tei-foreign> construction,
+                  which Incertus uses liberally (18x), would fit either scenario. The rest of the
+                  material lost in the lacuna would perhaps describe how despite the defeat the
+                  Alexandrians began to contemplate a land-based defense as a preliminary to the
+                  revival of their naval hopes once Ganymedes promised assistance (12.2).<tei-note place="foot" xml:id="d2e24587" id="d2e24587" data-origname="note"><tei-ref target="bibliography-modern-editions.html#Andrieu">Andrieu</tei-ref> (1954, 12 n. 2) asserts
+                     that the missing text “avait sans doute quelque étendue,” perhaps describing
+                     the organization of the Eunostos harbor and the fortifications. For other
+                     reconstructions of what has been lost see <tei-ref target="bibliography-secondary-sources.html#Larsen">Larsen</tei-ref>
+                     (1886, 6–7).</tei-note> At a minimum we need an explanation of the mysterious
+                     <tei-foreign xml:lang="la" xml:id="d2e24596" id="d2e24596" data-origname="foreign">materia cuncta</tei-foreign>.</tei-p>
+
+            </tei-div></tei-div></tei-back></tei-text></tei-TEI></div><div id="controls" class=""><div id="citesearch"><form><label for="getcite">Find citation</label> <input type="text" name="getcite"/> <button onclick="resolveCite(); return false;">Go</button></form></div><div id="editing"><ul><li><button onclick="app.undo()" title="undo"><svg class="svg-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#undo-icon"/></svg></button></li><li><button onclick="app.redo()" title="redo"><svg class="svg-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#redo-icon"/></svg></button></li><li><button onclick="while (app.log.length &gt; 0) {app.undo();}" title="undo all"><svg class="svg-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#reload-icon"/></svg></button></li></ul></div><div id="display"><form class=""><ul><li><input type="checkbox" name="orthographical" value="true"/><label for="orthographical">Hide orthographical variants</label></li><li><input type="checkbox" name="morphological" value="true"/><label for="morphological">Hide morphological variants</label></li><li><input type="checkbox" name="lexical" value="true"/><label for="lexical">Hide lexical variants</label></li></ul></form></div><div id="navigation"><ul><li>Preface<ul><li><a href="preface-why-a-new-edition.html">Why a new edition of the Bellum Alexandrinum?</a></li><li><a href="preface-the-bellum-alexandrinum.html">I. The Bellum Alexandrinum</a></li><li><a href="preface-constituting-the-text.html">II. Constituting the text</a></li><li><a href="preface-using-this-edition.html">III. Using this edition</a></li><li><a href="preface-additional-materials.html">Additional materials in the LDLT edition:</a></li><li><a href="preface-acknowledgements.html">Acknowledgements</a></li></ul></li><li>Bibliography<ul><li><a href="bibliography-manuscripts.html">Manuscripts</a></li><li><a href="bibliography-early-editions.html">Early Editions</a></li><li><a href="bibliography-modern-editions.html">Modern Editions</a></li><li><a href="bibliography-secondary-sources.html">Other Sources</a></li><li><a href="bibliography-list-of-people.html">List of People Cited by Name</a></li><li><a href="bibliography-abbreviations.html">Abbreviations and Other Notations</a></li></ul></li><li><a href="conspectus-editionum.html">Conspectus Editionum</a></li><li>Bellum Alexandrinum<ul><li><a href="1.html">1</a></li><li><a href="2.html">2</a></li><li><a href="3.html">3</a></li><li><a href="4.html">4</a></li><li><a href="5.html">5</a></li><li><a href="6.html">6</a></li><li><a href="7.html">7</a></li><li><a href="8.html">8</a></li><li><a href="9.html">9</a></li><li><a href="10.html">10</a></li><li><a href="11.html">11</a></li><li><a href="12.html">12</a></li><li><a href="13.html">13</a></li><li><a href="14.html">14</a></li><li><a href="15.html">15</a></li><li><a href="16.html">16</a></li><li><a href="17.html">17</a></li><li><a href="18.html">18</a></li><li><a href="19.html">19</a></li><li><a href="20.html">20</a></li><li><a href="21.html">21</a></li><li><a href="22.html">22</a></li><li><a href="23.html">23</a></li><li><a href="24.html">24</a></li><li><a href="25.html">25</a></li><li><a href="26.html">26</a></li><li><a href="27.html">27</a></li><li><a href="28.html">28</a></li><li><a href="29.html">29</a></li><li><a href="30.html">30</a></li><li><a href="31.html">31</a></li><li><a href="32.html">32</a></li><li><a href="33.html">33</a></li><li><a href="34.html">34</a></li><li><a href="35.html">35</a></li><li><a href="36.html">36</a></li><li><a href="37.html">37</a></li><li><a href="38.html">38</a></li><li><a href="39.html">39</a></li><li><a href="40.html">40</a></li><li><a href="41.html">41</a></li><li><a href="42.html">42</a></li><li><a href="43.html">43</a></li><li><a href="44.html">44</a></li><li><a href="45.html">45</a></li><li><a href="46.html">46</a></li><li><a href="47.html">47</a></li><li><a href="48.html">48</a></li><li><a href="49.html">49</a></li><li><a href="50.html">50</a></li><li><a href="51.html">51</a></li><li><a href="52.html">52</a></li><li><a href="53.html">53</a></li><li><a href="54.html">54</a></li><li><a href="55.html">55</a></li><li><a href="56.html">56</a></li><li><a href="57.html">57</a></li><li><a href="58.html">58</a></li><li><a href="59.html">59</a></li><li><a href="60.html">60</a></li><li><a href="61.html">61</a></li><li><a href="62.html">62</a></li><li><a href="63.html">63</a></li><li><a href="64.html">64</a></li><li><a href="65.html">65</a></li><li><a href="66.html">66</a></li><li><a href="67.html">67</a></li><li><a href="68.html">68</a></li><li><a href="69.html">69</a></li><li><a href="70.html">70</a></li><li><a href="71.html">71</a></li><li><a href="72.html">72</a></li><li><a href="73.html">73</a></li><li><a href="74.html">74</a></li><li><a href="75.html">75</a></li><li><a href="76.html">76</a></li><li><a href="77.html">77</a></li><li><a href="78.html">78</a></li></ul></li><li><a href="appendix-critica.html">Appendix critica</a></li><li>Studies on the Text<ul><li><a href="stba-2.5.html">2.5</a></li><li><a href="stba-7.2-3.html">7.2–3</a></li><li><a href="stba-12.1-2.html">12.1–2</a></li><li><a href="stba-13.5.html">13.5</a></li><li><a href="stba-17.1-3.html">17.1–3</a></li><li><a href="stba-22.1-2.html">22.1–2</a></li><li><a href="stba26.1-2.html">26.1–2</a></li><li><a href="stba-27.5.html">27.5</a></li><li><a href="stba-31.3.html">31.3</a></li><li><a href="stba-35.3.html">35.3</a></li><li><a href="stba-36.4-5.html">36.4–5</a></li><li><a href="stba-40.2.html">40.2</a></li><li><a href="stba-46.1.html">46.1</a></li><li><a href="stba-47.2.html">47.2</a></li><li><a href="stba-49.1.html">49.1</a></li><li><a href="stba-49.2-3.html">49.2–3</a></li><li><a href="stba-60.2.html">60.2</a></li><li><a href="stba-63.5.html">63.5</a></li><li><a href="stba-66.3-4.html">66.3–4</a></li><li><a href="stba-67.1.html">67.1</a></li><li><a href="stba-68.1.html">68.1</a></li><li><a href="stba-72.2-3.html">72.2–3</a></li><li><a href="stba-74.4.html">74.4</a></li></ul></li></ul></div></div>

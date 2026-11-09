@@ -1,0 +1,887 @@
+---
+layout: edition
+title: ": Trigesimumoctauum problema"
+citables: "{'19': '#19','19.1': 'part1.html','19.2': 'part2.html','19.3': 'part3.html','19.4': 'part4.html','19.5': 'part5.html','19.6': 'part6.html','19.7': 'part7.html','19.8': 'part8.html','19.9': 'part9.html','19.10': 'part10.html','19.11': 'part11.html','19.12': 'part12.html','19.13': 'part13.html','19.14': 'part14.html','19.15': 'part15.html','19.16': 'part16.html','19.17': 'part17.html','19.18': 'part18.html','19.19': 'part19.html','19.20': 'part20.html','19.21': 'part21.html','19.22': 'part22.html','19.23': 'part23.html','19.24': 'part24.html','19.25': 'part25.html','19.26': 'part26.html','19.27': 'part27.html','19.28': 'part28.html','19.29': 'part29.html','19.30': 'part30.html','19.31': 'part31.html','19.32': 'part32.html','19.33': 'part33.html','19.34': 'part34.html','19.35': 'part35.html','19.36': 'part36.html','19.37': 'part37.html','19.38': 'part38.html','19.39': 'part39.html','19.40': 'part40.html','19.41': 'part41.html','19.42': 'part42.html','19.43': 'part43.html','19.44': 'part44.html','19.45': 'part45.html','19.46': 'part46.html','19.47': 'part47.html','19.48': 'part48.html','19.49': 'part49.html','19.50': 'part50.html',}"
+--- 
+  <div id="prevNext">
+    -
+  </div><div class="TEI" id="tei"><tei-teiHeader xml:id="d2e5" id="d2e5" data-origname="teiHeader">
+    <tei-fileDesc xml:id="d2e7" id="d2e7" data-origname="fileDesc">
+      <tei-titleStmt xml:id="d2e9" id="d2e9" data-origname="titleStmt">
+        <tei-title xml:id="d2e11" id="d2e11" data-origname="title">Expositio problematum Aristotelis, Particula XIX: De harmonia</tei-title>
+        <tei-author xml:id="d2e13" id="d2e13" data-origname="author">Pietro d’Abano</tei-author>
+        <tei-editor xml:id="d2e15" id="d2e15" data-origname="editor">Caleb Mutch</tei-editor>
+        <tei-sponsor xml:id="d2e17" id="d2e17" data-origname="sponsor">Medieval Academy of America</tei-sponsor>
+        <tei-respStmt xml:id="d2e19" id="d2e19" data-origname="respStmt">
+          <tei-resp xml:id="d2e21" id="d2e21" data-origname="resp">TEI XML encoding:</tei-resp>
+          <tei-name ref="https://orcid.org/0000-0003-4908-4930" xml:id="d2e23" id="d2e23" data-origname="name">Caleb Mutch</tei-name>
+        </tei-respStmt>
+        <tei-respStmt xml:id="d2e28" id="d2e28" data-origname="respStmt">
+          <tei-resp xml:id="d2e30" id="d2e30" data-origname="resp">TEI XML encoding:</tei-resp>
+          <tei-name ref="https://orcid.org/0000-0002-8192-9385" xml:id="d2e32" id="d2e32" data-origname="name">Samuel J. Huskey</tei-name>
+        </tei-respStmt>
+      </tei-titleStmt>
+      <tei-editionStmt xml:id="d2e37" id="d2e37" data-origname="editionStmt">
+        <tei-edition xml:id="d2e39" id="d2e39" data-origname="edition">First Edition</tei-edition>
+      </tei-editionStmt>
+      <tei-publicationStmt xml:id="d2e42" id="d2e42" data-origname="publicationStmt">
+        <tei-publisher xml:id="d2e44" id="d2e44" data-origname="publisher">The Digital Latin Library</tei-publisher>
+        <tei-address xml:id="d2e46" id="d2e46" data-origname="address">
+          <tei-street xml:id="d2e48" id="d2e48" data-origname="street">650 Parrington Oval</tei-street>
+          <tei-addrLine xml:id="d2e50" id="d2e50" data-origname="addrLine">Carnegie Building 101</tei-addrLine>
+          <tei-settlement xml:id="d2e52" id="d2e52" data-origname="settlement">Norman</tei-settlement>
+          <tei-name xml:id="d2e54" id="d2e54" data-origname="name">OK</tei-name>
+          <tei-postCode xml:id="d2e56" id="d2e56" data-origname="postCode">73019</tei-postCode>
+          <tei-country xml:id="d2e59" id="d2e59" data-origname="country">USA</tei-country>
+        </tei-address>
+        <tei-authority xml:id="d2e62" id="d2e62" data-origname="authority">The University of Oklahoma</tei-authority>
+        <tei-pubPlace xml:id="d2e64" id="d2e64" data-origname="pubPlace">Norman, OK</tei-pubPlace>
+        <tei-date xml:id="d2e66" id="d2e66" data-origname="date">202?</tei-date>
+        <tei-availability xml:id="d2e69" id="d2e69" data-origname="availability">
+          <tei-licence target="https://creativecommons.org/licenses/by-sa/4.0/legalcode" xml:id="d2e71" id="d2e71" data-origname="licence">Creative
+            Commons Attribution-ShareAlike 4.0 International Licence (CC BY-SA 4.0)</tei-licence>
+        </tei-availability>
+      </tei-publicationStmt>
+      <tei-seriesStmt xml:id="d2e76" id="d2e76" data-origname="seriesStmt">
+        <tei-title level="s" xml:id="d2e78" id="d2e78" data-origname="title">Library of Digital Latin Texts</tei-title>
+        <tei-respStmt xml:id="d2e81" id="d2e81" data-origname="respStmt">
+          <tei-resp xml:id="d2e83" id="d2e83" data-origname="resp">Edited by</tei-resp>
+          <tei-name ref="https://orcid.org/0000-0002-8192-9385" xml:id="d2e85" id="d2e85" data-origname="name">Samuel J. Huskey</tei-name>
+        </tei-respStmt>
+        <tei-biblScope unit="volume" xml:id="d2e89" id="d2e89" data-origname="biblScope">?</tei-biblScope>
+        <tei-idno type="DOI" xml:id="d2e92" id="d2e92" data-origname="idno" data-empty="">​</tei-idno>
+      </tei-seriesStmt>
+      <tei-sourceDesc xml:id="d2e95" id="d2e95" data-origname="sourceDesc">
+        <tei-p xml:id="d2e97" id="d2e97" data-origname="p">Born digital.</tei-p>
+      </tei-sourceDesc>
+    </tei-fileDesc>
+    <tei-encodingDesc xml:id="d2e101" id="d2e101" data-origname="encodingDesc">
+      <tei-charDecl xml:id="d2e103" id="d2e103" data-origname="charDecl">
+        <tei-glyph xml:id="_medRenFlatHardB" id="_medRenFlatHardB" data-origname="glyph">
+          <tei-desc xml:id="d2e107" id="d2e107" data-origname="desc">Latin Letter Small B Squared; a.k.a. Flat, hard b (mi)</tei-desc>
+          <tei-localProp name="Name" value="medRenFlatHardB" xml:id="d2e109" id="d2e109" data-origname="localProp" data-empty="">​</tei-localProp>
+          <tei-localProp name="entity" value="_medRenFlatHardB" xml:id="d2e111" id="d2e111" data-origname="localProp" data-empty="">​</tei-localProp>
+          <tei-mapping type="smufl" xml:id="d2e113" id="d2e113" data-origname="mapping">U+E9E1</tei-mapping>
+          <tei-graphic url="https://smufl-browser.edirom.de/E9E1.png" xml:id="d2e116" id="d2e116" data-origname="graphic" data-empty="">​</tei-graphic>
+          <tei-note xml:id="d2e119" id="d2e119" data-origname="note">
+            <tei-list xml:id="d2e121" id="d2e121" data-origname="list">
+              <tei-head xml:id="d2e123" id="d2e123" data-origname="head">Classes</tei-head>
+              <tei-item xml:id="d2e125" id="d2e125" data-origname="item">combiningStaffPositions</tei-item>
+            </tei-list>
+          </tei-note>
+        </tei-glyph>
+        <tei-glyph xml:id="con" id="con" data-origname="glyph">
+          <tei-desc xml:id="d2e132" id="d2e132" data-origname="desc">Latin Small Letter Con</tei-desc>
+          <tei-localProp name="Name" value="LATIN SMALL LETTER CON" xml:id="d2e134" id="d2e134" data-origname="localProp" data-empty="">​</tei-localProp>
+          <tei-localProp name="entity" value="con" xml:id="d2e136" id="d2e136" data-origname="localProp" data-empty="">​</tei-localProp>
+          <tei-mapping type="standard" xml:id="d2e138" id="d2e138" data-origname="mapping">9</tei-mapping>
+          <tei-mapping type="extended" xml:id="d2e141" id="d2e141" data-origname="mapping">ꝯ</tei-mapping>
+        </tei-glyph>
+      </tei-charDecl>
+      <tei-editorialDecl xml:id="d2e146" id="d2e146" data-origname="editorialDecl">
+        <tei-correction method="silent" xml:id="d2e148" id="d2e148" data-origname="correction">
+          <tei-p xml:id="d2e150" id="d2e150" data-origname="p">
+            <tei-list xml:id="d2e152" id="d2e152" data-origname="list">
+              <tei-item xml:id="d2e154" id="d2e154" data-origname="item">Orthographical variants emended unless particularly noteworthy</tei-item>
+              <tei-item xml:id="d2e156" id="d2e156" data-origname="item">All: Tironian et emended to et</tei-item>
+              <tei-item xml:id="d2e158" id="d2e158" data-origname="item">All: ampersand emended to et</tei-item>
+              <tei-item xml:id="d2e160" id="d2e160" data-origname="item">All: Tall s ( ſ ) emended to round s</tei-item>
+              <tei-item xml:id="d2e162" id="d2e162" data-origname="item">All: contractions expanded</tei-item>
+              <tei-item xml:id="d2e165" id="d2e165" data-origname="item">All: changes of hand/ink for problems' marginal numbering is ignored</tei-item>
+            </tei-list>
+          </tei-p>
+        </tei-correction>
+      </tei-editorialDecl>
+      <tei-tagsDecl xml:id="d2e171" id="d2e171" data-origname="tagsDecl">
+        <tei-rendition xml:id="bold" id="bold" scheme="css" data-origname="rendition">font-weight: bold</tei-rendition>
+        <tei-rendition xml:id="sub" id="sub" scheme="css" data-origname="rendition"> vertical-align:sub; font-size:50%;</tei-rendition>
+        <tei-rendition xml:id="blockquote" id="blockquote" scheme="css" data-origname="rendition"> display:block; font-size:100%; margin-left:3em;
+          padding-left:1em; margin-top:0; margin-bottom:0; padding-top:0; padding-bottom:0;
+        </tei-rendition>
+      </tei-tagsDecl>
+      <tei-refsDecl xml:id="d2e183" id="d2e183" data-origname="refsDecl">
+        
+        
+        <tei-citeStructure match="//front/div[@xml:id='preface']" use="'Preface'" xml:id="d2e189" id="d2e189" data-origname="citeStructure">
+          
+          <tei-citeData property="dc:identifier" use="@xml:id" xml:id="d2e193" id="d2e193" data-origname="citeData" data-empty="">​</tei-citeData>
+          
+          <tei-citeData property="dc:title" use="'Preface'" xml:id="d2e197" id="d2e197" data-origname="citeData" data-empty="">​</tei-citeData>
+          
+          <tei-citeData property="function" use="'toc-entry'" xml:id="d2e202" id="d2e202" data-origname="citeData" data-empty="">​</tei-citeData>
+          
+          <tei-citeStructure match="./div[@type='section']" use="head" delim=", " xml:id="d2e204" id="d2e204" data-origname="citeStructure">
+            <tei-citeData property="dc:identifier" use="@xml:id" xml:id="d2e206" id="d2e206" data-origname="citeData" data-empty="">​</tei-citeData>
+            <tei-citeData property="dc:title" use="head" xml:id="d2e208" id="d2e208" data-origname="citeData" data-empty="">​</tei-citeData>
+            <tei-citeData property="function" use="'toc-entry'" xml:id="d2e210" id="d2e210" data-origname="citeData" data-empty="">​</tei-citeData>
+            <tei-citeData property="function" use="'split'" xml:id="d2e212" id="d2e212" data-origname="citeData" data-empty="">​</tei-citeData>
+            
+            <tei-citeData property="dc:requires" use="//div[@xml:id='bibliography-manuscripts']" xml:id="d2e217" id="d2e217" data-origname="citeData" data-empty="">​</tei-citeData>
+            <tei-citeData property="dc:requires" use="//div[@xml:id='bibliography-early-editions']" xml:id="d2e219" id="d2e219" data-origname="citeData" data-empty="">​</tei-citeData>
+            <tei-citeData property="dc:requires" use="//div[@xml:id='bibliography']" xml:id="d2e221" id="d2e221" data-origname="citeData" data-empty="">​</tei-citeData>
+          </tei-citeStructure>
+        </tei-citeStructure>
+        <tei-citeStructure match="//div[           @xml:id = (           'bibliography-manuscripts',           'bibliography-early-editions',           'bibliography'           )           ]" use="head" xml:id="d2e225" id="d2e225" data-origname="citeStructure">
+          
+          <tei-citeData property="dc:identifier" use="@xml:id" xml:id="d2e227" id="d2e227" data-origname="citeData" data-empty="">​</tei-citeData>
+          <tei-citeData property="dc:title" use="head" xml:id="d2e229" id="d2e229" data-origname="citeData" data-empty="">​</tei-citeData>
+          <tei-citeData property="function" use="'toc-entry'" xml:id="d2e231" id="d2e231" data-origname="citeData" data-empty="">​</tei-citeData>
+          <tei-citeData property="function" use="'split'" xml:id="d2e233" id="d2e233" data-origname="citeData" data-empty="">​</tei-citeData>
+          
+        </tei-citeStructure>
+        
+        <tei-citeStructure match="//div[@type='edition']/div[@type='textpart']" use="@n" unit="book" xml:id="d2e239" id="d2e239" data-origname="citeStructure">
+          
+          <tei-citeData property="dc:identifier" use="@xml:id" xml:id="d2e241" id="d2e241" data-origname="citeData" data-empty="">​</tei-citeData>
+          <tei-citeData property="dc:title" use="'Particula XIX: De harmonia'" xml:id="d2e243" id="d2e243" data-origname="citeData" data-empty="">​</tei-citeData>
+          <tei-citeData property="function" use="'toc-entry'" xml:id="d2e245" id="d2e245" data-origname="citeData" data-empty="">​</tei-citeData>  
+          
+          <tei-citeStructure match="./div[@type='textpart']" use="@n" delim="." unit="problem" xml:id="d2e247" id="d2e247" data-origname="citeStructure">
+            
+            <tei-citeData property="dc:identifier" use="@xml:id" xml:id="d2e249" id="d2e249" data-origname="citeData" data-empty="">​</tei-citeData>
+            <tei-citeData property="dc:title" use="head" xml:id="d2e251" id="d2e251" data-origname="citeData" data-empty="">​</tei-citeData>
+            <tei-citeData property="function" use="'toc-entry'" xml:id="d2e253" id="d2e253" data-origname="citeData" data-empty="">​</tei-citeData>
+            <tei-citeData property="function" use="'split'" xml:id="d2e255" id="d2e255" data-origname="citeData" data-empty="">​</tei-citeData>
+            
+            <tei-citeData property="dc:requires" use="//div[@xml:id='bibliography-manuscripts']" xml:id="d2e257" id="d2e257" data-origname="citeData" data-empty="">​</tei-citeData>
+            <tei-citeData property="dc:requires" use="//div[@xml:id='bibliography-early-editions']" xml:id="d2e260" id="d2e260" data-origname="citeData" data-empty="">​</tei-citeData>
+            
+          </tei-citeStructure>
+        </tei-citeStructure>
+        <tei-citeStructure match="//back" use="'Back Matter'" xml:id="d2e264" id="d2e264" data-origname="citeStructure">
+          
+          <tei-citeData property="dc:title" use="'Back Matter'" xml:id="d2e266" id="d2e266" data-origname="citeData" data-empty="">​</tei-citeData>
+          <tei-citeData property="function" use="'toc-entry'" xml:id="d2e268" id="d2e268" data-origname="citeData" data-empty="">​</tei-citeData>
+          
+          <tei-citeStructure match=".//div[@xml:id='back-historical-figures']" use="head" delim=", " xml:id="d2e270" id="d2e270" data-origname="citeStructure">
+            
+            <tei-citeData property="dc:identifier" use="@xml:id" xml:id="d2e272" id="d2e272" data-origname="citeData" data-empty="">​</tei-citeData>
+            <tei-citeData property="dc:title" use="'Historical Figures'" xml:id="d2e274" id="d2e274" data-origname="citeData" data-empty="">​</tei-citeData>
+            <tei-citeData property="function" use="'toc-entry'" xml:id="d2e276" id="d2e276" data-origname="citeData" data-empty="">​</tei-citeData>
+            <tei-citeData property="function" use="'split'" xml:id="d2e278" id="d2e278" data-origname="citeData" data-empty="">​</tei-citeData>
+            
+          </tei-citeStructure>
+          
+          <tei-citeStructure match=".//div[@xml:id='back-list-works-cited']" use="head" delim=", " xml:id="d2e281" id="d2e281" data-origname="citeStructure">
+            
+            <tei-citeData property="dc:identifier" use="@xml:id" xml:id="d2e283" id="d2e283" data-origname="citeData" data-empty="">​</tei-citeData>
+            <tei-citeData property="dc:title" use="'Works Cited'" xml:id="d2e285" id="d2e285" data-origname="citeData" data-empty="">​</tei-citeData>
+            <tei-citeData property="function" use="'toc-entry'" xml:id="d2e287" id="d2e287" data-origname="citeData" data-empty="">​</tei-citeData>
+            <tei-citeData property="function" use="'split'" xml:id="d2e289" id="d2e289" data-origname="citeData" data-empty="">​</tei-citeData>
+            
+          </tei-citeStructure>
+          
+        </tei-citeStructure>
+      </tei-refsDecl>
+      <tei-variantEncoding method="location-referenced" location="internal" xml:id="d2e294" id="d2e294" data-origname="variantEncoding" data-empty="">​</tei-variantEncoding>
+    </tei-encodingDesc>
+  </tei-teiHeader><tei-TEI xml:id="d2e3" id="d2e3" data-origname="TEI"><tei-text xml:id="d2e298" id="d2e298" data-origname="text"><tei-body xml:id="d2e1928" id="d2e1928" data-origname="body"><tei-div type="edition" xml:id="edition-text" id="edition-text" data-origname="div"><tei-div type="textpart" subtype="book" n="19" xml:id="book-19a" id="book-19a" data-origname="div" data-citation="19"><tei-div type="textpart" subtype="problem" n="38" xml:id="part38" id="part38" data-origname="div" data-citation="19.38">
+            <tei-head xml:id="d2e23979" id="d2e23979" data-origname="head"><tei-num type="ordinal" value="38" xml:id="d2e23980" id="d2e23980" data-origname="num">Trigesimumoctauum</tei-num> problema</tei-head>
+            <tei-p n="1" xml:id="d2e23984" id="d2e23984" data-origname="p"><tei-mentioned xml:id="d2e23985" id="d2e23985" data-origname="mentioned"><tei-app xml:id="d2e23986" id="d2e23986" data-origname="app">
+                  <tei-lem xml:id="d2e23988" id="d2e23988" data-origname="lem"><tei-seg xml:id="ment-38.1" id="ment-38.1" n="1" data-origname="seg">PROPTER QUID ET RITHIMO ET 
+                      CANTU ET OMNINO CONSONANTIIS GAUDENT OMNES?</tei-seg>
+                    <tei-seg xml:id="ment-38.2" id="ment-38.2" n="2" data-origname="seg">AUT QUIA MOTIBUS QUI SUNT SECUNDUM NATURAM
+                      GAUDEMUS SECUNDUM NATURAM?</tei-seg>
+                    <tei-seg xml:id="ment-38.3" id="ment-38.3" n="3" data-origname="seg">SIGNUM AUTEM PUEROS CONFESTIM NATOS GAUDERE IPSIS.
+                      PROPTER CONSUETUDINEM AUTEM MODIS CANTUUM GAUDEMUS.</tei-seg>
+                    <tei-seg xml:id="ment-38.4" id="ment-38.4" n="4" data-origname="seg">RITHIMO AUTEM GAUDEMUS PROPTER MOTUM ET ORDINATUM
+                      NUMERUM HABERE ET MOUERE NOS ORDINATE. MAGIS PRIUS ENIM EST ORDINATUS
+                      MOTUS NATURA INORDINATO, QUARE ET SECUNDUM NATURAM MAGIS.</tei-seg>
+                    <tei-seg xml:id="ment-38.5" id="ment-38.5" n="5" data-origname="seg">SIGNUM AUTEM LABORANTES ENIM ET BIBENTES ET
+                      COMEDENTES ORDINATE SALUAMUS ET AUGEMUS NATURAM ET VIRTUTEM, INORDINATE AUTEM
+                      CORRUMPIMUS ET STUPEFACIMUS IPSAM. EGRITUDINES ENIM ORDINATIONIS CORPORIS NON 
+                      SECUNDUM NATURAM MOTUS SUNT.</tei-seg>
+                    <tei-seg xml:id="ment-38.6" id="ment-38.6" n="6" data-origname="seg">CONSONANTIA GAUDEMUS QUONIAM COMPLEXIO EST
+                      CONTRARIORUM HABENTIUM PROPORTIONEM AD INUICEM. PROPORTIO AUTEM ORDINATIO,
+                      QUOD ERAT NATURA DELECTABILE. COMPLEXIONATUM AUTEM INCOMPLEXIONATO OMNE 
+                      DELECTABILIUS ALITER.</tei-seg>
+                    <tei-seg xml:id="ment-38.7" id="ment-38.7" n="7" data-origname="seg">QUAMUIS SENSIBILE SIT VTRISQUE EXTREMIS EX EQUALI
+                      POTENTIAM HABET IN CONSONANTIA PROPORTIO</tei-seg></tei-lem>
+                  <tei-rdg wit="#β #Ea #Vb #Vz" xml:id="d2e24011" id="d2e24011" data-origname="rdg" data-empty="">​</tei-rdg>
+            </tei-app>.</tei-mentioned>
+            </tei-p>
+              <tei-p n="2" xml:id="d2e24016" id="d2e24016" data-origname="p">
+              <tei-gloss target="#ment-38.1" xml:id="d2e24018" id="d2e24018" data-origname="gloss"><tei-app xml:id="d2e24019" id="d2e24019" data-origname="app">
+                  <tei-lem xml:id="d2e24021" id="d2e24021" data-origname="lem">Quare</tei-lem>
+                  <tei-rdg wit="#λ" ana="#additive" xml:id="d2e24023" id="d2e24023" data-origname="rdg">Querit quare</tei-rdg>
+                </tei-app> omnia,</tei-gloss> <tei-cit xml:id="d2e24028" id="d2e24028" data-origname="cit">
+                  <tei-quote rend="inline" xml:id="d2e24030" id="d2e24030" data-origname="quote">ita quod etiam bruta vtcunque</tei-quote>
+                   <tei-ref xml:id="d2e24033" id="d2e24033" data-origname="ref"><tei-app xml:id="d2e24034" id="d2e24034" data-origname="app">
+                    <tei-lem xml:id="d2e24036" id="d2e24036" data-origname="lem">sicut videbitur <tei-num type="ordinal" value="7" xml:id="d2e24038" id="d2e24038" data-origname="num">.7.</tei-num> 
+                      <tei-num type="ordinal" value="29" xml:id="d2e24041" id="d2e24041" data-origname="num">29<tei-hi rend="superscript" xml:id="d2e24043" id="d2e24043" data-origname="hi">e</tei-hi>.</tei-num></tei-lem>
+                     <tei-rdg wit="#γ" ana="#additive" xml:id="d2e24047" id="d2e24047" data-origname="rdg">sicut videbitur 
+                       <tei-num type="ordinal" value="7" xml:id="d2e24049" id="d2e24049" data-origname="num">.7.</tei-num> 
+                       <tei-num type="ordinal" value="29" xml:id="d2e24052" id="d2e24052" data-origname="num">29<tei-hi rend="superscript" xml:id="d2e24054" id="d2e24054" data-origname="hi">e</tei-hi>.</tei-num> particule</tei-rdg>
+                    <tei-rdg wit="#π" ana="#subtractive #J" xml:id="d2e24059" id="d2e24059" data-origname="rdg" data-empty="">​</tei-rdg>
+                  </tei-app>,</tei-ref>
+                  <tei-bibl corresp="#ArPr" xml:id="d2e24063" id="d2e24063" data-origname="bibl"><tei-author xml:id="d2e24064" id="d2e24064" data-origname="author">Ps.Arist.</tei-author>
+                    <tei-title ref="#ArPr" xml:id="d2e24066" id="d2e24066" data-origname="title">Prob.</tei-title>
+                    <tei-biblScope unit="book" n="28" xml:id="d2e24069" id="d2e24069" data-origname="biblScope">XXVIII</tei-biblScope>.<tei-biblScope unit="problem" n="7" xml:id="d2e24072" id="d2e24072" data-origname="biblScope">7</tei-biblScope>, <tei-biblScope unit="page" n="949b" xml:id="d2e24075" id="d2e24075" data-origname="biblScope">949b</tei-biblScope> <tei-biblScope unit="line" n="37" xml:id="d2e24078" id="d2e24078" data-origname="biblScope">l. 37-</tei-biblScope> to <tei-biblScope unit="page" n="950a" xml:id="d2e24082" id="d2e24082" data-origname="biblScope">950a</tei-biblScope> <tei-biblScope unit="line" n="16" xml:id="d2e24085" id="d2e24085" data-origname="biblScope">l. 16</tei-biblScope></tei-bibl>
+                </tei-cit> <tei-gloss target="#ment-38.1" xml:id="d2e24089" id="d2e24089" data-origname="gloss"><tei-app xml:id="d2e24090" id="d2e24090" data-origname="app">
+                  <tei-lem xml:id="d2e24092" id="d2e24092" data-origname="lem">exultantur</tei-lem>
+                  <tei-rdg wit="#π #Ea #Py" ana="#morphological" xml:id="d2e24094" id="d2e24094" data-origname="rdg">exultant</tei-rdg>
+                </tei-app>
+                <tei-app xml:id="d2e24098" id="d2e24098" data-origname="app">
+                  <tei-lem xml:id="d2e24100" id="d2e24100" data-origname="lem">rithimo</tei-lem>
+                  <tei-rdg wit="#Vo" ana="#morphological #J" xml:id="d2e24102" id="d2e24102" data-origname="rdg">rithimi</tei-rdg>
+                </tei-app> et cantu <tei-app xml:id="d2e24106" id="d2e24106" data-origname="app">
+                  <tei-lem xml:id="d2e24108" id="d2e24108" data-origname="lem">ac</tei-lem>
+                  <tei-rdg wit="#λ" ana="#additive" xml:id="d2e24110" id="d2e24110" data-origname="rdg">ac etiam</tei-rdg>
+                  <tei-rdg wit="#π" ana="#lexical" xml:id="d2e24113" id="d2e24113" data-origname="rdg">et</tei-rdg>
+                </tei-app> vniuersaliter consonantiarum auditu in hiis</tei-gloss>, siquidem <tei-app xml:id="d2e24118" id="d2e24118" data-origname="app">
+                <tei-lem xml:id="d2e24120" id="d2e24120" data-origname="lem">verbis</tei-lem>
+                <tei-rdg wit="#γ" ana="#subtractive" xml:id="d2e24122" id="d2e24122" data-origname="rdg" data-empty="">​</tei-rdg>
+              </tei-app> triplex
+              <tei-app xml:id="d2e24125" id="d2e24125" data-origname="app">
+                <tei-lem xml:id="d2e24127" id="d2e24127" data-origname="lem">pretacta indicatur</tei-lem>
+                <tei-rdg wit="#π" ana="#ordinal #lexical #J" xml:id="d2e24129" id="d2e24129" data-origname="rdg">iudicatur pretacta</tei-rdg>
+              </tei-app> musica?</tei-p>
+            <tei-p n="3" xml:id="d2e24134" id="d2e24134" data-origname="p"><tei-app xml:id="d2e24135" id="d2e24135" data-origname="app">
+              <tei-lem xml:id="d2e24137" id="d2e24137" data-origname="lem"><tei-mentioned xml:id="d2e24138" id="d2e24138" data-origname="mentioned"><tei-ref target="part38.html#ment-38.2">AUT.</tei-ref></tei-mentioned></tei-lem>
+                <tei-rdg wit="#Va #m #v" ana="#additive" xml:id="d2e24142" id="d2e24142" data-origname="rdg">Deinde.
+                  <tei-mentioned xml:id="d2e24144" id="d2e24144" data-origname="mentioned"><tei-ref target="part38.html#ment-38.2">AUT.</tei-ref></tei-mentioned></tei-rdg>
+              </tei-app>
+              Soluit <tei-app xml:id="d2e24149" id="d2e24149" data-origname="app">
+                <tei-lem xml:id="d2e24151" id="d2e24151" data-origname="lem">primo dans causam vniversaliter dicens</tei-lem>
+                <tei-rdg wit="#Vo" ana="#subtractive #ordinal #J" xml:id="d2e24153" id="d2e24153" data-origname="rdg">dicens primo</tei-rdg>
+              </tei-app> causam <tei-app xml:id="d2e24157" id="d2e24157" data-origname="app">
+                <tei-lem xml:id="d2e24159" id="d2e24159" data-origname="lem">fore</tei-lem>
+                <tei-rdg wit="#π" ana="#morphological #J" xml:id="d2e24161" id="d2e24161" data-origname="rdg">esse</tei-rdg>
+              </tei-app> communem, <tei-gloss target="#ment-38.2" xml:id="d2e24165" id="d2e24165" data-origname="gloss">quoniam <tei-app xml:id="d2e24167" id="d2e24167" data-origname="app">
+                  <tei-lem xml:id="d2e24169" id="d2e24169" data-origname="lem">gaudemus</tei-lem>
+                  <tei-rdg wit="#Px #Py" ana="#morphological" xml:id="d2e24171" id="d2e24171" data-origname="rdg">gaudere</tei-rdg>
+                </tei-app> naturaliter motibus naturalibus, cum in temperamento quodam consistant.
+              </tei-gloss> Sicut enim 
+              <tei-cit xml:id="d2e24176" id="d2e24176" data-origname="cit">
+                <tei-quote rend="inline" xml:id="d2e24178" id="d2e24178" data-origname="quote">excellentie sensibilium corrumpunt sensus,</tei-quote>
+                <tei-ref xml:id="d2e24181" id="d2e24181" data-origname="ref"><tei-app xml:id="d2e24182" id="d2e24182" data-origname="app">
+                  <tei-lem xml:id="d2e24184" id="d2e24184" data-origname="lem">vt apparet <tei-title ref="#ArAn" xml:id="d2e24186" id="d2e24186" data-origname="title">de anima</tei-title> 
+                    <tei-num type="ordinal" value="3" xml:id="d2e24189" id="d2e24189" data-origname="num">tertio</tei-num>,</tei-lem>
+                  <tei-rdg wit="#Va #Vz" ana="#ordinal" xml:id="d2e24193" id="d2e24193" data-origname="rdg">vt apparet <tei-num type="ordinal" value="3" xml:id="d2e24195" id="d2e24195" data-origname="num">tertio</tei-num>
+                      <tei-title ref="#ArAn" xml:id="d2e24198" id="d2e24198" data-origname="title">de anima</tei-title>,</tei-rdg>
+                  <tei-rdg wit="#π" ana="#ordinal" xml:id="d2e24202" id="d2e24202" data-origname="rdg">vt patet <tei-num type="ordinal" value="3" xml:id="d2e24204" id="d2e24204" data-origname="num">tertio</tei-num>
+                      <tei-title ref="#ArAn" xml:id="d2e24207" id="d2e24207" data-origname="title">de anima</tei-title>,</tei-rdg>
+                </tei-app></tei-ref>
+                <tei-bibl corresp="#ArAn" xml:id="d2e24212" id="d2e24212" data-origname="bibl"><tei-author xml:id="d2e24213" id="d2e24213" data-origname="author">Arist.</tei-author>
+                  <tei-title xml:id="d2e24215" id="d2e24215" data-origname="title">De an.</tei-title>
+                  <tei-biblScope unit="book" n="3" xml:id="d2e24217" id="d2e24217" data-origname="biblScope">III</tei-biblScope>.<tei-biblScope unit="chapter" n="13" xml:id="d2e24220" id="d2e24220" data-origname="biblScope">13</tei-biblScope>, <tei-biblScope unit="page" n="435b" xml:id="d2e24223" id="d2e24223" data-origname="biblScope">435b</tei-biblScope> l. <tei-biblScope unit="line" n="15" xml:id="d2e24226" id="d2e24226" data-origname="biblScope">15</tei-biblScope> <tei-note xml:id="d2e24230" id="d2e24230" data-origname="note">(Cf. 426a, l. 30)</tei-note></tei-bibl>
+              </tei-cit> <tei-app xml:id="d2e24233" id="d2e24233" data-origname="app">
+                <tei-lem xml:id="d2e24235" id="d2e24235" data-origname="lem">ita</tei-lem>
+                <tei-rdg wit="#π" ana="#subtractive #J" xml:id="d2e24237" id="d2e24237" data-origname="rdg" data-empty="">​</tei-rdg>
+              </tei-app> et 
+              <tei-cit xml:id="d2e24241" id="d2e24241" data-origname="cit">
+                <tei-quote rend="inline" xml:id="d2e24243" id="d2e24243" data-origname="quote"><tei-app xml:id="d2e24244" id="d2e24244" data-origname="app">
+                    <tei-lem xml:id="d2e24246" id="d2e24246" data-origname="lem">ipsorum</tei-lem>
+                    <tei-rdg wit="#π" ana="#morphological #J" xml:id="d2e24248" id="d2e24248" data-origname="rdg">ipsarum</tei-rdg>
+                  </tei-app> conmensurationes eos custodiunt,</tei-quote>
+                <tei-ref xml:id="d2e24253" id="d2e24253" data-origname="ref"><tei-app xml:id="d2e24254" id="d2e24254" data-origname="app">
+                  <tei-lem xml:id="d2e24256" id="d2e24256" data-origname="lem">vt</tei-lem>
+                  <tei-rdg wit="#α #π" ana="#lexical" xml:id="d2e24258" id="d2e24258" data-origname="rdg">sicut</tei-rdg>
+                </tei-app> etiam tactum <tei-app xml:id="d2e24262" id="d2e24262" data-origname="app">
+                  <tei-lem xml:id="d2e24264" id="d2e24264" data-origname="lem">est</tei-lem>
+                  <tei-rdg wit="#β #Va" ana="#subtractive" xml:id="d2e24266" id="d2e24266" data-origname="rdg" data-empty="">​</tei-rdg>
+                </tei-app>
+                in principio huius particule.</tei-ref>
+                <tei-bibl corresp="#ArPr" xml:id="d2e24270" id="d2e24270" data-origname="bibl"><tei-author xml:id="d2e24271" id="d2e24271" data-origname="author">Ps.Arist.</tei-author>
+                  <tei-title xml:id="d2e24273" id="d2e24273" data-origname="title">Prob.</tei-title>
+                  <tei-biblScope unit="book" n="19" xml:id="d2e24275" id="d2e24275" data-origname="biblScope">XΙΧ</tei-biblScope>.<tei-biblScope unit="problem" n="2" xml:id="d2e24278" id="d2e24278" data-origname="biblScope">2</tei-biblScope>, <tei-biblScope unit="page" n="917b" xml:id="d2e24281" id="d2e24281" data-origname="biblScope">917b</tei-biblScope> ll. <tei-biblScope unit="line" from="22" to="29" xml:id="d2e24284" id="d2e24284" data-origname="biblScope">22–29</tei-biblScope></tei-bibl>
+              </tei-cit></tei-p>
+            <tei-p n="4" xml:id="d2e24288" id="d2e24288" data-origname="p"><tei-app xml:id="d2e24289" id="d2e24289" data-origname="app">
+              <tei-lem xml:id="d2e24291" id="d2e24291" data-origname="lem"><tei-mentioned xml:id="d2e24292" id="d2e24292" data-origname="mentioned"><tei-ref target="part38.html#ment-38.3">SIGNUM.</tei-ref></tei-mentioned></tei-lem>
+                <tei-rdg wit="#Va #m #v" ana="#additive" xml:id="d2e24296" id="d2e24296" data-origname="rdg">Deinde.
+                  <tei-mentioned xml:id="d2e24298" id="d2e24298" data-origname="mentioned"><tei-ref target="part38.html#ment-38.3">SIGNUM.</tei-ref></tei-mentioned></tei-rdg>
+              </tei-app>
+              Declarat secundo quomodo in vnoquoque <tei-num type="cardinal" value="3" xml:id="d2e24303" id="d2e24303" data-origname="num">trium</tei-num> 
+              <tei-app xml:id="d2e24306" id="d2e24306" data-origname="app">
+                <tei-lem xml:id="d2e24308" id="d2e24308" data-origname="lem">predictorum</tei-lem>
+                <tei-rdg wit="#κ" ana="#additive" xml:id="d2e24310" id="d2e24310" data-origname="rdg">predictorum sicut</tei-rdg>
+              </tei-app> motus secundum naturam <tei-app xml:id="d2e24314" id="d2e24314" data-origname="app">
+                <tei-lem xml:id="d2e24316" id="d2e24316" data-origname="lem">existat</tei-lem>
+                <tei-rdg wit="#Px #m #v" ana="#morphological" xml:id="d2e24318" id="d2e24318" data-origname="rdg">existit</tei-rdg>
+              </tei-app> et per consequens gaudere <tei-app xml:id="d2e24322" id="d2e24322" data-origname="app">
+                <tei-lem xml:id="d2e24324" id="d2e24324" data-origname="lem">fiat</tei-lem>
+                <tei-rdg wit="#π" ana="#lexical #J" xml:id="d2e24326" id="d2e24326" data-origname="rdg">faciat</tei-rdg>
+              </tei-app>
+              <tei-app xml:id="d2e24330" id="d2e24330" data-origname="app">
+                <tei-lem xml:id="d2e24332" id="d2e24332" data-origname="lem">ex eo</tei-lem>
+                <tei-rdg wit="#π" ana="#subtractive #J" xml:id="d2e24334" id="d2e24334" data-origname="rdg" data-empty="">​</tei-rdg>
+              </tei-app>. <tei-app xml:id="d2e24338" id="d2e24338" data-origname="app">
+                <tei-lem xml:id="d2e24340" id="d2e24340" data-origname="lem">Primoque</tei-lem>
+                <tei-rdg wit="#π #Vz" ana="#subtractive" xml:id="d2e24342" id="d2e24342" data-origname="rdg">Primo</tei-rdg>
+              </tei-app> manifestans in <tei-app xml:id="d2e24346" id="d2e24346" data-origname="app">
+                <tei-lem xml:id="d2e24348" id="d2e24348" data-origname="lem">tactu</tei-lem>
+                <tei-rdg wit="#α" ana="#lexical" xml:id="d2e24350" id="d2e24350" data-origname="rdg">cantu</tei-rdg>
+                <tei-rdg wit="#π" ana="#lexical #J" xml:id="d2e24353" id="d2e24353" data-origname="rdg">sensu</tei-rdg>
+              </tei-app>
+              <tei-app xml:id="d2e24357" id="d2e24357" data-origname="app">
+                <tei-lem xml:id="d2e24359" id="d2e24359" data-origname="lem">dicens</tei-lem>
+                <tei-rdg wit="#Px #m #v" ana="#morphological" xml:id="d2e24361" id="d2e24361" data-origname="rdg">dicit</tei-rdg>
+              </tei-app>
+              <tei-gloss target="#ment-38.3" xml:id="d2e24365" id="d2e24365" data-origname="gloss">huius signum esse quoniam pueri <tei-app xml:id="d2e24367" id="d2e24367" data-origname="app">
+                <tei-lem xml:id="d2e24369" id="d2e24369" data-origname="lem">mox cum</tei-lem>
+                <tei-rdg wit="#π" ana="#ordinal #J" xml:id="d2e24371" id="d2e24371" data-origname="rdg">cum mox</tei-rdg>
+              </tei-app> fuerint nati accidit ipsis gaudere cantu <tei-app xml:id="d2e24375" id="d2e24375" data-origname="app">
+                <tei-lem xml:id="d2e24377" id="d2e24377" data-origname="lem">tum</tei-lem>
+                <tei-rdg wit="#Va #Vm #Vz" ana="#lexical" xml:id="d2e24379" id="d2e24379" data-origname="rdg">cum</tei-rdg>
+                <tei-rdg wit="#Px #m #v" ana="#lexical" xml:id="d2e24382" id="d2e24382" data-origname="rdg">tamen</tei-rdg>
+              </tei-app> propter musicam naturaliter <tei-app xml:id="d2e24386" id="d2e24386" data-origname="app">
+                <tei-lem xml:id="d2e24388" id="d2e24388" data-origname="lem">ipsis</tei-lem>
+                <tei-rdg wit="#π" ana="#lexical #J" xml:id="d2e24390" id="d2e24390" data-origname="rdg">sibi</tei-rdg>
+              </tei-app>
+              <tei-app xml:id="d2e24394" id="d2e24394" data-origname="app">
+                <tei-lem xml:id="d2e24396" id="d2e24396" data-origname="lem">inditam</tei-lem>
+                <tei-rdg wit="#Va" ana="#lexical" xml:id="d2e24398" id="d2e24398" data-origname="rdg">indicatam</tei-rdg>
+                <tei-rdg wit="#Vb #m #v" ana="#lexical" xml:id="d2e24401" id="d2e24401" data-origname="rdg">indicatiua</tei-rdg>
+              </tei-app>.</tei-gloss> Anima enim <tei-cit xml:id="d2e24406" id="d2e24406" data-origname="cit">
+                <tei-quote rend="inline" xml:id="d2e24408" id="d2e24408" data-origname="quote"><tei-app xml:id="d2e24409" id="d2e24409" data-origname="app">
+                    <tei-lem xml:id="d2e24411" id="d2e24411" data-origname="lem">maxime nostra</tei-lem>
+                    <tei-rdg wit="#π" ana="#lexical #J" xml:id="d2e24413" id="d2e24413" data-origname="rdg">magis vel maxime</tei-rdg>
+                  </tei-app> ad similitudinem numeri consoni <tei-app xml:id="d2e24417" id="d2e24417" data-origname="app">
+                    <tei-lem xml:id="d2e24419" id="d2e24419" data-origname="lem">constricta</tei-lem>
+                    <tei-rdg wit="#α #Ma" ana="#lexical" xml:id="d2e24421" id="d2e24421" data-origname="rdg">constructa</tei-rdg>
+                    <tei-rdg wit="#Vo" ana="#lexical #J" xml:id="d2e24424" id="d2e24424" data-origname="rdg">constituta</tei-rdg>
+                  </tei-app>
+                  <tei-app xml:id="d2e24428" id="d2e24428" data-origname="app">
+                    <tei-lem xml:id="d2e24430" id="d2e24430" data-origname="lem">existit</tei-lem>
+                    <tei-rdg wit="#π" ana="#lexical #J" xml:id="d2e24432" id="d2e24432" data-origname="rdg">est</tei-rdg>
+                  </tei-app>,</tei-quote>
+                <tei-ref xml:id="d2e24437" id="d2e24437" data-origname="ref">vt <tei-app xml:id="d2e24439" id="d2e24439" data-origname="app">
+                  <tei-lem xml:id="d2e24441" id="d2e24441" data-origname="lem">apparet per</tei-lem>
+                  <tei-rdg wit="#β" ana="#subtractive" xml:id="d2e24443" id="d2e24443" data-origname="rdg" data-empty="">​</tei-rdg>
+                </tei-app>
+                <tei-app xml:id="d2e24446" id="d2e24446" data-origname="app">
+                    <tei-lem xml:id="d2e24448" id="d2e24448" data-origname="lem"><tei-name ref="#Dam" xml:id="d2e24449" id="d2e24449" data-origname="name">damascenum</tei-name></tei-lem>
+                    <tei-rdg wit="#β" ana="#morphological" xml:id="d2e24452" id="d2e24452" data-origname="rdg"><tei-name ref="#Dam" xml:id="d2e24453" id="d2e24453" data-origname="name">damascenus</tei-name></tei-rdg>
+                    <tei-rdg wit="#Ma #Vm" ana="#lexical" xml:id="d2e24456" id="d2e24456" data-origname="rdg">dictum</tei-rdg>
+                </tei-app> in <tei-title ref="#MasAph" xml:id="d2e24460" id="d2e24460" data-origname="title">afforismis</tei-title>.</tei-ref>
+                <tei-bibl corresp="#MasAph" xml:id="d2e24464" id="d2e24464" data-origname="bibl"><tei-author xml:id="d2e24465" id="d2e24465" data-origname="author">Yuḥannā ibn Māsawaiyh</tei-author>
+                  <tei-title ref="#MasAph" xml:id="d2e24467" id="d2e24467" data-origname="title">Aph.</tei-title> <tei-msIdentifier xml:id="d2e24470" id="d2e24470" data-origname="msIdentifier"><tei-repository xml:id="d2e24471" id="d2e24471" data-origname="repository">(Vat. Lat.</tei-repository> 
+                    <tei-idno n="2460" xml:id="d2e24473" id="d2e24473" data-origname="idno">2460,</tei-idno></tei-msIdentifier> 
+                  <tei-biblScope unit="page" n="39" xml:id="d2e24476" id="d2e24476" data-origname="biblScope">f. 39v,</tei-biblScope> 
+                  <tei-biblScope unit="line" from="10" to="11" xml:id="d2e24479" id="d2e24479" data-origname="biblScope">ll. 10–11)</tei-biblScope></tei-bibl>
+              </tei-cit> Quare <tei-cit xml:id="d2e24483" id="d2e24483" data-origname="cit">
+                <tei-ref xml:id="d2e24485" id="d2e24485" data-origname="ref"><tei-num type="ordinal" value="1" xml:id="d2e24486" id="d2e24486" data-origname="num">primo</tei-num>
+                  <tei-title ref="#GaSa" xml:id="d2e24489" id="d2e24489" data-origname="title">de regimine sanitatis</tei-title></tei-ref>
+                <tei-quote rend="inline" xml:id="d2e24492" id="d2e24492" data-origname="quote">pueri familiariter dispositi sunt ad musicam.</tei-quote>
+                <tei-bibl corresp="#GaSa" xml:id="d2e24495" id="d2e24495" data-origname="bibl"><tei-author xml:id="d2e24496" id="d2e24496" data-origname="author">Gal.</tei-author>
+                  <tei-title xml:id="d2e24498" id="d2e24498" data-origname="title">De san. tu.</tei-title>
+                  <tei-biblScope unit="book" n="1" xml:id="d2e24500" id="d2e24500" data-origname="biblScope">I</tei-biblScope>.<tei-biblScope unit="chapter" n="7" xml:id="d2e24503" id="d2e24503" data-origname="biblScope">7</tei-biblScope></tei-bibl>
+              </tei-cit> <tei-gloss target="#ment-38.3" xml:id="d2e24508" id="d2e24508" data-origname="gloss">
+                Tum etiam propter consuetudinem quam adipiscimur 
+                deinceps ex maneriebus cantuum gaudere accidit,</tei-gloss> 
+              quidam enim gaudent vno cantu, alii <tei-app xml:id="d2e24511" id="d2e24511" data-origname="app">
+                <tei-lem xml:id="d2e24513" id="d2e24513" data-origname="lem">vero</tei-lem>
+                <tei-rdg wit="#β #π #Ea #Vb" ana="#lexical" xml:id="d2e24515" id="d2e24515" data-origname="rdg">autem</tei-rdg>
+              </tei-app> alio secundum quod consueti <tei-app xml:id="d2e24519" id="d2e24519" data-origname="app">
+                <tei-lem xml:id="d2e24521" id="d2e24521" data-origname="lem">fuerunt</tei-lem>
+                <tei-rdg wit="#π #Ea #Ma #Px #Vb #Vz" ana="#morphological" xml:id="d2e24523" id="d2e24523" data-origname="rdg">fuerint</tei-rdg>
+              </tei-app> audire a <tei-app xml:id="d2e24527" id="d2e24527" data-origname="app">
+                <tei-lem xml:id="d2e24529" id="d2e24529" data-origname="lem">natiuitate</tei-lem>
+                <tei-rdg wit="#λ" ana="#additive" xml:id="d2e24531" id="d2e24531" data-origname="rdg">natiuitate audiant</tei-rdg>
+              </tei-app>. Quod autem infantes <tei-app xml:id="d2e24535" id="d2e24535" data-origname="app">
+                <tei-lem xml:id="d2e24537" id="d2e24537" data-origname="lem">huius</tei-lem>
+                <tei-rdg wit="#γ #Nu" ana="#lexical" xml:id="d2e24539" id="d2e24539" data-origname="rdg">huiusmodi</tei-rdg>
+              </tei-app> cantibus <tei-app xml:id="d2e24543" id="d2e24543" data-origname="app">
+                <tei-lem xml:id="d2e24545" id="d2e24545" data-origname="lem">delectentur</tei-lem>
+                <tei-rdg wit="#Vo" ana="#morphological #J" xml:id="d2e24547" id="d2e24547" data-origname="rdg">delectantur</tei-rdg>
+              </tei-app>, id sciunt nutrices industriose que modis cantuum et motuum <tei-app xml:id="d2e24552" id="d2e24552" data-origname="app">
+                <tei-lem xml:id="d2e24554" id="d2e24554" data-origname="lem">quibusdam</tei-lem>
+                <tei-rdg wit="#Vo" ana="#morphological #J" xml:id="d2e24556" id="d2e24556" data-origname="rdg">quidam</tei-rdg>
+                <tei-rdg wit="#Gu #Pp" ana="#lexical #J" xml:id="d2e24559" id="d2e24559" data-origname="rdg">communium</tei-rdg>
+              </tei-app>, cum hii <tei-app xml:id="d2e24563" id="d2e24563" data-origname="app">
+                <tei-lem xml:id="d2e24565" id="d2e24565" data-origname="lem">tristentur</tei-lem>
+                <tei-rdg wit="#π #Vz" ana="#morphological" xml:id="d2e24567" id="d2e24567" data-origname="rdg">tristantur</tei-rdg>
+              </tei-app> et plorant, ipsorum animos <tei-app xml:id="d2e24571" id="d2e24571" data-origname="app">
+                <tei-lem xml:id="d2e24573" id="d2e24573" data-origname="lem">demulciunt</tei-lem>
+                <tei-rdg wit="#π" ana="#morphological #J" xml:id="d2e24575" id="d2e24575" data-origname="rdg">demulcent</tei-rdg>
+              </tei-app>, quiescere facientes et gaudere, cum ostensum sit hanc esse potentiam musice. 
+              Vnde <tei-cit xml:id="d2e24579" id="d2e24579" data-origname="cit">
+                <tei-ref xml:id="d2e24581" id="d2e24581" data-origname="ref"><tei-app xml:id="d2e24582" id="d2e24582" data-origname="app">
+                    <tei-lem xml:id="d2e24584" id="d2e24584" data-origname="lem">eodem</tei-lem>
+                    <tei-rdg wit="#Ea #Vo" ana="#additive" xml:id="d2e24586" id="d2e24586" data-origname="rdg">eodem modo</tei-rdg>
+                  </tei-app>
+                  <tei-num type="ordinal" value="1" xml:id="d2e24590" id="d2e24590" data-origname="num">primo</tei-num>: </tei-ref>
+                <tei-quote rend="inline" xml:id="d2e24594" id="d2e24594" data-origname="quote">nutrices <tei-num type="cardinal" value="3" xml:id="d2e24596" id="d2e24596" data-origname="num">tribus</tei-num> 
+                  modis consolantur et ad sompnum prouocant pueros: 
+                  vt appositione mamillarum ad os, melodia vocis, et motu.</tei-quote>
+                <tei-bibl corresp="#GaSa" xml:id="d2e24600" id="d2e24600" data-origname="bibl"><tei-author xml:id="d2e24601" id="d2e24601" data-origname="author">Gal.</tei-author>
+                  <tei-title xml:id="d2e24603" id="d2e24603" data-origname="title">De san. tu.</tei-title>
+                  <tei-biblScope unit="book" n="1" xml:id="d2e24605" id="d2e24605" data-origname="biblScope">I</tei-biblScope>.<tei-biblScope unit="chapter" n="7" xml:id="d2e24608" id="d2e24608" data-origname="biblScope">7</tei-biblScope></tei-bibl>
+              </tei-cit></tei-p>
+            <tei-p n="5" xml:id="d2e24613" id="d2e24613" data-origname="p"><tei-app xml:id="d2e24614" id="d2e24614" data-origname="app">
+              <tei-lem xml:id="d2e24616" id="d2e24616" data-origname="lem"><tei-mentioned xml:id="d2e24617" id="d2e24617" data-origname="mentioned"><tei-ref target="part38.html#ment-38.4">RITHIMO.</tei-ref></tei-mentioned></tei-lem>
+                <tei-rdg wit="#Va #m #v" ana="#additive" xml:id="d2e24621" id="d2e24621" data-origname="rdg">Deinde.
+                  <tei-mentioned xml:id="d2e24623" id="d2e24623" data-origname="mentioned"><tei-ref target="part38.html#ment-38.4">RITHIMO.</tei-ref></tei-mentioned></tei-rdg>
+                <tei-rdg wit="#π" ana="#lexical #J" xml:id="d2e24627" id="d2e24627" data-origname="rdg">AC HUIC.</tei-rdg>
+              </tei-app> 
+              <tei-app xml:id="d2e24631" id="d2e24631" data-origname="app">
+                <tei-lem xml:id="d2e24633" id="d2e24633" data-origname="lem"><tei-num type="ordinal" value="2" xml:id="d2e24634" id="d2e24634" data-origname="num">Secundo</tei-num> dat causam</tei-lem>
+                <tei-rdg wit="#Va" ana="#lexical" xml:id="d2e24638" id="d2e24638" data-origname="rdg">Declarat <tei-num type="ordinal" value="2" xml:id="d2e24640" id="d2e24640" data-origname="num">secundo</tei-num></tei-rdg>
+                <tei-rdg wit="#Vb #m #v" ana="#lexical" xml:id="d2e24643" id="d2e24643" data-origname="rdg"><tei-num type="ordinal" value="2" xml:id="d2e24644" id="d2e24644" data-origname="num">Secundo</tei-num> declarat causam</tei-rdg>
+                <tei-rdg wit="#π" ana="#ordinal #J" xml:id="d2e24648" id="d2e24648" data-origname="rdg">Dat causam <tei-num type="ordinal" value="2" xml:id="d2e24650" id="d2e24650" data-origname="num">secundo</tei-num></tei-rdg>
+              </tei-app>
+              <tei-app xml:id="d2e24654" id="d2e24654" data-origname="app">
+                <tei-lem xml:id="d2e24656" id="d2e24656" data-origname="lem">rithimo quare</tei-lem>
+                <tei-rdg wit="#Ea #Ma #Vz" ana="#ordinal" xml:id="d2e24658" id="d2e24658" data-origname="rdg">quare rithimo</tei-rdg>
+                <tei-rdg wit="#Px #Vb #Vm #Vo" ana="#subtractive" xml:id="d2e24661" id="d2e24661" data-origname="rdg">rithimo</tei-rdg>
+              </tei-app>
+              <tei-app xml:id="d2e24665" id="d2e24665" data-origname="app">
+                <tei-lem xml:id="d2e24667" id="d2e24667" data-origname="lem">fit</tei-lem>
+                <tei-rdg wit="#π #Nu" ana="#lexical" xml:id="d2e24669" id="d2e24669" data-origname="rdg">sit</tei-rdg>
+              </tei-app> gaudere quod <tei-num type="ordinal" value="2" xml:id="d2e24673" id="d2e24673" data-origname="num">secundo</tei-num>
+              <tei-app xml:id="d2e24676" id="d2e24676" data-origname="app">
+                <tei-lem xml:id="d2e24678" id="d2e24678" data-origname="lem">signo manifestat</tei-lem>
+                <tei-rdg wit="#Gu #Pp" ana="#additive #J" xml:id="d2e24680" id="d2e24680" data-origname="rdg">manifestat signo ibi</tei-rdg>
+                <tei-rdg wit="#Vo" ana="#morphological #J" xml:id="d2e24683" id="d2e24683" data-origname="rdg">manifestat signum ibi</tei-rdg>
+                <tei-rdg wit="#Ma #Px #Vm" ana="#lexical" xml:id="d2e24686" id="d2e24686" data-origname="rdg">signo inanimat</tei-rdg>
+              </tei-app>
+              <tei-mentioned xml:id="d2e24691" id="d2e24691" data-origname="mentioned"><tei-ref target="part38.html#ment-38.5"><tei-app xml:id="d2e24693" id="d2e24693" data-origname="app">
+                    <tei-lem xml:id="d2e24695" id="d2e24695" data-origname="lem">SIGNUM AUTEM</tei-lem>
+                    <tei-rdg wit="#γ" ana="#lexical" xml:id="d2e24697" id="d2e24697" data-origname="rdg">DIGNUM AUTEM</tei-rdg>
+                  </tei-app></tei-ref></tei-mentioned>, <tei-app xml:id="d2e24701" id="d2e24701" data-origname="app">
+                <tei-lem xml:id="d2e24703" id="d2e24703" data-origname="lem">dicens</tei-lem>
+                <tei-rdg wit="#γ #Ma #Vz" ana="#morphological" xml:id="d2e24705" id="d2e24705" data-origname="rdg">dicit</tei-rdg>
+              </tei-app> causam esse quare <tei-gloss target="#ment-38.4" xml:id="d2e24709" id="d2e24709" data-origname="gloss">gaudemus rithimo. <tei-app xml:id="d2e24711" id="d2e24711" data-origname="app">
+                  <tei-lem xml:id="d2e24713" id="d2e24713" data-origname="lem">Est</tei-lem>
+                  <tei-rdg wit="#π #Va" ana="#subtractive" xml:id="d2e24715" id="d2e24715" data-origname="rdg" data-empty="">​</tei-rdg>
+                </tei-app> propter motum suauem et numerum ordinatum eius 
+                et proportionatum clausularum <tei-app xml:id="d2e24718" id="d2e24718" data-origname="app">
+                  <tei-lem xml:id="d2e24720" id="d2e24720" data-origname="lem">vnius</tei-lem>
+                  <tei-rdg wit="#π" ana="#lexical #J" xml:id="d2e24722" id="d2e24722" data-origname="rdg">vniuscuiusque</tei-rdg>
+                </tei-app>
+                <tei-app xml:id="d2e24726" id="d2e24726" data-origname="app">
+                  <tei-lem xml:id="d2e24728" id="d2e24728" data-origname="lem">cum</tei-lem>
+                  <tei-rdg wit="#Vo" ana="#subtractive #J" xml:id="d2e24730" id="d2e24730" data-origname="rdg" data-empty="">​</tei-rdg>
+                </tei-app> altera concordantium <tei-app xml:id="d2e24733" id="d2e24733" data-origname="app">
+                  <tei-lem xml:id="d2e24735" id="d2e24735" data-origname="lem">quos</tei-lem>
+                  <tei-rdg wit="#π #Px" ana="#morphological" xml:id="d2e24737" id="d2e24737" data-origname="rdg">quas</tei-rdg>
+                </tei-app> habet. Que <tei-app xml:id="d2e24741" id="d2e24741" data-origname="app">
+                  <tei-lem xml:id="d2e24743" id="d2e24743" data-origname="lem">autem huius</tei-lem>
+                  <tei-rdg wit="#Nu #Vb" ana="#lexical" xml:id="d2e24745" id="d2e24745" data-origname="rdg">autem huiusmodi</tei-rdg>
+                  <tei-rdg wit="#Vo" ana="#lexical #J" xml:id="d2e24748" id="d2e24748" data-origname="rdg">aut huius</tei-rdg>
+                </tei-app> nos habent mouere amplius paulatiue et ordinate, 
+                nam motus ordinatus et vniformis prior est natura opposito,</tei-gloss>
+                <tei-app xml:id="d2e24753" id="d2e24753" data-origname="app">
+                    <tei-lem xml:id="d2e24755" id="d2e24755" data-origname="lem">ceu</tei-lem>
+                    <tei-rdg wit="#Ea #Vm" ana="#lexical" xml:id="d2e24757" id="d2e24757" data-origname="rdg">seu</tei-rdg>
+                    <tei-rdg wit="#Gu #Pp" ana="#lexical #J" xml:id="d2e24760" id="d2e24760" data-origname="rdg">sicut</tei-rdg>
+                  </tei-app> habitus priuatione. 
+              Ordinatum enim habet rationem equalitatis, inordinatum vero <tei-app xml:id="d2e24764" id="d2e24764" data-origname="app">
+                <tei-lem xml:id="d2e24766" id="d2e24766" data-origname="lem">inequalitatis</tei-lem>
+                <tei-rdg wit="#π" ana="#additive #J" xml:id="d2e24768" id="d2e24768" data-origname="rdg">rationem inequalitatis</tei-rdg>
+              </tei-app>. Omne <tei-app xml:id="d2e24772" id="d2e24772" data-origname="app">
+                <tei-lem xml:id="d2e24774" id="d2e24774" data-origname="lem">autem</tei-lem>
+                <tei-rdg wit="#Gu #Pq #Vz" ana="#lexical" xml:id="d2e24776" id="d2e24776" data-origname="rdg">enim</tei-rdg>
+              </tei-app> inequale reducitur ad equale, <tei-app xml:id="d2e24781" id="d2e24781" data-origname="app">
+                <tei-lem xml:id="d2e24783" id="d2e24783" data-origname="lem">vt</tei-lem>
+                <tei-rdg wit="#α #π" ana="#lexical" xml:id="d2e24785" id="d2e24785" data-origname="rdg">sicut</tei-rdg>
+              </tei-app> ad primum et perfectum, vt <tei-app xml:id="d2e24789" id="d2e24789" data-origname="app">
+                <tei-lem xml:id="d2e24791" id="d2e24791" data-origname="lem">probatum est</tei-lem>
+                <tei-rdg wit="#α #π #Ma" ana="#lexical" xml:id="d2e24793" id="d2e24793" data-origname="rdg">probant</tei-rdg>
+              </tei-app> arismetrici et musici. Et ideo concluditur quod 
+              <tei-gloss target="#ment-38.4" xml:id="d2e24797" id="d2e24797" data-origname="gloss">naturaliter magis <tei-app xml:id="d2e24799" id="d2e24799" data-origname="app">
+                <tei-lem xml:id="d2e24801" id="d2e24801" data-origname="lem">debeamus gaudere</tei-lem>
+                <tei-rdg wit="#π" ana="#morphological #J" xml:id="d2e24803" id="d2e24803" data-origname="rdg">debemus gaudere</tei-rdg>
+              </tei-app> rithimo et <tei-app xml:id="d2e24807" id="d2e24807" data-origname="app">
+                <tei-lem xml:id="d2e24809" id="d2e24809" data-origname="lem">iocundari</tei-lem>
+                <tei-rdg wit="#Px #Vz" ana="#lexical" xml:id="d2e24811" id="d2e24811" data-origname="rdg">iocunditati</tei-rdg>
+              </tei-app>, tanquam ordinato.</tei-gloss></tei-p>
+            <tei-p n="6" xml:id="d2e24816" id="d2e24816" data-origname="p"><tei-app xml:id="d2e24817" id="d2e24817" data-origname="app">
+              <tei-lem xml:id="d2e24819" id="d2e24819" data-origname="lem"><tei-mentioned xml:id="d2e24820" id="d2e24820" data-origname="mentioned"><tei-ref target="part38.html#ment-38.5">SIGNUM AUTEM.</tei-ref></tei-mentioned></tei-lem>
+                <tei-rdg wit="#Va #m #v" ana="#additive" xml:id="d2e24824" id="d2e24824" data-origname="rdg">Deinde.
+                  <tei-mentioned xml:id="d2e24826" id="d2e24826" data-origname="mentioned"><tei-ref target="part38.html#ment-38.5">SIGNUM AUTEM.</tei-ref></tei-mentioned></tei-rdg>
+              </tei-app>
+              Declarat <tei-app xml:id="d2e24831" id="d2e24831" data-origname="app">
+                <tei-lem xml:id="d2e24833" id="d2e24833" data-origname="lem">id</tei-lem>
+                <tei-rdg wit="#Vm #Vo" ana="#lexical" xml:id="d2e24835" id="d2e24835" data-origname="rdg">illud</tei-rdg>
+              </tei-app> signo dicens quod 
+              <tei-gloss target="#ment-38.5" xml:id="d2e24839" id="d2e24839" data-origname="gloss"><tei-app xml:id="d2e24840" id="d2e24840" data-origname="app">
+                  <tei-lem xml:id="d2e24842" id="d2e24842" data-origname="lem">huius</tei-lem>
+                  <tei-rdg wit="#Nu #Vb" ana="#lexical" xml:id="d2e24844" id="d2e24844" data-origname="rdg">huiusmodi</tei-rdg>
+                </tei-app> signum in regimine <tei-app xml:id="d2e24848" id="d2e24848" data-origname="app">
+                  <tei-lem xml:id="d2e24850" id="d2e24850" data-origname="lem">vite</tei-lem>
+                  <tei-rdg wit="#π #Ea" ana="#subtractive" xml:id="d2e24852" id="d2e24852" data-origname="rdg" data-empty="">​</tei-rdg>
+                </tei-app> sumitur tale, quia nos exercitantes et laborantes bibentesque <tei-app xml:id="d2e24855" id="d2e24855" data-origname="app">
+                  <tei-lem xml:id="d2e24857" id="d2e24857" data-origname="lem">et</tei-lem>
+                  <tei-rdg wit="#β #Ea #Va #Vo" ana="#lexical" xml:id="d2e24859" id="d2e24859" data-origname="rdg">ac</tei-rdg>
+                </tei-app> comedentes <tei-app xml:id="d2e24863" id="d2e24863" data-origname="app">
+                  <tei-lem xml:id="d2e24865" id="d2e24865" data-origname="lem">conmensurate</tei-lem>
+                  <tei-rdg wit="#Vo" ana="#lexical #J" xml:id="d2e24867" id="d2e24867" data-origname="rdg">mensurate</tei-rdg>
+                </tei-app>
+                <tei-app xml:id="d2e24871" id="d2e24871" data-origname="app">
+                  <tei-lem xml:id="d2e24873" id="d2e24873" data-origname="lem">et</tei-lem>
+                  <tei-rdg wit="#Ea #Vo" ana="#lexical" xml:id="d2e24875" id="d2e24875" data-origname="rdg">ac</tei-rdg>
+                </tei-app> ordinate,</tei-gloss>
+                <tei-cit xml:id="d2e24880" id="d2e24880" data-origname="cit">
+                  <tei-ref xml:id="d2e24882" id="d2e24882" data-origname="ref"><tei-app xml:id="d2e24883" id="d2e24883" data-origname="app">
+                    <tei-lem xml:id="d2e24885" id="d2e24885" data-origname="lem">vt</tei-lem>
+                    <tei-rdg wit="#Px #Vm #Vz" ana="#subtractive" xml:id="d2e24887" id="d2e24887" data-origname="rdg" data-empty="">​</tei-rdg> 
+                  </tei-app> precipit
+                 <tei-title ref="#GaSa" xml:id="d2e24890" id="d2e24890" data-origname="title">regimen</tei-title>
+                    <tei-app xml:id="d2e24893" id="d2e24893" data-origname="app">
+                      <tei-lem xml:id="d2e24895" id="d2e24895" data-origname="lem"><tei-name ref="#Ga" xml:id="d2e24896" id="d2e24896" data-origname="name">galeni</tei-name></tei-lem>
+                      <tei-rdg wit="#κ" ana="#lexical" xml:id="d2e24899" id="d2e24899" data-origname="rdg">caloris</tei-rdg>
+                    </tei-app>
+                    <tei-title ref="#GaSa" xml:id="d2e24903" id="d2e24903" data-origname="title"><tei-app xml:id="d2e24904" id="d2e24904" data-origname="app">
+                        <tei-lem xml:id="d2e24906" id="d2e24906" data-origname="lem">sanatium</tei-lem>
+                        <tei-rdg wit="#π" ana="#lexical #J" xml:id="d2e24908" id="d2e24908" data-origname="rdg">sanitatem</tei-rdg>
+                      </tei-app></tei-title>,</tei-ref>
+                  <tei-bibl corresp="#GaSa" xml:id="d2e24913" id="d2e24913" data-origname="bibl"><tei-author xml:id="d2e24914" id="d2e24914" data-origname="author">Gal.</tei-author>
+                    <tei-title xml:id="d2e24916" id="d2e24916" data-origname="title">De san. tu.</tei-title>
+                    <tei-biblScope unit="book" n="5" xml:id="d2e24918" id="d2e24918" data-origname="biblScope">V</tei-biblScope>.<tei-biblScope unit="chapter" n="2" xml:id="d2e24921" id="d2e24921" data-origname="biblScope">2</tei-biblScope></tei-bibl>
+                </tei-cit> <tei-gloss target="#ment-38.5" xml:id="d2e24925" id="d2e24925" data-origname="gloss">saluamus et augmentamus <tei-app xml:id="d2e24927" id="d2e24927" data-origname="app">
+                  <tei-lem xml:id="d2e24929" id="d2e24929" data-origname="lem">nostram naturam</tei-lem>
+                  <tei-rdg wit="#λ #π" ana="#ordinal" xml:id="d2e24931" id="d2e24931" data-origname="rdg">naturam nostram</tei-rdg>
+                </tei-app> siue complexionem, quantum ad corpus magis et virtutem quo ad animam plus. 
+                  Per oppositum vero cum indebite ac inordinate vtimur regimine <tei-app xml:id="d2e24935" id="d2e24935" data-origname="app">
+                <tei-lem xml:id="d2e24937" id="d2e24937" data-origname="lem">sanitatis</tei-lem>
+                <tei-rdg wit="#π" ana="#subtractive #J" xml:id="d2e24939" id="d2e24939" data-origname="rdg" data-empty="">​</tei-rdg>
+              </tei-app> corrumpimus <tei-app xml:id="d2e24942" id="d2e24942" data-origname="app">
+                <tei-lem xml:id="d2e24944" id="d2e24944" data-origname="lem">ac</tei-lem>
+                <tei-rdg wit="#π" ana="#lexical #J" xml:id="d2e24946" id="d2e24946" data-origname="rdg">et</tei-rdg>
+              </tei-app> stupefacimus <tei-app xml:id="d2e24950" id="d2e24950" data-origname="app">
+                <tei-lem xml:id="d2e24952" id="d2e24952" data-origname="lem">naturam nostram</tei-lem>
+                <tei-rdg wit="#γ" ana="#ordinal" xml:id="d2e24954" id="d2e24954" data-origname="rdg">nostram naturam</tei-rdg>
+                <tei-rdg wit="#π #Ea" ana="#subtractive" xml:id="d2e24957" id="d2e24957" data-origname="rdg">naturam</tei-rdg>
+              </tei-app>
+              <tei-app xml:id="d2e24961" id="d2e24961" data-origname="app">
+                <tei-lem xml:id="d2e24963" id="d2e24963" data-origname="lem">et</tei-lem>
+                <tei-rdg wit="#γ" ana="#lexical" xml:id="d2e24965" id="d2e24965" data-origname="rdg">ac</tei-rdg>
+              </tei-app> virtutem.</tei-gloss> Quod ostenditur quia 
+              <tei-gloss target="#ment-38.5" xml:id="d2e24970" id="d2e24970" data-origname="gloss">egritudines sunt motus cuiusdam <tei-app xml:id="d2e24972" id="d2e24972" data-origname="app">
+                <tei-lem xml:id="d2e24974" id="d2e24974" data-origname="lem">ordinationis</tei-lem>
+                <tei-rdg wit="#π" ana="#lexical #J" xml:id="d2e24976" id="d2e24976" data-origname="rdg">inordinationis</tei-rdg>
+              </tei-app> et concursus corporis nostri non secundum naturam</tei-gloss> <tei-app xml:id="d2e24982" id="d2e24982" data-origname="app">
+                <tei-lem xml:id="d2e24984" id="d2e24984" data-origname="lem">verum</tei-lem>
+                <tei-rdg wit="#Gu #Pp #m #v" ana="#lexical" xml:id="d2e24986" id="d2e24986" data-origname="rdg">sed</tei-rdg>
+              </tei-app> preter naturam existentis. <tei-app xml:id="d2e24990" id="d2e24990" data-origname="app">
+                <tei-lem xml:id="d2e24992" id="d2e24992" data-origname="lem">Quomodo</tei-lem>
+                <tei-rdg wit="#β #π #Ea #Vb" ana="#additive" xml:id="d2e24994" id="d2e24994" data-origname="rdg">Quomodo autem</tei-rdg>
+              </tei-app>
+              <tei-cit xml:id="d2e24998" id="d2e24998" data-origname="cit">
+                <tei-quote rend="inline" xml:id="d2e25000" id="d2e25000" data-origname="quote">egritudo sit motus</tei-quote>
+                <tei-ref xml:id="d2e25003" id="d2e25003" data-origname="ref"><tei-app xml:id="d2e25004" id="d2e25004" data-origname="app">
+                  <tei-lem xml:id="d2e25006" id="d2e25006" data-origname="lem">ostensum differentia 
+                    <tei-num type="ordinal" value="7" xml:id="d2e25008" id="d2e25008" data-origname="num">septima</tei-num></tei-lem>
+                  <tei-rdg wit="#Ea #Ma #Va" ana="#additive" xml:id="d2e25011" id="d2e25011" data-origname="rdg">ostensum est differentia 
+                    <tei-num type="ordinal" value="7" xml:id="d2e25013" id="d2e25013" data-origname="num">septima</tei-num></tei-rdg>
+                  <tei-rdg wit="#β #Vb" ana="#additive" xml:id="d2e25016" id="d2e25016" data-origname="rdg">ostensum differentia 
+                    <tei-num type="ordinal" value="7" xml:id="d2e25018" id="d2e25018" data-origname="num">septima</tei-num> alia</tei-rdg>
+                  <tei-rdg wit="#π" ana="#lexical #J" xml:id="d2e25022" id="d2e25022" data-origname="rdg">visum est prima</tei-rdg>
+                </tei-app>
+                problemate <tei-num type="ordinal" value="4" xml:id="d2e25026" id="d2e25026" data-origname="num">quarto</tei-num>.</tei-ref>
+                <tei-bibl corresp="#ArPr" xml:id="d2e25030" id="d2e25030" data-origname="bibl"><tei-author xml:id="d2e25031" id="d2e25031" data-origname="author">Ps.Arist.</tei-author>
+                  <tei-title xml:id="d2e25033" id="d2e25033" data-origname="title">Prob.</tei-title>
+                  <tei-biblScope unit="book" n="7" xml:id="d2e25035" id="d2e25035" data-origname="biblScope">VII</tei-biblScope>.<tei-biblScope unit="problem" n="4" xml:id="d2e25038" id="d2e25038" data-origname="biblScope">4</tei-biblScope>, <tei-biblScope unit="page" n="886b" xml:id="d2e25041" id="d2e25041" data-origname="biblScope">886b</tei-biblScope> ll. <tei-biblScope unit="line" from="5" to="6" xml:id="d2e25044" id="d2e25044" data-origname="biblScope">5–6</tei-biblScope></tei-bibl>
+              </tei-cit></tei-p>
+            <tei-p n="7" xml:id="d2e25048" id="d2e25048" data-origname="p"><tei-app xml:id="d2e25049" id="d2e25049" data-origname="app">
+              <tei-lem xml:id="d2e25051" id="d2e25051" data-origname="lem"><tei-mentioned xml:id="d2e25052" id="d2e25052" data-origname="mentioned"><tei-ref target="part38.html#ment-38.6">CONSONANTIA.</tei-ref></tei-mentioned></tei-lem>
+                <tei-rdg wit="#Va #m #v" ana="#additive" xml:id="d2e25056" id="d2e25056" data-origname="rdg">Deinde.
+                  <tei-mentioned xml:id="d2e25058" id="d2e25058" data-origname="mentioned"><tei-ref target="part38.html#ment-38.6">CONSONANTIA.</tei-ref></tei-mentioned></tei-rdg>
+              <tei-rdg wit="#Px #Vm #Vz" ana="#morphological" xml:id="d2e25062" id="d2e25062" data-origname="rdg"><tei-mentioned xml:id="d2e25063" id="d2e25063" data-origname="mentioned">
+                <tei-ref target="part38.html#ment-38.6">CONSONANTIAM.</tei-ref></tei-mentioned></tei-rdg>
+              </tei-app>
+              Assignat <tei-num type="ordinal" value="3" xml:id="d2e25069" id="d2e25069" data-origname="num">tertio</tei-num> causam delectationis consonantie, 
+              dicens causam <tei-app xml:id="d2e25072" id="d2e25072" data-origname="app">
+                <tei-lem xml:id="d2e25074" id="d2e25074" data-origname="lem">huius</tei-lem>
+                <tei-rdg wit="#γ" ana="#lexical" xml:id="d2e25076" id="d2e25076" data-origname="rdg">huiusmodi</tei-rdg>
+              </tei-app> esse, quare <tei-gloss target="#ment-38.6" xml:id="d2e25080" id="d2e25080" data-origname="gloss">gaudeamus consonantia, 
+                quia ipsa causatur ex coniunctione contrariorum habentium proportionem 
+                ad inuicem secundum acuitatem et grauitatem</tei-gloss>. 
+              <tei-app xml:id="d2e25083" id="d2e25083" data-origname="app">
+                <tei-lem xml:id="d2e25085" id="d2e25085" data-origname="lem">Confranguntur</tei-lem>
+                <tei-rdg wit="#Px #Va" ana="#morphological" xml:id="d2e25087" id="d2e25087" data-origname="rdg">Confrangantur</tei-rdg>
+              </tei-app> enim oppositorum excellentie ita vt ex eis resultet vnum medium contemperatum 
+              ac proportionatum extremis, <tei-app xml:id="d2e25091" id="d2e25091" data-origname="app">
+                <tei-lem xml:id="d2e25093" id="d2e25093" data-origname="lem">ceu</tei-lem>
+                <tei-rdg wit="#Ea #Vo" ana="#lexical" xml:id="d2e25095" id="d2e25095" data-origname="rdg">seu</tei-rdg>
+                <tei-rdg wit="#Gu #Pp" ana="#lexical #J" xml:id="d2e25098" id="d2e25098" data-origname="rdg">sicut</tei-rdg>
+              </tei-app> opposita ostendunt contrariorum excellentium in copulatione ad inuicem qualitatum. 
+              <tei-gloss target="#ment-38.6" xml:id="d2e25103" id="d2e25103" data-origname="gloss">In <tei-app xml:id="d2e25105" id="d2e25105" data-origname="app">
+                <tei-lem xml:id="d2e25107" id="d2e25107" data-origname="lem">huius</tei-lem>
+                <tei-rdg wit="#Nu #Vb" ana="#lexical" xml:id="d2e25109" id="d2e25109" data-origname="rdg">huiusmodi</tei-rdg>
+              </tei-app> autem proportione <tei-app xml:id="d2e25113" id="d2e25113" data-origname="app">
+                <tei-lem xml:id="d2e25115" id="d2e25115" data-origname="lem">copulationis</tei-lem>
+                <tei-rdg wit="#α #Ma #Vo #Vz" ana="#lexical" xml:id="d2e25117" id="d2e25117" data-origname="rdg">complexionis</tei-rdg>
+              </tei-app> saluatur ordinatio, que naturaliter <tei-app xml:id="d2e25121" id="d2e25121" data-origname="app">
+                <tei-lem xml:id="d2e25123" id="d2e25123" data-origname="lem">delectabilis existit</tei-lem>
+                <tei-rdg wit="#π" ana="#lexical #ordinal #J" xml:id="d2e25125" id="d2e25125" data-origname="rdg">est delectabilis</tei-rdg>
+              </tei-app>.</tei-gloss> Quod autem hoc sit delectabile ostenditur 
+              quoniam habens consonantiam est complexionatum seu mixtum,
+              <tei-gloss target="#ment-38.6" xml:id="d2e25130" id="d2e25130" data-origname="gloss">omne autem <tei-app xml:id="d2e25132" id="d2e25132" data-origname="app">
+                <tei-lem xml:id="d2e25134" id="d2e25134" data-origname="lem">complexionatum</tei-lem>
+                <tei-rdg wit="#Gu #Pp #Vo" ana="#additive #J" xml:id="d2e25136" id="d2e25136" data-origname="rdg">complexionatum et mixtum</tei-rdg>
+              </tei-app> est delectabilius quam incomplexionatum <tei-app xml:id="d2e25140" id="d2e25140" data-origname="app">
+                <tei-lem xml:id="d2e25142" id="d2e25142" data-origname="lem">vel</tei-lem>
+                <tei-rdg wit="#λ #Ea" ana="#lexical" xml:id="d2e25144" id="d2e25144" data-origname="rdg">seu</tei-rdg>
+                <tei-rdg wit="#π" ana="#lexical #J" xml:id="d2e25147" id="d2e25147" data-origname="rdg">et</tei-rdg>
+              </tei-app> simplex, aliter tamen et aliter,</tei-gloss> 
+              quoniam multo magis est delectabile cum in simplicibus 
+              vt in elementis primis remaneant excellentie, in complexionatis autem <tei-app xml:id="d2e25152" id="d2e25152" data-origname="app">
+                <tei-lem xml:id="d2e25154" id="d2e25154" data-origname="lem">consurgunt</tei-lem>
+                <tei-rdg wit="#β #Ea" ana="#lexical" xml:id="d2e25156" id="d2e25156" data-origname="rdg">confringantur</tei-rdg>
+                <tei-rdg wit="#π" ana="#lexical #J" xml:id="d2e25159" id="d2e25159" data-origname="rdg">refranguntur</tei-rdg>
+              </tei-app> et ad medium <tei-app xml:id="d2e25163" id="d2e25163" data-origname="app">
+                <tei-lem xml:id="d2e25165" id="d2e25165" data-origname="lem">reducte sunt</tei-lem>
+                <tei-rdg wit="#β" ana="#ordinal" xml:id="d2e25167" id="d2e25167" data-origname="rdg">sunt reducte</tei-rdg>
+              </tei-app>.</tei-p>
+            <tei-p n="8" xml:id="d2e25172" id="d2e25172" data-origname="p"><tei-app xml:id="d2e25173" id="d2e25173" data-origname="app">
+              <tei-lem xml:id="d2e25175" id="d2e25175" data-origname="lem"><tei-mentioned xml:id="d2e25176" id="d2e25176" data-origname="mentioned"><tei-ref target="part38.html#ment-38.7">QUAMUIS.</tei-ref></tei-mentioned></tei-lem>
+                <tei-rdg wit="#Va #m #v" ana="#additive" xml:id="d2e25180" id="d2e25180" data-origname="rdg">Deinde.
+                  <tei-mentioned xml:id="d2e25182" id="d2e25182" data-origname="mentioned"><tei-ref target="part38.html#ment-38.7">QUAMUIS.</tei-ref></tei-mentioned></tei-rdg>
+              </tei-app>
+              Remouet <tei-app xml:id="d2e25187" id="d2e25187" data-origname="app">
+                <tei-lem xml:id="d2e25189" id="d2e25189" data-origname="lem"><tei-num type="ordinal" value="2" xml:id="d2e25190" id="d2e25190" data-origname="num">secundo</tei-num> dubitationem</tei-lem>
+                <tei-rdg wit="#Gu #Pp" ana="#subtractive #lexical #J" xml:id="d2e25194" id="d2e25194" data-origname="rdg">dubium</tei-rdg>
+              </tei-app>, 
+              quia crederet aliquis eo quod complexionatum compositum est ex vtrisque 
+              <tei-app xml:id="app-38.2a" id="app-38.2a" next="#app-38.2b" data-origname="app">
+                <tei-lem xml:id="d2e25200" id="d2e25200" data-origname="lem">extremorum non posse delectabile fore. Quod remouet, dicens</tei-lem>
+                <tei-rdg wit="#κ" ana="#subtractive" cause="homeoteleuton" xml:id="d2e25202" id="d2e25202" data-origname="rdg" data-empty="">​</tei-rdg>
+              </tei-app>
+              <tei-gloss target="#ment-38.7" xml:id="d2e25205" id="d2e25205" data-origname="gloss"><tei-app xml:id="app-38.2b" id="app-38.2b" prev="#app-38.2a" data-origname="app">
+                  <tei-lem xml:id="d2e25208" id="d2e25208" data-origname="lem">quodlibet sit complexionatum ex vtrisque</tei-lem>
+                  <tei-rdg wit="#κ" cause="homeoarchon" ana="#subtractive" xml:id="d2e25210" id="d2e25210" data-origname="rdg" data-empty="">​</tei-rdg>
+                </tei-app> extremorum excellentiis constitutum.</tei-gloss>
+              Nichilominus tamen est delectabile, 
+              quoniam ipsum constituitur ex contrariis et inequalibus, et non ex <tei-app xml:id="d2e25214" id="d2e25214" data-origname="app">
+                <tei-lem xml:id="d2e25216" id="d2e25216" data-origname="lem">omnino</tei-lem>
+                <tei-rdg wit="#Vb #m #v" ana="#lexical" xml:id="d2e25218" id="d2e25218" data-origname="rdg">non</tei-rdg>
+              </tei-app> similibus et equalibus, sic enim non <tei-app xml:id="d2e25222" id="d2e25222" data-origname="app">
+                <tei-lem xml:id="d2e25224" id="d2e25224" data-origname="lem">posset</tei-lem>
+                <tei-rdg wit="#π" ana="#morphological" xml:id="d2e25226" id="d2e25226" data-origname="rdg">potest</tei-rdg>
+              </tei-app> adeo mouere. Et ideo <tei-persName xml:id="d2e25231" id="d2e25231" data-origname="persName"><tei-ref target="back-historical-figures.html#Ty">thimoteus</tei-ref></tei-persName>
+              consonantiam fieri ait ex dissimilibus in vnam et eandem vocem venientibus, 
+              nam in vocibus que nulla equalitate discordant nulla omnino extat consonantia, 
+              cum ea sit vt tactum <tei-app xml:id="d2e25235" id="d2e25235" data-origname="app">
+                <tei-lem xml:id="d2e25237" id="d2e25237" data-origname="lem">est</tei-lem>
+                <tei-rdg wit="#β #Ea" ana="#subtractive" xml:id="d2e25239" id="d2e25239" data-origname="rdg" data-empty="">​</tei-rdg>
+              </tei-app> dissimilium inter se vocum <tei-app xml:id="d2e25242" id="d2e25242" data-origname="app">
+                <tei-lem xml:id="d2e25244" id="d2e25244" data-origname="lem">in vnum</tei-lem>
+                <tei-rdg wit="#π" ana="#subtractive #J" xml:id="d2e25246" id="d2e25246" data-origname="rdg" data-empty="">​</tei-rdg>
+              </tei-app> redacta concordia. Si enim grauis graui misceatur, nulla <tei-app xml:id="d2e25249" id="d2e25249" data-origname="app">
+                <tei-lem xml:id="d2e25251" id="d2e25251" data-origname="lem">fit</tei-lem>
+                <tei-rdg wit="#Ea #Gu #Pp" ana="#lexical #J" xml:id="d2e25253" id="d2e25253" data-origname="rdg">sit</tei-rdg>
+              </tei-app> consonantia sed dissimilitudo, <tei-app xml:id="d2e25257" id="d2e25257" data-origname="app">
+                <tei-lem xml:id="d2e25259" id="d2e25259" data-origname="lem">neque</tei-lem>
+                <tei-rdg wit="#Vo" ana="#lexical #J" xml:id="d2e25261" id="d2e25261" data-origname="rdg">ne</tei-rdg>
+              </tei-app> similiter si acutum iungatur acuto. 
+              <tei-persName xml:id="d2e25265" id="d2e25265" data-origname="persName"><tei-ref target="back-historical-figures.html#Pl">Plato</tei-ref></tei-persName> siquidem voluit <tei-app xml:id="d2e25270" id="d2e25270" data-origname="app">
+                <tei-lem xml:id="d2e25272" id="d2e25272" data-origname="lem">taliter</tei-lem>
+                <tei-rdg wit="#λ" ana="#morphological" xml:id="d2e25274" id="d2e25274" data-origname="rdg">talem</tei-rdg>
+                <tei-rdg wit="#π" ana="#additive #J" xml:id="d2e25277" id="d2e25277" data-origname="rdg">tradere taliter</tei-rdg>
+              </tei-app> <tei-app xml:id="d2e25281" id="d2e25281" data-origname="app">
+                <tei-lem xml:id="d2e25283" id="d2e25283" data-origname="lem">consonantiam</tei-lem>
+                <tei-rdg wit="#Ea #Va" ana="#morphological" xml:id="d2e25285" id="d2e25285" data-origname="rdg">consonantia</tei-rdg>
+              </tei-app> in aure causari, necesse quidem ait sonum velociorem <tei-app xml:id="d2e25289" id="d2e25289" data-origname="app">
+                <tei-lem xml:id="d2e25291" id="d2e25291" data-origname="lem">esse</tei-lem>
+                <tei-rdg wit="#λ" ana="#additive" xml:id="d2e25293" id="d2e25293" data-origname="rdg">esse et</tei-rdg>
+              </tei-app> acutiorem, qui cum precesserit grauem ingreditur celeriter 
+              in aurem ipsius ledens extremitatem intrinsecam. Et ideo quasi pulsus cum <tei-app xml:id="d2e25297" id="d2e25297" data-origname="app">
+                <tei-lem xml:id="d2e25299" id="d2e25299" data-origname="lem">tanto</tei-lem>
+                <tei-rdg wit="#Px #Py #Vo" ana="#lexical" xml:id="d2e25301" id="d2e25301" data-origname="rdg">canto</tei-rdg>
+              </tei-app> motu <tei-app xml:id="d2e25305" id="d2e25305" data-origname="app">
+                <tei-lem xml:id="d2e25307" id="d2e25307" data-origname="lem">retro reuertitur</tei-lem>
+                <tei-rdg wit="#β #γ #Ma #Vz" ana="#lexical" xml:id="d2e25309" id="d2e25309" data-origname="rdg">retrouertitur</tei-rdg>
+              </tei-app>, et quia iam pigrescit exire, obuiat graui subintranti et sibi commiscetur 
+              consonantiam constituens musicalem. Id tamen vt visum est dictis non conuenit 
+              <tei-persName xml:id="d2e25313" id="d2e25313" data-origname="persName"><tei-ref target="back-historical-figures.html#Ty">thimotei</tei-ref></tei-persName>.</tei-p>
+          </tei-div></tei-div></tei-div></tei-body></tei-text></tei-TEI><div style="display:none;"><tei-div type="section" xml:id="bibliography-manuscripts" id="bibliography-manuscripts" data-origname="div">
+              <tei-head xml:id="d2e481" id="d2e481" data-origname="head">Manuscripts</tei-head>
+              <tei-listWit xml:id="α" id="α" data-origname="listWit">
+                <tei-head xml:id="d2e485" id="d2e485" data-origname="head">Pietro's first version (<tei-abbr type="siglum" xml:id="d2e487" id="d2e487" data-origname="abbr">α</tei-abbr>)</tei-head>
+                <tei-witness xml:id="β" id="β" data-origname="witness"><tei-abbr type="siglum" xml:id="d2e492" id="d2e492" data-origname="abbr">β</tei-abbr>
+                  <tei-name xml:id="d2e495" id="d2e495" data-origname="name">Consensus of N<tei-hi rend="superscript" xml:id="d2e497" id="d2e497" data-origname="hi">u</tei-hi> and P<tei-hi rend="superscript" xml:id="d2e500" id="d2e500" data-origname="hi">y</tei-hi>, where N<tei-hi rend="superscript" xml:id="d2e503" id="d2e503" data-origname="hi">u</tei-hi> is extant</tei-name>
+                  <tei-listWit xml:id="d2e507" id="d2e507" data-origname="listWit">
+                    <tei-witness xml:id="Nu" id="Nu" data-origname="witness">
+                      <tei-abbr type="siglum" xml:id="d2e511" id="d2e511" data-origname="abbr">N<tei-hi rend="superscript" xml:id="d2e513" id="d2e513" data-origname="hi">u</tei-hi></tei-abbr>
+                      <tei-name xml:id="d2e516" id="d2e516" data-origname="name">Nuremberg, Stadtbibliothek, Cent. III.38</tei-name>, <tei-locus from="61v" to="64v" xml:id="d2e518" id="d2e518" data-origname="locus">ff. 61v–64v</tei-locus>
+                      <tei-date notAfter="1389" xml:id="d2e521" id="d2e521" data-origname="date">before 1389</tei-date>
+                    </tei-witness>
+                    <tei-witness xml:id="Py" id="Py" data-origname="witness">
+                      <tei-abbr type="siglum" xml:id="d2e527" id="d2e527" data-origname="abbr">P<tei-hi rend="superscript" xml:id="d2e529" id="d2e529" data-origname="hi">y</tei-hi></tei-abbr>
+                      <tei-name xml:id="d2e532" id="d2e532" data-origname="name">Paris, Bibliothèque Nationale man. lat. 6541</tei-name> (accessed
+                      2022-01-03), <tei-locus from="179v" to="191v" xml:id="d2e534" id="d2e534" data-origname="locus">ff. 179v–91v</tei-locus>
+                      <tei-date xml:id="d2e537" id="d2e537" data-origname="date">fourteenth century</tei-date>. <tei-ptr target="http://gallica.bnf.fr/ark:/12148/btv1b9068411m.r=6541" xml:id="d2e539" id="d2e539" data-origname="ptr" data-empty="">​</tei-ptr>
+                    </tei-witness>
+                  </tei-listWit></tei-witness>
+                <tei-witness xml:id="γ" id="γ" data-origname="witness">
+                  <tei-abbr type="siglum" xml:id="d2e545" id="d2e545" data-origname="abbr">γ</tei-abbr>
+                  <tei-title xml:id="d2e548" id="d2e548" data-origname="title">Consensus of V<tei-hi rend="superscript" xml:id="d2e550" id="d2e550" data-origname="hi">a</tei-hi> and V<tei-hi rend="superscript" xml:id="d2e553" id="d2e553" data-origname="hi">b</tei-hi></tei-title>
+                  <tei-listWit xml:id="d2e556" id="d2e556" data-origname="listWit">
+                    <tei-witness xml:id="Va" id="Va" data-origname="witness">
+                      <tei-abbr type="siglum" xml:id="d2e560" id="d2e560" data-origname="abbr">V<tei-hi rend="superscript" xml:id="d2e562" id="d2e562" data-origname="hi">a</tei-hi></tei-abbr>
+                      <tei-name xml:id="d2e565" id="d2e565" data-origname="name">Vatican, Biblioteca Apostolica lat. 2174</tei-name> (accessed 2022-01-03),
+                        <tei-locus from="72r" to="77r" xml:id="d2e567" id="d2e567" data-origname="locus">ff. 72r–77r</tei-locus>
+                      <tei-date xml:id="d2e570" id="d2e570" data-origname="date">fourteenth century</tei-date>. <tei-ptr target="https://digi.vatlib.it/view/MSS_Vat.lat.2174" xml:id="d2e572" id="d2e572" data-origname="ptr" data-empty="">​</tei-ptr>
+                    </tei-witness>
+                    <tei-witness xml:id="Vb" id="Vb" data-origname="witness">
+                      <tei-abbr type="siglum" xml:id="d2e577" id="d2e577" data-origname="abbr">V<tei-hi rend="superscript" xml:id="d2e579" id="d2e579" data-origname="hi">b</tei-hi></tei-abbr>
+                      <tei-name xml:id="d2e582" id="d2e582" data-origname="name">Vatican, Biblioteca Apostolica lat. 2175</tei-name> (accessed 2022-01-03),
+                        <tei-locus from="107v" to="116r" xml:id="d2e584" id="d2e584" data-origname="locus">ff. 107–16r</tei-locus>
+                      <tei-date xml:id="d2e587" id="d2e587" data-origname="date">fifteenth century</tei-date>. <tei-ptr target="https://digi.vatlib.it/view/MSS_Vat.lat.2175" xml:id="d2e589" id="d2e589" data-origname="ptr" data-empty="">​</tei-ptr>
+                    </tei-witness>
+                  </tei-listWit>
+                </tei-witness>
+                <tei-witness xml:id="Ea" id="Ea" data-origname="witness">
+                  <tei-abbr type="siglum" xml:id="d2e596" id="d2e596" data-origname="abbr">E<tei-hi rend="superscript" xml:id="d2e598" id="d2e598" data-origname="hi">a</tei-hi></tei-abbr>
+                  <tei-name xml:id="d2e601" id="d2e601" data-origname="name">Erfurt, Bibliothek Amploniana fol. 15</tei-name>, <tei-locus from="136v" to="147r" xml:id="d2e603" id="d2e603" data-origname="locus">ff. 136v–47r</tei-locus>
+                  <tei-date xml:id="d2e606" id="d2e606" data-origname="date">early fourteenth century</tei-date>
+                </tei-witness>
+              </tei-listWit>
+              <tei-listWit xml:id="κ" id="κ" data-origname="listWit">
+                <tei-head xml:id="d2e612" id="d2e612" data-origname="head">Pietro's revised version (<tei-abbr type="siglum" xml:id="d2e614" id="d2e614" data-origname="abbr">κ</tei-abbr>)</tei-head>
+                <tei-witness xml:id="Px" id="Px" data-origname="witness">
+                  <tei-abbr type="siglum" xml:id="d2e620" id="d2e620" data-origname="abbr">P<tei-hi rend="superscript" xml:id="d2e622" id="d2e622" data-origname="hi">x</tei-hi></tei-abbr>
+                  <tei-name xml:id="d2e625" id="d2e625" data-origname="name">Paris, Bibliothèque Nationale man. lat. 6540</tei-name> (accessed 2022-01-03),
+                    <tei-locus from="154v" to="164v" xml:id="d2e627" id="d2e627" data-origname="locus">ff. 154v-64v</tei-locus>
+                  <tei-date xml:id="d2e630" id="d2e630" data-origname="date">Fourteenth century</tei-date>. <tei-note xml:id="d2e632" id="d2e632" data-origname="note"><tei-origPlace xml:id="d2e633" id="d2e633" data-origname="origPlace">Italy</tei-origPlace></tei-note>. <tei-ptr target="http://gallica.bnf.fr/ark:/12148/btv1b90684121.r=6540" xml:id="d2e636" id="d2e636" data-origname="ptr" data-empty="">​</tei-ptr>
+                </tei-witness>
+                <tei-witness xml:id="λ" id="λ" data-origname="witness">
+                  <tei-abbr type="siglum" xml:id="d2e641" id="d2e641" data-origname="abbr">λ</tei-abbr>
+                  <tei-name xml:id="d2e644" id="d2e644" data-origname="name">Consensus of M<tei-hi rend="superscript" xml:id="d2e646" id="d2e646" data-origname="hi">a</tei-hi>, V<tei-hi rend="superscript" xml:id="d2e649" id="d2e649" data-origname="hi">m</tei-hi>,
+                    and V<tei-hi rend="superscript" xml:id="d2e652" id="d2e652" data-origname="hi">z</tei-hi></tei-name>
+                  <tei-listWit xml:id="d2e655" id="d2e655" data-origname="listWit">
+                    <tei-witness xml:id="Ma" id="Ma" data-origname="witness">
+                      <tei-abbr type="siglum" xml:id="d2e659" id="d2e659" data-origname="abbr">M<tei-hi rend="superscript" xml:id="d2e661" id="d2e661" data-origname="hi">a</tei-hi></tei-abbr>
+                      <tei-name xml:id="d2e664" id="d2e664" data-origname="name">Cesena, Malatestiana D.XXIV.2</tei-name> (accessed 2022-01-03), <tei-locus from="96v" to="104r" xml:id="d2e666" id="d2e666" data-origname="locus">ff. 96v–104r</tei-locus>
+                      <tei-date notAfter="1381" xml:id="d2e669" id="d2e669" data-origname="date">before 1381</tei-date>. <tei-ptr target="http://catalogoaperto.malatestiana.it/elenco-libri/libro/?saggioid=DX.24.02" xml:id="d2e672" id="d2e672" data-origname="ptr" data-empty="">​</tei-ptr>
+                    </tei-witness>
+                    <tei-witness xml:id="Vm" id="Vm" data-origname="witness">
+                      <tei-abbr type="siglum" xml:id="d2e677" id="d2e677" data-origname="abbr">V<tei-hi rend="superscript" xml:id="d2e679" id="d2e679" data-origname="hi">m</tei-hi></tei-abbr>
+                      <tei-name xml:id="d2e682" id="d2e682" data-origname="name">Venice, Biblioteca Nazionale Marciana, lat. VI. 126</tei-name>, <tei-locus from="95r" to="100r" xml:id="d2e684" id="d2e684" data-origname="locus">ff. 95r–100r</tei-locus>
+                      <tei-date xml:id="d2e687" id="d2e687" data-origname="date">fifteenth century</tei-date>
+                    </tei-witness>
+                    <tei-witness xml:id="Vz" id="Vz" data-origname="witness">
+                      <tei-abbr type="siglum" xml:id="d2e692" id="d2e692" data-origname="abbr">V<tei-hi rend="superscript" xml:id="d2e694" id="d2e694" data-origname="hi">z</tei-hi></tei-abbr>
+                      <tei-name xml:id="d2e697" id="d2e697" data-origname="name">Venice, Biblioteca Nazionale Marciana, lat. Z. 263</tei-name>, <tei-locus from="48v" to="70r" xml:id="d2e699" id="d2e699" data-origname="locus">ff. 48v–70r</tei-locus>
+                      <tei-date xml:id="d2e702" id="d2e702" data-origname="date">ca. fourteenth century, or after 1451 on the basis of watermark</tei-date>. 
+                      <tei-note xml:id="d2e704" id="d2e704" data-origname="note">On paper, in one column</tei-note>
+                    </tei-witness>
+                    <tei-witness xml:id="Mb" id="Mb" data-origname="witness">
+                      <tei-abbr type="siglum" xml:id="d2e709" id="d2e709" data-origname="abbr">M<tei-hi rend="superscript" xml:id="d2e711" id="d2e711" data-origname="hi">b</tei-hi></tei-abbr>
+                      <tei-name xml:id="d2e714" id="d2e714" data-origname="name">Cesena, Malatestiana S.VI.2/3</tei-name> (accessed 2022-01-03), <tei-locus n="S.VI.3" from="38v" to="56r" xml:id="d2e716" id="d2e716" data-origname="locus">S.VI.3, ff. 38v–56r</tei-locus>
+                      <tei-date xml:id="d2e719" id="d2e719" data-origname="date">1381</tei-date>. <tei-ptr target="http://catalogoaperto.malatestiana.it/elenco-libri/libro/?saggioid=SX.06.03" xml:id="d2e721" id="d2e721" data-origname="ptr" data-empty="">​</tei-ptr><tei-note xml:id="d2e722" id="d2e722" data-origname="note">A copy of M<tei-hi rend="superscript" xml:id="d2e724" id="d2e724" data-origname="hi">a</tei-hi></tei-note>
+                    </tei-witness>
+                  </tei-listWit>
+                </tei-witness>
+              </tei-listWit>
+              <tei-listWit xml:id="d2e731" id="d2e731" data-origname="listWit">
+                <tei-head xml:id="d2e733" id="d2e733" data-origname="head">Jean de Jandun's redaction</tei-head>
+                <tei-witness xml:id="π" id="π" data-origname="witness">
+                  <tei-abbr type="siglum" xml:id="d2e737" id="d2e737" data-origname="abbr">π</tei-abbr>
+                  <tei-name xml:id="d2e740" id="d2e740" data-origname="name">Collated manuscripts</tei-name>
+                  <tei-listWit xml:id="d2e742" id="d2e742" data-origname="listWit">
+                    <tei-witness xml:id="Gu" id="Gu" data-origname="witness">
+                      <tei-abbr type="siglum" xml:id="d2e746" id="d2e746" data-origname="abbr">G<tei-hi rend="superscript" xml:id="d2e748" id="d2e748" data-origname="hi">u</tei-hi></tei-abbr>
+                      <tei-name xml:id="d2e751" id="d2e751" data-origname="name">Ghent, Bibliothéek van de Rijksuniversiteit, ms. 72</tei-name> (accessed
+                      2022-01-03), <tei-locus from="234r" to="249v" xml:id="d2e753" id="d2e753" data-origname="locus">ff. 234r–49v</tei-locus>
+                      <tei-date xml:id="d2e756" id="d2e756" data-origname="date">fourteenth century</tei-date>. <tei-ptr target="http://lib.ugent.be/catalog/rug01:000802948" xml:id="d2e758" id="d2e758" data-origname="ptr" data-empty="">​</tei-ptr>
+                    </tei-witness>
+                    <tei-witness xml:id="Pp" id="Pp" data-origname="witness">
+                      <tei-abbr type="siglum" xml:id="d2e763" id="d2e763" data-origname="abbr">P<tei-hi rend="superscript" xml:id="d2e765" id="d2e765" data-origname="hi">p</tei-hi></tei-abbr>
+                      <tei-name xml:id="d2e768" id="d2e768" data-origname="name">Paris, Bibliothèque Nationale man. lat. 6542</tei-name> (accessed
+                      2022-01-03), <tei-locus from="183v" to="194v" xml:id="d2e770" id="d2e770" data-origname="locus">ff. 183v–94v</tei-locus>
+                      <tei-date xml:id="d2e773" id="d2e773" data-origname="date">1385</tei-date>. <tei-ptr target="http://gallica.bnf.fr/ark:/12148/btv1b10721259d/f1.item.r=6542" xml:id="d2e775" id="d2e775" data-origname="ptr" data-empty="">​</tei-ptr>
+                    </tei-witness>
+                    <tei-witness xml:id="Pu" id="Pu" data-origname="witness">
+                      <tei-abbr type="siglum" xml:id="d2e780" id="d2e780" data-origname="abbr">P<tei-hi rend="superscript" xml:id="d2e782" id="d2e782" data-origname="hi">u</tei-hi></tei-abbr>
+                      <tei-name xml:id="d2e785" id="d2e785" data-origname="name">Paris, Bibliothèque de l'Université 122</tei-name>, <tei-locus from="114v" to="123r" xml:id="d2e787" id="d2e787" data-origname="locus">114v–23r</tei-locus>
+                      <tei-date xml:id="d2e790" id="d2e790" data-origname="date">fifteenth century</tei-date>
+                    </tei-witness>
+                    <tei-witness xml:id="Pz" id="Pz" data-origname="witness">
+                      <tei-abbr type="siglum" xml:id="d2e795" id="d2e795" data-origname="abbr">P<tei-hi rend="superscript" xml:id="d2e797" id="d2e797" data-origname="hi">z</tei-hi></tei-abbr>
+                      <tei-name xml:id="d2e800" id="d2e800" data-origname="name">Paris, Bibliothèque Nationale man. lat. 6541A</tei-name> (accessed
+                      2022-01-03), <tei-locus from="179r" to="192r" xml:id="d2e802" id="d2e802" data-origname="locus">ff. 179r-92r</tei-locus>
+                      <tei-date xml:id="d2e805" id="d2e805" data-origname="date">fourteenth century</tei-date>. <tei-ptr target="http://gallica.bnf.fr/ark:/12148/btv1b90680829/f2" xml:id="d2e807" id="d2e807" data-origname="ptr" data-empty="">​</tei-ptr><tei-msDesc xml:id="d2e808" id="d2e808" data-origname="msDesc">
+                        <tei-msIdentifier xml:id="d2e810" id="d2e810" data-origname="msIdentifier">
+                          <tei-objectName xml:id="d2e812" id="d2e812" data-origname="objectName">Pz</tei-objectName>
+                        </tei-msIdentifier>
+                        <tei-physDesc xml:id="d2e815" id="d2e815" data-origname="physDesc">
+                          <tei-handDesc hands="2" xml:id="d2e817" id="d2e817" data-origname="handDesc">
+                            <tei-handNote xml:id="Pzh2" id="Pzh2" data-origname="handNote">
+                              <tei-abbr type="siglum" xml:id="d2e821" id="d2e821" data-origname="abbr">P<tei-hi rend="superscript" xml:id="d2e823" id="d2e823" data-origname="hi">z2</tei-hi></tei-abbr> is
+                              responsible for the header, and writes in an ink that has faded
+                              significantly. It may be the same scribe who wrote the large initials
+                              which begin each problem. </tei-handNote>
+                          </tei-handDesc>
+                        </tei-physDesc>
+                      </tei-msDesc>
+                    </tei-witness>
+                    <tei-witness xml:id="Vo" id="Vo" data-origname="witness">
+                      <tei-abbr type="siglum" xml:id="d2e833" id="d2e833" data-origname="abbr">V<tei-hi rend="superscript" xml:id="d2e835" id="d2e835" data-origname="hi">o</tei-hi></tei-abbr>
+                      <tei-name xml:id="d2e838" id="d2e838" data-origname="name">Vatican, Biblioteca Apostolica Ottobon. lat. 1764</tei-name>, <tei-locus from="147r" to="157v" xml:id="d2e840" id="d2e840" data-origname="locus">ff. 147r–57v</tei-locus>
+                      <tei-date xml:id="d2e843" id="d2e843" data-origname="date">fourteenth century</tei-date>
+                    </tei-witness>
+                  </tei-listWit>
+                </tei-witness>
+                <tei-witness xml:id="d2e848" id="d2e848" data-origname="witness">
+                  <tei-name xml:id="d2e850" id="d2e850" data-origname="name">Other manuscripts from the Jean de Jandun redaction</tei-name>
+                  <tei-listWit xml:id="d2e852" id="d2e852" data-origname="listWit">
+                    <tei-witness xml:id="Ca" id="Ca" data-origname="witness">
+                      <tei-abbr type="siglum" xml:id="d2e856" id="d2e856" data-origname="abbr">C<tei-hi rend="superscript" xml:id="d2e858" id="d2e858" data-origname="hi">a</tei-hi></tei-abbr>
+                      <tei-name xml:id="d2e861" id="d2e861" data-origname="name">Cambridge, Peterhouse 79</tei-name>, <tei-locus from="76r" to="81v" xml:id="d2e863" id="d2e863" data-origname="locus">ff.
+                        76r–81v</tei-locus>
+                      <tei-date xml:id="d2e866" id="d2e866" data-origname="date">fourteenth century</tei-date>
+                    </tei-witness>
+                    <tei-witness xml:id="Pa" id="Pa" data-origname="witness">
+                      <tei-abbr type="siglum" xml:id="d2e871" id="d2e871" data-origname="abbr">P<tei-hi rend="superscript" xml:id="d2e873" id="d2e873" data-origname="hi">a</tei-hi></tei-abbr>
+                      <tei-name xml:id="d2e876" id="d2e876" data-origname="name">Paris, Bibliothèque Arsenal, 723</tei-name>, <tei-locus from="183v" to="197r" xml:id="d2e878" id="d2e878" data-origname="locus">ff. 183v–97r</tei-locus>
+                      <tei-date xml:id="d2e881" id="d2e881" data-origname="date">fourteenth century</tei-date>
+                    </tei-witness>
+                    <tei-witness xml:id="Pq" id="Pq" data-origname="witness">
+                      <tei-abbr type="siglum" xml:id="d2e886" id="d2e886" data-origname="abbr">P<tei-hi rend="superscript" xml:id="d2e888" id="d2e888" data-origname="hi">q</tei-hi></tei-abbr>
+                      <tei-name xml:id="d2e891" id="d2e891" data-origname="name">Paris, Bibliothèque Nationale man. lat. 15454</tei-name>, <tei-locus from="127r" to="136r" xml:id="d2e893" id="d2e893" data-origname="locus">ff. 127r–36r</tei-locus>
+                      <tei-date xml:id="d2e896" id="d2e896" data-origname="date">fifteenth century</tei-date>
+                    </tei-witness>
+                    <tei-witness xml:id="Sc" id="Sc" data-origname="witness">
+                      <tei-abbr type="siglum" xml:id="d2e901" id="d2e901" data-origname="abbr">S<tei-hi rend="superscript" xml:id="d2e903" id="d2e903" data-origname="hi">c</tei-hi></tei-abbr>
+                      <tei-name xml:id="d2e906" id="d2e906" data-origname="name">Seville, Biblioteca Colombina, 7.7.9</tei-name>, <tei-locus from="121r" xml:id="d2e908" id="d2e908" data-origname="locus">ff. 121r
+                        ff.</tei-locus>
+                      <tei-date xml:id="d2e911" id="d2e911" data-origname="date">fourteenth to fifteenth century</tei-date>
+                    </tei-witness>
+                    <tei-witness xml:id="Vc" id="Vc" data-origname="witness">
+                      <tei-abbr type="siglum" xml:id="d2e916" id="d2e916" data-origname="abbr">V<tei-hi rend="superscript" xml:id="d2e918" id="d2e918" data-origname="hi">c</tei-hi></tei-abbr>
+                      <tei-name xml:id="d2e921" id="d2e921" data-origname="name">Vatican, Biblioteca Apostolica lat. 2176</tei-name> (accessed 2022-01-03),
+                        <tei-locus from="62r" to="65r" xml:id="d2e923" id="d2e923" data-origname="locus">ff. 62r–65r</tei-locus>
+                      <tei-date xml:id="d2e926" id="d2e926" data-origname="date">fourteenth century</tei-date>. <tei-ptr target="https://digi.vatlib.it/view/MSS_Vat.lat.2176" xml:id="d2e928" id="d2e928" data-origname="ptr" data-empty="">​</tei-ptr>
+                    </tei-witness>
+                  </tei-listWit>
+                </tei-witness>
+              </tei-listWit>
+            </tei-div></div><div style="display:none;"><tei-div type="section" xml:id="bibliography-early-editions" id="bibliography-early-editions" data-origname="div">
+              <tei-head xml:id="d2e937" id="d2e937" data-origname="head">Editions: Witnesses</tei-head>
+              <tei-listWit xml:id="early-editions" id="early-editions" data-origname="listWit">
+                <tei-witness xml:id="m" id="m" data-origname="witness">
+                  <tei-abbr type="siglum" xml:id="d2e943" id="d2e943" data-origname="abbr">m</tei-abbr>
+                  <tei-bibl xml:id="d2e946" id="d2e946" data-origname="bibl">
+                    <tei-editor xml:id="d2e948" id="d2e948" data-origname="editor"><tei-name xml:id="d2e949" id="d2e949" data-origname="name">Illarius, Stephanus</tei-name></tei-editor>. <tei-title xml:id="d2e951" id="d2e951" data-origname="title">Expositio succinta
+                      problematum Aristotelis quam Petrus edidit Paduanus</tei-title> (accessed
+                    2022-01-03). <tei-pubPlace xml:id="d2e953" id="d2e953" data-origname="pubPlace">Mantua</tei-pubPlace>: <tei-publisher xml:id="d2e955" id="d2e955" data-origname="publisher">Paulus de
+                      Butzbach</tei-publisher>, <tei-date xml:id="d2e957" id="d2e957" data-origname="date">1475</tei-date>. <tei-ptr target="http://daten.digitale-sammlungen.de/~db/0006/bsb00068444/images/" xml:id="d2e960" id="d2e960" data-origname="ptr" data-empty="">​</tei-ptr>
+                  </tei-bibl>
+                </tei-witness>
+                <tei-witness xml:id="v" id="v" data-origname="witness">
+                  <tei-abbr type="siglum" xml:id="d2e966" id="d2e966" data-origname="abbr">v</tei-abbr>
+                  <tei-bibl xml:id="d2e969" id="d2e969" data-origname="bibl">
+                    <tei-editor xml:id="d2e971" id="d2e971" data-origname="editor"><tei-name xml:id="d2e972" id="d2e972" data-origname="name">Anonymous</tei-name></tei-editor>. <tei-title xml:id="d2e974" id="d2e974" data-origname="title">Expositio preclarissimi atque
+                      eximii artium ac medicine doctoris Petri de Ebano Patauini in librorum
+                      problematum Aristotelis</tei-title> (accessed 2022-01-03).
+                      <tei-pubPlace xml:id="d2e976" id="d2e976" data-origname="pubPlace">[Venice]</tei-pubPlace>: <tei-publisher xml:id="d2e978" id="d2e978" data-origname="publisher">Johannes Herbort</tei-publisher>,
+                      <tei-date xml:id="d2e980" id="d2e980" data-origname="date">1482</tei-date>. <tei-ptr target="http://daten.digitale-sammlungen.de/~db/0005/bsb00058463/images/" xml:id="d2e983" id="d2e983" data-origname="ptr" data-empty="">​</tei-ptr>
+                  </tei-bibl>
+                </tei-witness>
+              </tei-listWit>
+            </tei-div></div></div><div id="controls" class=""><div id="citesearch"><form><label for="getcite">Find citation</label> <input type="text" name="getcite"/> <button onclick="resolveCite(); return false;">Go</button></form></div><div id="editing"><ul><li><button onclick="app.undo()" title="undo"><svg class="svg-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#undo-icon"/></svg></button></li><li><button onclick="app.redo()" title="redo"><svg class="svg-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#redo-icon"/></svg></button></li><li><button onclick="while (app.log.length &gt; 0) {app.undo();}" title="undo all"><svg class="svg-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#reload-icon"/></svg></button></li></ul></div><div id="display"><form class=""><ul><li><input type="checkbox" name="orthographical" value="true"/><label for="orthographical">Hide orthographical variants</label></li><li><input type="checkbox" name="morphological" value="true"/><label for="morphological">Hide morphological variants</label></li><li><input type="checkbox" name="lexical" value="true"/><label for="lexical">Hide lexical variants</label></li></ul></form></div><div id="navigation"><ul><li>Preface<ul><li><a href="preface-section-1.html">I. Pietro d’Abano’s Expositio problematum Aristotelis</a></li><li><a href="preface-section-2.html">II. The Textual Tradition</a></li><li><a href="preface-section-3.html">III. Pietro d’Abano’s Practices of Quotation</a></li><li><a href="preface-section-4.html">IV. Principles of Edition</a></li><li><a href="preface-section-5.html">V. Bibliography</a></li></ul></li><li><a href="bibliography-manuscripts.html">Manuscripts</a></li><li><a href="bibliography-early-editions.html">Editions: Witnesses</a></li><li>Particula XIX: De harmonia<ul><li><a href="part1.html">Primum problema</a></li><li><a href="part2.html">Secundum problema</a></li><li><a href="part3.html">Tertium problema</a></li><li><a href="part4.html">Quartum problema</a></li><li><a href="part5.html">Quintum problema</a></li><li><a href="part6.html">Sextum problema</a></li><li><a href="part7.html">Septimum problema</a></li><li><a href="part8.html">Octauum problema</a></li><li><a href="part9.html">Nonum problem</a></li><li><a href="part10.html">Decimum problema</a></li><li><a href="part11.html">Vndecimum problema</a></li><li><a href="part12.html">Duodecimum
+                  problema</a></li><li><a href="part13.html">Tertiumdecimum
+                  problema</a></li><li><a href="part14.html">Quartumdecimum
+                  problema</a></li><li><a href="part15.html">Quintumdecimum
+                  problema</a></li><li><a href="part16.html">Sextumdecimum problema</a></li><li><a href="part17.html">Decimumseptimum
+                  problema</a></li><li><a href="part18.html">Decimumoctauum
+                  problema</a></li><li><a href="part19.html">Decimumnonum problema</a></li><li><a href="part20.html">Vigesimum problem</a></li><li><a href="part21.html">Vigesimumprimum
+                  problema</a></li><li><a href="part22.html">Vigesimumsecundum problema</a></li><li><a href="part23.html">Vigesimumtertium
+                  problema</a></li><li><a href="part24.html">Vigesimumquartum
+                  problema</a></li><li><a href="part25.html">Vigesimumquintum problema</a></li><li><a href="part26.html">Vigesimumsextum
+                  problema</a></li><li><a href="part27.html">Vigesimumseptimum problema</a></li><li><a href="part28.html">Vigesimumoctauum problema</a></li><li><a href="part29.html">Vigesimumnonum
+                  problema</a></li><li><a href="part30.html">Trigesimum problema</a></li><li><a href="part31.html">Trigesimumprimum problema</a></li><li><a href="part32.html">Trigesimumsecundum
+                  problema</a></li><li><a href="part33.html">Trigesimumtertium problema</a></li><li><a href="part34.html">Trigesimumquartum problema</a></li><li><a href="part35.html">Trigesimumquintum problema</a></li><li><a href="part36.html">Trigesimumsextum problema</a></li><li><a href="part37.html">Trigesimumseptimum problema</a></li><li><a href="part38.html">Trigesimumoctauum problema</a></li><li><a href="part39.html">Trigesimumnonum problema</a></li><li><a href="part40.html">Quadragesimum problema</a></li><li><a href="part41.html">Quadragesimumprimum problema</a></li><li><a href="part42.html">Quadragesimumsecundum problema</a></li><li><a href="part43.html">Quadragesimumtertium problema</a></li><li><a href="part44.html">Quadragesimumquartum problema</a></li><li><a href="part45.html">Quadragesimumquintum problema</a></li><li><a href="part46.html">Quadragesimumsextum problema</a></li><li><a href="part47.html">Quadragesimumseptimum problema</a></li><li><a href="part48.html">Quadragesimumoctauum problema</a></li><li><a href="part49.html">Quadragesimumnonum problema</a></li><li><a href="part50.html">Quinquagesimum problema</a></li></ul></li><li>Back Matter<ul><li><a href="back-historical-figures.html">Historical Figures</a></li><li><a href="back-list-works-cited.html">Works Cited</a></li></ul></li></ul></div></div>

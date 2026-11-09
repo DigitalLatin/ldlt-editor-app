@@ -1,0 +1,677 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bellum Alexandrinum: 26.1–2</title>
+    <link rel="shortcut icon" href="/assets/images/favicon.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/css/styles.css"/>
+    <link rel="stylesheet" href="/assets/css/tei-html.css"/>
+    <link rel="stylesheet" href="/assets/js/jquery-ui-1.11.4.custom/jquery-ui.css"/>
+    <script type="text/javascript" src="/assets/js/CETEI.js"></script>
+    <script type="text/javascript" src="/assets/js/jquery/jquery-1.11.3.js"></script>
+    <script type="text/javascript" src="/assets/js/jquery-ui-1.11.4.custom/jquery-ui.js"></script>
+    <script type="text/javascript" src="/assets/js/appcrit.js"></script>
+    <script type="text/javascript" src="/assets/js/behaviors.js"></script>
+  </head>
+  <body>
+    <!-- Credit for this hack goes to https://code-boxx.com/lock-screen-orientation/ -->
+    <!-- (A) THIS WILL SHOW ON THE WRONG ORIENTATION -->
+    <div id="turn">
+      <p>Please rotate your device!</p>
+      <img src="/assets/images/DLL_logo_web_medium.png" alt="Digital Latin Library Home" />
+    </div>
+
+    <!-- (B) CONTENTS AS USUAL -->
+    <div id="container">
+      <svg class="svg-icon" style="display:none;">
+    <symbol id="note-icon" viewBox="0 0 20 20">
+        <path
+            d="M14.999,8.543c0,0.229-0.188,0.417-0.416,0.417H5.417C5.187,8.959,5,8.772,5,8.543s0.188-0.417,0.417-0.417h9.167C14.812,8.126,14.999,8.314,14.999,8.543 M12.037,10.213H5.417C5.187,10.213,5,10.4,5,10.63c0,0.229,0.188,0.416,0.417,0.416h6.621c0.229,0,0.416-0.188,0.416-0.416C12.453,10.4,12.266,10.213,12.037,10.213 M14.583,6.046H5.417C5.187,6.046,5,6.233,5,6.463c0,0.229,0.188,0.417,0.417,0.417h9.167c0.229,0,0.416-0.188,0.416-0.417C14.999,6.233,14.812,6.046,14.583,6.046 M17.916,3.542v10c0,0.229-0.188,0.417-0.417,0.417H9.373l-2.829,2.796c-0.117,0.116-0.71,0.297-0.71-0.296v-2.5H2.5c-0.229,0-0.417-0.188-0.417-0.417v-10c0-0.229,0.188-0.417,0.417-0.417h15C17.729,3.126,17.916,3.313,17.916,3.542 M17.083,3.959H2.917v9.167H6.25c0.229,0,0.417,0.187,0.417,0.416v1.919l2.242-2.215c0.079-0.077,0.184-0.12,0.294-0.12h7.881V3.959z">
+        </path>
+    </symbol>
+    <symbol id="rdg-icon" viewBox="0 0 20 20">
+        <path
+            d="M17.659,3.681H8.468c-0.211,0-0.383,0.172-0.383,0.383v2.681H2.341c-0.21,0-0.383,0.172-0.383,0.383v6.126c0,0.211,0.172,0.383,0.383,0.383h1.532v2.298c0,0.566,0.554,0.368,0.653,0.27l2.569-2.567h4.437c0.21,0,0.383-0.172,0.383-0.383v-2.681h1.013l2.546,2.567c0.242,0.249,0.652,0.065,0.652-0.27v-2.298h1.533c0.211,0,0.383-0.172,0.383-0.382V4.063C18.042,3.853,17.87,3.681,17.659,3.681 M11.148,12.87H6.937c-0.102,0-0.199,0.04-0.27,0.113l-2.028,2.025v-1.756c0-0.211-0.172-0.383-0.383-0.383H2.724V7.51h5.361v2.68c0,0.21,0.172,0.382,0.383,0.382h2.68V12.87z M17.276,9.807h-1.533c-0.211,0-0.383,0.172-0.383,0.383v1.755L13.356,9.92c-0.07-0.073-0.169-0.113-0.27-0.113H8.851v-5.36h8.425V9.807z">
+        </path>
+    </symbol>
+    <symbol id="redo-icon" viewBox="0 0 20 20">
+        <path
+            d="M16.76,7.51l-5.199-5.196c-0.234-0.239-0.633-0.066-0.633,0.261v2.534c-0.267-0.035-0.575-0.063-0.881-0.063c-3.813,0-6.915,3.042-6.915,6.783c0,2.516,1.394,4.729,3.729,5.924c0.367,0.189,0.71-0.266,0.451-0.572c-0.678-0.793-1.008-1.645-1.008-2.602c0-2.348,1.93-4.258,4.303-4.258c0.108,0,0.215,0.003,0.321,0.011v2.634c0,0.326,0.398,0.5,0.633,0.262l5.199-5.193C16.906,7.891,16.906,7.652,16.76,7.51 M11.672,12.068V9.995c0-0.185-0.137-0.341-0.318-0.367c-0.219-0.032-0.49-0.05-0.747-0.05c-2.78,0-5.046,2.241-5.046,5c0,0.557,0.099,1.092,0.292,1.602c-1.261-1.111-1.979-2.656-1.979-4.352c0-3.331,2.77-6.041,6.172-6.041c0.438,0,0.886,0.067,1.184,0.123c0.231,0.043,0.441-0.134,0.441-0.366V3.472l4.301,4.3L11.672,12.068z">
+        </path>
+    </symbol>
+    <symbol id="undo-icon" viewBox="0 0 20 20">
+        <path
+            d="M3.24,7.51c-0.146,0.142-0.146,0.381,0,0.523l5.199,5.193c0.234,0.238,0.633,0.064,0.633-0.262v-2.634c0.105-0.007,0.212-0.011,0.321-0.011c2.373,0,4.302,1.91,4.302,4.258c0,0.957-0.33,1.809-1.008,2.602c-0.259,0.307,0.084,0.762,0.451,0.572c2.336-1.195,3.73-3.408,3.73-5.924c0-3.741-3.103-6.783-6.916-6.783c-0.307,0-0.615,0.028-0.881,0.063V2.575c0-0.327-0.398-0.5-0.633-0.261L3.24,7.51 M4.027,7.771l4.301-4.3v2.073c0,0.232,0.21,0.409,0.441,0.366c0.298-0.056,0.746-0.123,1.184-0.123c3.402,0,6.172,2.709,6.172,6.041c0,1.695-0.718,3.24-1.979,4.352c0.193-0.51,0.293-1.045,0.293-1.602c0-2.76-2.266-5-5.046-5c-0.256,0-0.528,0.018-0.747,0.05C8.465,9.653,8.328,9.81,8.328,9.995v2.074L4.027,7.771z">
+        </path>
+    </symbol>
+    <symbol id="reload-icon" viewBox="0 0 20 20">
+        <path
+            d="M12.319,5.792L8.836,2.328C8.589,2.08,8.269,2.295,8.269,2.573v1.534C8.115,4.091,7.937,4.084,7.783,4.084c-2.592,0-4.7,2.097-4.7,4.676c0,1.749,0.968,3.337,2.528,4.146c0.352,0.194,0.651-0.257,0.424-0.529c-0.415-0.492-0.643-1.118-0.643-1.762c0-1.514,1.261-2.747,2.787-2.747c0.029,0,0.06,0,0.09,0.002v1.632c0,0.335,0.378,0.435,0.568,0.245l3.483-3.464C12.455,6.147,12.455,5.928,12.319,5.792 M8.938,8.67V7.554c0-0.411-0.528-0.377-0.781-0.377c-1.906,0-3.457,1.542-3.457,3.438c0,0.271,0.033,0.542,0.097,0.805C4.149,10.7,3.775,9.762,3.775,8.76c0-2.197,1.798-3.985,4.008-3.985c0.251,0,0.501,0.023,0.744,0.069c0.212,0.039,0.412-0.124,0.412-0.34v-1.1l2.646,2.633L8.938,8.67z M14.389,7.107c-0.34-0.18-0.662,0.244-0.424,0.529c0.416,0.493,0.644,1.118,0.644,1.762c0,1.515-1.272,2.747-2.798,2.747c-0.029,0-0.061,0-0.089-0.002v-1.631c0-0.354-0.382-0.419-0.558-0.246l-3.482,3.465c-0.136,0.136-0.136,0.355,0,0.49l3.482,3.465c0.189,0.186,0.568,0.096,0.568-0.245v-1.533c0.153,0.016,0.331,0.022,0.484,0.022c2.592,0,4.7-2.098,4.7-4.677C16.917,9.506,15.948,7.917,14.389,7.107 M12.217,15.238c-0.251,0-0.501-0.022-0.743-0.069c-0.212-0.039-0.411,0.125-0.411,0.341v1.101l-2.646-2.634l2.646-2.633v1.116c0,0.174,0.126,0.318,0.295,0.343c0.158,0.024,0.318,0.034,0.486,0.034c1.905,0,3.456-1.542,3.456-3.438c0-0.271-0.032-0.541-0.097-0.804c0.648,0.719,1.022,1.659,1.022,2.66C16.226,13.451,14.428,15.238,12.217,15.238">
+        </path>
+    </symbol>
+</svg>
+      <div id="nav-container">
+    <div class="container">
+        <nav id="nav" class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="http://digitallatin.org/"><img src="/assets/images/DLL-logo.png" alt="Digital Latin Library Home" /></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarToggler">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="/">LDLT Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/about.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/editions.html">Editions</a>
+                            </li>
+                        </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+</div>
+        <div class="d-flex flex-column">
+            <div id="mainwrapper" class="container">    
+                <main role="main" class="container">
+                    <div class="row">
+                        <div class="col-md-10">
+                            <div id="main" class="container">
+        <div id="prevNext">
+    -
+  </div>
+<div class="TEI" id="tei"><tei-teiHeader xml:id="d2e5" id="d2e5" data-origname="teiHeader">
+      <tei-fileDesc xml:id="d2e7" id="d2e7" data-origname="fileDesc">
+         <tei-titleStmt xml:id="d2e9" id="d2e9" data-origname="titleStmt">
+            <tei-title xml:id="d2e11" id="d2e11" data-origname="title">Bellum Alexandrinum</tei-title>
+            <tei-editor ref="http://viaf.org/viaf/116523553" xml:id="d2e13" id="d2e13" data-origname="editor">Cynthia Damon, et al.</tei-editor>
+            <tei-sponsor xml:id="d2e16" id="d2e16" data-origname="sponsor">Society for Classical Studies</tei-sponsor>
+            <tei-respStmt xml:id="d2e18" id="d2e18" data-origname="respStmt">
+               <tei-resp xml:id="d2e20" id="d2e20" data-origname="resp">TEI XML encoding:</tei-resp>
+               <tei-name ref="https://orcid.org/0000-0002-8192-9385" xml:id="d2e22" id="d2e22" data-origname="name">Samuel J. Huskey</tei-name>
+            </tei-respStmt>
+            <tei-respStmt xml:id="d2e26" id="d2e26" data-origname="respStmt">
+               <tei-resp xml:id="d2e28" id="d2e28" data-origname="resp">Programming for automatic generation of TEI XML:</tei-resp>
+               <tei-name xml:id="d2e30" id="d2e30" data-origname="name">Virgina K. Felkner</tei-name>
+            </tei-respStmt>
+            <tei-respStmt xml:id="d2e34" id="d2e34" data-origname="respStmt">
+               <tei-resp xml:id="d2e36" id="d2e36" data-origname="resp">Coauthor of content related to section 2.5:</tei-resp>
+               <tei-name sameAs="#DSimons" xml:id="d2e38" id="d2e38" data-origname="name">Dallas Simons</tei-name>
+            </tei-respStmt>
+            <tei-respStmt xml:id="d2e42" id="d2e42" data-origname="respStmt">
+               <tei-resp xml:id="d2e44" id="d2e44" data-origname="resp">Coauthor of content related to sections 12.1–2 and 13.5:</tei-resp>
+               <tei-name sameAs="#Vozar" xml:id="d2e46" id="d2e46" data-origname="name">Tom Vozar</tei-name>
+            </tei-respStmt>
+            <tei-respStmt xml:id="d2e50" id="d2e50" data-origname="respStmt">
+               <tei-resp xml:id="d2e52" id="d2e52" data-origname="resp">Coauthor of content related to section 26.1–2:</tei-resp>
+               <tei-name sameAs="#Persyn" xml:id="d2e54" id="d2e54" data-origname="name">Marcie Persyn</tei-name>
+            </tei-respStmt>
+            <tei-respStmt xml:id="d2e58" id="d2e58" data-origname="respStmt">
+               <tei-resp xml:id="d2e60" id="d2e60" data-origname="resp">Coauthor of content related to sections 35.3 and 36.4–5:</tei-resp>
+               <tei-name sameAs="#Kovalchuk" xml:id="d2e62" id="d2e62" data-origname="name">Maria Kovalchuk</tei-name>
+            </tei-respStmt>
+            <tei-respStmt xml:id="d2e66" id="d2e66" data-origname="respStmt">
+               <tei-resp xml:id="d2e68" id="d2e68" data-origname="resp">Coauthor of content related to sections 47.2, 49.1, and 49.2–3:</tei-resp>
+               <tei-name sameAs="#Warnock" xml:id="d2e70" id="d2e70" data-origname="name">Tim Warnock</tei-name>
+            </tei-respStmt>
+            <tei-respStmt xml:id="d2e74" id="d2e74" data-origname="respStmt">
+               <tei-resp xml:id="d2e76" id="d2e76" data-origname="resp">Coauthor of content related to section 60.2:</tei-resp>
+               <tei-name sameAs="#Reinhardt" xml:id="d2e78" id="d2e78" data-origname="name">Isabella Reinhardt</tei-name>
+            </tei-respStmt>
+            <tei-respStmt xml:id="d2e83" id="d2e83" data-origname="respStmt">
+               <tei-resp xml:id="d2e85" id="d2e85" data-origname="resp">Coauthor of content related to sections 63.5 and 66.3–4:</tei-resp>
+               <tei-name sameAs="#Credo" xml:id="d2e87" id="d2e87" data-origname="name">Brian Credo</tei-name>
+            </tei-respStmt>
+            <tei-respStmt xml:id="d2e91" id="d2e91" data-origname="respStmt">
+               <tei-resp xml:id="d2e93" id="d2e93" data-origname="resp">Coauthor of content related to sections 67.1 and 68.1:</tei-resp>
+               <tei-name sameAs="#Bensch-Schaus" xml:id="d2e95" id="d2e95" data-origname="name">Amelia Bensch-Schaus</tei-name>
+            </tei-respStmt>
+            <tei-respStmt xml:id="d2e99" id="d2e99" data-origname="respStmt">
+               <tei-resp xml:id="d2e101" id="d2e101" data-origname="resp">Coauthor of content related to sections 72.2–3 and 74.4:</tei-resp>
+               <tei-name sameAs="#Hanson" xml:id="d2e103" id="d2e103" data-origname="name">Wes Hanson</tei-name>
+            </tei-respStmt>
+         </tei-titleStmt>
+         <tei-editionStmt xml:id="d2e108" id="d2e108" data-origname="editionStmt">
+            <tei-edition xml:id="d2e110" id="d2e110" data-origname="edition">First Edition</tei-edition>
+         </tei-editionStmt>
+         <tei-publicationStmt xml:id="d2e113" id="d2e113" data-origname="publicationStmt">
+            <tei-publisher xml:id="d2e115" id="d2e115" data-origname="publisher">The Digital Latin Library</tei-publisher>
+            <tei-address xml:id="d2e117" id="d2e117" data-origname="address">
+               <tei-street xml:id="d2e119" id="d2e119" data-origname="street">650 Parrington Oval</tei-street>
+               <tei-addrLine xml:id="d2e121" id="d2e121" data-origname="addrLine">Carnegie Building 101</tei-addrLine>
+               <tei-settlement xml:id="d2e123" id="d2e123" data-origname="settlement">Norman</tei-settlement>
+               <tei-name xml:id="d2e125" id="d2e125" data-origname="name">OK</tei-name>
+               <tei-postCode xml:id="d2e127" id="d2e127" data-origname="postCode">73071</tei-postCode>
+               <tei-country xml:id="d2e130" id="d2e130" data-origname="country">USA</tei-country>
+            </tei-address>
+            <tei-authority xml:id="d2e133" id="d2e133" data-origname="authority">The University of Oklahoma</tei-authority>
+            <tei-pubPlace xml:id="d2e135" id="d2e135" data-origname="pubPlace">Norman, OK</tei-pubPlace>
+            <tei-date xml:id="d2e137" id="d2e137" data-origname="date">2022</tei-date>
+            <tei-availability xml:id="d2e140" id="d2e140" data-origname="availability">
+               <tei-licence target="https://creativecommons.org/licenses/by-sa/4.0/legalcode" xml:id="d2e142" id="d2e142" data-origname="licence">Creative
+                  Commons Attribution-ShareAlike 4.0 International Licence (CC BY-SA 4.0)</tei-licence>
+            </tei-availability>
+         </tei-publicationStmt>
+         <tei-seriesStmt xml:id="d2e147" id="d2e147" data-origname="seriesStmt">
+            <tei-title level="s" xml:id="d2e149" id="d2e149" data-origname="title">Library of Digital Latin Texts</tei-title>
+            <tei-respStmt xml:id="d2e152" id="d2e152" data-origname="respStmt">
+               <tei-resp xml:id="d2e154" id="d2e154" data-origname="resp">Edited by</tei-resp>
+               <tei-name ref="https://orcid.org/0000-0002-8192-9385" xml:id="d2e156" id="d2e156" data-origname="name">Samuel J. Huskey</tei-name>
+            </tei-respStmt>
+            <tei-biblScope unit="volume" xml:id="d2e160" id="d2e160" data-origname="biblScope">1</tei-biblScope>
+            <tei-idno type="DOI" xml:id="d2e163" id="d2e163" data-origname="idno" data-empty="">​</tei-idno>
+         </tei-seriesStmt>
+         <tei-sourceDesc xml:id="d2e166" id="d2e166" data-origname="sourceDesc">
+            <tei-p xml:id="d2e168" id="d2e168" data-origname="p">Born digital.</tei-p>
+         </tei-sourceDesc>
+      </tei-fileDesc>
+     <tei-encodingDesc xml:id="d2e172" id="d2e172" data-origname="encodingDesc">
+       <tei-listPrefixDef xml:id="d2e174" id="d2e174" data-origname="listPrefixDef">
+         <tei-prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1" xml:id="d2e176" id="d2e176" data-origname="prefixDef" data-empty="">​</tei-prefixDef>
+       </tei-listPrefixDef>
+       <tei-refsDecl xml:id="d2e179" id="d2e179" data-origname="refsDecl">
+         
+         <tei-citeStructure match="//front/div[@xml:id='preface']" use="head" xml:id="d2e183" id="d2e183" data-origname="citeStructure">
+           
+           <tei-citeData property="dc:identifier" use="@xml:id" xml:id="d2e187" id="d2e187" data-origname="citeData" data-empty="">​</tei-citeData>
+           
+           <tei-citeData property="dc:title" use="head" xml:id="d2e191" id="d2e191" data-origname="citeData" data-empty="">​</tei-citeData>
+           
+           <tei-citeData property="function" use="'toc-entry'" xml:id="d2e196" id="d2e196" data-origname="citeData" data-empty="">​</tei-citeData>
+           <tei-citeStructure match="./div[@type='section']" use="head" delim=", " xml:id="d2e198" id="d2e198" data-origname="citeStructure">
+             <tei-citeData property="dc:title" use="head" xml:id="d2e200" id="d2e200" data-origname="citeData" data-empty="">​</tei-citeData>
+             <tei-citeData property="dc:identifier" use="@xml:id" xml:id="d2e202" id="d2e202" data-origname="citeData" data-empty="">​</tei-citeData>
+             <tei-citeData property="function" use="'toc-entry'" xml:id="d2e204" id="d2e204" data-origname="citeData" data-empty="">​</tei-citeData>
+             
+             <tei-citeData property="function" use="'split'" xml:id="d2e208" id="d2e208" data-origname="citeData" data-empty="">​</tei-citeData>
+             
+             <tei-citeData property="dc:requires" use="//front/div[@type='bibliography']" xml:id="d2e213" id="d2e213" data-origname="citeData" data-empty="">​</tei-citeData>
+           </tei-citeStructure>
+         </tei-citeStructure>
+         <tei-citeStructure match="//front/div[@xml:id='bibliography']" use="head" xml:id="d2e217" id="d2e217" data-origname="citeStructure">
+           <tei-citeData property="dc:identifier" use="@xml:id" xml:id="d2e219" id="d2e219" data-origname="citeData" data-empty="">​</tei-citeData>
+           <tei-citeData property="dc:title" use="head" xml:id="d2e221" id="d2e221" data-origname="citeData" data-empty="">​</tei-citeData>
+           <tei-citeData property="function" use="'toc-entry'" xml:id="d2e223" id="d2e223" data-origname="citeData" data-empty="">​</tei-citeData>
+           <tei-citeStructure match="./div[@type='section']" use="head" delim=", " xml:id="d2e225" id="d2e225" data-origname="citeStructure">
+             <tei-citeData property="dc:identifier" use="@xml:id" xml:id="d2e227" id="d2e227" data-origname="citeData" data-empty="">​</tei-citeData>
+             <tei-citeData property="dc:title" use="head" xml:id="d2e229" id="d2e229" data-origname="citeData" data-empty="">​</tei-citeData>
+             <tei-citeData property="function" use="'toc-entry'" xml:id="d2e231" id="d2e231" data-origname="citeData" data-empty="">​</tei-citeData>
+             <tei-citeData property="function" use="'split'" xml:id="d2e233" id="d2e233" data-origname="citeData" data-empty="">​</tei-citeData>
+           </tei-citeStructure>
+         </tei-citeStructure>
+         <tei-citeStructure match="//front/div[@xml:id='conspectus-editionum']" use="head" delim=", " xml:id="d2e237" id="d2e237" data-origname="citeStructure">
+           <tei-citeData property="dc:identifier" use="@xml:id" xml:id="d2e239" id="d2e239" data-origname="citeData" data-empty="">​</tei-citeData>
+           <tei-citeData property="dc:title" use="head" xml:id="d2e241" id="d2e241" data-origname="citeData" data-empty="">​</tei-citeData>
+           <tei-citeData property="function" use="'toc-entry'" xml:id="d2e243" id="d2e243" data-origname="citeData" data-empty="">​</tei-citeData>
+           <tei-citeData property="function" use="'split'" xml:id="d2e245" id="d2e245" data-origname="citeData" data-empty="">​</tei-citeData>
+         </tei-citeStructure>
+         
+         <tei-citeStructure match="//div[@type='edition']" use="head" xml:id="d2e251" id="d2e251" data-origname="citeStructure">
+           <tei-citeData property="dc:title" use="head" xml:id="d2e253" id="d2e253" data-origname="citeData" data-empty="">​</tei-citeData>
+           <tei-citeData property="function" use="'toc-entry'" xml:id="d2e255" id="d2e255" data-origname="citeData" data-empty="">​</tei-citeData>
+           <tei-citeStructure match="p" use="@n" unit="chapter" xml:id="d2e257" id="d2e257" data-origname="citeStructure">    
+             <tei-citeData property="dc:title" use="@n" xml:id="d2e259" id="d2e259" data-origname="citeData" data-empty="">​</tei-citeData>
+             <tei-citeData property="dc:identifier" use="@n" xml:id="d2e261" id="d2e261" data-origname="citeData" data-empty="">​</tei-citeData>
+             <tei-citeData property="function" use="'toc-entry'" xml:id="d2e263" id="d2e263" data-origname="citeData" data-empty="">​</tei-citeData>
+             <tei-citeData property="function" use="'split'" xml:id="d2e265" id="d2e265" data-origname="citeData" data-empty="">​</tei-citeData>
+             <tei-citeData property="dc:requires" use="//front/div[@xml:id='bibliography']" xml:id="d2e267" id="d2e267" data-origname="citeData" data-empty="">​</tei-citeData>
+             <tei-citeStructure match=".//seg" use="@n" delim="." unit="part" xml:id="d2e270" id="d2e270" data-origname="citeStructure" data-empty="">​</tei-citeStructure>
+           </tei-citeStructure>
+         </tei-citeStructure>
+          <tei-citeStructure match="//back/div[@type='commentary'][@xml:id='appendix-critica']" use="head" xml:id="d2e274" id="d2e274" data-origname="citeStructure">
+             <tei-citeData property="dc:identifier" use="@xml:id" xml:id="d2e276" id="d2e276" data-origname="citeData" data-empty="">​</tei-citeData>
+             <tei-citeData property="dc:title" use="head" xml:id="d2e278" id="d2e278" data-origname="citeData" data-empty="">​</tei-citeData>
+             <tei-citeData property="function" use="'toc-entry'" xml:id="d2e280" id="d2e280" data-origname="citeData" data-empty="">​</tei-citeData>
+             <tei-citeData property="function" use="'split'" xml:id="d2e282" id="d2e282" data-origname="citeData" data-empty="">​</tei-citeData>
+          </tei-citeStructure>
+         <tei-citeStructure match="//back/div[@type='commentary'][@xml:id='commentary']" use="head" xml:id="d2e285" id="d2e285" data-origname="citeStructure">
+           <tei-citeData property="dc:identifier" use="@xml:id" xml:id="d2e287" id="d2e287" data-origname="citeData" data-empty="">​</tei-citeData>
+           <tei-citeData property="dc:title" use="head" xml:id="d2e289" id="d2e289" data-origname="citeData" data-empty="">​</tei-citeData>
+           <tei-citeData property="function" use="'toc-entry'" xml:id="d2e291" id="d2e291" data-origname="citeData" data-empty="">​</tei-citeData>
+            <tei-citeStructure match="./div[@type='section']" use="head" xml:id="d2e293" id="d2e293" data-origname="citeStructure">
+               <tei-citeData property="dc:identifier" use="@xml:id" xml:id="d2e295" id="d2e295" data-origname="citeData" data-empty="">​</tei-citeData>
+               <tei-citeData property="dc:title" use="head" xml:id="d2e297" id="d2e297" data-origname="citeData" data-empty="">​</tei-citeData>
+               <tei-citeData property="function" use="'toc-entry'" xml:id="d2e299" id="d2e299" data-origname="citeData" data-empty="">​</tei-citeData>
+               <tei-citeData property="function" use="'split'" xml:id="d2e301" id="d2e301" data-origname="citeData" data-empty="">​</tei-citeData>
+            </tei-citeStructure>
+         </tei-citeStructure>
+       </tei-refsDecl>
+     </tei-encodingDesc>
+   </tei-teiHeader><tei-TEI xml:id="d2e3" id="d2e3" data-origname="TEI"><tei-text xml:id="d2e308" id="d2e308" data-origname="text"><tei-back xml:id="d2e17944" id="d2e17944" data-origname="back"><tei-div type="commentary" xml:id="commentary" id="commentary" data-origname="div"><tei-div type="section" xml:id="stba26.1-2" id="stba26.1-2" resp="#Persyn #Damon" data-origname="div">
+               <tei-head xml:id="d2e26637" id="d2e26637" data-origname="head">26.1–2</tei-head>
+
+               <tei-p rend="byline" xml:id="d2e26639" id="d2e26639" data-origname="p"><tei-hi rend="italic" xml:id="d2e26640" id="d2e26640" data-origname="hi">Marcie Persyn and Cynthia Damon</tei-hi></tei-p>
+
+               <tei-quote rend="blockquote" xml:id="d2e26643" id="d2e26643" data-origname="quote">26 (1) Sub idem tempus Mithridates Pergamenus, magnae
+                  nobilitatis domi scientiaeque in bello et uirtutis, fidei dignitatisque in
+                  amicitia Caesaris, missus in Syriam Ciliciamque initio belli Alexandrini ad
+                  auxilia arcessenda, cum magnis copiis, quas celeriter et propensissima ciuitatium
+                  uoluntate et sua diligentia confecerat, itinere pedestri, quo coniungitur Aegyptus
+                  Syriae—(2) Pelusium adducit. Idque oppidum firmo praesidio occupatum Achillae
+                  propter opportunitatem loci (namque tota Aegyptus maritimo accessu Pharo, pedestri
+                  Pelusio uelut claustris munita existimatur), repente magnis circumdatum copiis,
+                  multiplici praesidio pertinaciter propugnantibus, et copiarum magnitudine, quas
+                  integras uulneratis defessisque subiciebat, et perseuerantia constantiaque
+                  oppugnandi quo die est aggressus in suam redegit potestatem praesidiumque ibi suum
+                     collocauit.<tei-note place="foot" xml:id="d2e26645" id="d2e26645" data-origname="note">“Around the same time, Mithridates of Pergamum,
+                     a man of great prestige in Pergamum and of great wit and valor in war, and
+                     loyalty and dignity in his friendship with Caesar, having been sent into Syria
+                     and Cilicia at the start of the Alexandrian War for the sake of summoning
+                     reinforcements, with a great number of troops (which he had put together
+                     quickly thanks to both the most eager desire of the citizens and his own
+                     diligence), (2) brought (<tei-hi rend="italic" xml:id="d2e26647" id="d2e26647" data-origname="hi">sc</tei-hi>. the troops) to Pelusium by
+                     a land route, where Egypt is joined with Syria. And as for this town, held by
+                     Achillas’ strong garrison because of the location’s convenience (for all Egypt
+                     is deemed to be fortified, as if by locks, with respect to naval attack by
+                     Pharos, with respect to land attack by Pelusium), it was surrounded suddenly
+                     with a great number of troops, and, although the multifarious garrison was
+                     fighting back stubbornly, Mithridates brought it under his authority on the
+                     very day of the attack and installed his own garrison there, thanks to both the
+                     number of his own troops—he kept substituting intact troops for the wounded and
+                     the weary—and his perseverance and steadiness for fighting.”</tei-note></tei-quote>
+
+               <tei-quote rend="blockquote" type="apparatus" xml:id="d2e26651" id="d2e26651" data-origname="quote">missus <tei-hi rend="italic" xml:id="d2e26653" id="d2e26653" data-origname="hi">MU</tei-hi> | missis
+                     <tei-hi rend="italic" xml:id="d2e26656" id="d2e26656" data-origname="hi">STV</tei-hi> || cum magnis copiis <tei-hi rend="italic" xml:id="d2e26659" id="d2e26659" data-origname="hi">MUSTV</tei-hi> |
+                  magnas copias <tei-hi rend="italic" xml:id="d2e26662" id="d2e26662" data-origname="hi">Vascosanus</tei-hi> | <tei-surplus xml:id="d2e26665" id="d2e26665" data-origname="surplus">cum</tei-surplus> magnis
+                  copiis <tei-hi rend="italic" xml:id="d2e26668" id="d2e26668" data-origname="hi">Hoffmann 1890</tei-hi> (<tei-hi rend="italic" xml:id="d2e26671" id="d2e26671" data-origname="hi">u. et infra</tei-hi>)
+                  || Pelusium adducit <tei-hi rend="italic" xml:id="d2e26674" id="d2e26674" data-origname="hi">MUSTV</tei-hi> (<tei-hi rend="italic" xml:id="d2e26677" id="d2e26677" data-origname="hi">de anacolutho
+                     u. Landgraf 1891b, 8; de tempore cf. 61.4</tei-hi>) | Pelusium adduxit <tei-hi rend="italic" xml:id="d2e26680" id="d2e26680" data-origname="hi">Aldus</tei-hi> (<tei-hi rend="italic" xml:id="d2e26683" id="d2e26683" data-origname="hi">cf. 43.4</tei-hi>) | Pelusium aduenit
+                     <tei-hi rend="italic" xml:id="d2e26687" id="d2e26687" data-origname="hi">Dauisius 1727</tei-hi> (<tei-hi rend="italic" xml:id="d2e26690" id="d2e26690" data-origname="hi">cf. Liu. 42.56.3</tei-hi>)
+                  | ad Pelusium uēnit <tei-hi rend="italic" xml:id="d2e26693" id="d2e26693" data-origname="hi">Vielhaber 1879</tei-hi> (<tei-hi rend="italic" xml:id="d2e26696" id="d2e26696" data-origname="hi">cf.
+                     57.6</tei-hi>) | Pelusium accedit <tei-hi rend="italic" xml:id="d2e26699" id="d2e26699" data-origname="hi">Fleischer 1879 coll. 56.6</tei-hi>
+                  | Pelusium adductis <tei-hi rend="italic" xml:id="d2e26702" id="d2e26702" data-origname="hi">Hoffmann 1890</tei-hi> (<tei-hi rend="italic" xml:id="d2e26706" id="d2e26706" data-origname="hi">u. et
+                     supra</tei-hi>) | <tei-hi rend="italic" xml:id="d2e26709" id="d2e26709" data-origname="hi">ante</tei-hi> adducit <tei-hi rend="italic" xml:id="d2e26712" id="d2e26712" data-origname="hi">lacunam
+                     statuit Persyn uel e.g. <tei-supplied reason="lost" xml:id="d2e26714" id="d2e26714" data-origname="supplied">tres legiones</tei-supplied></tei-hi>
+                     (<tei-hi rend="italic" xml:id="d2e26717" id="d2e26717" data-origname="hi">u. BC 3.107.1 et cf. 3.4.3</tei-hi>) <tei-hi rend="italic" xml:id="d2e26720" id="d2e26720" data-origname="hi">uel</tei-hi>
+                  <tei-supplied reason="lost" xml:id="d2e26723" id="d2e26723" data-origname="supplied">eas</tei-supplied>
+                  <tei-hi rend="italic" xml:id="d2e26727" id="d2e26727" data-origname="hi">supplendam</tei-hi> | <tei-hi rend="italic" xml:id="d2e26730" id="d2e26730" data-origname="hi">alii alia</tei-hi> || idque <tei-hi rend="italic" xml:id="d2e26733" id="d2e26733" data-origname="hi">MUTV</tei-hi> (<tei-hi rend="italic" xml:id="d2e26736" id="d2e26736" data-origname="hi">cf. 3.4</tei-hi>) | idque quod <tei-hi rend="italic" xml:id="d2e26739" id="d2e26739" data-origname="hi">S</tei-hi> | quod <tei-hi rend="italic" xml:id="d2e26742" id="d2e26742" data-origname="hi">Landgraf 1891b, 8 coll. 36.3</tei-hi>
+                  || Achillae] ac(c)hil(l)ae <tei-hi rend="italic" xml:id="d2e26746" id="d2e26746" data-origname="hi">MSV</tei-hi> | achiliae <tei-hi rend="italic" xml:id="d2e26749" id="d2e26749" data-origname="hi">UT</tei-hi> | <tei-hi rend="italic" xml:id="d2e26752" id="d2e26752" data-origname="hi">an secludendum ut glossema?</tei-hi> || multiplici
+                  praesidio … propugnantibus <tei-hi rend="italic" xml:id="d2e26755" id="d2e26755" data-origname="hi">MUSTV</tei-hi> (<tei-hi rend="italic" xml:id="d2e26758" id="d2e26758" data-origname="hi">cf.
+                     Ciris 85 et u. TLL 8.1592.48–60 ‘spectat ad quantitatem’; de constructione ad
+                     sensum u. Landgraf 1888 et ad BC 3.78.4</tei-hi>) | <tei-surplus xml:id="d2e26761" id="d2e26761" data-origname="surplus">multiplici
+                     praesidio</tei-surplus> … propugnantibus <tei-hi rend="italic" xml:id="d2e26764" id="d2e26764" data-origname="hi">Gemoll</tei-hi> || ibi suum
+                     <tei-hi rend="italic" xml:id="d2e26767" id="d2e26767" data-origname="hi">UST et M<tei-hi rend="superscript" xml:id="d2e26769" id="d2e26769" data-origname="hi">mr</tei-hi></tei-hi> | suum ibi <tei-hi rend="italic" xml:id="d2e26772" id="d2e26772" data-origname="hi">MV</tei-hi>
+               </tei-quote>
+
+               <tei-p xml:id="d2e26776" id="d2e26776" data-origname="p">1. Paragraph 26 of the <tei-title xml:id="d2e26778" id="d2e26778" data-origname="title">Bellum Alexandrinum</tei-title> presents four primary
+                  difficulties, all indicated by problems of syntax or style rather than by
+                  discrepancies in the manuscript tradition: first, the tense of <tei-foreign xml:lang="la" xml:id="d2e26780" id="d2e26780" data-origname="foreign">adducit</tei-foreign>, which stands alone as a present-tense verb
+                  amid perfect-tense verbs both in the previous section and in the following clauses
+                  of paragraph 26; second, the absolute usage of <tei-foreign xml:lang="la" xml:id="d2e26783" id="d2e26783" data-origname="foreign">adducit</tei-foreign>, which is found in all the manuscripts but not used
+                  absolutely in an active form elsewhere in the Caesarian corpus; third, the strange
+                  placement and syntax of <tei-foreign xml:lang="la" xml:id="d2e26786" id="d2e26786" data-origname="foreign">Achillae</tei-foreign>, a proper noun
+                  that contributes little except a reminder of the identity of the enemy in the
+                  passage (and, because of this mnemonic value, may have originated as a helpful
+                  gloss provided by a later hand); fourth, the difficult phrase <tei-foreign xml:lang="la" xml:id="d2e26789" id="d2e26789" data-origname="foreign">multiplici praesidio</tei-foreign>, which must either be understood
+                  in a <tei-foreign xml:lang="la" xml:id="d2e26793" id="d2e26793" data-origname="foreign">constructio ad sensum</tei-foreign> as an ablative
+                  absolute with a plural participle <tei-foreign xml:lang="la" xml:id="d2e26796" id="d2e26796" data-origname="foreign">propugnantibus</tei-foreign>
+                  or be suspected as a gloss.</tei-p>
+
+               <tei-p xml:id="d2e26801" id="d2e26801" data-origname="p">The present tense of <tei-foreign xml:lang="la" xml:id="d2e26803" id="d2e26803" data-origname="foreign">adducit</tei-foreign>, upon first
+                  analysis, appears problematic because of the perfect-tense verbs that both precede
+                  and follow the verb and enmesh it within a narrative of perfective aspect;
+                  additionally, <tei-foreign xml:lang="la" xml:id="d2e26806" id="d2e26806" data-origname="foreign">adducit</tei-foreign> is linked to the subsequent
+                     <tei-foreign xml:lang="la" xml:id="d2e26809" id="d2e26809" data-origname="foreign">redegit</tei-foreign> and <tei-foreign xml:lang="la" xml:id="d2e26812" id="d2e26812" data-origname="foreign">collocauit</tei-foreign> by the conjunction -<tei-foreign xml:lang="la" xml:id="d2e26815" id="d2e26815" data-origname="foreign">que</tei-foreign>,
+                  which typically joins balanced or parallel elements.<tei-note place="foot" xml:id="d2e26819" id="d2e26819" data-origname="note">It should
+                     be noted that, although the punctuation of this edition of the <tei-hi rend="italic" xml:id="d2e26821" id="d2e26821" data-origname="hi">Bellum Alexandrinum</tei-hi> separates paragraph 26 into two
+                     distinct sentences and includes a full stop after <tei-foreign xml:lang="la" xml:id="d2e26824" id="d2e26824" data-origname="foreign">adducit</tei-foreign>, the close connection between the verbs indicated by the
+                        <tei-foreign xml:lang="la" xml:id="d2e26827" id="d2e26827" data-origname="foreign">idque</tei-foreign> and the desired balance between
+                     tenses within the paragraph remains. Other editions, including that of <tei-ref target="bibliography-early-editions.html#Aldus">Aldus</tei-ref>, have presented this entire passage as a single
+                     sentence. On the punctuation policy applied here see
+                     Damon 2015a, lxv–lxvi.</tei-note>
+                  <tei-ref target="bibliography-early-editions.html#Aldus">Aldus</tei-ref>, therefore, emended the verb to <tei-foreign xml:lang="la" xml:id="d2e26839" id="d2e26839" data-origname="foreign">adduxit</tei-foreign>; one may cite as a parallel <tei-foreign xml:lang="la" xml:id="d2e26842" id="d2e26842" data-origname="foreign">adduxit</tei-foreign> at 43.4, where it appears in a nexus of other
+                  perfect-tense verbs.</tei-p>
+
+               <tei-p xml:id="d2e26846" id="d2e26846" data-origname="p">However, a parallel for the mixture of tenses linked by a -<tei-foreign xml:lang="la" xml:id="d2e26848" id="d2e26848" data-origname="foreign">que</tei-foreign> is found elsewhere within the <tei-hi rend="italic" xml:id="d2e26851" id="d2e26851" data-origname="hi">Bellum
+                     Alexandrinum</tei-hi>, as for example at 61.4:</tei-p>
+
+               <tei-quote rend="blockquote" xml:id="d2e26855" id="d2e26855" data-origname="quote">Hunc Marcellus insequitur et quam proxime potest Vliam
+                  castra castris confert locorumque cognita natura, quo maxime rem deducere uolebat
+                  necessitate est deductus, ut neque confligeret—cuius si rei facultas esset,
+                  resistere incitatis militibus non poterat—neque uagari Cassium latius pateretur,
+                  ne plures ciuitates ea paterentur quae passi erant Cordubenses.</tei-quote>
+
+               <tei-p xml:id="d2e26858" id="d2e26858" data-origname="p">Both <tei-foreign xml:lang="la" xml:id="d2e26860" id="d2e26860" data-origname="foreign">insequitur</tei-foreign> and <tei-foreign xml:lang="la" xml:id="d2e26863" id="d2e26863" data-origname="foreign">confert</tei-foreign> are present-tense main verbs, and they are linked—after an
+                  ablative absolute and a relative clause—by a -<tei-foreign xml:lang="la" xml:id="d2e26866" id="d2e26866" data-origname="foreign">que</tei-foreign>
+                  with the perfect passive <tei-foreign xml:lang="la" xml:id="d2e26869" id="d2e26869" data-origname="foreign">est deductus</tei-foreign>, clearly in
+                  secondary sequence as it is followed by imperfect subjunctives.</tei-p>
+
+               <tei-p xml:id="d2e26873" id="d2e26873" data-origname="p">But why the mixture of tenses? For paragraph 26, the most probable explanation is
+                  the vividness of the present tense, which complements the dramatic staging of the
+                  introductory phrase <tei-foreign xml:lang="la" xml:id="d2e26875" id="d2e26875" data-origname="foreign">sub idem tempus</tei-foreign>. This same
+                  opening hook is used five times in the <tei-title xml:id="d2e26878" id="d2e26878" data-origname="title">Bellum Alexandrinum</tei-title> (at
+                  26.1, 28.1, 40.1, 42.1, 64.2), and two of these passages have clear present-tense
+                  verbs (28.1 <tei-foreign xml:lang="la" xml:id="d2e26880" id="d2e26880" data-origname="foreign">proficiscitur</tei-foreign>, 40.1 <tei-foreign xml:lang="la" xml:id="d2e26883" id="d2e26883" data-origname="foreign">concurritur</tei-foreign>), one includes an ambiguous form (64.2
+                     <tei-foreign xml:lang="la" xml:id="d2e26886" id="d2e26886" data-origname="foreign">uenit</tei-foreign>), and one a perfect passive (42.1
+                     <tei-foreign xml:lang="la" xml:id="d2e26890" id="d2e26890" data-origname="foreign">acceptum est</tei-foreign>). In those cases where <tei-foreign xml:lang="la" xml:id="d2e26893" id="d2e26893" data-origname="foreign">sub idem tempus</tei-foreign> introduces a verb of present (or
+                  potentially-present) tense, the surrounding sentences include a medley of perfect
+                  and imperfect tense verbs, as occurs in paragraph 26. Additionally, <tei-foreign xml:lang="la" xml:id="d2e26896" id="d2e26896" data-origname="foreign">adducit</tei-foreign>, being itself a verb of motion, seems to have a
+                  kinship with the first three examples of the present/potentially-present variety,
+                  offering the action anticipated by the opening phrase.</tei-p>
+
+               <tei-p xml:id="d2e26900" id="d2e26900" data-origname="p">There is clearly, then, no problem with the <tei-foreign xml:lang="la" xml:id="d2e26902" id="d2e26902" data-origname="foreign">tense</tei-foreign>
+                  of <tei-foreign xml:lang="la" xml:id="d2e26905" id="d2e26905" data-origname="foreign">adducit</tei-foreign> in this passage, and <tei-ref target="bibliography-early-editions.html#Aldus">Aldus</tei-ref>' emendation may be set aside, though it remains a
+                  helpful diagnostic emendation.</tei-p>
+
+               <tei-p xml:id="d2e26913" id="d2e26913" data-origname="p">2. The next problem likewise centers upon <tei-hi rend="italic" xml:id="d2e26915" id="d2e26915" data-origname="hi">adducit</tei-hi>, but is a
+                  matter of syntax not tense. The verb <tei-hi rend="italic" xml:id="d2e26918" id="d2e26918" data-origname="hi">adduco</tei-hi> is inherently
+                     transitive<tei-note place="foot" xml:id="d2e26921" id="d2e26921" data-origname="note">Present forms of the simplex verb <tei-foreign xml:lang="la" xml:id="d2e26923" id="d2e26923" data-origname="foreign">duco</tei-foreign> do occur in Latin literature absolutely with
+                     directional constructions, wherein the context is a military general leading
+                     his troops (<tei-hi rend="italic" xml:id="d2e26926" id="d2e26926" data-origname="hi">cf</tei-hi>. <tei-hi rend="italic" xml:id="d2e26929" id="d2e26929" data-origname="hi">TLL</tei-hi>
+                     5.1.2142.30–50). Two examples may be provided from Livy: 1.23.5 <tei-foreign xml:lang="la" xml:id="d2e26932" id="d2e26932" data-origname="foreign">ducit quam proxime ad hostem potest</tei-foreign>, and 2.39.5
+                        <tei-foreign xml:lang="la" xml:id="d2e26935" id="d2e26935" data-origname="foreign">postremum ad urbem a Pedo ducit, et ad fossas
+                        Cluilias quinque ab urbe milia passuum castris positis</tei-foreign>). While
+                        <tei-foreign xml:lang="la" xml:id="d2e26939" id="d2e26939" data-origname="foreign">adduco</tei-foreign> is a compound of this verb, the <tei-hi rend="italic" xml:id="d2e26942" id="d2e26942" data-origname="hi">TLL</tei-hi> reports only passive forms used absolutely (<tei-hi rend="italic" xml:id="d2e26945" id="d2e26945" data-origname="hi">cf. TLL</tei-hi> 1.0.602.70–603.5).</tei-note>; there are fifteen uses
+                  within the <tei-title xml:id="d2e26949" id="d2e26949" data-origname="title">Bellum Alexandrinum</tei-title>, eight of which are finite and
+                  active; all eight of these have their own direct objects (2.2, 34.5, 35.2, 42.4,
+                  43.4, 58.1, 62.1, 68.1). The present sentence lacks a direct object to complete
+                  the sense of <tei-foreign xml:lang="la" xml:id="d2e26951" id="d2e26951" data-origname="foreign">adducit</tei-foreign>. The ablative of
+                  accompaniment <tei-foreign xml:lang="la" xml:id="d2e26955" id="d2e26955" data-origname="foreign">cum magnis copiis</tei-foreign> demonstrates that
+                  Mithridates was not proceeding towards Egypt alone, but does not fulfill the need
+                  of the verb <tei-foreign xml:lang="la" xml:id="d2e26958" id="d2e26958" data-origname="foreign">adducit</tei-foreign> for an object. Various
+                  repairs have been proposed<tei-note place="foot" xml:id="d2e26961" id="d2e26961" data-origname="note"><tei-ref target="bibliography-secondary-sources.html#Fleischer">Fleischer</tei-ref> provides an effective overview of suggestions predating the
+                     end of the 19<tei-hi rend="superscript" xml:id="d2e26965" id="d2e26965" data-origname="hi">th</tei-hi> century, and concludes with
+                     Fleischer’s own well-supported correction to the text. Authors of emendations
+                     include <tei-ref target="bibliography-modern-editions.html#Stephanus">Stephanus</tei-ref>, <tei-ref target="bibliography-modern-editions.html#Vascosanus">Vascosanus</tei-ref>, <tei-ref target="bibliography-modern-editions.html#Schneider">Schneider</tei-ref>, <tei-ref target="bibliography-modern-editions.html#Dinter">Dinter</tei-ref>, <tei-ref target="bibliography-secondary-sources.html#Vielhaber1869">Vielhaber</tei-ref>,
+                     and <tei-ref target="bibliography-secondary-sources.html#Fleischer">Fleischer </tei-ref> himself, as well as
+                     Glandorp,
+                     Davisius, Landgraf, and <tei-ref target="bibliography-modern-editions.html#Klotz">Klotz</tei-ref>.</tei-note> , but attempts to repair the syntax have
+                  primarily taken two paths: the first method is to alter the verb <tei-foreign xml:lang="la" xml:id="d2e26997" id="d2e26997" data-origname="foreign">adducit</tei-foreign> to a less transitive verb, the second to emend
+                  in such a way as to provide the verb with a direct object.</tei-p>
+
+               <tei-p xml:id="d2e27001" id="d2e27001" data-origname="p">The following four emendations adapt the syntax according to the first method.</tei-p>
+
+               <tei-p xml:id="d2e27003" id="d2e27003" data-origname="p">a. <tei-ref target="bibliography-modern-editions.html#Dauisius1727">Davisius</tei-ref>, in his second edition of 1727,
+                  first suggested that <tei-foreign xml:lang="la" xml:id="d2e27008" id="d2e27008" data-origname="foreign">adducit</tei-foreign> be replaced with
+                     <tei-foreign xml:lang="la" xml:id="d2e27011" id="d2e27011" data-origname="foreign">aduenit</tei-foreign>, an intransitive verb. This suggestion
+                  was followed by both <tei-ref target="bibliography-modern-editions.html#Schneider">Schneider</tei-ref> (1888) and <tei-ref target="bibliography-modern-editions.html#Klotz">Klotz</tei-ref> (1927), and is attractive for its simplicity, but
+                  it must be noted that <tei-foreign xml:lang="la" xml:id="d2e27021" id="d2e27021" data-origname="foreign">aduenio</tei-foreign> is not found as a
+                  finite verb in the <tei-title xml:id="d2e27024" id="d2e27024" data-origname="title">Bellum Alexandrinum</tei-title>, and is only found twice in
+                  participial form (32.3 <tei-foreign xml:lang="la" xml:id="d2e27026" id="d2e27026" data-origname="foreign">dignum adueniens fructum uirtutis et
+                     animi magnitudinis tulit</tei-foreign> and, later in the same passage, <tei-foreign xml:lang="la" xml:id="d2e27029" id="d2e27029" data-origname="foreign">aduenienti Caesari occurrerunt seque ei dediderunt</tei-foreign>). In
+                  neither of these instances is a destination designated, although parallel—albeit,
+                  again, participial—forms of <tei-foreign xml:lang="la" xml:id="d2e27032" id="d2e27032" data-origname="foreign">aduenio</tei-foreign> with
+                  attendant accusatives of place do appear at Liu. 42.56.3 (<tei-foreign xml:lang="la" xml:id="d2e27035" id="d2e27035" data-origname="foreign">M. Lucretius, Chalcidem adueniens … nuntium, praetoris uerbis qui abscedere
+                     eum inde iuberet, misit</tei-foreign>) and 44.30.9 (<tei-foreign xml:lang="la" xml:id="d2e27039" id="d2e27039" data-origname="foreign">Carauantium in Cauiis Durnium oppidum aduenientem benigne accepit</tei-foreign>;
+                  see further <tei-hi rend="italic" xml:id="d2e27042" id="d2e27042" data-origname="hi">TLL</tei-hi> 1.831.40–50). Overall, participial forms
+                  are far more common in the Caesarian corpus (participial forms occurring at <tei-hi rend="italic" xml:id="d2e27045" id="d2e27045" data-origname="hi">BC</tei-hi> 2.32.12, twice at <tei-hi rend="italic" xml:id="d2e27048" id="d2e27048" data-origname="hi">BAlex</tei-hi> 32.3, <tei-hi rend="italic" xml:id="d2e27051" id="d2e27051" data-origname="hi">BAfr</tei-hi> 11.2, 23.2, 74.2, 89.2; only once in a finite form at
+                     <tei-hi rend="italic" xml:id="d2e27054" id="d2e27054" data-origname="hi">BAfr</tei-hi> 7.3). The infrequency of this verb with an
+                  accusative of destination, as well as the apparent preference for the verb in its
+                  participial form, together justify editors in continuing to search for alternative
+                  solutions.</tei-p>
+
+               <tei-p xml:id="d2e27058" id="d2e27058" data-origname="p">b. <tei-ref target="bibliography-secondary-sources.html#Vielhaber1869">Vielhaber</tei-ref>’s emendation, though made over a
+                  century later, closely corresponds with that of <tei-ref target="bibliography-modern-editions.html#Dauisius1727">Davisius</tei-ref>, and thus should be treated next. He emended the text to read
+                     <tei-foreign xml:lang="la" xml:id="d2e27066" id="d2e27066" data-origname="foreign">ad Pelusium uenit</tei-foreign>, arguing that there was a
+                  transposition of the preposition <tei-foreign xml:lang="la" xml:id="d2e27069" id="d2e27069" data-origname="foreign">ad</tei-foreign>, which later
+                  led to a misconstrual of the verb: <tei-foreign xml:lang="la" xml:id="d2e27072" id="d2e27072" data-origname="foreign">ad Pelusium
+                     uenit</tei-foreign> became <tei-foreign xml:lang="la" xml:id="d2e27076" id="d2e27076" data-origname="foreign">Pelusium ad uenit</tei-foreign> and,
+                  because the verb <tei-foreign xml:lang="la" xml:id="d2e27079" id="d2e27079" data-origname="foreign">uenit</tei-foreign> would have been
+                  abbreviated as <tei-foreign xml:lang="la" xml:id="d2e27082" id="d2e27082" data-origname="foreign">uēit</tei-foreign>, the text would resemble
+                     <tei-foreign xml:lang="la" xml:id="d2e27085" id="d2e27085" data-origname="foreign">Pelusium aduēit</tei-foreign>, easily (mis)read as “<tei-foreign xml:lang="la" xml:id="d2e27088" id="d2e27088" data-origname="foreign">Pelusium aducit</tei-foreign>.” <tei-ref target="bibliography-secondary-sources.html#Vielhaber1869">Vielhaber</tei-ref> cited 36.3 as a model for this passage (<tei-foreign xml:lang="la" xml:id="d2e27095" id="d2e27095" data-origname="foreign">magnis et continuis itineribus confectis cum aduentaret ad
+                  Nicopolim</tei-foreign>). His paleographic explanation is appealing, and, like <tei-ref target="bibliography-modern-editions.html#Dauisius1727">Davisius’</tei-ref>, his suggested emendation neatly
+                  sidesteps the lack of direct object by replacing it <tei-foreign xml:lang="la" xml:id="d2e27101" id="d2e27101" data-origname="foreign">adducit</tei-foreign> with an intransitive verb.</tei-p>
+
+               <tei-p xml:id="d2e27105" id="d2e27105" data-origname="p">
+                  <tei-foreign xml:lang="la" xml:id="d2e27107" id="d2e27107" data-origname="foreign">Venit</tei-foreign> is, additionally, far more common in the
+                     <tei-title xml:id="d2e27110" id="d2e27110" data-origname="title">Bellum Alexandrinum</tei-title> than <tei-ref target="bibliography-modern-editions.html#Dauisius1727">Davisius’</tei-ref>
+                  <tei-foreign xml:lang="la" xml:id="d2e27115" id="d2e27115" data-origname="foreign">aduenit</tei-foreign>, and is found in finite and infinitive
+                  forms twenty times in the text, and in participial forms three further times.
+                  Parallels from elsewhere in the text that can be used in support of <tei-ref target="bibliography-secondary-sources.html#Vielhaber1869">Vielhaber</tei-ref>’s emendation include 62.1, where the
+                  ablative of accompaniment <tei-foreign xml:lang="la" xml:id="d2e27122" id="d2e27122" data-origname="foreign">cum copiis</tei-foreign> shares the
+                  same function as in this paragraph (<tei-foreign xml:lang="la" xml:id="d2e27125" id="d2e27125" data-origname="foreign">paucis diebus Q. Cassi
+                     litteris acceptis rex Bogus cum copiis uenit</tei-foreign>), and 25.5, where
+                     <tei-foreign xml:lang="la" xml:id="d2e27128" id="d2e27128" data-origname="foreign">uenit</tei-foreign> is used with <tei-foreign xml:lang="la" xml:id="d2e27131" id="d2e27131" data-origname="foreign">ad</tei-foreign> (<tei-foreign xml:lang="la" xml:id="d2e27134" id="d2e27134" data-origname="foreign">cum ad Canopum uentum
+                  esset</tei-foreign>).</tei-p>
+
+               <tei-p xml:id="d2e27138" id="d2e27138" data-origname="p"><tei-ref target="bibliography-secondary-sources.html#Vielhaber1869">Vielhaber</tei-ref>’s emendation does depend on a
+                  two-step error and on the superfluous inclusion of the preposition <tei-foreign xml:lang="la" xml:id="d2e27142" id="d2e27142" data-origname="foreign">ad</tei-foreign> with <tei-foreign xml:lang="la" xml:id="d2e27145" id="d2e27145" data-origname="foreign">Pelusium</tei-foreign>, an
+                  unnecessary word despite the parallel at 25.5. Indeed, <tei-foreign xml:lang="la" xml:id="d2e27148" id="d2e27148" data-origname="foreign">uenit</tei-foreign> is used with a designated destination without a linking
+                  preposition at 63.1: … <tei-foreign xml:lang="la" xml:id="d2e27151" id="d2e27151" data-origname="foreign">et reliquorum auxiliorum uenit ea
+                     mente Vliam ut sine ullo studio contentiones Cassii Marcellique
+                     componeret</tei-foreign>.<tei-note place="foot" xml:id="d2e27154" id="d2e27154" data-origname="note">Despite the “home-Rome” rule
+                     regarding the superfluity of prepositions with proper names of cities with
+                     accusatives showing direction (see <tei-foreign xml:lang="la" xml:id="d2e27156" id="d2e27156" data-origname="foreign">AG</tei-foreign> 427.2),
+                     the <tei-hi rend="italic" xml:id="d2e27159" id="d2e27159" data-origname="hi">Bellum Alexandrinum</tei-hi> is somewhat inconsistent in this
+                     grammatical construction. At 58.1, <tei-foreign xml:lang="la" xml:id="d2e27162" id="d2e27162" data-origname="foreign">adducit</tei-foreign> is
+                     used with the preposition <tei-foreign xml:lang="la" xml:id="d2e27165" id="d2e27165" data-origname="foreign">ad Cordubam</tei-foreign>; at
+                     42.4, <tei-foreign xml:lang="la" xml:id="d2e27168" id="d2e27168" data-origname="foreign">adducit</tei-foreign> is used with <tei-foreign xml:lang="la" xml:id="d2e27172" id="d2e27172" data-origname="foreign">in</tei-foreign>
+                     <tei-foreign xml:lang="la" xml:id="d2e27175" id="d2e27175" data-origname="foreign">Macedoniam</tei-foreign>, reflecting the use of a
+                     preposition to advancement within a country (<tei-foreign xml:lang="la" xml:id="d2e27178" id="d2e27178" data-origname="foreign">AG</tei-foreign> 428c). Similarly, variations and inconsistencies exist within
+                     the Caesarian corpus. <tei-hi rend="italic" xml:id="d2e27181" id="d2e27181" data-origname="hi">BC</tei-hi> 1.36.4, <tei-hi rend="italic" xml:id="d2e27184" id="d2e27184" data-origname="hi">BC</tei-hi> 1.36.5, <tei-hi rend="italic" xml:id="d2e27187" id="d2e27187" data-origname="hi">BC</tei-hi> 1.61.5, and <tei-hi rend="italic" xml:id="d2e27191" id="d2e27191" data-origname="hi">BC</tei-hi> 3.80.4.2 offer forms of <tei-foreign xml:lang="la" xml:id="d2e27194" id="d2e27194" data-origname="foreign">adduco</tei-foreign>
+                     with destinations without separate prepositions; <tei-hi rend="italic" xml:id="d2e27197" id="d2e27197" data-origname="hi">BG</tei-hi>
+                     1.43.3, <tei-hi rend="italic" xml:id="d2e27200" id="d2e27200" data-origname="hi">BG</tei-hi> 2.1.3, and <tei-hi rend="italic" xml:id="d2e27203" id="d2e27203" data-origname="hi">BG</tei-hi> 4.18.4,
+                     on the other hand, combine forms of <tei-foreign xml:lang="la" xml:id="d2e27206" id="d2e27206" data-origname="foreign">adduco</tei-foreign>
+                     with an iterated <tei-foreign xml:lang="la" xml:id="d2e27210" id="d2e27210" data-origname="foreign">ad</tei-foreign>; whereas <tei-hi rend="italic" xml:id="d2e27213" id="d2e27213" data-origname="hi">BG</tei-hi> 4.36.2 and <tei-hi rend="italic" xml:id="d2e27216" id="d2e27216" data-origname="hi">BG</tei-hi> 5.46.3 mix the passive
+                     infinitive <tei-foreign xml:lang="la" xml:id="d2e27219" id="d2e27219" data-origname="foreign">adduci</tei-foreign> with the preposition
+                        <tei-foreign xml:lang="la" xml:id="d2e27222" id="d2e27222" data-origname="foreign">in</tei-foreign>).</tei-note> Furthermore, the fact that
+                     <tei-foreign xml:lang="la" xml:id="d2e27227" id="d2e27227" data-origname="foreign">aduenio</tei-foreign> appears in the Corpus, if only in
+                  participial forms, is a deterrent to emending it out of the present passage.</tei-p>
+
+               <tei-p xml:id="d2e27232" id="d2e27232" data-origname="p">c. <tei-ref target="bibliography-secondary-sources.html#Fleischer">Fleischer</tei-ref> proposed <tei-foreign xml:lang="la" xml:id="d2e27237" id="d2e27237" data-origname="foreign">Pelusium</tei-foreign>
+                  <tei-foreign xml:lang="la" xml:id="d2e27240" id="d2e27240" data-origname="foreign">accedit</tei-foreign>, and cited four parallels from the <tei-hi rend="italic" xml:id="d2e27243" id="d2e27243" data-origname="hi">Bellum Alexandrinum</tei-hi> of <tei-foreign xml:lang="la" xml:id="d2e27246" id="d2e27246" data-origname="foreign">accedo</tei-foreign> used with an accusative of destination without a preposition:
+                  37.3 <tei-foreign xml:lang="la" xml:id="d2e27250" id="d2e27250" data-origname="foreign">Domitius postero die propius Nicopolin accessit
+                     castraque oppido contulit</tei-foreign>, 38.1 <tei-foreign xml:lang="la" xml:id="d2e27253" id="d2e27253" data-origname="foreign">propiusque
+                     ipse Alexandriam per Syriam accederet</tei-foreign>, 56.6 <tei-foreign xml:lang="la" xml:id="d2e27256" id="d2e27256" data-origname="foreign">ipse classem quam parabat ut inspiceret, Hispalim accedit ibique
+                     moratur</tei-foreign>, 67.1 <tei-foreign xml:lang="la" xml:id="d2e27259" id="d2e27259" data-origname="foreign">cum propius Pontum finesque
+                     Gallograeciae accessisset</tei-foreign>. Though the number of parallels seems
+                  impressive, <tei-ref target="bibliography-secondary-sources.html#Fleischer">Fleischer</tei-ref> himself notes that three of
+                  his examples include the adverb <tei-foreign xml:lang="la" xml:id="d2e27265" id="d2e27265" data-origname="foreign">propius</tei-foreign>, while
+                  paragraph 26 does not.</tei-p>
+
+               <tei-p xml:id="d2e27269" id="d2e27269" data-origname="p">d. A more radical repair to the verb that attempted to emend the problems of tense
+                  and syntax was proposed by <tei-ref target="bibliography-modern-editions.html#Hoffmann1890">Hoffmann</tei-ref>, who altered
+                     <tei-foreign xml:lang="la" xml:id="d2e27274" id="d2e27274" data-origname="foreign">adducit</tei-foreign> to <tei-foreign xml:lang="la" xml:id="d2e27277" id="d2e27277" data-origname="foreign">adductis</tei-foreign> and excised <tei-foreign xml:lang="la" xml:id="d2e27280" id="d2e27280" data-origname="foreign">cum</tei-foreign>, resulting
+                  in the following:</tei-p>
+
+               <tei-quote rend="blockquote" xml:id="d2e27284" id="d2e27284" data-origname="quote"> Sub idem tempus Mithridates Pergamenus … missus in Syriam
+                  Ciliciamque initio belli Alexandrini ad auxilia arcessenda, magnis copiis, quas
+                  celeriter et propensissima civitatum uoluntate et sua diligentia confecerat,
+                  itinere pedestri, quo coniungitur Aegyptus Syriae, Pelusium adductis, id oppidum
+                  firmo praesidio occupatum Achillae propter opportunitatem loci … in suam redegit
+                  potestatem praesidiumque ibi suum collocauit.</tei-quote>
+
+               <tei-p xml:id="d2e27287" id="d2e27287" data-origname="p">This is, as is made clear from the text above, a three-part emendation: 1. <tei-ref target="bibliography-modern-editions.html#Hoffmann1890">Hoffmann</tei-ref> deleted the <tei-foreign xml:lang="la" xml:id="d2e27292" id="d2e27292" data-origname="foreign">cum</tei-foreign> of <tei-foreign xml:lang="la" xml:id="d2e27295" id="d2e27295" data-origname="foreign">cum magnis copiis</tei-foreign>, 2. he
+                  emended <tei-foreign xml:lang="la" xml:id="d2e27298" id="d2e27298" data-origname="foreign">adducit</tei-foreign> to <tei-foreign xml:lang="la" xml:id="d2e27301" id="d2e27301" data-origname="foreign">adductis</tei-foreign> (a reasonable transposition), and 3. he deleted the
+                     -<tei-foreign xml:lang="la" xml:id="d2e27305" id="d2e27305" data-origname="foreign">que</tei-foreign> of <tei-foreign xml:lang="la" xml:id="d2e27308" id="d2e27308" data-origname="foreign">idque</tei-foreign>, reducing the number of finite, indicative verbs in this lengthy
+                  sentence to two and the number of -<tei-foreign xml:lang="la" xml:id="d2e27311" id="d2e27311" data-origname="foreign">que</tei-foreign>’s to one.
+                  The distribution of these emendations, which requires a number of small errors to
+                  coordinate throughout the passage, makes his suggestion less likely; the great
+                  separation between <tei-foreign xml:lang="la" xml:id="d2e27314" id="d2e27314" data-origname="foreign">magnis copiis</tei-foreign> and <tei-foreign xml:lang="la" xml:id="d2e27317" id="d2e27317" data-origname="foreign">propugnantibus</tei-foreign>, forty-six words apart from one another,
+                  is another reason to doubt Hoffmann's emendation. Yet the repair is worth
+                  consideration because, although with each intervention his proposal becomes more
+                  unlikely, each individual emendation is plausible and his overall approach to
+                  altering the verb is of a completely different character from those that preceded
+                  him.</tei-p>
+
+               <tei-p xml:id="d2e27321" id="d2e27321" data-origname="p">There are also emendations that resolve the difficult syntax of <tei-foreign xml:lang="la" xml:id="d2e27323" id="d2e27323" data-origname="foreign">adducit</tei-foreign> without altering the form of the verb, three of
+                  which are discussed below.</tei-p>
+
+               <tei-p xml:id="d2e27327" id="d2e27327" data-origname="p">e. <tei-ref target="bibliography-modern-editions.html#Vascosanus">Vascosanus</tei-ref> replaced <tei-foreign xml:lang="la" xml:id="d2e27332" id="d2e27332" data-origname="foreign">cum
+                     magnis copiis</tei-foreign> with <tei-foreign xml:lang="la" xml:id="d2e27335" id="d2e27335" data-origname="foreign">magnas copias</tei-foreign>;
+                     <tei-ref target="bibliography-modern-editions.html#Stephanus">Stephanus</tei-ref> made the same emendation almost
+                  simultaneously. The emendation is based upon the overall sense of the passage: the
+                  ablative of accompaniment makes it clear that it is (at least in part) the
+                     <tei-foreign xml:lang="la" xml:id="d2e27341" id="d2e27341" data-origname="foreign">copiae</tei-foreign> that Mithridates led into Asia, so the
+                  deletion of <tei-foreign xml:lang="la" xml:id="d2e27345" id="d2e27345" data-origname="foreign">cum</tei-foreign> and modification of the cases of
+                     <tei-foreign xml:lang="la" xml:id="d2e27348" id="d2e27348" data-origname="foreign">magnis copiis</tei-foreign> simplifies this complex
+                  sentence. But this emendation, too, requires a two-step corruption, wherein first
+                  the accusatives shifted to ablatives, then <tei-foreign xml:lang="la" xml:id="d2e27351" id="d2e27351" data-origname="foreign">cum</tei-foreign>
+                  was inserted (or the same steps in reverse order); these changes could have
+                  occurred accidentally through transcription (though there is no nearby <tei-foreign xml:lang="la" xml:id="d2e27354" id="d2e27354" data-origname="foreign">cum</tei-foreign> that could have resulted in dittography), or the
+                  distance between the accusative and its transitive verb could have led a
+                  particularly intrusive scribe to alter the text to its detriment. Distance alone,
+                  however, was little enough cause to prompt such an innovation, as it is unclear
+                  why the ablative of accompaniment would have been inserted in place of the
+                  accusative.</tei-p>
+
+               <tei-p xml:id="d2e27359" id="d2e27359" data-origname="p">f. Landgraf in 1891 chose not to alter the paradosis
+                  at all, but rather to justify the anomalous use of <tei-foreign xml:lang="la" xml:id="d2e27363" id="d2e27363" data-origname="foreign">adducit</tei-foreign> by means of anacoluthon. Landgraf explains the lack of a
+                  direct object for <tei-foreign xml:lang="la" xml:id="d2e27366" id="d2e27366" data-origname="foreign">adducit</tei-foreign> as an error original to
+                  the text resulting from the ungainly length of the sentence, which resulted either
+                  in the author’s losing track of the syntax of his sentence or choosing rather to
+                  start again with emphasis—a subtle distinction that either demeans the style of
+                  the author of the <tei-title xml:id="d2e27369" id="d2e27369" data-origname="title">Bellum Alexandrinum</tei-title> or underscores its similarity
+                  to other prose works incorporating rhetorical figures. This is an attractive
+                  solution, as it requires no alteration of the text at all, and can be used to
+                  explain the rambling structure of this sentence with logic rather than by assuming
+                  random clumsiness of the author and ignorance of all subsequent scribes and
+                  readers. Even with anacoluthon, however, the verb <tei-foreign xml:lang="la" xml:id="d2e27371" id="d2e27371" data-origname="foreign">adducit</tei-foreign> strongly desires a direct object, even if only a resumptive
+                  deictic hearkening back to the ablative of accompaniment.</tei-p>
+
+               <tei-p xml:id="d2e27375" id="d2e27375" data-origname="p">g. Following upon Landgraf’s supposition of anacoluthon, it is additionally
+                  possible, and, indeed, my suggested emendation, that there is a lacuna of one or
+                  more words before the verb <tei-foreign xml:lang="la" xml:id="d2e27377" id="d2e27377" data-origname="foreign">adducit</tei-foreign> that included
+                  its original direct object. The grammatical problem of <tei-foreign xml:lang="la" xml:id="d2e27380" id="d2e27380" data-origname="foreign">adducit</tei-foreign> is subtle enough that no subsequent scribe would necessarily
+                  suspect a lost direct object, or indeed look for or supply a correction. The sheer
+                  length of the sentence is a likely cause for such an omission: <tei-foreign xml:lang="la" xml:id="d2e27383" id="d2e27383" data-origname="foreign">adducit</tei-foreign> occurs only at the conclusion of the long
+                  opening sentence; a lacuna may indeed have arisen precisely because of the string
+                  of genitives, participial phrases, and relative clauses that in the end masks the
+                  syntactic trouble with <tei-foreign xml:lang="la" xml:id="d2e27386" id="d2e27386" data-origname="foreign">adducit</tei-foreign>.</tei-p>
+
+               <tei-p xml:id="d2e27390" id="d2e27390" data-origname="p">It is possible that the lacuna included a number of troops, or a military unit
+                  such as a legion (cf. the list of troops provided at <tei-hi rend="italic" xml:id="d2e27392" id="d2e27392" data-origname="hi">BC</tei-hi>
+                  3.4.3–6). Mithridates, although a Pergamene, may have led legions alongside the
+                     <tei-foreign xml:lang="la" xml:id="d2e27395" id="d2e27395" data-origname="foreign">copiae</tei-foreign> he had rallied together; something
+                  similar occurs at 62.1 (<tei-foreign xml:lang="la" xml:id="d2e27398" id="d2e27398" data-origname="foreign">rex Bogus cum copiis uenit
+                     adiungitque ei legioni quam secum adduxerat conplures cohortes auxiliarias
+                     Hispanorum</tei-foreign>). Likewise, commonly abbreviated words, such as <tei-foreign xml:lang="la" xml:id="d2e27401" id="d2e27401" data-origname="foreign">nostros</tei-foreign> or deictics such as <tei-foreign xml:lang="la" xml:id="d2e27404" id="d2e27404" data-origname="foreign">eas</tei-foreign>, could easily have been lost. A lacuna doesn’t fix everything,
+                  of course, since anacoluthon is still present.</tei-p>
+
+               <tei-p xml:id="d2e27408" id="d2e27408" data-origname="p">3. The third problem in this passage is the word <tei-foreign xml:lang="la" xml:id="d2e27410" id="d2e27410" data-origname="foreign">Achillae</tei-foreign>, which, in form, could be either a genitive or a dative,
+                  and is problematic both in syntax and in its position within the sentence. There
+                  are two possible grammatical functions served by this word: either it is a dative
+                  of agency with the perfect passive participle <tei-foreign xml:lang="la" xml:id="d2e27413" id="d2e27413" data-origname="foreign">occupatum</tei-foreign> (uncommon and therefore unlikely), or it is a possessive
+                  genitive depending on <tei-foreign xml:lang="la" xml:id="d2e27416" id="d2e27416" data-origname="foreign">praesidio</tei-foreign>. The latter is a
+                  more likely reading, but the intervening word <tei-foreign xml:lang="la" xml:id="d2e27419" id="d2e27419" data-origname="foreign">occupatum</tei-foreign> makes for an awkward word order.</tei-p>
+
+               <tei-p xml:id="d2e27423" id="d2e27423" data-origname="p">The name Achillas only occurs two other times in the <tei-hi rend="italic" xml:id="d2e27425" id="d2e27425" data-origname="hi">Bellum
+                     Alexandrinum</tei-hi>, and here the word serves only to remind the reader of the
+                  identity of the stronghold’s leader. Achillas himself plays no direct role in the
+                  action of the passage. The possibility must therefore be entertained that <tei-foreign xml:lang="la" xml:id="d2e27428" id="d2e27428" data-origname="foreign">Achillae</tei-foreign> was supplied by a scribe as a gloss on the
+                  text. We therefore suggest excision as a possible repair.</tei-p>
+
+               <tei-p xml:id="d2e27432" id="d2e27432" data-origname="p">4. The final problem involves the unusual phrase <tei-foreign xml:lang="la" xml:id="d2e27434" id="d2e27434" data-origname="foreign">multiplici
+                     praesidio</tei-foreign>. As with <tei-foreign xml:lang="la" xml:id="d2e27437" id="d2e27437" data-origname="foreign">adducit</tei-foreign> above,
+                  the issue is not one of confusion within the manuscripts, for <tei-foreign xml:lang="la" xml:id="d2e27440" id="d2e27440" data-origname="foreign">multiplici praesidio</tei-foreign> is undisputedly the parodosis.
+                  Suspicion arises, however, because of the seeming tautology that arises if
+                     <tei-foreign xml:lang="la" xml:id="d2e27443" id="d2e27443" data-origname="foreign">propugnantibus</tei-foreign> is construed with <tei-foreign xml:lang="la" xml:id="d2e27446" id="d2e27446" data-origname="foreign">copiis</tei-foreign> as a drawn-out ablative absolute with a
+                  repetitive phrase contained within it. The phrase <tei-foreign xml:lang="la" xml:id="d2e27450" id="d2e27450" data-origname="foreign">multiplici praesidio</tei-foreign> complicates the surrounding ablative phrase
+                  without, at first glance, contributing additional information about the
+                  fighting—we have already been informed by <tei-foreign xml:lang="la" xml:id="d2e27453" id="d2e27453" data-origname="foreign">magnis …
+                     copiis</tei-foreign> that there are a large number of troops fighting. So, if we
+                  read <tei-foreign xml:lang="la" xml:id="d2e27456" id="d2e27456" data-origname="foreign">copiis</tei-foreign> as the noun of the ablative absolute
+                  in agreement with <tei-foreign xml:lang="la" xml:id="d2e27459" id="d2e27459" data-origname="foreign">propugnantibus</tei-foreign>, <tei-foreign xml:lang="la" xml:id="d2e27462" id="d2e27462" data-origname="foreign">multiplici praesidio</tei-foreign>, whether understood in apposition
+                  or as a locative ablative, is superfluous—or, at the very least, the term <tei-foreign xml:lang="la" xml:id="d2e27465" id="d2e27465" data-origname="foreign">multiplici</tei-foreign> is. At <tei-hi rend="italic" xml:id="d2e27469" id="d2e27469" data-origname="hi">BC</tei-hi> 1.69.4 one
+                  finds the ablative <tei-foreign xml:lang="la" xml:id="d2e27472" id="d2e27472" data-origname="foreign">praesidio</tei-foreign> used as a locative
+                  within an ablative absolute (… <tei-foreign xml:lang="la" xml:id="d2e27475" id="d2e27475" data-origname="foreign">atque omnes copiae paucis
+                     praesidio relictis cohortibus exeunt rectoque ad Hiberum itinere
+                     contendunt</tei-foreign>), but <tei-foreign xml:lang="la" xml:id="d2e27478" id="d2e27478" data-origname="foreign">multiplex</tei-foreign> occurs
+                  nowhere else in the Caesarian corpus. <tei-ref target="bibliography-secondary-sources.html#Gemoll">Gemoll</tei-ref> therefore
+                  proposed that <tei-foreign xml:lang="la" xml:id="d2e27484" id="d2e27484" data-origname="foreign">multiplici praesidio</tei-foreign> should be
+                  removed, arguing that it was inserted into the text as a gloss. <tei-ref target="bibliography-secondary-sources.html#Gemoll">Gemoll</tei-ref> is correct in positing that <tei-foreign xml:lang="la" xml:id="d2e27491" id="d2e27491" data-origname="foreign">multiplici praesidio</tei-foreign> provides little additional
+                  information: yet the fact that the phrase supplies no necessary data can also be
+                  used to rebut the probability of this phrase acting as a gloss in the first place.
+                  Glosses are meant to provide helpful information to a reader, not repeat what is
+                  already stated in a synonymous phrase; thus no scholarly scribe would find the
+                  need or desire to add it in the first place.</tei-p>
+
+               <tei-p xml:id="d2e27496" id="d2e27496" data-origname="p">But Landgraf (1888) defended the parodosis, retaining the phrase <tei-foreign xml:lang="la" xml:id="d2e27498" id="d2e27498" data-origname="foreign">multiplici praesidio</tei-foreign> but construing it, not as a
+                  parallel or subordinate detail to <tei-foreign xml:lang="la" xml:id="d2e27501" id="d2e27501" data-origname="foreign">magnis copiis</tei-foreign>,
+                  but rather as the noun paired with the participle <tei-foreign xml:lang="la" xml:id="d2e27504" id="d2e27504" data-origname="foreign">propugnantibus</tei-foreign> in the ablative absolute. <tei-ref target="bibliography-secondary-sources.html#Landgraf1888">Landgraf</tei-ref> cited Liu. 32.32.4 as a parallel for <tei-foreign xml:lang="la" xml:id="d2e27510" id="d2e27510" data-origname="foreign">praesidium</tei-foreign> used as a collective singular (<tei-foreign xml:lang="la" xml:id="d2e27514" id="d2e27514" data-origname="foreign">arcem regium tenebat praesidium neque ut decederent inde aut Opuntiorum minui
+                     aut auctoritate imperatoris Romani perpelli potuerunt</tei-foreign>). Not only can
+                     <tei-foreign xml:lang="la" xml:id="d2e27517" id="d2e27517" data-origname="foreign">praesidium</tei-foreign> function collectively, but <tei-foreign xml:lang="la" xml:id="d2e27520" id="d2e27520" data-origname="foreign">multiplex</tei-foreign>, too, may do so, and one can complement
+                  Landgraf’s defense with parallels elsewhere in Latin (see <tei-hi rend="italic" xml:id="d2e27523" id="d2e27523" data-origname="hi">TLL</tei-hi> 8.1592.48–60 ‘spectat ad quantitatem,’ where this passage is listed
+                  along with fourteen others).</tei-p>
+
+               <tei-p xml:id="d2e27527" id="d2e27527" data-origname="p">This interpretation resolves the matter, too, of the meaning of <tei-foreign xml:lang="la" xml:id="d2e27529" id="d2e27529" data-origname="foreign">propugnantibus</tei-foreign>, a <tei-foreign xml:lang="la" xml:id="d2e27532" id="d2e27532" data-origname="foreign">defensive</tei-foreign> verb that generally means “to make a sortie” or “to go out
+                  to fight,” often explicitly from walls or battlements. This is an action that
+                  befits the troops of Achillas but not those of Mithridates, who are storming a
+                  well guarded city, and thus we should not expect the <tei-foreign xml:lang="la" xml:id="d2e27535" id="d2e27535" data-origname="foreign">copiae</tei-foreign> (who belong to Mithridates) to be the subject of <tei-foreign xml:lang="la" xml:id="d2e27538" id="d2e27538" data-origname="foreign">propugnantibus</tei-foreign>. The meaning of the participle,
+                  therefore, makes the ablative absolute extending from <tei-foreign xml:lang="la" xml:id="d2e27541" id="d2e27541" data-origname="foreign">magnis</tei-foreign> to <tei-foreign xml:lang="la" xml:id="d2e27545" id="d2e27545" data-origname="foreign">propugnantibus</tei-foreign> unlikely,
+                  and favors instead Landgraf’s explanation of the paradosis. Inserted in a sentence
+                  about the operations of Mithridates’ troops, <tei-foreign xml:lang="la" xml:id="d2e27548" id="d2e27548" data-origname="foreign">multiplici
+                     praesidio pertinaciter propugnantibus</tei-foreign> reminds the careful reader of
+                  both sides of the battle and should be understood as an ablative absolute with
+                  adversative force.</tei-p>
+
+               <tei-p xml:id="d2e27552" id="d2e27552" data-origname="p">Furthermore, although <tei-foreign xml:lang="la" xml:id="d2e27554" id="d2e27554" data-origname="foreign">multiplex</tei-foreign> is not found
+                  elsewhere in the Caesarian corpus, the word itself is not uncommon word in
+                  classical Latin,<tei-note place="foot" xml:id="d2e27557" id="d2e27557" data-origname="note">A <tei-hi rend="italic" xml:id="d2e27559" id="d2e27559" data-origname="hi">Brepolis</tei-hi> search, for
+                     example, offers over nine hundred forms of the adjective from authors predating
+                     500 CE, nearly two hundred of which belong to the classical period.</tei-note> and
+                  is found frequently in historical works by authors such as Sallust and Livy, as
+                  well as in the philosophical works of Cicero. The term should not, therefore, be
+                  omitted on stylistic grounds. It even echoes nicely the previous description of
+                  Achillas’ <tei-foreign xml:lang="la" xml:id="d2e27563" id="d2e27563" data-origname="foreign">praesidium</tei-foreign> at the opening of the
+                  sentence, where it is characterized as being “<tei-foreign xml:lang="la" xml:id="d2e27566" id="d2e27566" data-origname="foreign">firmus</tei-foreign>,” and the lengthy description at <tei-hi rend="italic" xml:id="d2e27569" id="d2e27569" data-origname="hi">BC</tei-hi>
+                  3.110.1–6. <tei-foreign xml:lang="la" xml:id="d2e27573" id="d2e27573" data-origname="foreign">Multiplici,</tei-foreign> then, is a lynchpin that
+                  identifies the <tei-foreign xml:lang="la" xml:id="d2e27576" id="d2e27576" data-origname="foreign">praesidium</tei-foreign> as that of the enemy,
+                  marks the opening of the concessive ablative absolute, and emphasizes the success
+                  of Mithridates in this passage.</tei-p>
+            </tei-div></tei-div></tei-back></tei-text></tei-TEI></div>
+<div id="controls" class=""><div id="citesearch"><form><label for="getcite">Find citation</label> <input type="text" name="getcite" /> <button onclick="resolveCite(); return false;">Go</button></form></div><div id="editing"><ul><li><button onclick="app.undo()" title="undo"><svg class="svg-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#undo-icon" /></svg></button></li><li><button onclick="app.redo()" title="redo"><svg class="svg-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#redo-icon" /></svg></button></li><li><button onclick="while (app.log.length &gt; 0) {app.undo();}" title="undo all"><svg class="svg-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#reload-icon" /></svg></button></li></ul></div><div id="display"><form class=""><ul><li><input type="checkbox" name="orthographical" value="true" /><label for="orthographical">Hide orthographical variants</label></li><li><input type="checkbox" name="morphological" value="true" /><label for="morphological">Hide morphological variants</label></li><li><input type="checkbox" name="lexical" value="true" /><label for="lexical">Hide lexical variants</label></li></ul></form></div><div id="navigation"><ul><li>Preface<ul><li><a href="preface-why-a-new-edition.html">Why a new edition of the Bellum Alexandrinum?</a></li><li><a href="preface-the-bellum-alexandrinum.html">I. The Bellum Alexandrinum</a></li><li><a href="preface-constituting-the-text.html">II. Constituting the text</a></li><li><a href="preface-using-this-edition.html">III. Using this edition</a></li><li><a href="preface-additional-materials.html">Additional materials in the LDLT edition:</a></li><li><a href="preface-acknowledgements.html">Acknowledgements</a></li></ul></li><li>Bibliography<ul><li><a href="bibliography-manuscripts.html">Manuscripts</a></li><li><a href="bibliography-early-editions.html">Early Editions</a></li><li><a href="bibliography-modern-editions.html">Modern Editions</a></li><li><a href="bibliography-secondary-sources.html">Other Sources</a></li><li><a href="bibliography-list-of-people.html">List of People Cited by Name</a></li><li><a href="bibliography-abbreviations.html">Abbreviations and Other Notations</a></li></ul></li><li><a href="conspectus-editionum.html">Conspectus Editionum</a></li><li>Bellum Alexandrinum<ul><li><a href="1.html">1</a></li><li><a href="2.html">2</a></li><li><a href="3.html">3</a></li><li><a href="4.html">4</a></li><li><a href="5.html">5</a></li><li><a href="6.html">6</a></li><li><a href="7.html">7</a></li><li><a href="8.html">8</a></li><li><a href="9.html">9</a></li><li><a href="10.html">10</a></li><li><a href="11.html">11</a></li><li><a href="12.html">12</a></li><li><a href="13.html">13</a></li><li><a href="14.html">14</a></li><li><a href="15.html">15</a></li><li><a href="16.html">16</a></li><li><a href="17.html">17</a></li><li><a href="18.html">18</a></li><li><a href="19.html">19</a></li><li><a href="20.html">20</a></li><li><a href="21.html">21</a></li><li><a href="22.html">22</a></li><li><a href="23.html">23</a></li><li><a href="24.html">24</a></li><li><a href="25.html">25</a></li><li><a href="26.html">26</a></li><li><a href="27.html">27</a></li><li><a href="28.html">28</a></li><li><a href="29.html">29</a></li><li><a href="30.html">30</a></li><li><a href="31.html">31</a></li><li><a href="32.html">32</a></li><li><a href="33.html">33</a></li><li><a href="34.html">34</a></li><li><a href="35.html">35</a></li><li><a href="36.html">36</a></li><li><a href="37.html">37</a></li><li><a href="38.html">38</a></li><li><a href="39.html">39</a></li><li><a href="40.html">40</a></li><li><a href="41.html">41</a></li><li><a href="42.html">42</a></li><li><a href="43.html">43</a></li><li><a href="44.html">44</a></li><li><a href="45.html">45</a></li><li><a href="46.html">46</a></li><li><a href="47.html">47</a></li><li><a href="48.html">48</a></li><li><a href="49.html">49</a></li><li><a href="50.html">50</a></li><li><a href="51.html">51</a></li><li><a href="52.html">52</a></li><li><a href="53.html">53</a></li><li><a href="54.html">54</a></li><li><a href="55.html">55</a></li><li><a href="56.html">56</a></li><li><a href="57.html">57</a></li><li><a href="58.html">58</a></li><li><a href="59.html">59</a></li><li><a href="60.html">60</a></li><li><a href="61.html">61</a></li><li><a href="62.html">62</a></li><li><a href="63.html">63</a></li><li><a href="64.html">64</a></li><li><a href="65.html">65</a></li><li><a href="66.html">66</a></li><li><a href="67.html">67</a></li><li><a href="68.html">68</a></li><li><a href="69.html">69</a></li><li><a href="70.html">70</a></li><li><a href="71.html">71</a></li><li><a href="72.html">72</a></li><li><a href="73.html">73</a></li><li><a href="74.html">74</a></li><li><a href="75.html">75</a></li><li><a href="76.html">76</a></li><li><a href="77.html">77</a></li><li><a href="78.html">78</a></li></ul></li><li><a href="appendix-critica.html">Appendix critica</a></li><li>Studies on the Text<ul><li><a href="stba-2.5.html">2.5</a></li><li><a href="stba-7.2-3.html">7.2–3</a></li><li><a href="stba-12.1-2.html">12.1–2</a></li><li><a href="stba-13.5.html">13.5</a></li><li><a href="stba-17.1-3.html">17.1–3</a></li><li><a href="stba-22.1-2.html">22.1–2</a></li><li><a href="stba26.1-2.html">26.1–2</a></li><li><a href="stba-27.5.html">27.5</a></li><li><a href="stba-31.3.html">31.3</a></li><li><a href="stba-35.3.html">35.3</a></li><li><a href="stba-36.4-5.html">36.4–5</a></li><li><a href="stba-40.2.html">40.2</a></li><li><a href="stba-46.1.html">46.1</a></li><li><a href="stba-47.2.html">47.2</a></li><li><a href="stba-49.1.html">49.1</a></li><li><a href="stba-49.2-3.html">49.2–3</a></li><li><a href="stba-60.2.html">60.2</a></li><li><a href="stba-63.5.html">63.5</a></li><li><a href="stba-66.3-4.html">66.3–4</a></li><li><a href="stba-67.1.html">67.1</a></li><li><a href="stba-68.1.html">68.1</a></li><li><a href="stba-72.2-3.html">72.2–3</a></li><li><a href="stba-74.4.html">74.4</a></li></ul></li></ul></div></div>
+
+          </div>
+        </div>
+    </div>
+    <script>
+      let c = new CETEI({'ignoreFragmentId':true});
+      let app = new appcrit(c);
+      c.addBehaviors(behaviors);
+      c.processPage();
+      $("tei-listwit,tei-witness,tei-bibl,tei-listBibl,tei-handnote,tei-person,tei-item").each(function(i, el) {
+        if (el.hasAttribute("id")) {
+          let val = el.querySelector("tei-abbr[type=siglum]")?.innerHTML;
+          if (val) {
+            app.references['#' + el.getAttribute("id")] = val;
+          } else {
+            app.references['#' + el.getAttribute("id")] = el.getAttribute("id");
+          }
+        }
+      });
+      let tei = document.querySelector('div>tei-div[type="textpart"],[type="edition"],[type="section"],[type="commentary"]');
+      app.loadData(tei);
+      app.doSection($(tei));
+      let citables = {'1': '1.html','1.1': '1.html#1.1','1.2': '1.html#1.2','1.3': '1.html#1.3','1.4': '1.html#1.4','1.5': '1.html#1.5','2': '2.html','2.1': '2.html#2.1','2.2': '2.html#2.2','2.3': '2.html#2.3','2.4': '2.html#2.4','2.5': '2.html#2.5','3': '3.html','3.1': '3.html#3.1','3.2': '3.html#3.2','3.3': '3.html#3.3','3.4': '3.html#3.4','4': '4.html','4.1': '4.html#4.1','4.2': '4.html#4.2','5': '5.html','5.1': '5.html#5.1','5.2': '5.html#5.2','5.3': '5.html#5.3','6': '6.html','6.1': '6.html#6.1','6.2': '6.html#6.2','6.3': '6.html#6.3','7': '7.html','7.1': '7.html#7.1','7.2': '7.html#7.2','7.3': '7.html#7.3','8': '8.html','8.1': '8.html#8.1','8.2': '8.html#8.2','8.3': '8.html#8.3','8.4': '8.html#8.4','8.5': '8.html#8.5','8.6': '8.html#8.6','9': '9.html','9.1': '9.html#9.1','9.2': '9.html#9.2','9.3': '9.html#9.3','9.4': '9.html#9.4','10': '10.html','10.1': '10.html#10.1','10.2': '10.html#10.2','10.3': '10.html#10.3','10.4': '10.html#10.4','10.5': '10.html#10.5','10.6': '10.html#10.6','11': '11.html','11.1': '11.html#11.1','11.2': '11.html#11.2','11.3': '11.html#11.3','11.4': '11.html#11.4','11.5': '11.html#11.5','11.6': '11.html#11.6','12': '12.html','12.1': '12.html#12.1','12.2': '12.html#12.2','12.3': '12.html#12.3','12.4': '12.html#12.4','13': '13.html','13.1': '13.html#13.1','13.2': '13.html#13.2','13.3': '13.html#13.3','13.4': '13.html#13.4','13.5': '13.html#13.5','13.6': '13.html#13.6','14': '14.html','14.1': '14.html#14.1','14.2': '14.html#14.2','14.3': '14.html#14.3','14.4': '14.html#14.4','14.5': '14.html#14.5','15': '15.html','15.1': '15.html#15.1','15.2': '15.html#15.2','15.3': '15.html#15.3','15.4': '15.html#15.4','15.5': '15.html#15.5','15.6': '15.html#15.6','15.7': '15.html#15.7','15.8': '15.html#15.8','16': '16.html','16.1': '16.html#16.1','16.2': '16.html#16.2','16.3': '16.html#16.3','16.4': '16.html#16.4','16.5': '16.html#16.5','16.6': '16.html#16.6','16.7': '16.html#16.7','17': '17.html','17.1': '17.html#17.1','17.2': '17.html#17.2','17.3': '17.html#17.3','17.4': '17.html#17.4','17.5': '17.html#17.5','17.6': '17.html#17.6','18': '18.html','18.1': '18.html#18.1','18.2': '18.html#18.2','18.3': '18.html#18.3','18.4': '18.html#18.4','19': '19.html','19.1': '19.html#19.1','19.2': '19.html#19.2','19.3': '19.html#19.3','19.4': '19.html#19.4','19.5': '19.html#19.5','19.6': '19.html#19.6','20': '20.html','20.1': '20.html#20.1','20.2': '20.html#20.2','20.3': '20.html#20.3','20.4': '20.html#20.4','20.5': '20.html#20.5','20.6': '20.html#20.6','21': '21.html','21.1': '21.html#21.1','21.2': '21.html#21.2','21.3': '21.html#21.3','21.4': '21.html#21.4','21.5': '21.html#21.5','22': '22.html','22.1': '22.html#22.1','22.2': '22.html#22.2','23': '23.html','23.1': '23.html#23.1','23.2': '23.html#23.2','24': '24.html','24.1': '24.html#24.1','24.2': '24.html#24.2','24.3': '24.html#24.3','24.4': '24.html#24.4','24.5': '24.html#24.5','24.6': '24.html#24.6','25': '25.html','25.1': '25.html#25.1','25.2': '25.html#25.2','25.3': '25.html#25.3','25.4': '25.html#25.4','25.5': '25.html#25.5','25.6': '25.html#25.6','26': '26.html','26.1': '26.html#26.1','26.2': '26.html#26.2','26.3': '26.html#26.3','27': '27.html','27.1': '27.html#27.1','27.2': '27.html#27.2','27.3': '27.html#27.3','27.4': '27.html#27.4','27.5': '27.html#27.5','27.6': '27.html#27.6','27.7': '27.html#27.7','28': '28.html','28.1': '28.html#28.1','28.2': '28.html#28.2','28.3': '28.html#28.3','29': '29.html','29.1': '29.html#29.1','29.2': '29.html#29.2','29.3': '29.html#29.3','29.4': '29.html#29.4','29.5': '29.html#29.5','30': '30.html','30.1': '30.html#30.1','30.2': '30.html#30.2','30.3': '30.html#30.3','30.4': '30.html#30.4','30.5': '30.html#30.5','30.6': '30.html#30.6','31': '31.html','31.1': '31.html#31.1','31.2': '31.html#31.2','31.3': '31.html#31.3','31.4': '31.html#31.4','31.5': '31.html#31.5','31.6': '31.html#31.6','32': '32.html','32.1': '32.html#32.1','32.2': '32.html#32.2','32.3': '32.html#32.3','32.4': '32.html#32.4','33': '33.html','33.1': '33.html#33.1','33.2': '33.html#33.2','33.3': '33.html#33.3','33.4': '33.html#33.4','34': '34.html','34.1': '34.html#34.1','34.2': '34.html#34.2','34.3': '34.html#34.3','34.4': '34.html#34.4','34.5': '34.html#34.5','35': '35.html','35.1': '35.html#35.1','35.2': '35.html#35.2','35.3': '35.html#35.3','36': '36.html','36.1': '36.html#36.1','36.2': '36.html#36.2','36.3': '36.html#36.3','36.4': '36.html#36.4','36.5': '36.html#36.5','37': '37.html','37.1': '37.html#37.1','37.2': '37.html#37.2','37.3': '37.html#37.3','37.4': '37.html#37.4','37.5': '37.html#37.5','38': '38.html','38.1': '38.html#38.1','38.2': '38.html#38.2','38.3': '38.html#38.3','38.4': '38.html#38.4','39': '39.html','39.1': '39.html#39.1','39.2': '39.html#39.2','40': '40.html','40.1': '40.html#40.1','40.2': '40.html#40.2','40.3': '40.html#40.3','40.4': '40.html#40.4','40.5': '40.html#40.5','41': '41.html','41.1': '41.html#41.1','41.2': '41.html#41.2','42': '42.html','42.1': '42.html#42.1','42.2': '42.html#42.2','42.3': '42.html#42.3','42.4': '42.html#42.4','42.5': '42.html#42.5','43': '43.html','43.1': '43.html#43.1','43.2': '43.html#43.2','43.3': '43.html#43.3','44': '44.html','44.1': '44.html#44.1','44.2': '44.html#44.2','44.3': '44.html#44.3','44.4': '44.html#44.4','44.5': '44.html#44.5','45': '45.html','45.1': '45.html#45.1','45.2': '45.html#45.2','45.3': '45.html#45.3','45.4': '45.html#45.4','46': '46.html','46.1': '46.html#46.1','46.2': '46.html#46.2','46.3': '46.html#46.3','46.4': '46.html#46.4','46.5': '46.html#46.5','46.6': '46.html#46.6','46.7': '46.html#46.7','47': '47.html','47.1': '47.html#47.1','47.2': '47.html#47.2','47.3': '47.html#47.3','47.4': '47.html#47.4','47.5': '47.html#47.5','48': '48.html','48.1': '48.html#48.1','48.2': '48.html#48.2','48.3': '48.html#48.3','49': '49.html','49.1': '49.html#49.1','49.2': '49.html#49.2','49.3': '49.html#49.3','50': '50.html','50.1': '50.html#50.1','50.2': '50.html#50.2','50.3': '50.html#50.3','51': '51.html','51.1': '51.html#51.1','51.2': '51.html#51.2','51.3': '51.html#51.3','51.4': '51.html#51.4','52': '52.html','52.1': '52.html#52.1','52.2': '52.html#52.2','52.3': '52.html#52.3','52.4': '52.html#52.4','53': '53.html','53.1': '53.html#53.1','53.2': '53.html#53.2','53.3': '53.html#53.3','53.4': '53.html#53.4','53.5': '53.html#53.5','54': '54.html','54.1': '54.html#54.1','54.2': '54.html#54.2','54.3': '54.html#54.3','55': '55.html','55.1': '55.html#55.1','55.2': '55.html#55.2','55.3': '55.html#55.3','55.4': '55.html#55.4','55.5': '55.html#55.5','56': '56.html','56.1': '56.html#56.1','56.2': '56.html#56.2','56.3': '56.html#56.3','56.4': '56.html#56.4','56.5': '56.html#56.5','56.6': '56.html#56.6','57': '57.html','57.1': '57.html#57.1','57.2': '57.html#57.2','57.3': '57.html#57.3','57.4': '57.html#57.4','57.5': '57.html#57.5','57.6': '57.html#57.6','58': '58.html','58.1': '58.html#58.1','58.2': '58.html#58.2','58.3': '58.html#58.3','58.4': '58.html#58.4','59': '59.html','59.1': '59.html#59.1','59.2': '59.html#59.2','60': '60.html','60.1': '60.html#60.1','60.2': '60.html#60.2','60.3': '60.html#60.3','60.4': '60.html#60.4','60.5': '60.html#60.5','61': '61.html','61.1': '61.html#61.1','61.2': '61.html#61.2','61.3': '61.html#61.3','61.4': '61.html#61.4','61.5': '61.html#61.5','61.6': '61.html#61.6','62': '62.html','62.1': '62.html#62.1','62.2': '62.html#62.2','63': '63.html','63.1': '63.html#63.1','63.2': '63.html#63.2','63.3': '63.html#63.3','63.4': '63.html#63.4','63.5': '63.html#63.5','63.6': '63.html#63.6','64': '64.html','64.1': '64.html#64.1','64.2': '64.html#64.2','64.3': '64.html#64.3','65': '65.html','65.1': '65.html#65.1','65.2': '65.html#65.2','65.3': '65.html#65.3','65.4': '65.html#65.4','66': '66.html','66.1': '66.html#66.1','66.2': '66.html#66.2','66.3': '66.html#66.3','66.4': '66.html#66.4','66.5': '66.html#66.5','67': '67.html','67.1': '67.html#67.1','67.2': '67.html#67.2','68': '68.html','68.1': '68.html#68.1','68.2': '68.html#68.2','69': '69.html','69.1': '69.html#69.1','69.2': '69.html#69.2','69.3': '69.html#69.3','70': '70.html','70.1': '70.html#70.1','70.2': '70.html#70.2','70.3': '70.html#70.3','70.4': '70.html#70.4','70.5': '70.html#70.5','70.6': '70.html#70.6','70.7': '70.html#70.7','70.8': '70.html#70.8','71': '71.html','71.1': '71.html#71.1','71.2': '71.html#71.2','72': '72.html','72.1': '72.html#72.1','72.2': '72.html#72.2','72.3': '72.html#72.3','73': '73.html','73.1': '73.html#73.1','73.2': '73.html#73.2','73.3': '73.html#73.3','74': '74.html','74.1': '74.html#74.1','74.2': '74.html#74.2','74.3': '74.html#74.3','74.4': '74.html#74.4','75': '75.html','75.1': '75.html#75.1','75.2': '75.html#75.2','75.3': '75.html#75.3','76': '76.html','76.1': '76.html#76.1','76.2': '76.html#76.2','76.3': '76.html#76.3','76.4': '76.html#76.4','77': '77.html','77.1': '77.html#77.1','77.2': '77.html#77.2','78': '78.html','78.1': '78.html#78.1','78.2': '78.html#78.2','78.3': '78.html#78.3','78.4': '78.html#78.4','78.5': '78.html#78.5',};
+      let resolveCite = function() {
+        window.location = citables[document.querySelector("input[name=getcite]").value.toString()];
+      }
+      const links = Array.from(document.getElementById('navigation').querySelectorAll('a:not([href*="#"])')); 
+      const pg = window.location.pathname.replace(/.*\/([^\/]+)$/,'$1');
+      const prevNext = document.getElementById('prevNext');
+      prevNext.innerHTML = "";
+      for (let i = 0; i < links.length; i++) {
+        if (links[i].getAttribute('href') == pg) {
+          if (i > 0) {
+            prevNext.innerHTML += "↤ "
+            prevNext.innerHTML += links[i-1].outerHTML;
+            if (i < links.length - 1) {
+              prevNext.innerHTML += " | ";
+            }
+          }
+          if (i < links.length - 1) {
+            prevNext.innerHTML += links[i+1].outerHTML;
+            prevNext.innerHTML += " ↦";
+          }
+        }
+        if (links[i].innerHTML.length < 4) {
+          links[i].parentElement.parentElement.classList.add('inline');
+
+        }
+      }
+    </script>
+  </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</html>

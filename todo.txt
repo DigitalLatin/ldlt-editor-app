@@ -1,0 +1,1 @@
+1. Links encoded with <tei-ref> are not working. They probably need to be <a> instead?

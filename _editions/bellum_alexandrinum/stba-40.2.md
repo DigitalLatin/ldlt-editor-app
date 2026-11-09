@@ -1,0 +1,375 @@
+---
+layout: edition
+title: "Bellum Alexandrinum: 40.2"
+citables: "{'1': '1.html','1.1': '1.html#1.1','1.2': '1.html#1.2','1.3': '1.html#1.3','1.4': '1.html#1.4','1.5': '1.html#1.5','2': '2.html','2.1': '2.html#2.1','2.2': '2.html#2.2','2.3': '2.html#2.3','2.4': '2.html#2.4','2.5': '2.html#2.5','3': '3.html','3.1': '3.html#3.1','3.2': '3.html#3.2','3.3': '3.html#3.3','3.4': '3.html#3.4','4': '4.html','4.1': '4.html#4.1','4.2': '4.html#4.2','5': '5.html','5.1': '5.html#5.1','5.2': '5.html#5.2','5.3': '5.html#5.3','6': '6.html','6.1': '6.html#6.1','6.2': '6.html#6.2','6.3': '6.html#6.3','7': '7.html','7.1': '7.html#7.1','7.2': '7.html#7.2','7.3': '7.html#7.3','8': '8.html','8.1': '8.html#8.1','8.2': '8.html#8.2','8.3': '8.html#8.3','8.4': '8.html#8.4','8.5': '8.html#8.5','8.6': '8.html#8.6','9': '9.html','9.1': '9.html#9.1','9.2': '9.html#9.2','9.3': '9.html#9.3','9.4': '9.html#9.4','10': '10.html','10.1': '10.html#10.1','10.2': '10.html#10.2','10.3': '10.html#10.3','10.4': '10.html#10.4','10.5': '10.html#10.5','10.6': '10.html#10.6','11': '11.html','11.1': '11.html#11.1','11.2': '11.html#11.2','11.3': '11.html#11.3','11.4': '11.html#11.4','11.5': '11.html#11.5','11.6': '11.html#11.6','12': '12.html','12.1': '12.html#12.1','12.2': '12.html#12.2','12.3': '12.html#12.3','12.4': '12.html#12.4','13': '13.html','13.1': '13.html#13.1','13.2': '13.html#13.2','13.3': '13.html#13.3','13.4': '13.html#13.4','13.5': '13.html#13.5','13.6': '13.html#13.6','14': '14.html','14.1': '14.html#14.1','14.2': '14.html#14.2','14.3': '14.html#14.3','14.4': '14.html#14.4','14.5': '14.html#14.5','15': '15.html','15.1': '15.html#15.1','15.2': '15.html#15.2','15.3': '15.html#15.3','15.4': '15.html#15.4','15.5': '15.html#15.5','15.6': '15.html#15.6','15.7': '15.html#15.7','15.8': '15.html#15.8','16': '16.html','16.1': '16.html#16.1','16.2': '16.html#16.2','16.3': '16.html#16.3','16.4': '16.html#16.4','16.5': '16.html#16.5','16.6': '16.html#16.6','16.7': '16.html#16.7','17': '17.html','17.1': '17.html#17.1','17.2': '17.html#17.2','17.3': '17.html#17.3','17.4': '17.html#17.4','17.5': '17.html#17.5','17.6': '17.html#17.6','18': '18.html','18.1': '18.html#18.1','18.2': '18.html#18.2','18.3': '18.html#18.3','18.4': '18.html#18.4','19': '19.html','19.1': '19.html#19.1','19.2': '19.html#19.2','19.3': '19.html#19.3','19.4': '19.html#19.4','19.5': '19.html#19.5','19.6': '19.html#19.6','20': '20.html','20.1': '20.html#20.1','20.2': '20.html#20.2','20.3': '20.html#20.3','20.4': '20.html#20.4','20.5': '20.html#20.5','20.6': '20.html#20.6','21': '21.html','21.1': '21.html#21.1','21.2': '21.html#21.2','21.3': '21.html#21.3','21.4': '21.html#21.4','21.5': '21.html#21.5','22': '22.html','22.1': '22.html#22.1','22.2': '22.html#22.2','23': '23.html','23.1': '23.html#23.1','23.2': '23.html#23.2','24': '24.html','24.1': '24.html#24.1','24.2': '24.html#24.2','24.3': '24.html#24.3','24.4': '24.html#24.4','24.5': '24.html#24.5','24.6': '24.html#24.6','25': '25.html','25.1': '25.html#25.1','25.2': '25.html#25.2','25.3': '25.html#25.3','25.4': '25.html#25.4','25.5': '25.html#25.5','25.6': '25.html#25.6','26': '26.html','26.1': '26.html#26.1','26.2': '26.html#26.2','26.3': '26.html#26.3','27': '27.html','27.1': '27.html#27.1','27.2': '27.html#27.2','27.3': '27.html#27.3','27.4': '27.html#27.4','27.5': '27.html#27.5','27.6': '27.html#27.6','27.7': '27.html#27.7','28': '28.html','28.1': '28.html#28.1','28.2': '28.html#28.2','28.3': '28.html#28.3','29': '29.html','29.1': '29.html#29.1','29.2': '29.html#29.2','29.3': '29.html#29.3','29.4': '29.html#29.4','29.5': '29.html#29.5','30': '30.html','30.1': '30.html#30.1','30.2': '30.html#30.2','30.3': '30.html#30.3','30.4': '30.html#30.4','30.5': '30.html#30.5','30.6': '30.html#30.6','31': '31.html','31.1': '31.html#31.1','31.2': '31.html#31.2','31.3': '31.html#31.3','31.4': '31.html#31.4','31.5': '31.html#31.5','31.6': '31.html#31.6','32': '32.html','32.1': '32.html#32.1','32.2': '32.html#32.2','32.3': '32.html#32.3','32.4': '32.html#32.4','33': '33.html','33.1': '33.html#33.1','33.2': '33.html#33.2','33.3': '33.html#33.3','33.4': '33.html#33.4','34': '34.html','34.1': '34.html#34.1','34.2': '34.html#34.2','34.3': '34.html#34.3','34.4': '34.html#34.4','34.5': '34.html#34.5','35': '35.html','35.1': '35.html#35.1','35.2': '35.html#35.2','35.3': '35.html#35.3','36': '36.html','36.1': '36.html#36.1','36.2': '36.html#36.2','36.3': '36.html#36.3','36.4': '36.html#36.4','36.5': '36.html#36.5','37': '37.html','37.1': '37.html#37.1','37.2': '37.html#37.2','37.3': '37.html#37.3','37.4': '37.html#37.4','37.5': '37.html#37.5','38': '38.html','38.1': '38.html#38.1','38.2': '38.html#38.2','38.3': '38.html#38.3','38.4': '38.html#38.4','39': '39.html','39.1': '39.html#39.1','39.2': '39.html#39.2','40': '40.html','40.1': '40.html#40.1','40.2': '40.html#40.2','40.3': '40.html#40.3','40.4': '40.html#40.4','40.5': '40.html#40.5','41': '41.html','41.1': '41.html#41.1','41.2': '41.html#41.2','42': '42.html','42.1': '42.html#42.1','42.2': '42.html#42.2','42.3': '42.html#42.3','42.4': '42.html#42.4','42.5': '42.html#42.5','43': '43.html','43.1': '43.html#43.1','43.2': '43.html#43.2','43.3': '43.html#43.3','44': '44.html','44.1': '44.html#44.1','44.2': '44.html#44.2','44.3': '44.html#44.3','44.4': '44.html#44.4','44.5': '44.html#44.5','45': '45.html','45.1': '45.html#45.1','45.2': '45.html#45.2','45.3': '45.html#45.3','45.4': '45.html#45.4','46': '46.html','46.1': '46.html#46.1','46.2': '46.html#46.2','46.3': '46.html#46.3','46.4': '46.html#46.4','46.5': '46.html#46.5','46.6': '46.html#46.6','46.7': '46.html#46.7','47': '47.html','47.1': '47.html#47.1','47.2': '47.html#47.2','47.3': '47.html#47.3','47.4': '47.html#47.4','47.5': '47.html#47.5','48': '48.html','48.1': '48.html#48.1','48.2': '48.html#48.2','48.3': '48.html#48.3','49': '49.html','49.1': '49.html#49.1','49.2': '49.html#49.2','49.3': '49.html#49.3','50': '50.html','50.1': '50.html#50.1','50.2': '50.html#50.2','50.3': '50.html#50.3','51': '51.html','51.1': '51.html#51.1','51.2': '51.html#51.2','51.3': '51.html#51.3','51.4': '51.html#51.4','52': '52.html','52.1': '52.html#52.1','52.2': '52.html#52.2','52.3': '52.html#52.3','52.4': '52.html#52.4','53': '53.html','53.1': '53.html#53.1','53.2': '53.html#53.2','53.3': '53.html#53.3','53.4': '53.html#53.4','53.5': '53.html#53.5','54': '54.html','54.1': '54.html#54.1','54.2': '54.html#54.2','54.3': '54.html#54.3','55': '55.html','55.1': '55.html#55.1','55.2': '55.html#55.2','55.3': '55.html#55.3','55.4': '55.html#55.4','55.5': '55.html#55.5','56': '56.html','56.1': '56.html#56.1','56.2': '56.html#56.2','56.3': '56.html#56.3','56.4': '56.html#56.4','56.5': '56.html#56.5','56.6': '56.html#56.6','57': '57.html','57.1': '57.html#57.1','57.2': '57.html#57.2','57.3': '57.html#57.3','57.4': '57.html#57.4','57.5': '57.html#57.5','57.6': '57.html#57.6','58': '58.html','58.1': '58.html#58.1','58.2': '58.html#58.2','58.3': '58.html#58.3','58.4': '58.html#58.4','59': '59.html','59.1': '59.html#59.1','59.2': '59.html#59.2','60': '60.html','60.1': '60.html#60.1','60.2': '60.html#60.2','60.3': '60.html#60.3','60.4': '60.html#60.4','60.5': '60.html#60.5','61': '61.html','61.1': '61.html#61.1','61.2': '61.html#61.2','61.3': '61.html#61.3','61.4': '61.html#61.4','61.5': '61.html#61.5','61.6': '61.html#61.6','62': '62.html','62.1': '62.html#62.1','62.2': '62.html#62.2','63': '63.html','63.1': '63.html#63.1','63.2': '63.html#63.2','63.3': '63.html#63.3','63.4': '63.html#63.4','63.5': '63.html#63.5','63.6': '63.html#63.6','64': '64.html','64.1': '64.html#64.1','64.2': '64.html#64.2','64.3': '64.html#64.3','65': '65.html','65.1': '65.html#65.1','65.2': '65.html#65.2','65.3': '65.html#65.3','65.4': '65.html#65.4','66': '66.html','66.1': '66.html#66.1','66.2': '66.html#66.2','66.3': '66.html#66.3','66.4': '66.html#66.4','66.5': '66.html#66.5','67': '67.html','67.1': '67.html#67.1','67.2': '67.html#67.2','68': '68.html','68.1': '68.html#68.1','68.2': '68.html#68.2','69': '69.html','69.1': '69.html#69.1','69.2': '69.html#69.2','69.3': '69.html#69.3','70': '70.html','70.1': '70.html#70.1','70.2': '70.html#70.2','70.3': '70.html#70.3','70.4': '70.html#70.4','70.5': '70.html#70.5','70.6': '70.html#70.6','70.7': '70.html#70.7','70.8': '70.html#70.8','71': '71.html','71.1': '71.html#71.1','71.2': '71.html#71.2','72': '72.html','72.1': '72.html#72.1','72.2': '72.html#72.2','72.3': '72.html#72.3','73': '73.html','73.1': '73.html#73.1','73.2': '73.html#73.2','73.3': '73.html#73.3','74': '74.html','74.1': '74.html#74.1','74.2': '74.html#74.2','74.3': '74.html#74.3','74.4': '74.html#74.4','75': '75.html','75.1': '75.html#75.1','75.2': '75.html#75.2','75.3': '75.html#75.3','76': '76.html','76.1': '76.html#76.1','76.2': '76.html#76.2','76.3': '76.html#76.3','76.4': '76.html#76.4','77': '77.html','77.1': '77.html#77.1','77.2': '77.html#77.2','78': '78.html','78.1': '78.html#78.1','78.2': '78.html#78.2','78.3': '78.html#78.3','78.4': '78.html#78.4','78.5': '78.html#78.5',}"
+--- 
+  <div id="prevNext">
+    -
+  </div><div class="TEI" id="tei"><tei-teiHeader xml:id="d2e5" id="d2e5" data-origname="teiHeader">
+      <tei-fileDesc xml:id="d2e7" id="d2e7" data-origname="fileDesc">
+         <tei-titleStmt xml:id="d2e9" id="d2e9" data-origname="titleStmt">
+            <tei-title xml:id="d2e11" id="d2e11" data-origname="title">Bellum Alexandrinum</tei-title>
+            <tei-editor ref="http://viaf.org/viaf/116523553" xml:id="d2e13" id="d2e13" data-origname="editor">Cynthia Damon, et al.</tei-editor>
+            <tei-sponsor xml:id="d2e16" id="d2e16" data-origname="sponsor">Society for Classical Studies</tei-sponsor>
+            <tei-respStmt xml:id="d2e18" id="d2e18" data-origname="respStmt">
+               <tei-resp xml:id="d2e20" id="d2e20" data-origname="resp">TEI XML encoding:</tei-resp>
+               <tei-name ref="https://orcid.org/0000-0002-8192-9385" xml:id="d2e22" id="d2e22" data-origname="name">Samuel J. Huskey</tei-name>
+            </tei-respStmt>
+            <tei-respStmt xml:id="d2e26" id="d2e26" data-origname="respStmt">
+               <tei-resp xml:id="d2e28" id="d2e28" data-origname="resp">Programming for automatic generation of TEI XML:</tei-resp>
+               <tei-name xml:id="d2e30" id="d2e30" data-origname="name">Virgina K. Felkner</tei-name>
+            </tei-respStmt>
+            <tei-respStmt xml:id="d2e34" id="d2e34" data-origname="respStmt">
+               <tei-resp xml:id="d2e36" id="d2e36" data-origname="resp">Coauthor of content related to section 2.5:</tei-resp>
+               <tei-name sameAs="#DSimons" xml:id="d2e38" id="d2e38" data-origname="name">Dallas Simons</tei-name>
+            </tei-respStmt>
+            <tei-respStmt xml:id="d2e42" id="d2e42" data-origname="respStmt">
+               <tei-resp xml:id="d2e44" id="d2e44" data-origname="resp">Coauthor of content related to sections 12.1–2 and 13.5:</tei-resp>
+               <tei-name sameAs="#Vozar" xml:id="d2e46" id="d2e46" data-origname="name">Tom Vozar</tei-name>
+            </tei-respStmt>
+            <tei-respStmt xml:id="d2e50" id="d2e50" data-origname="respStmt">
+               <tei-resp xml:id="d2e52" id="d2e52" data-origname="resp">Coauthor of content related to section 26.1–2:</tei-resp>
+               <tei-name sameAs="#Persyn" xml:id="d2e54" id="d2e54" data-origname="name">Marcie Persyn</tei-name>
+            </tei-respStmt>
+            <tei-respStmt xml:id="d2e58" id="d2e58" data-origname="respStmt">
+               <tei-resp xml:id="d2e60" id="d2e60" data-origname="resp">Coauthor of content related to sections 35.3 and 36.4–5:</tei-resp>
+               <tei-name sameAs="#Kovalchuk" xml:id="d2e62" id="d2e62" data-origname="name">Maria Kovalchuk</tei-name>
+            </tei-respStmt>
+            <tei-respStmt xml:id="d2e66" id="d2e66" data-origname="respStmt">
+               <tei-resp xml:id="d2e68" id="d2e68" data-origname="resp">Coauthor of content related to sections 47.2, 49.1, and 49.2–3:</tei-resp>
+               <tei-name sameAs="#Warnock" xml:id="d2e70" id="d2e70" data-origname="name">Tim Warnock</tei-name>
+            </tei-respStmt>
+            <tei-respStmt xml:id="d2e74" id="d2e74" data-origname="respStmt">
+               <tei-resp xml:id="d2e76" id="d2e76" data-origname="resp">Coauthor of content related to section 60.2:</tei-resp>
+               <tei-name sameAs="#Reinhardt" xml:id="d2e78" id="d2e78" data-origname="name">Isabella Reinhardt</tei-name>
+            </tei-respStmt>
+            <tei-respStmt xml:id="d2e83" id="d2e83" data-origname="respStmt">
+               <tei-resp xml:id="d2e85" id="d2e85" data-origname="resp">Coauthor of content related to sections 63.5 and 66.3–4:</tei-resp>
+               <tei-name sameAs="#Credo" xml:id="d2e87" id="d2e87" data-origname="name">Brian Credo</tei-name>
+            </tei-respStmt>
+            <tei-respStmt xml:id="d2e91" id="d2e91" data-origname="respStmt">
+               <tei-resp xml:id="d2e93" id="d2e93" data-origname="resp">Coauthor of content related to sections 67.1 and 68.1:</tei-resp>
+               <tei-name sameAs="#Bensch-Schaus" xml:id="d2e95" id="d2e95" data-origname="name">Amelia Bensch-Schaus</tei-name>
+            </tei-respStmt>
+            <tei-respStmt xml:id="d2e99" id="d2e99" data-origname="respStmt">
+               <tei-resp xml:id="d2e101" id="d2e101" data-origname="resp">Coauthor of content related to sections 72.2–3 and 74.4:</tei-resp>
+               <tei-name sameAs="#Hanson" xml:id="d2e103" id="d2e103" data-origname="name">Wes Hanson</tei-name>
+            </tei-respStmt>
+         </tei-titleStmt>
+         <tei-editionStmt xml:id="d2e108" id="d2e108" data-origname="editionStmt">
+            <tei-edition xml:id="d2e110" id="d2e110" data-origname="edition">First Edition</tei-edition>
+         </tei-editionStmt>
+         <tei-publicationStmt xml:id="d2e113" id="d2e113" data-origname="publicationStmt">
+            <tei-publisher xml:id="d2e115" id="d2e115" data-origname="publisher">The Digital Latin Library</tei-publisher>
+            <tei-address xml:id="d2e117" id="d2e117" data-origname="address">
+               <tei-street xml:id="d2e119" id="d2e119" data-origname="street">650 Parrington Oval</tei-street>
+               <tei-addrLine xml:id="d2e121" id="d2e121" data-origname="addrLine">Carnegie Building 101</tei-addrLine>
+               <tei-settlement xml:id="d2e123" id="d2e123" data-origname="settlement">Norman</tei-settlement>
+               <tei-name xml:id="d2e125" id="d2e125" data-origname="name">OK</tei-name>
+               <tei-postCode xml:id="d2e127" id="d2e127" data-origname="postCode">73071</tei-postCode>
+               <tei-country xml:id="d2e130" id="d2e130" data-origname="country">USA</tei-country>
+            </tei-address>
+            <tei-authority xml:id="d2e133" id="d2e133" data-origname="authority">The University of Oklahoma</tei-authority>
+            <tei-pubPlace xml:id="d2e135" id="d2e135" data-origname="pubPlace">Norman, OK</tei-pubPlace>
+            <tei-date xml:id="d2e137" id="d2e137" data-origname="date">2022</tei-date>
+            <tei-availability xml:id="d2e140" id="d2e140" data-origname="availability">
+               <tei-licence target="https://creativecommons.org/licenses/by-sa/4.0/legalcode" xml:id="d2e142" id="d2e142" data-origname="licence">Creative
+                  Commons Attribution-ShareAlike 4.0 International Licence (CC BY-SA 4.0)</tei-licence>
+            </tei-availability>
+         </tei-publicationStmt>
+         <tei-seriesStmt xml:id="d2e147" id="d2e147" data-origname="seriesStmt">
+            <tei-title level="s" xml:id="d2e149" id="d2e149" data-origname="title">Library of Digital Latin Texts</tei-title>
+            <tei-respStmt xml:id="d2e152" id="d2e152" data-origname="respStmt">
+               <tei-resp xml:id="d2e154" id="d2e154" data-origname="resp">Edited by</tei-resp>
+               <tei-name ref="https://orcid.org/0000-0002-8192-9385" xml:id="d2e156" id="d2e156" data-origname="name">Samuel J. Huskey</tei-name>
+            </tei-respStmt>
+            <tei-biblScope unit="volume" xml:id="d2e160" id="d2e160" data-origname="biblScope">1</tei-biblScope>
+            <tei-idno type="DOI" xml:id="d2e163" id="d2e163" data-origname="idno" data-empty="">​</tei-idno>
+         </tei-seriesStmt>
+         <tei-sourceDesc xml:id="d2e166" id="d2e166" data-origname="sourceDesc">
+            <tei-p xml:id="d2e168" id="d2e168" data-origname="p">Born digital.</tei-p>
+         </tei-sourceDesc>
+      </tei-fileDesc>
+     <tei-encodingDesc xml:id="d2e172" id="d2e172" data-origname="encodingDesc">
+       <tei-listPrefixDef xml:id="d2e174" id="d2e174" data-origname="listPrefixDef">
+         <tei-prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1" xml:id="d2e176" id="d2e176" data-origname="prefixDef" data-empty="">​</tei-prefixDef>
+       </tei-listPrefixDef>
+       <tei-refsDecl xml:id="d2e179" id="d2e179" data-origname="refsDecl">
+         
+         <tei-citeStructure match="//front/div[@xml:id='preface']" use="head" xml:id="d2e183" id="d2e183" data-origname="citeStructure">
+           
+           <tei-citeData property="dc:identifier" use="@xml:id" xml:id="d2e187" id="d2e187" data-origname="citeData" data-empty="">​</tei-citeData>
+           
+           <tei-citeData property="dc:title" use="head" xml:id="d2e191" id="d2e191" data-origname="citeData" data-empty="">​</tei-citeData>
+           
+           <tei-citeData property="function" use="'toc-entry'" xml:id="d2e196" id="d2e196" data-origname="citeData" data-empty="">​</tei-citeData>
+           <tei-citeStructure match="./div[@type='section']" use="head" delim=", " xml:id="d2e198" id="d2e198" data-origname="citeStructure">
+             <tei-citeData property="dc:title" use="head" xml:id="d2e200" id="d2e200" data-origname="citeData" data-empty="">​</tei-citeData>
+             <tei-citeData property="dc:identifier" use="@xml:id" xml:id="d2e202" id="d2e202" data-origname="citeData" data-empty="">​</tei-citeData>
+             <tei-citeData property="function" use="'toc-entry'" xml:id="d2e204" id="d2e204" data-origname="citeData" data-empty="">​</tei-citeData>
+             
+             <tei-citeData property="function" use="'split'" xml:id="d2e208" id="d2e208" data-origname="citeData" data-empty="">​</tei-citeData>
+             
+             <tei-citeData property="dc:requires" use="//front/div[@type='bibliography']" xml:id="d2e213" id="d2e213" data-origname="citeData" data-empty="">​</tei-citeData>
+           </tei-citeStructure>
+         </tei-citeStructure>
+         <tei-citeStructure match="//front/div[@xml:id='bibliography']" use="head" xml:id="d2e217" id="d2e217" data-origname="citeStructure">
+           <tei-citeData property="dc:identifier" use="@xml:id" xml:id="d2e219" id="d2e219" data-origname="citeData" data-empty="">​</tei-citeData>
+           <tei-citeData property="dc:title" use="head" xml:id="d2e221" id="d2e221" data-origname="citeData" data-empty="">​</tei-citeData>
+           <tei-citeData property="function" use="'toc-entry'" xml:id="d2e223" id="d2e223" data-origname="citeData" data-empty="">​</tei-citeData>
+           <tei-citeStructure match="./div[@type='section']" use="head" delim=", " xml:id="d2e225" id="d2e225" data-origname="citeStructure">
+             <tei-citeData property="dc:identifier" use="@xml:id" xml:id="d2e227" id="d2e227" data-origname="citeData" data-empty="">​</tei-citeData>
+             <tei-citeData property="dc:title" use="head" xml:id="d2e229" id="d2e229" data-origname="citeData" data-empty="">​</tei-citeData>
+             <tei-citeData property="function" use="'toc-entry'" xml:id="d2e231" id="d2e231" data-origname="citeData" data-empty="">​</tei-citeData>
+             <tei-citeData property="function" use="'split'" xml:id="d2e233" id="d2e233" data-origname="citeData" data-empty="">​</tei-citeData>
+           </tei-citeStructure>
+         </tei-citeStructure>
+         <tei-citeStructure match="//front/div[@xml:id='conspectus-editionum']" use="head" delim=", " xml:id="d2e237" id="d2e237" data-origname="citeStructure">
+           <tei-citeData property="dc:identifier" use="@xml:id" xml:id="d2e239" id="d2e239" data-origname="citeData" data-empty="">​</tei-citeData>
+           <tei-citeData property="dc:title" use="head" xml:id="d2e241" id="d2e241" data-origname="citeData" data-empty="">​</tei-citeData>
+           <tei-citeData property="function" use="'toc-entry'" xml:id="d2e243" id="d2e243" data-origname="citeData" data-empty="">​</tei-citeData>
+           <tei-citeData property="function" use="'split'" xml:id="d2e245" id="d2e245" data-origname="citeData" data-empty="">​</tei-citeData>
+         </tei-citeStructure>
+         
+         <tei-citeStructure match="//div[@type='edition']" use="head" xml:id="d2e251" id="d2e251" data-origname="citeStructure">
+           <tei-citeData property="dc:title" use="head" xml:id="d2e253" id="d2e253" data-origname="citeData" data-empty="">​</tei-citeData>
+           <tei-citeData property="function" use="'toc-entry'" xml:id="d2e255" id="d2e255" data-origname="citeData" data-empty="">​</tei-citeData>
+           <tei-citeStructure match="p" use="@n" unit="chapter" xml:id="d2e257" id="d2e257" data-origname="citeStructure">    
+             <tei-citeData property="dc:title" use="@n" xml:id="d2e259" id="d2e259" data-origname="citeData" data-empty="">​</tei-citeData>
+             <tei-citeData property="dc:identifier" use="@n" xml:id="d2e261" id="d2e261" data-origname="citeData" data-empty="">​</tei-citeData>
+             <tei-citeData property="function" use="'toc-entry'" xml:id="d2e263" id="d2e263" data-origname="citeData" data-empty="">​</tei-citeData>
+             <tei-citeData property="function" use="'split'" xml:id="d2e265" id="d2e265" data-origname="citeData" data-empty="">​</tei-citeData>
+             <tei-citeData property="dc:requires" use="//front/div[@xml:id='bibliography']" xml:id="d2e267" id="d2e267" data-origname="citeData" data-empty="">​</tei-citeData>
+             <tei-citeStructure match=".//seg" use="@n" delim="." unit="part" xml:id="d2e270" id="d2e270" data-origname="citeStructure" data-empty="">​</tei-citeStructure>
+           </tei-citeStructure>
+         </tei-citeStructure>
+          <tei-citeStructure match="//back/div[@type='commentary'][@xml:id='appendix-critica']" use="head" xml:id="d2e274" id="d2e274" data-origname="citeStructure">
+             <tei-citeData property="dc:identifier" use="@xml:id" xml:id="d2e276" id="d2e276" data-origname="citeData" data-empty="">​</tei-citeData>
+             <tei-citeData property="dc:title" use="head" xml:id="d2e278" id="d2e278" data-origname="citeData" data-empty="">​</tei-citeData>
+             <tei-citeData property="function" use="'toc-entry'" xml:id="d2e280" id="d2e280" data-origname="citeData" data-empty="">​</tei-citeData>
+             <tei-citeData property="function" use="'split'" xml:id="d2e282" id="d2e282" data-origname="citeData" data-empty="">​</tei-citeData>
+          </tei-citeStructure>
+         <tei-citeStructure match="//back/div[@type='commentary'][@xml:id='commentary']" use="head" xml:id="d2e285" id="d2e285" data-origname="citeStructure">
+           <tei-citeData property="dc:identifier" use="@xml:id" xml:id="d2e287" id="d2e287" data-origname="citeData" data-empty="">​</tei-citeData>
+           <tei-citeData property="dc:title" use="head" xml:id="d2e289" id="d2e289" data-origname="citeData" data-empty="">​</tei-citeData>
+           <tei-citeData property="function" use="'toc-entry'" xml:id="d2e291" id="d2e291" data-origname="citeData" data-empty="">​</tei-citeData>
+            <tei-citeStructure match="./div[@type='section']" use="head" xml:id="d2e293" id="d2e293" data-origname="citeStructure">
+               <tei-citeData property="dc:identifier" use="@xml:id" xml:id="d2e295" id="d2e295" data-origname="citeData" data-empty="">​</tei-citeData>
+               <tei-citeData property="dc:title" use="head" xml:id="d2e297" id="d2e297" data-origname="citeData" data-empty="">​</tei-citeData>
+               <tei-citeData property="function" use="'toc-entry'" xml:id="d2e299" id="d2e299" data-origname="citeData" data-empty="">​</tei-citeData>
+               <tei-citeData property="function" use="'split'" xml:id="d2e301" id="d2e301" data-origname="citeData" data-empty="">​</tei-citeData>
+            </tei-citeStructure>
+         </tei-citeStructure>
+       </tei-refsDecl>
+     </tei-encodingDesc>
+   </tei-teiHeader><tei-TEI xml:id="d2e3" id="d2e3" data-origname="TEI"><tei-text xml:id="d2e308" id="d2e308" data-origname="text"><tei-back xml:id="d2e17944" id="d2e17944" data-origname="back"><tei-div type="commentary" xml:id="commentary" id="commentary" data-origname="div"><tei-div type="section" xml:id="stba-40.2" id="stba-40.2" resp="#Damon" data-origname="div">
+               <tei-head xml:id="d2e29827" id="d2e29827" data-origname="head">40.2</tei-head>
+
+               <tei-p rend="byline" xml:id="d2e29829" id="d2e29829" data-origname="p"><tei-hi rend="italic" xml:id="d2e29830" id="d2e29830" data-origname="hi">Cynthia Damon</tei-hi></tei-p>
+
+               <tei-quote rend="blockquote" xml:id="d2e29833" id="d2e29833" data-origname="quote">At Pontica ex altera parte legio, cum paulum aduersa
+                  hostibus cessisset, fossam autem circumire ac transcendere conata esset ut aperto
+                  latere aggrederetur hostem, in ipso transitu fossae confixa et oppressa est.<tei-note place="foot" xml:id="d2e29835" id="d2e29835" data-origname="note">“But on the other side the Pontic legion, when it had withdrawn
+                     a small distance facing the enemies but had tried to circumvent and get across
+                     the trench so that it could attack the enemy on its open flank, was stopped and
+                     overwhelmed in very act of crossing the trench.”</tei-note></tei-quote>
+
+               <tei-quote rend="blockquote" type="apparatus" xml:id="d2e29838" id="d2e29838" data-origname="quote">aduersa <tei-hi rend="italic" xml:id="d2e29840" id="d2e29840" data-origname="hi">Madvig</tei-hi>(<tei-hi rend="italic" xml:id="d2e29843" id="d2e29843" data-origname="hi">cf. 20.5 et u. infra</tei-hi>) | auersa <tei-hi rend="italic" xml:id="d2e29846" id="d2e29846" data-origname="hi">MUSTV</tei-hi>
+                     (<tei-hi rend="italic" xml:id="d2e29849" id="d2e29849" data-origname="hi">u. TLL 2.1323.63–66 ‘de fugientibus’</tei-hi>) || circumire ac
+                  transcendere <tei-hi rend="italic" xml:id="d2e29852" id="d2e29852" data-origname="hi">Nipperdey</tei-hi> (<tei-hi rend="italic" xml:id="d2e29856" id="d2e29856" data-origname="hi">cf. BC
+                     3.46.3</tei-hi>) | circumire acies secundo <tei-hi rend="italic" xml:id="d2e29859" id="d2e29859" data-origname="hi">MUSTV</tei-hi> | circumire
+                  acies secunda <tei-hi rend="italic" xml:id="d2e29862" id="d2e29862" data-origname="hi">Lipsius teste Oudendorp, sensu et uerborum ordine
+                     repugnante</tei-hi> | circumire acie secunda <tei-hi rend="italic" xml:id="d2e29865" id="d2e29865" data-origname="hi">Madvig (u. TLL
+                     1.409.41–81 ‘i. q. proelium’</tei-hi> ) | circumire <tei-surplus xml:id="d2e29868" id="d2e29868" data-origname="surplus">acies</tei-surplus>
+                  secundo (<tei-hi rend="italic" xml:id="d2e29870" id="d2e29870" data-origname="hi">sc</tei-hi>. post recessum<tei-hi rend="italic" xml:id="d2e29874" id="d2e29874" data-origname="hi">?</tei-hi>) <tei-hi rend="italic" xml:id="d2e29877" id="d2e29877" data-origname="hi">Gruterus</tei-hi> | circumire <tei-surplus xml:id="d2e29880" id="d2e29880" data-origname="surplus">acies secundo</tei-surplus>
+                  <tei-hi rend="italic" xml:id="d2e29882" id="d2e29882" data-origname="hi">Dauisius 1727 ut glossema ineptum ad 40.1</tei-hi> (<tei-hi rend="italic" xml:id="d2e29885" id="d2e29885" data-origname="hi">u. et infra</tei-hi>) | transire ut secunda acies <tei-hi rend="italic" xml:id="d2e29888" id="d2e29888" data-origname="hi">Ciacconius dubitanter, alii alia</tei-hi> || transitu <tei-hi rend="italic" xml:id="d2e29892" id="d2e29892" data-origname="hi">MUSTV</tei-hi>
+                  | circuitu <tei-hi rend="italic" xml:id="d2e29895" id="d2e29895" data-origname="hi">Dauisius 1727</tei-hi> (<tei-hi rend="italic" xml:id="d2e29898" id="d2e29898" data-origname="hi">u. et
+                     supra</tei-hi>) || aperto (<tei-hi rend="italic" xml:id="d2e29901" id="d2e29901" data-origname="hi">cf. BG 1.25.6</tei-hi>) | ab aperto (<tei-hi rend="italic" xml:id="d2e29904" id="d2e29904" data-origname="hi">cf. BC 3.86.3</tei-hi>)</tei-quote>
+
+               <tei-p xml:id="d2e29908" id="d2e29908" data-origname="p">When Domitius and Pharnaces finally fought, the Romans were decisively defeated.
+                  Three of the four legions involved in the battle suffered catastrophic losses, and
+                  Domitius retreated to Asia Minor with the veteran Thirty-sixth and a few other
+                  survivors (40.4–5). The battle itself must have been chaotic, but Incertus seems
+                  to have been aiming for a narrative as clear as Caesar’s usually are. The battle
+                  lines are described in some detail (38.3–4, 39.2), then the events on the Roman
+                  right (40.1), then those on the left (40.2), then those in the middle of the line
+                  (40.2). After the Roman middle collapses, we return to the right wing (40.3) and
+                  finish with the “cost-of-battle” assessment (40.4–5). The framework is clear. But
+                  problems in the transmitted text prevent us from seeing exactly what happened on
+                  the Roman left:</tei-p>
+
+               <tei-quote rend="blockquote" xml:id="d2e29911" id="d2e29911" data-origname="quote">at Pontica ex altera parte legio cum paulum auersa hostibus
+                  cessisset fossam autem circumire acies secundo conata esset ut aperto latere
+                  aggrederetur hostem in ipso transitu fossae confixa et oppressa est.</tei-quote>
+
+               <tei-p xml:id="d2e29914" id="d2e29914" data-origname="p">As <tei-ref target="bibliography-modern-editions.html#Nipperdey">Nipperdey</tei-ref> says (1847, <tei-ref target="https://hdl.handle.net/2027/mdp.39015063012838?urlappend=%3Bseq=205" xml:id="d2e29919" id="d2e29919" data-origname="ref">197</tei-ref>), “Verba ‘<tei-foreign xml:lang="la" xml:id="d2e29922" id="d2e29922" data-origname="foreign">acies secundo</tei-foreign>’ quin
+                  corrupta essent, recte nemo dubitavit.” But those two words are not the only
+                  problems in this passage. Here is a fuller list:</tei-p>
+
+               <tei-list rend="ordered" style="1" xml:id="d2e29926" id="d2e29926" data-origname="list">
+                  <tei-item n="1" xml:id="d2e29928" id="d2e29928" data-origname="item">The unqualified reference to an <tei-foreign xml:lang="la" xml:id="d2e29930" id="d2e29930" data-origname="foreign">acies</tei-foreign>
+                     here is baffling.</tei-item>
+                  <tei-item n="2" xml:id="d2e29934" id="d2e29934" data-origname="item">The adverb <tei-foreign xml:lang="la" xml:id="d2e29936" id="d2e29936" data-origname="foreign">secundo</tei-foreign> appears nowhere
+                     else in the corpus, and one would expect it to be preceded by <tei-foreign xml:lang="la" xml:id="d2e29939" id="d2e29939" data-origname="foreign">primum</tei-foreign> (uel sim.). </tei-item>
+                  <tei-item n="3" xml:id="d2e29943" id="d2e29943" data-origname="item">It is difficult to see which verbs go with which nominative. Word
+                     order suggests that <tei-foreign xml:lang="la" xml:id="d2e29945" id="d2e29945" data-origname="foreign">legio</tei-foreign> is the subject of
+                        <tei-foreign xml:lang="la" xml:id="d2e29948" id="d2e29948" data-origname="foreign">cessisset</tei-foreign>, <tei-foreign xml:lang="la" xml:id="d2e29951" id="d2e29951" data-origname="foreign">acies</tei-foreign> the subject of the others, but since we learn later that
+                     the Pontic legion was almost completely annihilated in this battle (40.4
+                        <tei-foreign xml:lang="la" xml:id="d2e29954" id="d2e29954" data-origname="foreign">Pontica legione paene tota amissa</tei-foreign>) it seems
+                     likely that <tei-foreign xml:lang="la" xml:id="d2e29957" id="d2e29957" data-origname="foreign">legio</tei-foreign> is the subject of <tei-foreign xml:lang="la" xml:id="d2e29961" id="d2e29961" data-origname="foreign">confixa et oppressa est</tei-foreign>. However, since it is the
+                        <tei-foreign xml:lang="la" xml:id="d2e29964" id="d2e29964" data-origname="foreign">acies</tei-foreign>, not the <tei-foreign xml:lang="la" xml:id="d2e29967" id="d2e29967" data-origname="foreign">legio</tei-foreign>, that is mentioned in connection with the <tei-foreign xml:lang="la" xml:id="d2e29970" id="d2e29970" data-origname="foreign">fossa</tei-foreign>, the relevance of <tei-foreign xml:lang="la" xml:id="d2e29973" id="d2e29973" data-origname="foreign">in
+                        ipso transitu</tei-foreign> in that scenario is unclear.</tei-item>
+                  <tei-item n="4" xml:id="d2e29977" id="d2e29977" data-origname="item">The term <tei-foreign xml:lang="la" xml:id="d2e29979" id="d2e29979" data-origname="foreign">transitu</tei-foreign> is per se a puzzle,
+                     since Incertus has described the troop movement as “going around” (<tei-foreign xml:lang="la" xml:id="d2e29982" id="d2e29982" data-origname="foreign">circumire</tei-foreign>) not “going across.”</tei-item>
+                  <tei-item n="5" xml:id="d2e29986" id="d2e29986" data-origname="item">The expression <tei-foreign xml:lang="la" xml:id="d2e29988" id="d2e29988" data-origname="foreign">fossam circumire</tei-foreign> is
+                     not only in conflict with <tei-foreign xml:lang="la" xml:id="d2e29991" id="d2e29991" data-origname="foreign">in transitu</tei-foreign> but also
+                     hard to reconcile with the battlefield described here, where Pharnaces’ compact
+                     battle line is protected on the flanks by 4-foot trenches (38.3–4) and in the
+                     rear, as becomes clear from 40.1, by the walls of Nicopolis. How then could one
+                     go around the trench to attack the enemy from the rear? (See further below,
+                     under B).</tei-item>
+               </tei-list>
+
+               <tei-p xml:id="d2e29996" id="d2e29996" data-origname="p">The context provides some parameters for solutions to these problems.</tei-p>
+
+               <tei-list rend="lettered" style="A" xml:id="d2e29998" id="d2e29998" data-origname="list">
+                  <tei-item n="A" xml:id="d2e30000" id="d2e30000" data-origname="item">According to 39.2, Domitius’ battle line consists of a right wing (the
+                     Thirty-six legion), a left wing (the “Pontic legion,” i.e., the unit newly
+                     recruited in Pontus [34.5]), and a <tei-foreign xml:lang="la" xml:id="d2e30002" id="d2e30002" data-origname="foreign">media acies</tei-foreign>
+                     (two legions contributed to the Roman war effort by the Galatian king Deiotarus
+                     [34.4], separated by a narrow gap). Domitius also placed an unspecified number
+                     of cohorts in unspecified positions from which they could serve as
+                     reinforcements.</tei-item>
+                  <tei-item n="B" xml:id="d2e30006" id="d2e30006" data-origname="item">The phrase <tei-foreign xml:lang="la" xml:id="d2e30008" id="d2e30008" data-origname="foreign">at … ex altera</tei-foreign>
+                     <tei-foreign xml:lang="la" xml:id="d2e30011" id="d2e30011" data-origname="foreign">parte</tei-foreign> sets the narrative of events on the left
+                     wing in antithesis to that of events on the right wing, where the attack of the
+                     Thirty-sixth proceeded as follows: the legion advanced outside the trench
+                        (<tei-foreign xml:lang="la" xml:id="d2e30014" id="d2e30014" data-origname="foreign">extra fossam</tei-foreign>) on Pharnaces’ left, reached
+                     the city walls (<tei-foreign xml:lang="la" xml:id="d2e30017" id="d2e30017" data-origname="foreign">moenibus oppidi succederet</tei-foreign>…),
+                     crossed the trench (<tei-foreign xml:lang="la" xml:id="d2e30020" id="d2e30020" data-origname="foreign">fossamque transiret</tei-foreign>), and
+                     attacked the enemy from the rear (<tei-foreign xml:lang="la" xml:id="d2e30024" id="d2e30024" data-origname="foreign">auersosque hostes
+                        adgrederentur</tei-foreign>). A battlefield success-story, as Incertus says
+                     (40.1 <tei-foreign xml:lang="la" xml:id="d2e30027" id="d2e30027" data-origname="foreign">secundum proelium</tei-foreign>). </tei-item>
+                  <tei-item n="C" xml:id="d2e30031" id="d2e30031" data-origname="item">In 40.2 both <tei-foreign xml:lang="la" xml:id="d2e30033" id="d2e30033" data-origname="foreign">auersa</tei-foreign> and <tei-foreign xml:lang="la" xml:id="d2e30036" id="d2e30036" data-origname="foreign">secundo</tei-foreign> echo words used in 40.1 (see B
+                     above).</tei-item>
+               </tei-list>
+
+               <tei-p xml:id="d2e30041" id="d2e30041" data-origname="p"><tei-ref target="bibliography-modern-editions.html#Lipsius">Lipsius</tei-ref>, according to <tei-ref target="bibliography-modern-editions.html#Oudendorp">Oudendorp</tei-ref>, addressed problems (1) and (2) as follows:</tei-p>
+
+               <tei-quote rend="blockquote" xml:id="d2e30050" id="d2e30050" data-origname="quote"> … fossam autem circumire acies secunda conata esset
+                  …</tei-quote>
+
+               <tei-p xml:id="d2e30053" id="d2e30053" data-origname="p">With <tei-foreign xml:lang="la" xml:id="d2e30055" id="d2e30055" data-origname="foreign">acies secunda</tei-foreign> he created an antithesis for
+                     <tei-foreign xml:lang="la" xml:id="d2e30058" id="d2e30058" data-origname="foreign">legio</tei-foreign>: the legion fled with its back to the
+                  enemy (<tei-foreign xml:lang="la" xml:id="d2e30061" id="d2e30061" data-origname="foreign">legio cum … auersa cessisset</tei-foreign>), and a
+                  different unit, the <tei-foreign xml:lang="la" xml:id="d2e30064" id="d2e30064" data-origname="foreign">acies secunda</tei-foreign>, boldly
+                  attempted to cross the trench and attack the enemy, as the Thirty-sixth legion had
+                  done on the right.<tei-note place="foot" xml:id="d2e30067" id="d2e30067" data-origname="note"><tei-ref target="bibliography-secondary-sources.html#Larsen">Larsen</tei-ref> (1886,
+                        <tei-ref target="https://hdl.handle.net/2027/nnc2.ark:/13960/t3cz4fm0n?urlappend=%3Bseq=20" xml:id="d2e30071" id="d2e30071" data-origname="ref">20</tei-ref>) developed Lipsius’ emendation by (implausibly) addressing
+                     problems (4) and (5): <tei-foreign xml:lang="la" xml:id="d2e30074" id="d2e30074" data-origname="foreign">… fossam autem
+                        </tei-foreign>circu<tei-supplied reason="lost" xml:id="d2e30077" id="d2e30077" data-origname="supplied">itu trans</tei-supplied>ire acies<tei-foreign xml:lang="la" xml:id="d2e30080" id="d2e30080" data-origname="foreign"> secunda conata esset</tei-foreign>.</tei-note> But Domitius’ legions
+                  were not arranged with a second line, so far as we are told, and the only
+                  reinforcements we hear about are some unlocalized (for us) cohorts (39.2 <tei-foreign xml:lang="la" xml:id="d2e30085" id="d2e30085" data-origname="foreign">reliquis cohortibus in subsidiis</tei-foreign><tei-note place="foot" xml:id="d2e30087" id="d2e30087" data-origname="note">According to the archetype, they were placed in an ambush (<tei-foreign xml:lang="la" xml:id="d2e30089" id="d2e30089" data-origname="foreign">in insidiis</tei-foreign> MUS : <tei-foreign xml:lang="la" xml:id="d2e30092" id="d2e30092" data-origname="foreign">insidiis</tei-foreign> TV), but this seems unlikely, since Pharnaces chose the
+                     battlefield (38.3).</tei-note>
+                  <tei-foreign xml:lang="la" xml:id="d2e30096" id="d2e30096" data-origname="foreign">conlocatis</tei-foreign>). The expression seems to be a
+                  recollection of the Caesarian <tei-foreign xml:lang="la" xml:id="d2e30099" id="d2e30099" data-origname="foreign">acies triplex</tei-foreign> or
+                     <tei-foreign xml:lang="la" xml:id="d2e30102" id="d2e30102" data-origname="foreign">duplex</tei-foreign> (<tei-hi rend="italic" xml:id="d2e30105" id="d2e30105" data-origname="hi">BG</tei-hi> 1.24.2,
+                  1.49.1, 1.51.2, 3.24.1, 4.14.1; <tei-hi rend="italic" xml:id="d2e30109" id="d2e30109" data-origname="hi">BC</tei-hi> 1.41.2, 1.64.6,
+                  1.83.1–2, 3.67.4), which often did occasion reference to the <tei-foreign xml:lang="la" xml:id="d2e30112" id="d2e30112" data-origname="foreign">secunda</tei-foreign>
+                  <tei-foreign xml:lang="la" xml:id="d2e30115" id="d2e30115" data-origname="foreign">acies</tei-foreign> (e.g., <tei-hi rend="italic" xml:id="d2e30118" id="d2e30118" data-origname="hi">BG</tei-hi> 1.25.7
+                     <tei-foreign xml:lang="la" xml:id="d2e30121" id="d2e30121" data-origname="foreign">prima et secunda acies</tei-foreign>, 1.49.2 <tei-foreign xml:lang="la" xml:id="d2e30124" id="d2e30124" data-origname="foreign">primam et secundam aciem</tei-foreign>; <tei-hi rend="italic" xml:id="d2e30128" id="d2e30128" data-origname="hi">BC</tei-hi>
+                  1.41.5 <tei-foreign xml:lang="la" xml:id="d2e30131" id="d2e30131" data-origname="foreign">et prima et secunda acies</tei-foreign>).<tei-note place="foot" xml:id="d2e30134" id="d2e30134" data-origname="note"><tei-ref target="bibliography-modern-editions.html#Andrieu">Andrieu</tei-ref> prints Lipsius’ emendation,
+                     translating <tei-foreign xml:lang="la" xml:id="d2e30138" id="d2e30138" data-origname="foreign">acies secunda</tei-foreign> as “sa seconde
+                     ligne,” i.e., the second line of the Pontic legion.</tei-note> The only passage in
+                  which the <tei-foreign xml:lang="la" xml:id="d2e30142" id="d2e30142" data-origname="foreign">secunda acies</tei-foreign> appears without prior
+                  reference to the <tei-foreign xml:lang="la" xml:id="d2e30145" id="d2e30145" data-origname="foreign">prima acies</tei-foreign> is <tei-hi rend="italic" xml:id="d2e30148" id="d2e30148" data-origname="hi">BAfr</tei-hi> 60.2 <tei-foreign xml:lang="la" xml:id="d2e30152" id="d2e30152" data-origname="foreign">in secunda autem acie</tei-foreign>, but
+                  this phrase is preceded by a lacuna. The best parallel for the scenario we have
+                  here is <tei-hi rend="italic" xml:id="d2e30155" id="d2e30155" data-origname="hi">BAfr</tei-hi> 59.2, where Scipio places legions <tei-foreign xml:lang="la" xml:id="d2e30158" id="d2e30158" data-origname="foreign">in fronte</tei-foreign>, and behind them, some Numidian troops in
+                     <tei-foreign xml:lang="la" xml:id="d2e30161" id="d2e30161" data-origname="foreign">subsidiaria acie</tei-foreign>; the arrangement of the
+                  Alexandrian fleet at <tei-hi rend="italic" xml:id="d2e30164" id="d2e30164" data-origname="hi">BAlex</tei-hi> 14.3 is comparable, with 22
+                  ships <tei-foreign xml:lang="la" xml:id="d2e30167" id="d2e30167" data-origname="foreign">in fronte</tei-foreign> and the rest as reinforcements
+                     <tei-foreign xml:lang="la" xml:id="d2e30171" id="d2e30171" data-origname="foreign">in secundo ordine</tei-foreign>. But our passage has no
+                  equivalent for <tei-foreign xml:lang="la" xml:id="d2e30174" id="d2e30174" data-origname="foreign">in fronte</tei-foreign>, and the word order of
+                     <tei-foreign xml:lang="la" xml:id="d2e30177" id="d2e30177" data-origname="foreign">acies secunda</tei-foreign> occurs only here. Furthermore,
+                  in this scenario <tei-foreign xml:lang="la" xml:id="d2e30180" id="d2e30180" data-origname="foreign">paulum</tei-foreign> is puzzling, since it
+                  seems to indicate a change of course on the part of the <tei-foreign xml:lang="la" xml:id="d2e30183" id="d2e30183" data-origname="foreign">legio</tei-foreign> itself: it retreated for a little while, then did something
+                  else.</tei-p>
+
+               <tei-p xml:id="d2e30187" id="d2e30187" data-origname="p"><tei-ref target="bibliography-list-of-people.html#Ciacconius">Ciacconius</tei-ref> (cited from <tei-ref target="bibliography-modern-editions.html#Jungermann">Jungermann</tei-ref> 1606) addressed all five problems as follows:</tei-p>
+
+               <tei-quote rend="blockquote" xml:id="d2e30195" id="d2e30195" data-origname="quote"> … fossam autem transire ut secunda acies conata esset
+                  …</tei-quote>
+
+               <tei-p xml:id="d2e30198" id="d2e30198" data-origname="p">His <tei-foreign xml:lang="la" xml:id="d2e30200" id="d2e30200" data-origname="foreign">secunda acies</tei-foreign> is the same unit as the
+                     <tei-foreign xml:lang="la" xml:id="d2e30203" id="d2e30203" data-origname="foreign">legio</tei-foreign>, but it has experienced a change of
+                  heart and now returns to the fray <tei-foreign xml:lang="la" xml:id="d2e30206" id="d2e30206" data-origname="foreign">ut secunda
+                     acies</tei-foreign>. We don’t need to find any new troops or any event prior to
+                  what comes <tei-foreign xml:lang="la" xml:id="d2e30209" id="d2e30209" data-origname="foreign">secundo</tei-foreign> (problems 1 and 2), the
+                     <tei-foreign xml:lang="la" xml:id="d2e30212" id="d2e30212" data-origname="foreign">legio</tei-foreign> is the subject of all of the verbs
+                  (problems 3 and 4), and it doesn’t go around the trench but crosses it (problems 4
+                  and 5<tei-note place="foot" xml:id="d2e30216" id="d2e30216" data-origname="note"><tei-ref target="bibliography-modern-editions.html#Dauisius1727">Dauisius</tei-ref> took a
+                     different approach to problem 4, proposing <tei-foreign xml:lang="la" xml:id="d2e30220" id="d2e30220" data-origname="foreign">circuitu</tei-foreign> in place of <tei-foreign xml:lang="la" xml:id="d2e30223" id="d2e30223" data-origname="foreign">transitu</tei-foreign>.
+                     But this makes problem 5 worse.</tei-note>). He also makes sense of <tei-foreign xml:lang="la" xml:id="d2e30227" id="d2e30227" data-origname="foreign">paulum</tei-foreign>: the legion retreated briefly, but (<tei-foreign xml:lang="la" xml:id="d2e30230" id="d2e30230" data-origname="foreign">autem</tei-foreign>) renewed the attack, and restores the standard
+                  word order. However, the repetition of <tei-foreign xml:lang="la" xml:id="d2e30233" id="d2e30233" data-origname="foreign">ut</tei-foreign> is
+                  rather awkward, and <tei-foreign xml:lang="la" xml:id="d2e30236" id="d2e30236" data-origname="foreign">auersa</tei-foreign> is a discordant
+                  detail: one would like to know what turned the legion back around to face the
+                  enemy. In any case, given the complicated series of innovations that would have
+                  been required to get from this original to the transmitted text, Ciacconius is
+                  appropriately doubtful about the likelihood of his solution, especially since he
+                  also rewrote the first part of the sentence (<tei-foreign xml:lang="la" xml:id="d2e30239" id="d2e30239" data-origname="foreign">cum paululum
+                     auersus hostis cessisset</tei-foreign>).<tei-note place="foot" xml:id="d2e30243" id="d2e30243" data-origname="note">“Nimia est licentia”
+                     says <tei-ref target="bibliography-modern-editions.html#Dauisius1727">Dauisius</tei-ref> (1727, ad loc). <tei-ref target="bibliography-modern-editions.html#Klotz">Klotz</tei-ref> (1927, ad loc.) offers a tentative emendation,
+                        <tei-foreign xml:lang="la" xml:id="d2e30251" id="d2e30251" data-origname="foreign">acriter secundo <tei-supplied reason="lost" xml:id="d2e30253" id="d2e30253" data-origname="supplied">impetu
+                           facto</tei-supplied></tei-foreign>, that is almost equally drastic and solves
+                     fewer problems.</tei-note></tei-p>
+
+               <tei-p xml:id="d2e30257" id="d2e30257" data-origname="p"><tei-ref target="bibliography-secondary-sources.html#Madvig">Madvig</tei-ref> (1873, <tei-ref target="https://hdl.handle.net/2027/coo.31924021596675?urlappend=%3Bseq=295" xml:id="d2e30261" id="d2e30261" data-origname="ref">283–284</tei-ref>) created a similar scenario with a simpler repair:</tei-p>
+
+               <tei-quote rend="blockquote" xml:id="d2e30266" id="d2e30266" data-origname="quote"> … fossam autem circumire acie secunda conata esset
+                  …</tei-quote>
+
+               <tei-p xml:id="d2e30269" id="d2e30269" data-origname="p">His <tei-foreign xml:lang="la" xml:id="d2e30271" id="d2e30271" data-origname="foreign">acie secunda</tei-foreign> expresses the change of heart
+                  without changing the word order or duplicating the <tei-foreign xml:lang="la" xml:id="d2e30274" id="d2e30274" data-origname="foreign">ut</tei-foreign>, and he improved the passage further by emending <tei-foreign xml:lang="la" xml:id="d2e30277" id="d2e30277" data-origname="foreign">auersa</tei-foreign> to <tei-foreign xml:lang="la" xml:id="d2e30280" id="d2e30280" data-origname="foreign">aduersa</tei-foreign>:
+                  although under pressure, the legion faced the enemy, as Caesar’s troops had done
+                  in another chaotic scene at Alexandria (20.5 <tei-foreign xml:lang="la" xml:id="d2e30283" id="d2e30283" data-origname="foreign">magnam uim
+                     telorum aduersi sustinerent</tei-foreign>). As was noted in (C) above, the prefix
+                  of <tei-foreign xml:lang="la" xml:id="d2e30287" id="d2e30287" data-origname="foreign">auersa</tei-foreign> may repeat that of <tei-foreign xml:lang="la" xml:id="d2e30290" id="d2e30290" data-origname="foreign">auersos</tei-foreign> in 40.1, and in any case the innovation
+                     <tei-foreign xml:lang="la" xml:id="d2e30293" id="d2e30293" data-origname="foreign">aduersa</tei-foreign> =<tei-foreign xml:lang="la" xml:id="d2e30296" id="d2e30296" data-origname="foreign">auersa</tei-foreign> is not implausible. This emendation thus addresses problems
+                  (1)–(3). And problems (4) and (5) solve themselves if we see <tei-foreign xml:lang="la" xml:id="d2e30299" id="d2e30299" data-origname="foreign">circumire</tei-foreign> and <tei-foreign xml:lang="la" xml:id="d2e30302" id="d2e30302" data-origname="foreign">in
+                     transitu</tei-foreign> as two stages of an single advance comparable to that
+                  described more methodically in 40.1. But <tei-foreign xml:lang="la" xml:id="d2e30306" id="d2e30306" data-origname="foreign">acie
+                     secunda</tei-foreign> creates its own problems: the unusual word order may prompt
+                  the reader to see this <tei-foreign xml:lang="la" xml:id="d2e30309" id="d2e30309" data-origname="foreign">acies</tei-foreign> not as a military
+                  formation (which would be odd with <tei-foreign xml:lang="la" xml:id="d2e30312" id="d2e30312" data-origname="foreign">legio</tei-foreign> as the
+                  subject of <tei-foreign xml:lang="la" xml:id="d2e30315" id="d2e30315" data-origname="foreign">conata esset</tei-foreign>) but as the more abstract
+                  “battle” (<tei-hi rend="italic" xml:id="d2e30318" id="d2e30318" data-origname="hi">TLL</tei-hi> 1.409.41–81, with no examples from the
+                     <tei-foreign xml:lang="la" xml:id="d2e30321" id="d2e30321" data-origname="foreign">corpus Caesarianum</tei-foreign>), but in a context where
+                  military formations are so prevalent this seems unlikely.<tei-note place="foot" xml:id="d2e30325" id="d2e30325" data-origname="note">Variations on this approach depart further from the transmitted text: <tei-foreign xml:lang="la" xml:id="d2e30327" id="d2e30327" data-origname="foreign">accessu secundo</tei-foreign>
+                     <tei-ref target="bibliography-modern-editions.html#Hoffmann1857">Hoffmann</tei-ref>; <tei-foreign xml:lang="la" xml:id="d2e30333" id="d2e30333" data-origname="foreign">acie
+                        excedendo</tei-foreign>
+                     <tei-ref target="bibliography-modern-editions.html#Oehler">Oehler</tei-ref> (1852); <tei-foreign xml:lang="la" xml:id="d2e30339" id="d2e30339" data-origname="foreign">consilio
+                        secundo</tei-foreign>
+                     <tei-ref target="bibliography-secondary-sources.html#Vielhaber1869">Vielhaber</tei-ref> (1869, <tei-ref target="https://hdl.handle.net/2027/hvd.32044098632391?urlappend=%3Bseq=643" xml:id="d2e30346" id="d2e30346" data-origname="ref">565</tei-ref>).</tei-note></tei-p>
+
+               <tei-p xml:id="d2e30350" id="d2e30350" data-origname="p">Excision has also been applied to the problems of this passage, without much
+                  plausibility since it is unclear what would motivate the addition of words so
+                  plainly alien to the context as <tei-foreign xml:lang="la" xml:id="d2e30352" id="d2e30352" data-origname="foreign">acies</tei-foreign> and
+                     <tei-foreign xml:lang="la" xml:id="d2e30355" id="d2e30355" data-origname="foreign">secundo</tei-foreign>. </tei-p>
+
+               <tei-p xml:id="d2e30359" id="d2e30359" data-origname="p">The efficiency of Nipperdey’s emendation, which like that of Ciacconius deals with
+                  all five problems at once, makes up for its lack of palaeographical plausibility: </tei-p>
+
+               <tei-quote rend="blockquote" xml:id="d2e30361" id="d2e30361" data-origname="quote"> … fossam autem circumire ac transcendere conata esset
+                  …</tei-quote>
+
+               <tei-p xml:id="d2e30364" id="d2e30364" data-origname="p">His <tei-foreign xml:lang="la" xml:id="d2e30366" id="d2e30366" data-origname="foreign">ac transcendere</tei-foreign> crisply eliminates <tei-foreign xml:lang="la" xml:id="d2e30369" id="d2e30369" data-origname="foreign">acies</tei-foreign> and <tei-foreign xml:lang="la" xml:id="d2e30372" id="d2e30372" data-origname="foreign">secundo</tei-foreign> and
+                  justifies <tei-foreign xml:lang="la" xml:id="d2e30375" id="d2e30375" data-origname="foreign">transitu</tei-foreign>. The verb is used of crossing
+                  trenches at <tei-hi rend="italic" xml:id="d2e30378" id="d2e30378" data-origname="hi">BC</tei-hi> 3.46.3 <tei-foreign xml:lang="la" xml:id="d2e30382" id="d2e30382" data-origname="foreign">ut fossas
+                     transcenderent</tei-foreign>. In our view this is the best of the available
+                  repairs, particularly when combined with Madvig’s <tei-foreign xml:lang="la" xml:id="d2e30385" id="d2e30385" data-origname="foreign">aduersa</tei-foreign>. If it is right, <tei-foreign xml:lang="la" xml:id="d2e30388" id="d2e30388" data-origname="foreign">acies</tei-foreign> and
+                     <tei-foreign xml:lang="la" xml:id="d2e30391" id="d2e30391" data-origname="foreign">secundo</tei-foreign> may be further persistence errors:
+                  forms of the former occur eight times in the preceding three paragraphs, and
+                     <tei-foreign xml:lang="la" xml:id="d2e30394" id="d2e30394" data-origname="foreign">secundum</tei-foreign>, as was mentioned above, was used in
+                  40.1, where it is preceded by the word <tei-foreign xml:lang="la" xml:id="d2e30397" id="d2e30397" data-origname="foreign">adeo</tei-foreign>. But
+                  perhaps the problem lies deeper, as Klotz suggests by daggering the passage. </tei-p>
+            </tei-div></tei-div></tei-back></tei-text></tei-TEI></div><div id="controls" class=""><div id="citesearch"><form><label for="getcite">Find citation</label> <input type="text" name="getcite"/> <button onclick="resolveCite(); return false;">Go</button></form></div><div id="editing"><ul><li><button onclick="app.undo()" title="undo"><svg class="svg-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#undo-icon"/></svg></button></li><li><button onclick="app.redo()" title="redo"><svg class="svg-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#redo-icon"/></svg></button></li><li><button onclick="while (app.log.length &gt; 0) {app.undo();}" title="undo all"><svg class="svg-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#reload-icon"/></svg></button></li></ul></div><div id="display"><form class=""><ul><li><input type="checkbox" name="orthographical" value="true"/><label for="orthographical">Hide orthographical variants</label></li><li><input type="checkbox" name="morphological" value="true"/><label for="morphological">Hide morphological variants</label></li><li><input type="checkbox" name="lexical" value="true"/><label for="lexical">Hide lexical variants</label></li></ul></form></div><div id="navigation"><ul><li>Preface<ul><li><a href="preface-why-a-new-edition.html">Why a new edition of the Bellum Alexandrinum?</a></li><li><a href="preface-the-bellum-alexandrinum.html">I. The Bellum Alexandrinum</a></li><li><a href="preface-constituting-the-text.html">II. Constituting the text</a></li><li><a href="preface-using-this-edition.html">III. Using this edition</a></li><li><a href="preface-additional-materials.html">Additional materials in the LDLT edition:</a></li><li><a href="preface-acknowledgements.html">Acknowledgements</a></li></ul></li><li>Bibliography<ul><li><a href="bibliography-manuscripts.html">Manuscripts</a></li><li><a href="bibliography-early-editions.html">Early Editions</a></li><li><a href="bibliography-modern-editions.html">Modern Editions</a></li><li><a href="bibliography-secondary-sources.html">Other Sources</a></li><li><a href="bibliography-list-of-people.html">List of People Cited by Name</a></li><li><a href="bibliography-abbreviations.html">Abbreviations and Other Notations</a></li></ul></li><li><a href="conspectus-editionum.html">Conspectus Editionum</a></li><li>Bellum Alexandrinum<ul><li><a href="1.html">1</a></li><li><a href="2.html">2</a></li><li><a href="3.html">3</a></li><li><a href="4.html">4</a></li><li><a href="5.html">5</a></li><li><a href="6.html">6</a></li><li><a href="7.html">7</a></li><li><a href="8.html">8</a></li><li><a href="9.html">9</a></li><li><a href="10.html">10</a></li><li><a href="11.html">11</a></li><li><a href="12.html">12</a></li><li><a href="13.html">13</a></li><li><a href="14.html">14</a></li><li><a href="15.html">15</a></li><li><a href="16.html">16</a></li><li><a href="17.html">17</a></li><li><a href="18.html">18</a></li><li><a href="19.html">19</a></li><li><a href="20.html">20</a></li><li><a href="21.html">21</a></li><li><a href="22.html">22</a></li><li><a href="23.html">23</a></li><li><a href="24.html">24</a></li><li><a href="25.html">25</a></li><li><a href="26.html">26</a></li><li><a href="27.html">27</a></li><li><a href="28.html">28</a></li><li><a href="29.html">29</a></li><li><a href="30.html">30</a></li><li><a href="31.html">31</a></li><li><a href="32.html">32</a></li><li><a href="33.html">33</a></li><li><a href="34.html">34</a></li><li><a href="35.html">35</a></li><li><a href="36.html">36</a></li><li><a href="37.html">37</a></li><li><a href="38.html">38</a></li><li><a href="39.html">39</a></li><li><a href="40.html">40</a></li><li><a href="41.html">41</a></li><li><a href="42.html">42</a></li><li><a href="43.html">43</a></li><li><a href="44.html">44</a></li><li><a href="45.html">45</a></li><li><a href="46.html">46</a></li><li><a href="47.html">47</a></li><li><a href="48.html">48</a></li><li><a href="49.html">49</a></li><li><a href="50.html">50</a></li><li><a href="51.html">51</a></li><li><a href="52.html">52</a></li><li><a href="53.html">53</a></li><li><a href="54.html">54</a></li><li><a href="55.html">55</a></li><li><a href="56.html">56</a></li><li><a href="57.html">57</a></li><li><a href="58.html">58</a></li><li><a href="59.html">59</a></li><li><a href="60.html">60</a></li><li><a href="61.html">61</a></li><li><a href="62.html">62</a></li><li><a href="63.html">63</a></li><li><a href="64.html">64</a></li><li><a href="65.html">65</a></li><li><a href="66.html">66</a></li><li><a href="67.html">67</a></li><li><a href="68.html">68</a></li><li><a href="69.html">69</a></li><li><a href="70.html">70</a></li><li><a href="71.html">71</a></li><li><a href="72.html">72</a></li><li><a href="73.html">73</a></li><li><a href="74.html">74</a></li><li><a href="75.html">75</a></li><li><a href="76.html">76</a></li><li><a href="77.html">77</a></li><li><a href="78.html">78</a></li></ul></li><li><a href="appendix-critica.html">Appendix critica</a></li><li>Studies on the Text<ul><li><a href="stba-2.5.html">2.5</a></li><li><a href="stba-7.2-3.html">7.2–3</a></li><li><a href="stba-12.1-2.html">12.1–2</a></li><li><a href="stba-13.5.html">13.5</a></li><li><a href="stba-17.1-3.html">17.1–3</a></li><li><a href="stba-22.1-2.html">22.1–2</a></li><li><a href="stba26.1-2.html">26.1–2</a></li><li><a href="stba-27.5.html">27.5</a></li><li><a href="stba-31.3.html">31.3</a></li><li><a href="stba-35.3.html">35.3</a></li><li><a href="stba-36.4-5.html">36.4–5</a></li><li><a href="stba-40.2.html">40.2</a></li><li><a href="stba-46.1.html">46.1</a></li><li><a href="stba-47.2.html">47.2</a></li><li><a href="stba-49.1.html">49.1</a></li><li><a href="stba-49.2-3.html">49.2–3</a></li><li><a href="stba-60.2.html">60.2</a></li><li><a href="stba-63.5.html">63.5</a></li><li><a href="stba-66.3-4.html">66.3–4</a></li><li><a href="stba-67.1.html">67.1</a></li><li><a href="stba-68.1.html">68.1</a></li><li><a href="stba-72.2-3.html">72.2–3</a></li><li><a href="stba-74.4.html">74.4</a></li></ul></li></ul></div></div>

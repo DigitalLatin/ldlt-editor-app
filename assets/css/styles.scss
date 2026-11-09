@@ -1,0 +1,175 @@
+--- 
+--- 
+html {
+    padding: 0;
+    margin: 0;
+    scroll-padding-top: 87px;
+}
+
+// Cribbed from https://code-boxx.com/lock-screen-orientation/
+/* (A) WRONG ORIENTATION - SHOW MESSAGE HIDE CONTENT */
+@media only screen and (orientation:portrait) {
+    #turn { display:block; }
+    #container { display:none; }
+}
+   
+/* (B) CORRECT ORIENTATION - SHOW CONTENT HIDE MESSAGE */
+@media only screen and (orientation:landscape) {
+    #turn { display:none; }
+    #container { display:block; }
+}
+
+// Don't play this trick on devices larger than a phone.
+@media only screen and (min-width: 576px) and (orientation:landscape) {
+    #turn { display:none; }
+    #container { display:block; }
+}
+
+@media only screen and (min-width: 576px) and (orientation:portrait) {
+    #turn { display:none; }
+    #container { display:block; }
+}
+
+a:link {
+    color: #005cb9;
+}
+
+a:visited {
+    color: #005cb9;
+}
+
+a:hover {
+    color: #a33701;
+}
+
+// Navbar styles
+
+#nav-container {
+    background-color: #005cb9;
+    color: white;
+}
+.navbar {
+    background-color: #005cb9;
+}
+
+.navbar .container {
+    width: 70%;
+}
+
+a.navbar-brand {
+    margin-bottom: 0.75rem;
+    margin-left: 1rem;
+}
+
+a.nav-link {
+    color: white;
+}
+
+a:hover.nav-link {
+    color: #a33701;
+}
+
+// Home Page
+#mainwrapper {
+    min-height: 83vh;
+}
+
+#main {
+    margin-top: 3rem;
+}
+
+#main.container {
+    padding-left: 0;
+    @media (min-width: 992px) {
+        padding-left: var(--bs-gutter-x,.75rem);
+     }
+}
+
+#main h1 {
+    color: #a33701;
+    text-align: center;
+}
+
+#main h2 {
+    font-style: italic;
+    font-weight: 100;
+    color: #b7b7b7;
+    text-align: center;
+}
+
+#main h3 {
+    margin-top: 40px;
+    color: #005cb9;
+}
+
+#main-content {
+    margin-top: 2.5rem;
+    width: 75%;
+}
+
+#main p:first-of-type {
+    margin-top: 3rem;
+}
+
+#main p,
+#info p {
+}
+
+#info {
+    margin-bottom: 3rem;
+}
+
+// Change the container for the text on small screens.
+.container, .container-fluid {
+    margin-left: 0;
+    margin-right: 0;
+    @media (min-width: 1200px) { 
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+#turn p {
+    text-align: center;
+    margin-top: 3rem;
+    font-size: large;
+}
+
+#turn img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+// Footer
+footer {
+    background-color: lightgrey;
+    color: #a33701;
+    padding-top: 2.25rem;
+    padding-bottom: 3rem;
+}
+
+.footer {
+    width: 100%;
+    height: 10vh;
+}
+
+footer .container {
+    width: 80%;
+}
+
+footer ul.nav {
+    display: block;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.footer-copyright a {
+    color: #a33701;
+}
+
+.footer-copyright a:hover {
+    color: #005cb9;
+}

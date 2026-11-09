@@ -1,0 +1,267 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calpurnius Siculus, Bucolica: Early Editions</title>
+    <link rel="shortcut icon" href="/assets/images/favicon.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/css/styles.css"/>
+    <link rel="stylesheet" href="/assets/css/tei-html.css"/>
+    <link rel="stylesheet" href="/assets/js/jquery-ui-1.11.4.custom/jquery-ui.css"/>
+    <script type="text/javascript" src="/assets/js/CETEI.js"></script>
+    <script type="text/javascript" src="/assets/js/jquery/jquery-1.11.3.js"></script>
+    <script type="text/javascript" src="/assets/js/jquery-ui-1.11.4.custom/jquery-ui.js"></script>
+    <script type="text/javascript" src="/assets/js/appcrit.js"></script>
+    <script type="text/javascript" src="/assets/js/behaviors.js"></script>
+  </head>
+  <body>
+    <!-- Credit for this hack goes to https://code-boxx.com/lock-screen-orientation/ -->
+    <!-- (A) THIS WILL SHOW ON THE WRONG ORIENTATION -->
+    <div id="turn">
+      <p>Please rotate your device!</p>
+      <img src="/assets/images/DLL_logo_web_medium.png" alt="Digital Latin Library Home" />
+    </div>
+
+    <!-- (B) CONTENTS AS USUAL -->
+    <div id="container">
+      <svg class="svg-icon" style="display:none;">
+    <symbol id="note-icon" viewBox="0 0 20 20">
+        <path
+            d="M14.999,8.543c0,0.229-0.188,0.417-0.416,0.417H5.417C5.187,8.959,5,8.772,5,8.543s0.188-0.417,0.417-0.417h9.167C14.812,8.126,14.999,8.314,14.999,8.543 M12.037,10.213H5.417C5.187,10.213,5,10.4,5,10.63c0,0.229,0.188,0.416,0.417,0.416h6.621c0.229,0,0.416-0.188,0.416-0.416C12.453,10.4,12.266,10.213,12.037,10.213 M14.583,6.046H5.417C5.187,6.046,5,6.233,5,6.463c0,0.229,0.188,0.417,0.417,0.417h9.167c0.229,0,0.416-0.188,0.416-0.417C14.999,6.233,14.812,6.046,14.583,6.046 M17.916,3.542v10c0,0.229-0.188,0.417-0.417,0.417H9.373l-2.829,2.796c-0.117,0.116-0.71,0.297-0.71-0.296v-2.5H2.5c-0.229,0-0.417-0.188-0.417-0.417v-10c0-0.229,0.188-0.417,0.417-0.417h15C17.729,3.126,17.916,3.313,17.916,3.542 M17.083,3.959H2.917v9.167H6.25c0.229,0,0.417,0.187,0.417,0.416v1.919l2.242-2.215c0.079-0.077,0.184-0.12,0.294-0.12h7.881V3.959z">
+        </path>
+    </symbol>
+    <symbol id="rdg-icon" viewBox="0 0 20 20">
+        <path
+            d="M17.659,3.681H8.468c-0.211,0-0.383,0.172-0.383,0.383v2.681H2.341c-0.21,0-0.383,0.172-0.383,0.383v6.126c0,0.211,0.172,0.383,0.383,0.383h1.532v2.298c0,0.566,0.554,0.368,0.653,0.27l2.569-2.567h4.437c0.21,0,0.383-0.172,0.383-0.383v-2.681h1.013l2.546,2.567c0.242,0.249,0.652,0.065,0.652-0.27v-2.298h1.533c0.211,0,0.383-0.172,0.383-0.382V4.063C18.042,3.853,17.87,3.681,17.659,3.681 M11.148,12.87H6.937c-0.102,0-0.199,0.04-0.27,0.113l-2.028,2.025v-1.756c0-0.211-0.172-0.383-0.383-0.383H2.724V7.51h5.361v2.68c0,0.21,0.172,0.382,0.383,0.382h2.68V12.87z M17.276,9.807h-1.533c-0.211,0-0.383,0.172-0.383,0.383v1.755L13.356,9.92c-0.07-0.073-0.169-0.113-0.27-0.113H8.851v-5.36h8.425V9.807z">
+        </path>
+    </symbol>
+    <symbol id="redo-icon" viewBox="0 0 20 20">
+        <path
+            d="M16.76,7.51l-5.199-5.196c-0.234-0.239-0.633-0.066-0.633,0.261v2.534c-0.267-0.035-0.575-0.063-0.881-0.063c-3.813,0-6.915,3.042-6.915,6.783c0,2.516,1.394,4.729,3.729,5.924c0.367,0.189,0.71-0.266,0.451-0.572c-0.678-0.793-1.008-1.645-1.008-2.602c0-2.348,1.93-4.258,4.303-4.258c0.108,0,0.215,0.003,0.321,0.011v2.634c0,0.326,0.398,0.5,0.633,0.262l5.199-5.193C16.906,7.891,16.906,7.652,16.76,7.51 M11.672,12.068V9.995c0-0.185-0.137-0.341-0.318-0.367c-0.219-0.032-0.49-0.05-0.747-0.05c-2.78,0-5.046,2.241-5.046,5c0,0.557,0.099,1.092,0.292,1.602c-1.261-1.111-1.979-2.656-1.979-4.352c0-3.331,2.77-6.041,6.172-6.041c0.438,0,0.886,0.067,1.184,0.123c0.231,0.043,0.441-0.134,0.441-0.366V3.472l4.301,4.3L11.672,12.068z">
+        </path>
+    </symbol>
+    <symbol id="undo-icon" viewBox="0 0 20 20">
+        <path
+            d="M3.24,7.51c-0.146,0.142-0.146,0.381,0,0.523l5.199,5.193c0.234,0.238,0.633,0.064,0.633-0.262v-2.634c0.105-0.007,0.212-0.011,0.321-0.011c2.373,0,4.302,1.91,4.302,4.258c0,0.957-0.33,1.809-1.008,2.602c-0.259,0.307,0.084,0.762,0.451,0.572c2.336-1.195,3.73-3.408,3.73-5.924c0-3.741-3.103-6.783-6.916-6.783c-0.307,0-0.615,0.028-0.881,0.063V2.575c0-0.327-0.398-0.5-0.633-0.261L3.24,7.51 M4.027,7.771l4.301-4.3v2.073c0,0.232,0.21,0.409,0.441,0.366c0.298-0.056,0.746-0.123,1.184-0.123c3.402,0,6.172,2.709,6.172,6.041c0,1.695-0.718,3.24-1.979,4.352c0.193-0.51,0.293-1.045,0.293-1.602c0-2.76-2.266-5-5.046-5c-0.256,0-0.528,0.018-0.747,0.05C8.465,9.653,8.328,9.81,8.328,9.995v2.074L4.027,7.771z">
+        </path>
+    </symbol>
+    <symbol id="reload-icon" viewBox="0 0 20 20">
+        <path
+            d="M12.319,5.792L8.836,2.328C8.589,2.08,8.269,2.295,8.269,2.573v1.534C8.115,4.091,7.937,4.084,7.783,4.084c-2.592,0-4.7,2.097-4.7,4.676c0,1.749,0.968,3.337,2.528,4.146c0.352,0.194,0.651-0.257,0.424-0.529c-0.415-0.492-0.643-1.118-0.643-1.762c0-1.514,1.261-2.747,2.787-2.747c0.029,0,0.06,0,0.09,0.002v1.632c0,0.335,0.378,0.435,0.568,0.245l3.483-3.464C12.455,6.147,12.455,5.928,12.319,5.792 M8.938,8.67V7.554c0-0.411-0.528-0.377-0.781-0.377c-1.906,0-3.457,1.542-3.457,3.438c0,0.271,0.033,0.542,0.097,0.805C4.149,10.7,3.775,9.762,3.775,8.76c0-2.197,1.798-3.985,4.008-3.985c0.251,0,0.501,0.023,0.744,0.069c0.212,0.039,0.412-0.124,0.412-0.34v-1.1l2.646,2.633L8.938,8.67z M14.389,7.107c-0.34-0.18-0.662,0.244-0.424,0.529c0.416,0.493,0.644,1.118,0.644,1.762c0,1.515-1.272,2.747-2.798,2.747c-0.029,0-0.061,0-0.089-0.002v-1.631c0-0.354-0.382-0.419-0.558-0.246l-3.482,3.465c-0.136,0.136-0.136,0.355,0,0.49l3.482,3.465c0.189,0.186,0.568,0.096,0.568-0.245v-1.533c0.153,0.016,0.331,0.022,0.484,0.022c2.592,0,4.7-2.098,4.7-4.677C16.917,9.506,15.948,7.917,14.389,7.107 M12.217,15.238c-0.251,0-0.501-0.022-0.743-0.069c-0.212-0.039-0.411,0.125-0.411,0.341v1.101l-2.646-2.634l2.646-2.633v1.116c0,0.174,0.126,0.318,0.295,0.343c0.158,0.024,0.318,0.034,0.486,0.034c1.905,0,3.456-1.542,3.456-3.438c0-0.271-0.032-0.541-0.097-0.804c0.648,0.719,1.022,1.659,1.022,2.66C16.226,13.451,14.428,15.238,12.217,15.238">
+        </path>
+    </symbol>
+</svg>
+      <div id="nav-container">
+    <div class="container">
+        <nav id="nav" class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="http://digitallatin.org/"><img src="/assets/images/DLL-logo.png" alt="Digital Latin Library Home" /></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarToggler">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="/">LDLT Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/about.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/editions.html">Editions</a>
+                            </li>
+                        </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+</div>
+        <div class="d-flex flex-column">
+            <div id="mainwrapper" class="container">    
+                <main role="main" class="container">
+                    <div class="row">
+                        <div class="col-md-10">
+                            <div id="main" class="container">
+        <div id="prevNext">
+    -
+  </div>
+<div class="TEI" id="tei"><tei-teiHeader xml:id="d2e5" id="d2e5" data-origname="teiHeader">
+    <tei-fileDesc xml:id="d2e7" id="d2e7" data-origname="fileDesc">
+      <tei-titleStmt xml:id="d2e9" id="d2e9" data-origname="titleStmt">
+        <tei-title xml:id="d2e11" id="d2e11" data-origname="title">Bucolica</tei-title>
+        <tei-author xml:id="d2e13" id="d2e13" data-origname="author">Calpurnius Siculus</tei-author>
+        <tei-editor xml:id="d2e15" id="d2e15" data-origname="editor">Cesar Giarratano</tei-editor>
+      </tei-titleStmt>
+      <tei-editionStmt xml:id="d2e18" id="d2e18" data-origname="editionStmt">
+        <tei-edition xml:id="d2e20" id="d2e20" data-origname="edition">Semantically encoded edition</tei-edition>
+        <tei-respStmt xml:id="d2e22" id="d2e22" data-origname="respStmt">
+          <tei-resp xml:id="d2e24" id="d2e24" data-origname="resp">New annotations and encoding by</tei-resp>
+          <tei-name xml:id="d2e26" id="d2e26" data-origname="name">Samuel J. Huskey</tei-name>
+          <tei-name xml:id="d2e28" id="d2e28" data-origname="name">Hugh Cayless</tei-name>
+        </tei-respStmt>
+      </tei-editionStmt>
+      <tei-publicationStmt xml:id="d2e32" id="d2e32" data-origname="publicationStmt">
+        <tei-publisher xml:id="d2e34" id="d2e34" data-origname="publisher">Digital Latin Library</tei-publisher>
+        <tei-date xml:id="d2e36" id="d2e36" data-origname="date">2017</tei-date>
+      </tei-publicationStmt>
+      <tei-seriesStmt xml:id="d2e39" id="d2e39" data-origname="seriesStmt">
+        <tei-title level="s" xml:id="d2e41" id="d2e41" data-origname="title">Library of Digital Latin Texts</tei-title>
+        <tei-biblScope unit="vol" xml:id="d2e44" id="d2e44" data-origname="biblScope">1</tei-biblScope>
+      </tei-seriesStmt>
+      <tei-sourceDesc xml:id="sources" id="sources" data-origname="sourceDesc">
+        <tei-bibl xml:id="Giarratano1910" id="Giarratano1910" n="Giarratano 1910" data-origname="bibl"><tei-title level="m" xml:id="d2e51" id="d2e51" data-origname="title">Calpurnii et Nemesiani
+            Bucolica</tei-title>, <tei-editor ref="http://viaf.org/viaf/79016214" xml:id="d2e54" id="d2e54" data-origname="editor"><tei-forename xml:id="d2e55" id="d2e55" data-origname="forename">Caesar</tei-forename><tei-surname xml:id="d2e56" id="d2e56" data-origname="surname">Giarratano</tei-surname></tei-editor>,
+            <tei-pubPlace xml:id="d2e58" id="d2e58" data-origname="pubPlace">Naples</tei-pubPlace>, <tei-publisher xml:id="d2e60" id="d2e60" data-origname="publisher">Detken et Rocholl</tei-publisher>,
+          <tei-date xml:id="d2e62" id="d2e62" data-origname="date">1910</tei-date></tei-bibl>
+      </tei-sourceDesc>
+    </tei-fileDesc>
+    <tei-encodingDesc xml:id="d2e66" id="d2e66" data-origname="encodingDesc">
+      <tei-listPrefixDef xml:id="d2e68" id="d2e68" data-origname="listPrefixDef">
+        <tei-prefixDef ident="dc" matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1" xml:id="d2e70" id="d2e70" data-origname="prefixDef" data-empty="">​</tei-prefixDef>
+      </tei-listPrefixDef>
+      <tei-refsDecl xml:id="d2e73" id="d2e73" data-origname="refsDecl">
+        
+        <tei-citeStructure match="//front/div[@type='introduction']" use="'Introduction'" xml:id="d2e77" id="d2e77" data-origname="citeStructure">
+          
+          <tei-citeData property="dc:identifier" use="@xml:id" xml:id="d2e81" id="d2e81" data-origname="citeData" data-empty="">​</tei-citeData>
+          
+          <tei-citeData property="dc:title" use="'Introduction'" xml:id="d2e85" id="d2e85" data-origname="citeData" data-empty="">​</tei-citeData>
+          
+          <tei-citeData property="function" use="'toc-entry'" xml:id="d2e90" id="d2e90" data-origname="citeData" data-empty="">​</tei-citeData>
+          <tei-citeStructure match="./div[@type='section']" use="head" delim=", " xml:id="d2e92" id="d2e92" data-origname="citeStructure">
+            <tei-citeData property="dc:title" use="head" xml:id="d2e94" id="d2e94" data-origname="citeData" data-empty="">​</tei-citeData>
+            <tei-citeData property="dc:identifier" use="@xml:id" xml:id="d2e96" id="d2e96" data-origname="citeData" data-empty="">​</tei-citeData>
+            <tei-citeData property="function" use="'toc-entry'" xml:id="d2e98" id="d2e98" data-origname="citeData" data-empty="">​</tei-citeData>
+            
+            <tei-citeData property="function" use="'split'" xml:id="d2e102" id="d2e102" data-origname="citeData" data-empty="">​</tei-citeData>
+            
+            <tei-citeData property="dc:requires" use="//front/div[@type='bibliography']" xml:id="d2e107" id="d2e107" data-origname="citeData" data-empty="">​</tei-citeData>
+          </tei-citeStructure>
+        </tei-citeStructure>
+        <tei-citeStructure match="//front/div[@type='bibliography']" use="head" xml:id="d2e111" id="d2e111" data-origname="citeStructure">
+          <tei-citeData property="dc:identifier" use="@xml:id" xml:id="d2e113" id="d2e113" data-origname="citeData" data-empty="">​</tei-citeData>
+          <tei-citeData property="dc:title" use="head" xml:id="d2e115" id="d2e115" data-origname="citeData" data-empty="">​</tei-citeData>
+          <tei-citeData property="function" use="'toc-entry'" xml:id="d2e117" id="d2e117" data-origname="citeData" data-empty="">​</tei-citeData>
+          <tei-citeStructure match="./div[@type='bibliography']" use="head" delim=", " xml:id="d2e119" id="d2e119" data-origname="citeStructure">
+            <tei-citeData property="dc:identifier" use="@xml:id" xml:id="d2e121" id="d2e121" data-origname="citeData" data-empty="">​</tei-citeData>
+            <tei-citeData property="dc:title" use="head" xml:id="d2e123" id="d2e123" data-origname="citeData" data-empty="">​</tei-citeData>
+            <tei-citeData property="function" use="'toc-entry'" xml:id="d2e125" id="d2e125" data-origname="citeData" data-empty="">​</tei-citeData>
+            <tei-citeData property="function" use="'split'" xml:id="d2e127" id="d2e127" data-origname="citeData" data-empty="">​</tei-citeData>
+          </tei-citeStructure>
+        </tei-citeStructure>
+        
+        <tei-citeStructure match="//div[@type='textpart']" use="@n" unit="poem" xml:id="d2e133" id="d2e133" data-origname="citeStructure">
+          <tei-citeData property="dc:identifier" use="@xml:id" xml:id="d2e135" id="d2e135" data-origname="citeData" data-empty="">​</tei-citeData>
+          <tei-citeData property="dc:title" use="head" xml:id="d2e137" id="d2e137" data-origname="citeData" data-empty="">​</tei-citeData>
+          <tei-citeData property="function" use="'toc-entry'" xml:id="d2e139" id="d2e139" data-origname="citeData" data-empty="">​</tei-citeData>
+          <tei-citeData property="function" use="'split'" xml:id="d2e141" id="d2e141" data-origname="citeData" data-empty="">​</tei-citeData>
+          <tei-citeData property="dc:requires" use="//front/div[@type='bibliography']" xml:id="d2e143" id="d2e143" data-origname="citeData" data-empty="">​</tei-citeData>
+          <tei-citeStructure match=".//l[parent::div or parent::lem or parent::lg]" use="@n" delim="." unit="line" xml:id="d2e146" id="d2e146" data-origname="citeStructure" data-empty="">​</tei-citeStructure>
+        </tei-citeStructure>
+      </tei-refsDecl>
+    </tei-encodingDesc>
+  </tei-teiHeader><tei-TEI xml:id="d2e3" id="d2e3" data-origname="TEI"><tei-text xml:id="d2e152" id="d2e152" data-origname="text"><tei-front xml:id="front" id="front" data-origname="front"><tei-div type="bibliography" xml:id="bibliography" id="bibliography" data-origname="div"><tei-div type="bibliography" xml:id="bibliography-early-editions" id="bibliography-early-editions" data-origname="div">
+          <tei-head xml:id="d2e7297" id="d2e7297" data-origname="head">Early Editions</tei-head>
+          <tei-listWit xml:id="editions-witnesses" id="editions-witnesses" data-origname="listWit">
+            <tei-witness xml:id="r" id="r" data-origname="witness">
+              <tei-abbr type="siglum" xml:id="d2e7303" id="d2e7303" data-origname="abbr">r</tei-abbr> = <tei-bibl xml:id="d2e7306" id="d2e7306" data-origname="bibl"><tei-editor xml:id="d2e7307" id="d2e7307" data-origname="editor"><tei-name xml:id="d2e7308" id="d2e7308" data-origname="name">Anonymous</tei-name></tei-editor>.
+                  <tei-title xml:id="d2e7310" id="d2e7310" data-origname="title">editio Romana</tei-title>. <tei-pubPlace xml:id="d2e7312" id="d2e7312" data-origname="pubPlace">[Romae]</tei-pubPlace>: <tei-publisher xml:id="d2e7314" id="d2e7314" data-origname="publisher">Schweynheim
+                  et Pannartz</tei-publisher>, <tei-date xml:id="d2e7316" id="d2e7316" data-origname="date">1471</tei-date></tei-bibl>.</tei-witness>
+            <tei-witness xml:id="e" id="e" data-origname="witness"><tei-abbr type="siglum" xml:id="d2e7320" id="d2e7320" data-origname="abbr">e</tei-abbr> = <tei-bibl xml:id="d2e7323" id="d2e7323" data-origname="bibl"><tei-editor xml:id="d2e7324" id="d2e7324" data-origname="editor"><tei-name xml:id="d2e7325" id="d2e7325" data-origname="name">Anonymous</tei-name>.
+                  </tei-editor><tei-title xml:id="d2e7327" id="d2e7327" data-origname="title">editio Veneta</tei-title>. <tei-pubPlace xml:id="d2e7329" id="d2e7329" data-origname="pubPlace">[Venetiis]</tei-pubPlace>:
+                  <tei-publisher xml:id="d2e7331" id="d2e7331" data-origname="publisher">Ausonius et Giradinus</tei-publisher>, <tei-date xml:id="d2e7333" id="d2e7333" data-origname="date">1472</tei-date></tei-bibl>.</tei-witness>
+            <tei-witness xml:id="d" id="d" data-origname="witness"><tei-abbr type="siglum" xml:id="d2e7337" id="d2e7337" data-origname="abbr">d</tei-abbr> = utriusque edit. Daventr. consensus <tei-listWit xml:id="d2e7340" id="d2e7340" data-origname="listWit">
+                <tei-witness xml:id="d1" id="d1" data-origname="witness"><tei-abbr type="siglum" xml:id="d2e7343" id="d2e7343" data-origname="abbr">d<tei-hi rend="super" xml:id="d2e7345" id="d2e7345" data-origname="hi">1</tei-hi></tei-abbr> =
+                      <tei-bibl xml:id="d2e7348" id="d2e7348" data-origname="bibl"><tei-editor xml:id="d2e7349" id="d2e7349" data-origname="editor">Anonymous</tei-editor>. <tei-title xml:id="d2e7351" id="d2e7351" data-origname="title">editio Daventriensis prior</tei-title>.
+                      <tei-pubPlace xml:id="d2e7353" id="d2e7353" data-origname="pubPlace">[Daventriae]</tei-pubPlace>: <tei-publisher xml:id="d2e7355" id="d2e7355" data-origname="publisher">apud R. Paffraet</tei-publisher>,
+                      <tei-date xml:id="d2e7357" id="d2e7357" data-origname="date">1488</tei-date></tei-bibl>. URL: <tei-ptr target="http://gateway.proquest.com/openurl?url_ver=Z39.88-2004&amp;res_dat=xri:eurobo:&amp;rft_dat=xri:eurobo:rec:ned-kbn-all-00001955-001" xml:id="d2e7359" id="d2e7359" data-origname="ptr" data-empty="">​</tei-ptr>.</tei-witness>
+                <tei-witness xml:id="d2" id="d2" data-origname="witness">
+                  <tei-abbr type="siglum" xml:id="d2e7364" id="d2e7364" data-origname="abbr">d<tei-hi rend="super" xml:id="d2e7366" id="d2e7366" data-origname="hi">2</tei-hi></tei-abbr> =
+                      <tei-bibl xml:id="d2e7369" id="d2e7369" data-origname="bibl"><tei-editor xml:id="d2e7370" id="d2e7370" data-origname="editor">Anonymous</tei-editor>. <tei-title xml:id="d2e7372" id="d2e7372" data-origname="title">editio Daventriensis
+                      posterior</tei-title>. <tei-pubPlace xml:id="d2e7374" id="d2e7374" data-origname="pubPlace">[Daventriae]</tei-pubPlace>: <tei-publisher xml:id="d2e7376" id="d2e7376" data-origname="publisher">apud J. de
+                      Breda</tei-publisher>, <tei-date xml:id="d2e7378" id="d2e7378" data-origname="date">1491</tei-date></tei-bibl>. URL: <tei-ptr target="http://daten.digitale-sammlungen.de/~db/0008/bsb00080128/images/" xml:id="d2e7380" id="d2e7380" data-origname="ptr" data-empty="">​</tei-ptr>.
+                </tei-witness>
+              </tei-listWit>
+            </tei-witness>
+            <tei-witness xml:id="u" id="u" data-origname="witness"><tei-abbr type="siglum" xml:id="d2e7386" id="d2e7386" data-origname="abbr">u</tei-abbr> = <tei-bibl xml:id="d2e7389" id="d2e7389" data-origname="bibl"><tei-editor xml:id="d2e7390" id="d2e7390" data-origname="editor">Anonymous</tei-editor>.
+                  <tei-title xml:id="d2e7392" id="d2e7392" data-origname="title">editio Ang. Ugoleti</tei-title>. <tei-pubPlace xml:id="d2e7394" id="d2e7394" data-origname="pubPlace">Parmae</tei-pubPlace>:
+                  <tei-publisher xml:id="d2e7396" id="d2e7396" data-origname="publisher">Angelus Ugoletus</tei-publisher>, <tei-date xml:id="d2e7398" id="d2e7398" data-origname="date">1492</tei-date></tei-bibl>.</tei-witness>
+            <tei-witness xml:id="c" id="c" data-origname="witness"><tei-abbr type="siglum" xml:id="d2e7402" id="d2e7402" data-origname="abbr">c</tei-abbr> = <tei-bibl xml:id="d2e7405" id="d2e7405" data-origname="bibl"><tei-editor xml:id="d2e7406" id="d2e7406" data-origname="editor">Anonymous</tei-editor>.
+                  <tei-title xml:id="d2e7408" id="d2e7408" data-origname="title">editio Coloniensis (Buccolica canori poetae Titi Calphurnii Siculi undecim
+                  Aeglogis iucunditer decantata)</tei-title>. <tei-pubPlace xml:id="d2e7410" id="d2e7410" data-origname="pubPlace">Coloniae</tei-pubPlace>:
+                  <tei-publisher xml:id="d2e7412" id="d2e7412" data-origname="publisher">[Henricus Quintell]</tei-publisher>, <tei-date xml:id="d2e7414" id="d2e7414" data-origname="date">1505(?)</tei-date></tei-bibl>. URL: <tei-ptr target="http://digitale.bibliothek.uni-halle.de/vd16/content/titleinfo/1000626" xml:id="d2e7416" id="d2e7416" data-origname="ptr" data-empty="">​</tei-ptr>.</tei-witness>
+            <tei-witness xml:id="Nordh." id="Nordh." data-origname="witness"><tei-abbr type="siglum" xml:id="d2e7421" id="d2e7421" data-origname="abbr">Nordh.</tei-abbr> = <tei-bibl xml:id="d2e7424" id="d2e7424" data-origname="bibl"><tei-editor xml:id="d2e7425" id="d2e7425" data-origname="editor" data-empty="">​</tei-editor>. <tei-title xml:id="d2e7427" id="d2e7427" data-origname="title">ed.
+                  Nordheimensis</tei-title>. <tei-pubPlace xml:id="d2e7429" id="d2e7429" data-origname="pubPlace">[Nordheim]</tei-pubPlace>:
+                  <tei-publisher xml:id="d2e7431" id="d2e7431" data-origname="publisher">s.n.</tei-publisher>, <tei-date xml:id="d2e7433" id="d2e7433" data-origname="date">s.d.</tei-date></tei-bibl>.</tei-witness>
+            <tei-witness xml:id="s" id="s" data-origname="witness"><tei-abbr type="siglum" xml:id="d2e7437" id="d2e7437" data-origname="abbr">s</tei-abbr> = <tei-bibl xml:id="d2e7440" id="d2e7440" data-origname="bibl"><tei-title xml:id="d2e7441" id="d2e7441" data-origname="title">editio
+                  Ascensiana</tei-title> = <tei-editor xml:id="d2e7443" id="d2e7443" data-origname="editor">Badius, Josse (“Ascensius”)</tei-editor>.
+                  <tei-title xml:id="d2e7445" id="d2e7445" data-origname="title">Buccolica, cum adnotatione Ascensiana</tei-title>. <tei-pubPlace xml:id="d2e7447" id="d2e7447" data-origname="pubPlace">Parhisiis, in vico
+                  Maturinorum</tei-pubPlace>: <tei-publisher xml:id="d2e7449" id="d2e7449" data-origname="publisher">a Durando Gerlerio</tei-publisher>,
+                  <tei-date xml:id="d2e7451" id="d2e7451" data-origname="date">1503</tei-date></tei-bibl>. URL: <tei-ptr target="http://gallica.bnf.fr/ark:/12148/bpt6k841539v" xml:id="d2e7453" id="d2e7453" data-origname="ptr" data-empty="">​</tei-ptr>.</tei-witness>
+            <tei-witness xml:id="b" id="b" data-origname="witness"><tei-abbr type="siglum" xml:id="d2e7457" id="d2e7457" data-origname="abbr">b</tei-abbr> = <tei-bibl xml:id="d2e7460" id="d2e7460" data-origname="bibl"><tei-title xml:id="d2e7461" id="d2e7461" data-origname="title">editio
+                  Bononiensis</tei-title> = <tei-editor xml:id="d2e7463" id="d2e7463" data-origname="editor">Guidalottus Bononiensis, Diomedes</tei-editor>.
+                  <tei-title xml:id="d2e7465" id="d2e7465" data-origname="title">Calpurnii et Nemesiani Poetarum Buccolicum Carmen</tei-title>.
+                  <tei-pubPlace xml:id="d2e7467" id="d2e7467" data-origname="pubPlace">Bononiae</tei-pubPlace>: <tei-publisher xml:id="d2e7469" id="d2e7469" data-origname="publisher">per Caligulam Bazalerium</tei-publisher>,
+                  <tei-date xml:id="d2e7471" id="d2e7471" data-origname="date">1504</tei-date></tei-bibl>. URL: <tei-ptr target="https://books.google.com/books?id=B1RrV7ciP6gC&amp;pg=PT3#v=onepage&amp;q&amp;f=false" xml:id="d2e7473" id="d2e7473" data-origname="ptr" data-empty="">​</tei-ptr>.</tei-witness>
+          </tei-listWit>
+        </tei-div></tei-div></tei-front></tei-text></tei-TEI></div>
+<div id="controls" class=""><div id="citesearch"><form><label for="getcite">Find citation</label> <input type="text" name="getcite" /> <button onclick="resolveCite(); return false;">Go</button></form></div><div id="editing"><ul><li><button onclick="app.undo()" title="undo"><svg class="svg-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#undo-icon" /></svg></button></li><li><button onclick="app.redo()" title="redo"><svg class="svg-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#redo-icon" /></svg></button></li><li><button onclick="while (app.log.length &gt; 0) {app.undo();}" title="undo all"><svg class="svg-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#reload-icon" /></svg></button></li></ul></div><div id="display"><form class=""><ul><li><input type="checkbox" name="orthographical" value="true" /><label for="orthographical">Hide orthographical variants</label></li><li><input type="checkbox" name="morphological" value="true" /><label for="morphological">Hide morphological variants</label></li><li><input type="checkbox" name="lexical" value="true" /><label for="lexical">Hide lexical variants</label></li></ul></form></div><div id="navigation"><ul><li>Introduction<ul><li><a href="front1.html">I. Calpurnius and Nemesianus</a></li><li><a href="front2.html">II. Overview of the Tradition</a></li><li><a href="front3.html">III. Manuscripts: The First Family (N G)</a></li><li><a href="front4.html">IV. Manuscripts: The Second Family (V)</a></li><li><a href="front5.html">V. The Third Family (P)</a></li><li><a href="front6.html">VI. Two lost manuscripts</a></li></ul></li><li>Bibliography<ul><li><a href="bibliography-manuscripts.html">Manuscripts</a></li><li><a href="bibliography-early-editions.html">Early Editions</a></li><li><a href="bibliography-modern-editions.html">Modern Editions</a></li><li><a href="bibliography-secondary-sources.html">Secondary Sources</a></li><li><a href="bibliography-scholars.html">Scholars Cited by Name</a></li><li><a href="bibliography-abbreviations.html">Other abbreviations used in this edition</a></li></ul></li><li><a href="poem1.html">Poem 1. [Corydon, Ornytus]</a></li><li><a href="poem2.html">Poem 2. [Idas, Astacus, Thyrsis]</a></li><li><a href="poem3.html">Poem 3. [Iollas, Lycidas]</a></li><li><a href="poem4.html">Poem 4. [Meliboeus, Corydon, Amyntas]</a></li><li><a href="poem5.html">Poem 5.</a></li><li><a href="poem6.html">Poem 6. [Astylus, Lycidas, Mnasyllus]</a></li><li><a href="poem7.html">Poem 7. [Lycotas, Corydon]</a></li></ul></div></div>
+
+          </div>
+        </div>
+    </div>
+    <script>
+      let c = new CETEI({'ignoreFragmentId':true});
+      let app = new appcrit(c);
+      c.addBehaviors(behaviors);
+      c.processPage();
+      $("tei-listwit,tei-witness,tei-bibl,tei-listBibl,tei-handnote,tei-person,tei-item").each(function(i, el) {
+        if (el.hasAttribute("id")) {
+          let val = el.querySelector("tei-abbr[type=siglum]")?.innerHTML;
+          if (val) {
+            app.references['#' + el.getAttribute("id")] = val;
+          } else {
+            app.references['#' + el.getAttribute("id")] = el.getAttribute("id");
+          }
+        }
+      });
+      let tei = document.querySelector('div>tei-div[type="textpart"],[type="edition"],[type="section"],[type="commentary"]');
+      app.loadData(tei);
+      app.doSection($(tei));
+      let citables = {'1': 'poem1.html','1.1': 'poem1.html#1.1','1.2': 'poem1.html#1.2','1.3': 'poem1.html#1.3','1.4': 'poem1.html#1.4','1.5': 'poem1.html#1.5','1.6': 'poem1.html#1.6','1.7': 'poem1.html#1.7','1.8': 'poem1.html#1.8','1.9': 'poem1.html#1.9','1.10': 'poem1.html#1.10','1.11': 'poem1.html#1.11','1.12': 'poem1.html#1.12','1.13': 'poem1.html#1.13','1.14': 'poem1.html#1.14','1.15': 'poem1.html#1.15','1.16': 'poem1.html#1.16','1.17': 'poem1.html#1.17','1.18': 'poem1.html#1.18','1.19': 'poem1.html#1.19','1.20': 'poem1.html#1.20','1.21': 'poem1.html#1.21','1.22': 'poem1.html#1.22','1.23': 'poem1.html#1.23','1.24': 'poem1.html#1.24','1.25': 'poem1.html#1.25','1.26': 'poem1.html#1.26','1.27': 'poem1.html#1.27','1.28': 'poem1.html#1.28','1.29': 'poem1.html#1.29','1.30': 'poem1.html#1.30','1.31': 'poem1.html#1.31','1.32': 'poem1.html#1.32','1.33': 'poem1.html#1.33','1.34': 'poem1.html#1.34','1.35': 'poem1.html#1.35','1.36': 'poem1.html#1.36','1.37': 'poem1.html#1.37','1.38': 'poem1.html#1.38','1.39': 'poem1.html#1.39','1.40': 'poem1.html#1.40','1.41': 'poem1.html#1.41','1.42': 'poem1.html#1.42','1.43': 'poem1.html#1.43','1.44': 'poem1.html#1.44','1.45': 'poem1.html#1.45','1.46': 'poem1.html#1.46','1.47': 'poem1.html#1.47','1.48': 'poem1.html#1.48','1.49': 'poem1.html#1.49','1.50': 'poem1.html#1.50','1.51': 'poem1.html#1.51','1.52': 'poem1.html#1.52','1.53': 'poem1.html#1.53','1.54': 'poem1.html#1.54','1.55': 'poem1.html#1.55','1.56': 'poem1.html#1.56','1.57': 'poem1.html#1.57','1.58': 'poem1.html#1.58','1.59': 'poem1.html#1.59','1.60': 'poem1.html#1.60','1.61': 'poem1.html#1.61','1.62': 'poem1.html#1.62','1.63': 'poem1.html#1.63','1.64': 'poem1.html#1.64','1.65': 'poem1.html#1.65','1.66': 'poem1.html#1.66','1.67': 'poem1.html#1.67','1.68': 'poem1.html#1.68','1.69': 'poem1.html#1.69','1.70': 'poem1.html#1.70','1.71': 'poem1.html#1.71','1.72': 'poem1.html#1.72','1.73': 'poem1.html#1.73','1.74': 'poem1.html#1.74','1.75': 'poem1.html#1.75','1.76': 'poem1.html#1.76','1.77': 'poem1.html#1.77','1.78': 'poem1.html#1.78','1.79': 'poem1.html#1.79','1.80': 'poem1.html#1.80','1.81': 'poem1.html#1.81','1.82': 'poem1.html#1.82','1.83': 'poem1.html#1.83','1.84': 'poem1.html#1.84','1.85': 'poem1.html#1.85','1.86': 'poem1.html#1.86','1.87': 'poem1.html#1.87','1.88': 'poem1.html#1.88','1.89': 'poem1.html#1.89','1.90': 'poem1.html#1.90','1.91': 'poem1.html#1.91','1.92': 'poem1.html#1.92','1.93': 'poem1.html#1.93','1.94': 'poem1.html#1.94','2': 'poem2.html','2.1': 'poem2.html#2.1','2.2': 'poem2.html#2.2','2.3': 'poem2.html#2.3','2.4': 'poem2.html#2.4','2.5': 'poem2.html#2.5','2.6': 'poem2.html#2.6','2.7': 'poem2.html#2.7','2.8': 'poem2.html#2.8','2.9': 'poem2.html#2.9','2.10': 'poem2.html#2.10','2.11': 'poem2.html#2.11','2.12': 'poem2.html#2.12','2.13': 'poem2.html#2.13','2.14': 'poem2.html#2.14','2.15': 'poem2.html#2.15','2.16': 'poem2.html#2.16','2.17': 'poem2.html#2.17','2.18': 'poem2.html#2.18','2.19': 'poem2.html#2.19','2.20': 'poem2.html#2.20','2.21': 'poem2.html#2.21','2.22': 'poem2.html#2.22','2.23': 'poem2.html#2.23','2.24': 'poem2.html#2.24','2.25': 'poem2.html#2.25','2.26': 'poem2.html#2.26','2.27': 'poem2.html#2.27','2.28': 'poem2.html#2.28','2.29': 'poem2.html#2.29','2.30': 'poem2.html#2.30','2.31': 'poem2.html#2.31','2.32': 'poem2.html#2.32','2.33': 'poem2.html#2.33','2.34': 'poem2.html#2.34','2.35': 'poem2.html#2.35','2.36': 'poem2.html#2.36','2.37': 'poem2.html#2.37','2.38': 'poem2.html#2.38','2.39': 'poem2.html#2.39','2.40': 'poem2.html#2.40','2.41': 'poem2.html#2.41','2.42': 'poem2.html#2.42','2.43': 'poem2.html#2.43','2.44': 'poem2.html#2.44','2.45': 'poem2.html#2.45','2.46': 'poem2.html#2.46','2.47': 'poem2.html#2.47','2.48': 'poem2.html#2.48','2.49': 'poem2.html#2.49','2.50': 'poem2.html#2.50','2.51': 'poem2.html#2.51','2.52': 'poem2.html#2.52','2.53': 'poem2.html#2.53','2.54': 'poem2.html#2.54','2.55': 'poem2.html#2.55','2.56': 'poem2.html#2.56','2.57': 'poem2.html#2.57','2.58': 'poem2.html#2.58','2.59': 'poem2.html#2.59','2.60': 'poem2.html#2.60','2.61': 'poem2.html#2.61','2.62': 'poem2.html#2.62','2.63': 'poem2.html#2.63','2.64': 'poem2.html#2.64','2.65': 'poem2.html#2.65','2.66': 'poem2.html#2.66','2.67': 'poem2.html#2.67','2.68': 'poem2.html#2.68','2.69': 'poem2.html#2.69','2.70': 'poem2.html#2.70','2.71': 'poem2.html#2.71','2.72': 'poem2.html#2.72','2.73': 'poem2.html#2.73','2.74': 'poem2.html#2.74','2.75': 'poem2.html#2.75','2.76': 'poem2.html#2.76','2.77': 'poem2.html#2.77','2.78': 'poem2.html#2.78','2.79': 'poem2.html#2.79','2.80': 'poem2.html#2.80','2.81': 'poem2.html#2.81','2.82': 'poem2.html#2.82','2.83': 'poem2.html#2.83','2.84': 'poem2.html#2.84','2.85': 'poem2.html#2.85','2.86': 'poem2.html#2.86','2.87': 'poem2.html#2.87','2.88': 'poem2.html#2.88','2.89': 'poem2.html#2.89','2.90': 'poem2.html#2.90','2.91': 'poem2.html#2.91','2.92': 'poem2.html#2.92','2.93': 'poem2.html#2.93','2.94': 'poem2.html#2.94','2.95': 'poem2.html#2.95','2.96': 'poem2.html#2.96','2.97': 'poem2.html#2.97','2.98': 'poem2.html#2.98','2.99': 'poem2.html#2.99','2.100': 'poem2.html#2.100','3': 'poem3.html','3.1': 'poem3.html#3.1','3.2': 'poem3.html#3.2','3.3': 'poem3.html#3.3','3.4': 'poem3.html#3.4','3.5': 'poem3.html#3.5','3.6': 'poem3.html#3.6','3.7': 'poem3.html#3.7','3.8': 'poem3.html#3.8','3.9': 'poem3.html#3.9','3.10': 'poem3.html#3.10','3.11': 'poem3.html#3.11','3.12': 'poem3.html#3.12','3.13': 'poem3.html#3.13','3.14': 'poem3.html#3.14','3.15': 'poem3.html#3.15','3.16': 'poem3.html#3.16','3.17': 'poem3.html#3.17','3.18': 'poem3.html#3.18','3.19': 'poem3.html#3.19','3.20': 'poem3.html#3.20','3.21': 'poem3.html#3.21','3.22': 'poem3.html#3.22','3.23': 'poem3.html#3.23','3.24': 'poem3.html#3.24','3.25': 'poem3.html#3.25','3.26': 'poem3.html#3.26','3.27': 'poem3.html#3.27','3.28': 'poem3.html#3.28','3.29': 'poem3.html#3.29','3.30': 'poem3.html#3.30','3.31': 'poem3.html#3.31','3.32': 'poem3.html#3.32','3.33': 'poem3.html#3.33','3.34': 'poem3.html#3.34','3.35': 'poem3.html#3.35','3.36': 'poem3.html#3.36','3.37': 'poem3.html#3.37','3.38': 'poem3.html#3.38','3.39': 'poem3.html#3.39','3.40': 'poem3.html#3.40','3.41': 'poem3.html#3.41','3.42': 'poem3.html#3.42','3.43': 'poem3.html#3.43','3.44': 'poem3.html#3.44','3.45': 'poem3.html#3.45','3.46': 'poem3.html#3.46','3.47': 'poem3.html#3.47','3.48': 'poem3.html#3.48','3.49': 'poem3.html#3.49','3.50': 'poem3.html#3.50','3.51': 'poem3.html#3.51','3.52': 'poem3.html#3.52','3.53': 'poem3.html#3.53','3.54': 'poem3.html#3.54','3.55': 'poem3.html#3.55','3.56': 'poem3.html#3.56','3.57': 'poem3.html#3.57','3.58': 'poem3.html#3.58','3.59': 'poem3.html#3.59','3.60': 'poem3.html#3.60','3.61': 'poem3.html#3.61','3.62': 'poem3.html#3.62','3.63': 'poem3.html#3.63','3.64': 'poem3.html#3.64','3.65': 'poem3.html#3.65','3.66': 'poem3.html#3.66','3.67': 'poem3.html#3.67','3.68': 'poem3.html#3.68','3.69': 'poem3.html#3.69','3.70': 'poem3.html#3.70','3.71': 'poem3.html#3.71','3.72': 'poem3.html#3.72','3.73': 'poem3.html#3.73','3.74': 'poem3.html#3.74','3.75': 'poem3.html#3.75','3.76': 'poem3.html#3.76','3.77': 'poem3.html#3.77','3.78': 'poem3.html#3.78','3.79': 'poem3.html#3.79','3.80': 'poem3.html#3.80','3.81': 'poem3.html#3.81','3.82': 'poem3.html#3.82','3.83': 'poem3.html#3.83','3.84': 'poem3.html#3.84','3.85': 'poem3.html#3.85','3.86': 'poem3.html#3.86','3.87': 'poem3.html#3.87','3.88': 'poem3.html#3.88','3.89': 'poem3.html#3.89','3.90': 'poem3.html#3.90','3.91': 'poem3.html#3.91','3.92': 'poem3.html#3.92','3.93': 'poem3.html#3.93','3.94': 'poem3.html#3.94','3.95': 'poem3.html#3.95','3.96': 'poem3.html#3.96','3.97': 'poem3.html#3.97','3.98': 'poem3.html#3.98','4': 'poem4.html','4.1': 'poem4.html#4.1','4.2': 'poem4.html#4.2','4.3': 'poem4.html#4.3','4.4': 'poem4.html#4.4','4.5': 'poem4.html#4.5','4.6': 'poem4.html#4.6','4.7': 'poem4.html#4.7','4.8': 'poem4.html#4.8','4.9': 'poem4.html#4.9','4.10': 'poem4.html#4.10','4.11': 'poem4.html#4.11','4.12': 'poem4.html#4.12','4.13': 'poem4.html#4.13','4.14': 'poem4.html#4.14','4.15': 'poem4.html#4.15','4.16': 'poem4.html#4.16','4.17': 'poem4.html#4.17','4.18': 'poem4.html#4.18','4.19': 'poem4.html#4.19','4.20': 'poem4.html#4.20','4.21': 'poem4.html#4.21','4.22': 'poem4.html#4.22','4.23': 'poem4.html#4.23','4.24': 'poem4.html#4.24','4.25': 'poem4.html#4.25','4.26': 'poem4.html#4.26','4.27': 'poem4.html#4.27','4.28': 'poem4.html#4.28','4.29': 'poem4.html#4.29','4.30': 'poem4.html#4.30','4.31': 'poem4.html#4.31','4.32': 'poem4.html#4.32','4.33': 'poem4.html#4.33','4.34': 'poem4.html#4.34','4.35': 'poem4.html#4.35','4.36': 'poem4.html#4.36','4.37': 'poem4.html#4.37','4.38': 'poem4.html#4.38','4.39': 'poem4.html#4.39','4.40': 'poem4.html#4.40','4.41': 'poem4.html#4.41','4.42': 'poem4.html#4.42','4.43': 'poem4.html#4.43','4.44': 'poem4.html#4.44','4.45': 'poem4.html#4.45','4.46': 'poem4.html#4.46','4.47': 'poem4.html#4.47','4.48': 'poem4.html#4.48','4.49': 'poem4.html#4.49','4.50': 'poem4.html#4.50','4.51': 'poem4.html#4.51','4.52': 'poem4.html#4.52','4.53': 'poem4.html#4.53','4.54': 'poem4.html#4.54','4.55': 'poem4.html#4.55','4.56': 'poem4.html#4.56','4.57': 'poem4.html#4.57','4.58': 'poem4.html#4.58','4.59': 'poem4.html#4.59','4.60': 'poem4.html#4.60','4.61': 'poem4.html#4.61','4.62': 'poem4.html#4.62','4.63': 'poem4.html#4.63','4.64': 'poem4.html#4.64','4.65': 'poem4.html#4.65','4.66': 'poem4.html#4.66','4.67': 'poem4.html#4.67','4.68': 'poem4.html#4.68','4.69': 'poem4.html#4.69','4.70': 'poem4.html#4.70','4.71': 'poem4.html#4.71','4.72': 'poem4.html#4.72','4.73': 'poem4.html#4.73','4.74': 'poem4.html#4.74','4.75': 'poem4.html#4.75','4.76': 'poem4.html#4.76','4.77': 'poem4.html#4.77','4.78': 'poem4.html#4.78','4.79': 'poem4.html#4.79','4.80': 'poem4.html#4.80','4.81': 'poem4.html#4.81','4.82': 'poem4.html#4.82','4.83': 'poem4.html#4.83','4.84': 'poem4.html#4.84','4.85': 'poem4.html#4.85','4.86': 'poem4.html#4.86','4.87': 'poem4.html#4.87','4.88': 'poem4.html#4.88','4.89': 'poem4.html#4.89','4.90': 'poem4.html#4.90','4.91': 'poem4.html#4.91','4.92': 'poem4.html#4.92','4.93': 'poem4.html#4.93','4.94': 'poem4.html#4.94','4.95': 'poem4.html#4.95','4.96': 'poem4.html#4.96','4.97': 'poem4.html#4.97','4.98': 'poem4.html#4.98','4.99': 'poem4.html#4.99','4.100': 'poem4.html#4.100','4.101': 'poem4.html#4.101','4.102': 'poem4.html#4.102','4.103': 'poem4.html#4.103','4.104': 'poem4.html#4.104','4.105': 'poem4.html#4.105','4.106': 'poem4.html#4.106','4.107': 'poem4.html#4.107','4.108': 'poem4.html#4.108','4.109': 'poem4.html#4.109','4.110': 'poem4.html#4.110','4.111': 'poem4.html#4.111','4.112': 'poem4.html#4.112','4.113': 'poem4.html#4.113','4.114': 'poem4.html#4.114','4.115': 'poem4.html#4.115','4.116': 'poem4.html#4.116','4.132': 'poem4.html#4.132','4.133': 'poem4.html#4.133','4.134': 'poem4.html#4.134','4.135': 'poem4.html#4.135','4.136': 'poem4.html#4.136','4.117': 'poem4.html#4.117','4.118': 'poem4.html#4.118','4.119': 'poem4.html#4.119','4.120': 'poem4.html#4.120','4.121': 'poem4.html#4.121','4.122': 'poem4.html#4.122','4.123': 'poem4.html#4.123','4.124': 'poem4.html#4.124','4.125': 'poem4.html#4.125','4.126': 'poem4.html#4.126','4.127': 'poem4.html#4.127','4.128': 'poem4.html#4.128','4.129': 'poem4.html#4.129','4.130': 'poem4.html#4.130','4.131': 'poem4.html#4.131','4.137': 'poem4.html#4.137','4.138': 'poem4.html#4.138','4.139': 'poem4.html#4.139','4.140': 'poem4.html#4.140','4.141': 'poem4.html#4.141','4.142': 'poem4.html#4.142','4.143': 'poem4.html#4.143','4.144': 'poem4.html#4.144','4.145': 'poem4.html#4.145','4.146': 'poem4.html#4.146','4.147': 'poem4.html#4.147','4.148': 'poem4.html#4.148','4.149': 'poem4.html#4.149','4.150': 'poem4.html#4.150','4.151': 'poem4.html#4.151','4.152': 'poem4.html#4.152','4.153': 'poem4.html#4.153','4.154': 'poem4.html#4.154','4.155': 'poem4.html#4.155','4.156': 'poem4.html#4.156','4.157': 'poem4.html#4.157','4.158': 'poem4.html#4.158','4.159': 'poem4.html#4.159','4.160': 'poem4.html#4.160','4.161': 'poem4.html#4.161','4.162': 'poem4.html#4.162','4.163': 'poem4.html#4.163','4.164': 'poem4.html#4.164','4.165': 'poem4.html#4.165','4.166': 'poem4.html#4.166','4.167': 'poem4.html#4.167','4.168': 'poem4.html#4.168','4.169': 'poem4.html#4.169','5': 'poem5.html','5.1': 'poem5.html#5.1','5.2': 'poem5.html#5.2','5.3': 'poem5.html#5.3','5.4': 'poem5.html#5.4','5.5': 'poem5.html#5.5','5.6': 'poem5.html#5.6','5.7': 'poem5.html#5.7','5.8': 'poem5.html#5.8','5.9': 'poem5.html#5.9','5.10': 'poem5.html#5.10','5.11': 'poem5.html#5.11','5.12': 'poem5.html#5.12','5.13': 'poem5.html#5.13','5.14': 'poem5.html#5.14','5.15': 'poem5.html#5.15','5.16': 'poem5.html#5.16','5.17': 'poem5.html#5.17','5.18': 'poem5.html#5.18','5.19': 'poem5.html#5.19','5.20': 'poem5.html#5.20','5.21': 'poem5.html#5.21','5.22': 'poem5.html#5.22','5.23': 'poem5.html#5.23','5.24': 'poem5.html#5.24','5.25': 'poem5.html#5.25','5.26': 'poem5.html#5.26','5.27': 'poem5.html#5.27','5.28': 'poem5.html#5.28','5.29': 'poem5.html#5.29','5.30': 'poem5.html#5.30','5.31': 'poem5.html#5.31','5.32': 'poem5.html#5.32','5.33': 'poem5.html#5.33','5.34': 'poem5.html#5.34','5.35': 'poem5.html#5.35','5.36': 'poem5.html#5.36','5.37': 'poem5.html#5.37','5.38': 'poem5.html#5.38','5.39': 'poem5.html#5.39','5.40': 'poem5.html#5.40','5.41': 'poem5.html#5.41','5.42': 'poem5.html#5.42','5.43': 'poem5.html#5.43','5.44': 'poem5.html#5.44','5.45': 'poem5.html#5.45','5.46': 'poem5.html#5.46','5.47': 'poem5.html#5.47','5.48': 'poem5.html#5.48','5.49': 'poem5.html#5.49','5.50': 'poem5.html#5.50','5.51': 'poem5.html#5.51','5.52': 'poem5.html#5.52','5.53': 'poem5.html#5.53','5.54': 'poem5.html#5.54','5.55': 'poem5.html#5.55','5.56': 'poem5.html#5.56','5.57': 'poem5.html#5.57','5.58': 'poem5.html#5.58','5.59': 'poem5.html#5.59','5.60': 'poem5.html#5.60','5.61': 'poem5.html#5.61','5.62': 'poem5.html#5.62','5.63': 'poem5.html#5.63','5.64': 'poem5.html#5.64','5.65': 'poem5.html#5.65','5.66': 'poem5.html#5.66','5.67': 'poem5.html#5.67','5.68': 'poem5.html#5.68','5.69': 'poem5.html#5.69','5.70': 'poem5.html#5.70','5.71': 'poem5.html#5.71','5.72': 'poem5.html#5.72','5.73': 'poem5.html#5.73','5.74': 'poem5.html#5.74','5.75': 'poem5.html#5.75','5.76': 'poem5.html#5.76','5.77': 'poem5.html#5.77','5.78': 'poem5.html#5.78','5.79': 'poem5.html#5.79','5.80': 'poem5.html#5.80','5.81': 'poem5.html#5.81','5.82': 'poem5.html#5.82','5.83': 'poem5.html#5.83','5.84': 'poem5.html#5.84','5.85': 'poem5.html#5.85','5.86': 'poem5.html#5.86','5.87': 'poem5.html#5.87','5.88': 'poem5.html#5.88','5.89': 'poem5.html#5.89','5.90': 'poem5.html#5.90','5.91': 'poem5.html#5.91','5.92': 'poem5.html#5.92','5.93': 'poem5.html#5.93','5.94': 'poem5.html#5.94','5.95': 'poem5.html#5.95','5.96': 'poem5.html#5.96','5.97': 'poem5.html#5.97','5.98': 'poem5.html#5.98','5.99': 'poem5.html#5.99','5.100': 'poem5.html#5.100','5.101': 'poem5.html#5.101','5.102': 'poem5.html#5.102','5.103': 'poem5.html#5.103','5.104': 'poem5.html#5.104','5.105': 'poem5.html#5.105','5.106': 'poem5.html#5.106','5.107': 'poem5.html#5.107','5.108': 'poem5.html#5.108','5.109': 'poem5.html#5.109','5.110': 'poem5.html#5.110','5.111': 'poem5.html#5.111','5.112': 'poem5.html#5.112','5.113': 'poem5.html#5.113','5.114': 'poem5.html#5.114','5.115': 'poem5.html#5.115','5.116': 'poem5.html#5.116','5.117': 'poem5.html#5.117','5.118': 'poem5.html#5.118','5.119': 'poem5.html#5.119','5.120': 'poem5.html#5.120','5.121': 'poem5.html#5.121','6': 'poem6.html','6.1': 'poem6.html#6.1','6.2': 'poem6.html#6.2','6.3': 'poem6.html#6.3','6.4': 'poem6.html#6.4','6.5': 'poem6.html#6.5','6.6': 'poem6.html#6.6','6.7': 'poem6.html#6.7','6.8': 'poem6.html#6.8','6.9': 'poem6.html#6.9','6.10': 'poem6.html#6.10','6.11': 'poem6.html#6.11','6.12': 'poem6.html#6.12','6.13': 'poem6.html#6.13','6.14': 'poem6.html#6.14','6.15': 'poem6.html#6.15','6.16': 'poem6.html#6.16','6.17': 'poem6.html#6.17','6.18': 'poem6.html#6.18','6.19': 'poem6.html#6.19','6.20': 'poem6.html#6.20','6.21': 'poem6.html#6.21','6.22': 'poem6.html#6.22','6.23': 'poem6.html#6.23','6.24': 'poem6.html#6.24','6.25': 'poem6.html#6.25','6.26': 'poem6.html#6.26','6.27': 'poem6.html#6.27','6.28': 'poem6.html#6.28','6.29': 'poem6.html#6.29','6.30': 'poem6.html#6.30','6.31': 'poem6.html#6.31','6.32': 'poem6.html#6.32','6.33': 'poem6.html#6.33','6.34': 'poem6.html#6.34','6.35': 'poem6.html#6.35','6.36': 'poem6.html#6.36','6.37': 'poem6.html#6.37','6.38': 'poem6.html#6.38','6.39': 'poem6.html#6.39','6.40': 'poem6.html#6.40','6.41': 'poem6.html#6.41','6.42': 'poem6.html#6.42','6.43': 'poem6.html#6.43','6.44': 'poem6.html#6.44','6.45': 'poem6.html#6.45','6.46': 'poem6.html#6.46','6.47': 'poem6.html#6.47','6.48': 'poem6.html#6.48','6.49': 'poem6.html#6.49','6.50': 'poem6.html#6.50','6.51': 'poem6.html#6.51','6.52': 'poem6.html#6.52','6.53': 'poem6.html#6.53','6.54': 'poem6.html#6.54','6.55': 'poem6.html#6.55','6.56': 'poem6.html#6.56','6.57': 'poem6.html#6.57','6.58': 'poem6.html#6.58','6.59': 'poem6.html#6.59','6.60': 'poem6.html#6.60','6.61': 'poem6.html#6.61','6.62': 'poem6.html#6.62','6.63': 'poem6.html#6.63','6.64': 'poem6.html#6.64','6.65': 'poem6.html#6.65','6.66': 'poem6.html#6.66','6.67': 'poem6.html#6.67','6.68': 'poem6.html#6.68','6.69': 'poem6.html#6.69','6.70': 'poem6.html#6.70','6.71': 'poem6.html#6.71','6.72': 'poem6.html#6.72','6.73': 'poem6.html#6.73','6.74': 'poem6.html#6.74','6.75': 'poem6.html#6.75','6.76': 'poem6.html#6.76','6.77': 'poem6.html#6.77','6.78': 'poem6.html#6.78','6.79': 'poem6.html#6.79','6.80': 'poem6.html#6.80','6.81': 'poem6.html#6.81','6.82': 'poem6.html#6.82','6.83': 'poem6.html#6.83','6.84': 'poem6.html#6.84','6.85': 'poem6.html#6.85','6.86': 'poem6.html#6.86','6.87': 'poem6.html#6.87','6.88': 'poem6.html#6.88','6.89': 'poem6.html#6.89','6.90': 'poem6.html#6.90','6.91': 'poem6.html#6.91','6.92': 'poem6.html#6.92','7': 'poem7.html','7.1': 'poem7.html#7.1','7.2': 'poem7.html#7.2','7.3': 'poem7.html#7.3','7.4': 'poem7.html#7.4','7.5': 'poem7.html#7.5','7.6': 'poem7.html#7.6','7.7': 'poem7.html#7.7','7.8': 'poem7.html#7.8','7.9': 'poem7.html#7.9','7.10': 'poem7.html#7.10','7.11': 'poem7.html#7.11','7.12': 'poem7.html#7.12','7.13': 'poem7.html#7.13','7.14': 'poem7.html#7.14','7.15': 'poem7.html#7.15','7.16': 'poem7.html#7.16','7.17': 'poem7.html#7.17','7.18': 'poem7.html#7.18','7.19': 'poem7.html#7.19','7.20': 'poem7.html#7.20','7.21': 'poem7.html#7.21','7.22': 'poem7.html#7.22','7.23': 'poem7.html#7.23','7.24': 'poem7.html#7.24','7.25': 'poem7.html#7.25','7.26': 'poem7.html#7.26','7.27': 'poem7.html#7.27','7.28': 'poem7.html#7.28','7.29': 'poem7.html#7.29','7.30': 'poem7.html#7.30','7.31': 'poem7.html#7.31','7.32': 'poem7.html#7.32','7.33': 'poem7.html#7.33','7.34': 'poem7.html#7.34','7.35': 'poem7.html#7.35','7.36': 'poem7.html#7.36','7.37': 'poem7.html#7.37','7.38': 'poem7.html#7.38','7.39': 'poem7.html#7.39','7.40': 'poem7.html#7.40','7.41': 'poem7.html#7.41','7.42': 'poem7.html#7.42','7.43': 'poem7.html#7.43','7.44': 'poem7.html#7.44','7.45': 'poem7.html#7.45','7.46': 'poem7.html#7.46','7.47': 'poem7.html#7.47','7.48': 'poem7.html#7.48','7.49': 'poem7.html#7.49','7.50': 'poem7.html#7.50','7.51': 'poem7.html#7.51','7.52': 'poem7.html#7.52','7.53': 'poem7.html#7.53','7.54': 'poem7.html#7.54','7.55': 'poem7.html#7.55','7.56': 'poem7.html#7.56','7.57': 'poem7.html#7.57','7.58': 'poem7.html#7.58','7.59': 'poem7.html#7.59','7.60': 'poem7.html#7.60','7.61': 'poem7.html#7.61','7.62': 'poem7.html#7.62','7.63': 'poem7.html#7.63','7.64': 'poem7.html#7.64','7.65': 'poem7.html#7.65','7.66': 'poem7.html#7.66','7.67': 'poem7.html#7.67','7.68': 'poem7.html#7.68','7.69': 'poem7.html#7.69','7.70': 'poem7.html#7.70','7.71': 'poem7.html#7.71','7.72': 'poem7.html#7.72','7.73': 'poem7.html#7.73','7.74': 'poem7.html#7.74','7.75': 'poem7.html#7.75','7.76': 'poem7.html#7.76','7.77': 'poem7.html#7.77','7.78': 'poem7.html#7.78','7.79': 'poem7.html#7.79','7.80': 'poem7.html#7.80','7.81': 'poem7.html#7.81','7.82': 'poem7.html#7.82','7.83': 'poem7.html#7.83','7.84': 'poem7.html#7.84',};
+      let resolveCite = function() {
+        window.location = citables[document.querySelector("input[name=getcite]").value.toString()];
+      }
+      const links = Array.from(document.getElementById('navigation').querySelectorAll('a:not([href*="#"])')); 
+      const pg = window.location.pathname.replace(/.*\/([^\/]+)$/,'$1');
+      const prevNext = document.getElementById('prevNext');
+      prevNext.innerHTML = "";
+      for (let i = 0; i < links.length; i++) {
+        if (links[i].getAttribute('href') == pg) {
+          if (i > 0) {
+            prevNext.innerHTML += "↤ "
+            prevNext.innerHTML += links[i-1].outerHTML;
+            if (i < links.length - 1) {
+              prevNext.innerHTML += " | ";
+            }
+          }
+          if (i < links.length - 1) {
+            prevNext.innerHTML += links[i+1].outerHTML;
+            prevNext.innerHTML += " ↦";
+          }
+        }
+        if (links[i].innerHTML.length < 4) {
+          links[i].parentElement.parentElement.classList.add('inline');
+
+        }
+      }
+    </script>
+  </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</html>

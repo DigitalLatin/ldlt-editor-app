@@ -1,0 +1,4 @@
+java -jar ~/Applications/SaxonHE11/saxon-he-11.3.jar \
+    -s:sources/20240818.xml \
+    -xsl:xslt/publish.xsl \
+    -o:_editions/mutch/index.md
