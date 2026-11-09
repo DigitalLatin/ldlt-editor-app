@@ -1,0 +1,28 @@
+
+FROM ruby:3.1-bookworm
+
+RUN apt-get update && apt-get install -y \
+    openjdk-17-jre-headless \
+    wget \
+    unzip \
+    git \
+    build-essential \
+    && rm -rf /var/lib/apt/lists/*
+
+# Install Saxon HE 11.3, matching the tested local version.
+RUN wget -O /tmp/saxon.zip \
+    "https://downloads.sourceforge.net/project/saxon/Saxon-HE/11/Java/SaxonHE11-3J.zip" \
+    && mkdir -p /opt/saxon \
+    && unzip /tmp/saxon.zip -d /opt/saxon \
+    && rm /tmp/saxon.zip
+
+# Provide the 'saxon' command expected by build-preview.sh.
+RUN printf '#!/bin/sh\nexec java -jar /opt/saxon/saxon-he-11.3.jar "$@"\n' \
+    > /usr/local/bin/saxon \
+    && chmod +x /usr/local/bin/saxon
+
+WORKDIR /site
+
+RUN gem install bundler
+
+EXPOSE 4000
