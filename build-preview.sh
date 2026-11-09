@@ -52,7 +52,12 @@ mkdir -p "_editions/$SLUG"
 run_saxon \
   -s:"$SOURCE" \
   -xsl:xslt/publish.xsl \
-  -o:"_editions/$SLUG/index.md"
+  -o:"_editions/$SLUG/index.md" \
+  "edition-slug=$SLUG"
+
+echo "Checking Ruby dependencies ..." >&2
+
+bundle check || bundle install
 
 echo "Building Jekyll site ..." >&2
 
