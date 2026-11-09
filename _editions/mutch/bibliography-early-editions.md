@@ -118,83 +118,82 @@ citables: "{'19': '#19','19.1': 'part1.html','19.2': 'part2.html','19.3': 'part3
             
             <tei-citeData property="dc:requires" use="//div[@xml:id='bibliography-manuscripts']" xml:id="d2e217" id="d2e217" data-origname="citeData" data-empty="">​</tei-citeData>
             <tei-citeData property="dc:requires" use="//div[@xml:id='bibliography-early-editions']" xml:id="d2e219" id="d2e219" data-origname="citeData" data-empty="">​</tei-citeData>
-            <tei-citeData property="dc:requires" use="//div[@xml:id='bibliography']" xml:id="d2e221" id="d2e221" data-origname="citeData" data-empty="">​</tei-citeData>
           </tei-citeStructure>
         </tei-citeStructure>
-        <tei-citeStructure match="//div[           @xml:id = (           'bibliography-manuscripts',           'bibliography-early-editions',           'bibliography'           )           ]" use="head" xml:id="d2e225" id="d2e225" data-origname="citeStructure">
+        <tei-citeStructure match="//div[           @xml:id = (           'bibliography-manuscripts',           'bibliography-early-editions'           )           ]" use="head" xml:id="d2e223" id="d2e223" data-origname="citeStructure">
           
-          <tei-citeData property="dc:identifier" use="@xml:id" xml:id="d2e227" id="d2e227" data-origname="citeData" data-empty="">​</tei-citeData>
-          <tei-citeData property="dc:title" use="head" xml:id="d2e229" id="d2e229" data-origname="citeData" data-empty="">​</tei-citeData>
-          <tei-citeData property="function" use="'toc-entry'" xml:id="d2e231" id="d2e231" data-origname="citeData" data-empty="">​</tei-citeData>
-          <tei-citeData property="function" use="'split'" xml:id="d2e233" id="d2e233" data-origname="citeData" data-empty="">​</tei-citeData>
+          <tei-citeData property="dc:identifier" use="@xml:id" xml:id="d2e225" id="d2e225" data-origname="citeData" data-empty="">​</tei-citeData>
+          <tei-citeData property="dc:title" use="head" xml:id="d2e227" id="d2e227" data-origname="citeData" data-empty="">​</tei-citeData>
+          <tei-citeData property="function" use="'toc-entry'" xml:id="d2e229" id="d2e229" data-origname="citeData" data-empty="">​</tei-citeData>
+          <tei-citeData property="function" use="'split'" xml:id="d2e231" id="d2e231" data-origname="citeData" data-empty="">​</tei-citeData>
           
         </tei-citeStructure>
         
-        <tei-citeStructure match="//div[@type='edition']/div[@type='textpart']" use="@n" unit="book" xml:id="d2e239" id="d2e239" data-origname="citeStructure">
+        <tei-citeStructure match="//div[@type='edition']/div[@type='textpart']" use="@n" unit="book" xml:id="d2e237" id="d2e237" data-origname="citeStructure">
           
-          <tei-citeData property="dc:identifier" use="@xml:id" xml:id="d2e241" id="d2e241" data-origname="citeData" data-empty="">​</tei-citeData>
-          <tei-citeData property="dc:title" use="'Particula XIX: De harmonia'" xml:id="d2e243" id="d2e243" data-origname="citeData" data-empty="">​</tei-citeData>
-          <tei-citeData property="function" use="'toc-entry'" xml:id="d2e245" id="d2e245" data-origname="citeData" data-empty="">​</tei-citeData>  
+          <tei-citeData property="dc:identifier" use="@xml:id" xml:id="d2e239" id="d2e239" data-origname="citeData" data-empty="">​</tei-citeData>
+          <tei-citeData property="dc:title" use="'Particula XIX: De harmonia'" xml:id="d2e241" id="d2e241" data-origname="citeData" data-empty="">​</tei-citeData>
+          <tei-citeData property="function" use="'toc-entry'" xml:id="d2e243" id="d2e243" data-origname="citeData" data-empty="">​</tei-citeData>  
           
-          <tei-citeStructure match="./div[@type='textpart']" use="@n" delim="." unit="problem" xml:id="d2e247" id="d2e247" data-origname="citeStructure">
+          <tei-citeStructure match="./div[@type='textpart']" use="@n" delim="." unit="problem" xml:id="d2e245" id="d2e245" data-origname="citeStructure">
             
-            <tei-citeData property="dc:identifier" use="@xml:id" xml:id="d2e249" id="d2e249" data-origname="citeData" data-empty="">​</tei-citeData>
-            <tei-citeData property="dc:title" use="head" xml:id="d2e251" id="d2e251" data-origname="citeData" data-empty="">​</tei-citeData>
-            <tei-citeData property="function" use="'toc-entry'" xml:id="d2e253" id="d2e253" data-origname="citeData" data-empty="">​</tei-citeData>
-            <tei-citeData property="function" use="'split'" xml:id="d2e255" id="d2e255" data-origname="citeData" data-empty="">​</tei-citeData>
+            <tei-citeData property="dc:identifier" use="@xml:id" xml:id="d2e247" id="d2e247" data-origname="citeData" data-empty="">​</tei-citeData>
+            <tei-citeData property="dc:title" use="head" xml:id="d2e249" id="d2e249" data-origname="citeData" data-empty="">​</tei-citeData>
+            <tei-citeData property="function" use="'toc-entry'" xml:id="d2e251" id="d2e251" data-origname="citeData" data-empty="">​</tei-citeData>
+            <tei-citeData property="function" use="'split'" xml:id="d2e253" id="d2e253" data-origname="citeData" data-empty="">​</tei-citeData>
             
-            <tei-citeData property="dc:requires" use="//div[@xml:id='bibliography-manuscripts']" xml:id="d2e257" id="d2e257" data-origname="citeData" data-empty="">​</tei-citeData>
-            <tei-citeData property="dc:requires" use="//div[@xml:id='bibliography-early-editions']" xml:id="d2e260" id="d2e260" data-origname="citeData" data-empty="">​</tei-citeData>
+            <tei-citeData property="dc:requires" use="//div[@xml:id='bibliography-manuscripts']" xml:id="d2e255" id="d2e255" data-origname="citeData" data-empty="">​</tei-citeData>
+            <tei-citeData property="dc:requires" use="//div[@xml:id='bibliography-early-editions']" xml:id="d2e258" id="d2e258" data-origname="citeData" data-empty="">​</tei-citeData>
             
           </tei-citeStructure>
         </tei-citeStructure>
-        <tei-citeStructure match="//back" use="'Back Matter'" xml:id="d2e264" id="d2e264" data-origname="citeStructure">
+        <tei-citeStructure match="//back" use="'Back Matter'" xml:id="d2e262" id="d2e262" data-origname="citeStructure">
           
-          <tei-citeData property="dc:title" use="'Back Matter'" xml:id="d2e266" id="d2e266" data-origname="citeData" data-empty="">​</tei-citeData>
-          <tei-citeData property="function" use="'toc-entry'" xml:id="d2e268" id="d2e268" data-origname="citeData" data-empty="">​</tei-citeData>
+          <tei-citeData property="dc:title" use="'Back Matter'" xml:id="d2e264" id="d2e264" data-origname="citeData" data-empty="">​</tei-citeData>
+          <tei-citeData property="function" use="'toc-entry'" xml:id="d2e266" id="d2e266" data-origname="citeData" data-empty="">​</tei-citeData>
           
-          <tei-citeStructure match=".//div[@xml:id='back-historical-figures']" use="head" delim=", " xml:id="d2e270" id="d2e270" data-origname="citeStructure">
+          <tei-citeStructure match=".//div[@xml:id='back-historical-figures']" use="head" delim=", " xml:id="d2e268" id="d2e268" data-origname="citeStructure">
             
-            <tei-citeData property="dc:identifier" use="@xml:id" xml:id="d2e272" id="d2e272" data-origname="citeData" data-empty="">​</tei-citeData>
-            <tei-citeData property="dc:title" use="'Historical Figures'" xml:id="d2e274" id="d2e274" data-origname="citeData" data-empty="">​</tei-citeData>
-            <tei-citeData property="function" use="'toc-entry'" xml:id="d2e276" id="d2e276" data-origname="citeData" data-empty="">​</tei-citeData>
-            <tei-citeData property="function" use="'split'" xml:id="d2e278" id="d2e278" data-origname="citeData" data-empty="">​</tei-citeData>
+            <tei-citeData property="dc:identifier" use="@xml:id" xml:id="d2e270" id="d2e270" data-origname="citeData" data-empty="">​</tei-citeData>
+            <tei-citeData property="dc:title" use="'Historical Figures'" xml:id="d2e272" id="d2e272" data-origname="citeData" data-empty="">​</tei-citeData>
+            <tei-citeData property="function" use="'toc-entry'" xml:id="d2e274" id="d2e274" data-origname="citeData" data-empty="">​</tei-citeData>
+            <tei-citeData property="function" use="'split'" xml:id="d2e276" id="d2e276" data-origname="citeData" data-empty="">​</tei-citeData>
             
           </tei-citeStructure>
           
-          <tei-citeStructure match=".//div[@xml:id='back-list-works-cited']" use="head" delim=", " xml:id="d2e281" id="d2e281" data-origname="citeStructure">
+          <tei-citeStructure match=".//div[@xml:id='back-list-works-cited']" use="head" delim=", " xml:id="d2e279" id="d2e279" data-origname="citeStructure">
             
-            <tei-citeData property="dc:identifier" use="@xml:id" xml:id="d2e283" id="d2e283" data-origname="citeData" data-empty="">​</tei-citeData>
-            <tei-citeData property="dc:title" use="'Works Cited'" xml:id="d2e285" id="d2e285" data-origname="citeData" data-empty="">​</tei-citeData>
-            <tei-citeData property="function" use="'toc-entry'" xml:id="d2e287" id="d2e287" data-origname="citeData" data-empty="">​</tei-citeData>
-            <tei-citeData property="function" use="'split'" xml:id="d2e289" id="d2e289" data-origname="citeData" data-empty="">​</tei-citeData>
+            <tei-citeData property="dc:identifier" use="@xml:id" xml:id="d2e281" id="d2e281" data-origname="citeData" data-empty="">​</tei-citeData>
+            <tei-citeData property="dc:title" use="'Works Cited'" xml:id="d2e283" id="d2e283" data-origname="citeData" data-empty="">​</tei-citeData>
+            <tei-citeData property="function" use="'toc-entry'" xml:id="d2e285" id="d2e285" data-origname="citeData" data-empty="">​</tei-citeData>
+            <tei-citeData property="function" use="'split'" xml:id="d2e287" id="d2e287" data-origname="citeData" data-empty="">​</tei-citeData>
             
           </tei-citeStructure>
           
         </tei-citeStructure>
       </tei-refsDecl>
-      <tei-variantEncoding method="location-referenced" location="internal" xml:id="d2e294" id="d2e294" data-origname="variantEncoding" data-empty="">​</tei-variantEncoding>
+      <tei-variantEncoding method="location-referenced" location="internal" xml:id="d2e292" id="d2e292" data-origname="variantEncoding" data-empty="">​</tei-variantEncoding>
     </tei-encodingDesc>
-  </tei-teiHeader><tei-TEI xml:id="d2e3" id="d2e3" data-origname="TEI"><tei-text xml:id="d2e298" id="d2e298" data-origname="text"><tei-front xml:id="front" id="front" data-origname="front"><tei-div type="section" xml:id="preface" id="preface" data-origname="div"><tei-div type="section" xml:id="preface-section-2" id="preface-section-2" data-origname="div"><tei-div type="section" xml:id="preface-subsection-2.2" id="preface-subsection-2.2" data-origname="div"><tei-div type="section" xml:id="bibliography-early-editions" id="bibliography-early-editions" data-origname="div">
-              <tei-head xml:id="d2e937" id="d2e937" data-origname="head">Editions: Witnesses</tei-head>
+  </tei-teiHeader><tei-TEI xml:id="d2e3" id="d2e3" data-origname="TEI"><tei-text xml:id="d2e296" id="d2e296" data-origname="text"><tei-front xml:id="front" id="front" data-origname="front"><tei-div type="section" xml:id="preface" id="preface" data-origname="div"><tei-div type="section" xml:id="preface-section-2" id="preface-section-2" data-origname="div"><tei-div type="section" xml:id="preface-subsection-2.2" id="preface-subsection-2.2" data-origname="div"><tei-div type="section" xml:id="bibliography-early-editions" id="bibliography-early-editions" data-origname="div">
+              <tei-head xml:id="d2e935" id="d2e935" data-origname="head">Editions: Witnesses</tei-head>
               <tei-listWit xml:id="early-editions" id="early-editions" data-origname="listWit">
                 <tei-witness xml:id="m" id="m" data-origname="witness">
-                  <tei-abbr type="siglum" xml:id="d2e943" id="d2e943" data-origname="abbr">m</tei-abbr>
-                  <tei-bibl xml:id="d2e946" id="d2e946" data-origname="bibl">
-                    <tei-editor xml:id="d2e948" id="d2e948" data-origname="editor"><tei-name xml:id="d2e949" id="d2e949" data-origname="name">Illarius, Stephanus</tei-name></tei-editor>. <tei-title xml:id="d2e951" id="d2e951" data-origname="title">Expositio succinta
+                  <tei-abbr type="siglum" xml:id="d2e941" id="d2e941" data-origname="abbr">m</tei-abbr>
+                  <tei-bibl xml:id="d2e944" id="d2e944" data-origname="bibl">
+                    <tei-editor xml:id="d2e946" id="d2e946" data-origname="editor"><tei-name xml:id="d2e947" id="d2e947" data-origname="name">Illarius, Stephanus</tei-name></tei-editor>. <tei-title xml:id="d2e949" id="d2e949" data-origname="title">Expositio succinta
                       problematum Aristotelis quam Petrus edidit Paduanus</tei-title> (accessed
-                    2022-01-03). <tei-pubPlace xml:id="d2e953" id="d2e953" data-origname="pubPlace">Mantua</tei-pubPlace>: <tei-publisher xml:id="d2e955" id="d2e955" data-origname="publisher">Paulus de
-                      Butzbach</tei-publisher>, <tei-date xml:id="d2e957" id="d2e957" data-origname="date">1475</tei-date>. <tei-ptr target="http://daten.digitale-sammlungen.de/~db/0006/bsb00068444/images/" xml:id="d2e960" id="d2e960" data-origname="ptr" data-empty="">​</tei-ptr>
+                    2022-01-03). <tei-pubPlace xml:id="d2e951" id="d2e951" data-origname="pubPlace">Mantua</tei-pubPlace>: <tei-publisher xml:id="d2e953" id="d2e953" data-origname="publisher">Paulus de
+                      Butzbach</tei-publisher>, <tei-date xml:id="d2e955" id="d2e955" data-origname="date">1475</tei-date>. <tei-ptr target="http://daten.digitale-sammlungen.de/~db/0006/bsb00068444/images/" xml:id="d2e958" id="d2e958" data-origname="ptr" data-empty="">​</tei-ptr>
                   </tei-bibl>
                 </tei-witness>
                 <tei-witness xml:id="v" id="v" data-origname="witness">
-                  <tei-abbr type="siglum" xml:id="d2e966" id="d2e966" data-origname="abbr">v</tei-abbr>
-                  <tei-bibl xml:id="d2e969" id="d2e969" data-origname="bibl">
-                    <tei-editor xml:id="d2e971" id="d2e971" data-origname="editor"><tei-name xml:id="d2e972" id="d2e972" data-origname="name">Anonymous</tei-name></tei-editor>. <tei-title xml:id="d2e974" id="d2e974" data-origname="title">Expositio preclarissimi atque
+                  <tei-abbr type="siglum" xml:id="d2e964" id="d2e964" data-origname="abbr">v</tei-abbr>
+                  <tei-bibl xml:id="d2e967" id="d2e967" data-origname="bibl">
+                    <tei-editor xml:id="d2e969" id="d2e969" data-origname="editor"><tei-name xml:id="d2e970" id="d2e970" data-origname="name">Anonymous</tei-name></tei-editor>. <tei-title xml:id="d2e972" id="d2e972" data-origname="title">Expositio preclarissimi atque
                       eximii artium ac medicine doctoris Petri de Ebano Patauini in librorum
                       problematum Aristotelis</tei-title> (accessed 2022-01-03).
-                      <tei-pubPlace xml:id="d2e976" id="d2e976" data-origname="pubPlace">[Venice]</tei-pubPlace>: <tei-publisher xml:id="d2e978" id="d2e978" data-origname="publisher">Johannes Herbort</tei-publisher>,
-                      <tei-date xml:id="d2e980" id="d2e980" data-origname="date">1482</tei-date>. <tei-ptr target="http://daten.digitale-sammlungen.de/~db/0005/bsb00058463/images/" xml:id="d2e983" id="d2e983" data-origname="ptr" data-empty="">​</tei-ptr>
+                      <tei-pubPlace xml:id="d2e974" id="d2e974" data-origname="pubPlace">[Venice]</tei-pubPlace>: <tei-publisher xml:id="d2e976" id="d2e976" data-origname="publisher">Johannes Herbort</tei-publisher>,
+                      <tei-date xml:id="d2e978" id="d2e978" data-origname="date">1482</tei-date>. <tei-ptr target="http://daten.digitale-sammlungen.de/~db/0005/bsb00058463/images/" xml:id="d2e981" id="d2e981" data-origname="ptr" data-empty="">​</tei-ptr>
                   </tei-bibl>
                 </tei-witness>
               </tei-listWit>
