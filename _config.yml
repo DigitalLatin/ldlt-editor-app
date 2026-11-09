@@ -38,7 +38,6 @@ plugins:
 #
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
-#
 # exclude:
 #   - .sass-cache/
 #   - .jekyll-cache/
@@ -50,6 +49,9 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+#   - xslt/
+#   - build-preview.sh
+#   - preview.sh
 # Where things are
 source              : .
 destination         : ./docs
@@ -63,7 +65,7 @@ includes_dir        : _includes
 sass:
   sass_dir: assets/css
 include             : ["CNAME"]
-exclude             : ["Gemfile", "Gemfile.lock", "node_modules", "sources", "vendor/bundle/", "vendor/cache/", "vendor/gems/", "vendor/ruby/", "xslt"]
+exclude             : ["Gemfile", "Gemfile.lock", "node_modules", "sources", "vendor/bundle/", "vendor/cache/", "vendor/gems/", "vendor/ruby/", "xslt", "build-preview.sh", "preview.sh", "Dockerfile.preview", "compose.yaml"]
 keep_files          : [".git", ".svn"]
 encoding            : "UTF-8"
 markdown_ext        : "markdown,mkdown,mkdn,mkd,md"

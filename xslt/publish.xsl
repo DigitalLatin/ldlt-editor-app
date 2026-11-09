@@ -9,6 +9,7 @@
   version="3.0">
   <xsl:output method="xml" omit-xml-declaration="yes" indent="no"/>
   
+  <xsl:param name="edition-slug" as="xs:string" select="''"/>
   <xsl:param name="dir">./</xsl:param>
   
   <!-- Generates a table of contents used as an index page and a sidebar -->
@@ -63,7 +64,7 @@ citables: "{{<xsl:apply-templates select="$doc-with-ids//refsDecl/citeStructure"
     <ul>
       <xsl:for-each select="uri-collection('../sources?select=*.xml')">
         <xsl:variable name="name" select="translate(replace(.,'.*/([^/]+).xml','$1'),'_',' ')"/>
-        <li><a href="/editions/{lower-case(replace(.,'.*/([^/]+).xml','$1'))}">{$name}</a></li>
+        <li><a href="/editions/{$edition-slug}">{$name}</a></li>
       </xsl:for-each>
     </ul>
   </xsl:template>
