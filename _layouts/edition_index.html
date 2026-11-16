@@ -10,9 +10,9 @@
     <link rel="stylesheet" href="/assets/css/tei-html.css" />
     <link rel="stylesheet" href="/assets/css/styles.css">
     <script>
-        let citables = {{ page.citables }}
+        window.citables = JSON.parse(`{{ page.citables | jsonify }}`)
         let resolveCite = function() {
-            window.location = citables[document.querySelector("input[name=getcite]").value.toString()];
+            window.location = window.citables[document.querySelector("input[name=getcite]").value.toString()];
         }
     </script>
 </head>
@@ -22,7 +22,64 @@
         <div id="mainwrapper" class="d-flex flex-column min-vh-100">
             <div class="container flex-grow-1">
                 <main role="main">
+
+                    <header class="edition-header my-5">
+                        <p class="text-uppercase text-muted">
+                            {{ site.data.edition.series | escape }}
+                        </p>
+
+                        <h1>{{ site.data.edition.title | escape }}</h1>
+
+                        {% if site.data.edition.authors.size > 0 %}
+                        <p class="lead">
+                            {{ site.data.edition.authors | join: ", " | escape }}
+                        </p>
+                        {% endif %}
+
+                        {% if site.data.edition.editors.size > 0 %}
+                        <p>
+                            Edited by
+                            {{ site.data.edition.editors | join: ", " | escape }}
+                        </p>
+                        {% endif %}
+
+                        <p class="text-muted">
+                            Editorial preview — not for publication
+                        </p>
+                    </header>
+
+                    <section class="edition-metadata mb-5">
+                        <h2>Edition information</h2>
+
+                        <dl class="row">
+                            <dt class="col-sm-3">Edition</dt>
+                            <dd class="col-sm-9">
+                                {{ site.data.edition.edition | escape }}
+                            </dd>
+
+                            <dt class="col-sm-3">Publisher</dt>
+                            <dd class="col-sm-9">
+                                {{ site.data.edition.publisher | escape }}
+                            </dd>
+
+                            <dt class="col-sm-3">TEI encoding</dt>
+                            <dd class="col-sm-9">
+                                {{ site.data.edition.tei_encoders | join: ", " | escape }}
+                            </dd>
+
+                            <dt class="col-sm-3">License</dt>
+                            <dd class="col-sm-9">
+                                <a href="{{ site.data.edition.license.url | escape }}">
+                                    {{ site.data.edition.license.name | escape }}
+                                </a>
+                            </dd>
+                        </dl>
+                    </section>
+
+                    <h2>Contents</h2>
+
                     {{ content }}
+
                 </main>
             </div>
         </div>

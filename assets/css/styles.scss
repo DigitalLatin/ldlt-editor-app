@@ -50,6 +50,7 @@ a:hover {
 }
 .navbar {
     background-color: #005cb9;
+    padding-bottom: 1rem;
 }
 
 .navbar .container {
@@ -60,6 +61,14 @@ a.navbar-brand {
     margin-bottom: 0.75rem;
     margin-left: 1rem;
 }
+
+span.navbar-brand {
+    color: white;
+    font-size: xx-large;
+    margin: 1rem 0 0 0.75rem;
+}
+
+
 
 a.nav-link {
     color: white;

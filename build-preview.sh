@@ -45,6 +45,15 @@ run_saxon \
   -xsl:xslt/validate-citestructure.xsl \
   -o:/dev/null
 
+echo "Extracting edition metadata ..." >&2
+mkdir -p _data
+
+run_saxon \
+  -s:"$SOURCE" \
+  -xsl:xslt/extract-metadata.xsl \
+  -o:_data/edition.json \
+  "edition-slug=$SLUG"
+
 echo "Publishing $SLUG ..." >&2
 
 mkdir -p "_editions/$SLUG"

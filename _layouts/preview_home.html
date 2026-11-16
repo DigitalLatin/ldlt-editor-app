@@ -1,0 +1,75 @@
+---
+layout: page
+---
+
+<div class="container my-5">
+  <header class="mb-5">
+    <p class="text-uppercase text-muted">
+      {{ site.data.edition.series | escape }}
+    </p>
+
+    <h1>{{ site.data.edition.title | escape }}</h1>
+
+    {% assign authors = site.data.edition.authors | join: ", " %}
+    {% if authors != "" %}
+      <p class="lead">{{ authors | escape }}</p>
+    {% endif %}
+
+    {% assign editors = site.data.edition.editors | join: ", " %}
+    {% if editors != "" %}
+      <p>Edited by {{ editors | escape }}</p>
+    {% endif %}
+  </header>
+
+  <section class="mb-5">
+    <h2>Edition information</h2>
+
+    <dl class="row">
+      {% if site.data.edition.edition != "" %}
+        <dt class="col-sm-3">Edition</dt>
+        <dd class="col-sm-9">
+          {{ site.data.edition.edition | escape }}
+        </dd>
+      {% endif %}
+
+      {% if site.data.edition.publisher != "" %}
+        <dt class="col-sm-3">Publisher</dt>
+        <dd class="col-sm-9">
+          {{ site.data.edition.publisher | escape }}
+        </dd>
+      {% endif %}
+
+      {% if site.data.edition.tei_encoders.size > 0 %}
+        <dt class="col-sm-3">TEI encoding</dt>
+        <dd class="col-sm-9">
+          {{ site.data.edition.tei_encoders | join: ", " | escape }}
+        </dd>
+      {% endif %}
+
+      {% if site.data.edition.license.name != "" %}
+        <dt class="col-sm-3">License</dt>
+        <dd class="col-sm-9">
+          {% if site.data.edition.license.url != "" %}
+            <a href="{{ site.data.edition.license.url | escape }}">
+              {{ site.data.edition.license.name | escape }}
+            </a>
+          {% else %}
+            {{ site.data.edition.license.name | escape }}
+          {% endif %}
+        </dd>
+      {% endif %}
+    </dl>
+  </section>
+
+  <section>
+    <h2>Contents</h2>
+
+    {% assign edition_url = "/editions/" | append: site.data.edition.slug | append: "/" %}
+
+    <p>
+      <a href="{{ edition_url | relative_url }}">
+        Open the edition and its table of contents
+      </a>
+    </p>
+  </section>
+</div>

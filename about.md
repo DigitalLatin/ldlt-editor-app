@@ -5,10 +5,19 @@ layout: page
 
 # About the Library of Digital Latin Texts
 
+The _Library of Digital Latin Texts_ is published by the [Digital Latin Library](https://digitallatin.org) (DLL) on behalf of the following learned societies:
+
+- [Society for Classical Studies](https://classicalstudies.org)
+- [Medieval Academy of America](https://www.medievalacademy.org/)
+- [Renaissance Society of America](https://www.rsa.org/)
+
+Under this partnership, the DLL maintains the platform, infrastructure, and [encoding guidelines](https://digitallatin.github.io/guidelines/) for the series. The organizations listed above oversee the process of receiving proposals for new editions, submitting them for peer review, and making decisions regarding publication.
+
 The LDLT aims to publish high-quality, critical editions of Latin texts
 from all eras. Editions are published as [TEI
 XML](http://www.tei-c.org/) files encoded according to our
 [guidelines](https://digitallatin.github.io/guidelines/LDLT-Guidelines.html).
+
 Those files are stored in a version-controlled repository, and they are
 openly available under a Creative Commons license.
 

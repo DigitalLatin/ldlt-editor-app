@@ -18,18 +18,13 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Library of Digital Latin Texts
-email: info@digitallatin.org
+title: LDLT Edition Preview
 description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://ldlt.digitallatin.org/" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: digitallatin
-github_username:  Library-of-Digital-Latin-Texts
+url: "http://localhost:4000" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 theme: minima #consider: jekyll-theme-cayman
-plugins:
-  - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -64,7 +59,6 @@ layouts_dir         : _layouts
 includes_dir        : _includes
 sass:
   sass_dir: assets/css
-include             : ["CNAME"]
 exclude             : ["Gemfile", "Gemfile.lock", "node_modules", "sources", "vendor/bundle/", "vendor/cache/", "vendor/gems/", "vendor/ruby/", "xslt", "build-preview.sh", "preview.sh", "Dockerfile.preview", "compose.yaml"]
 keep_files          : [".git", ".svn"]
 encoding            : "UTF-8"

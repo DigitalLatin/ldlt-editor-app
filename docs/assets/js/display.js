@@ -1,4 +1,0 @@
-// Javascript styling functions
-$(function() {
-
-});
