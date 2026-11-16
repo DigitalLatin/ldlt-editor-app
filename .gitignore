@@ -1,6 +1,6 @@
 _site
 docs/
-_editions
+_editions/
 _data
 .sass-cache
 .jekyll-cache

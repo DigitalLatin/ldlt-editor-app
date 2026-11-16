@@ -58,7 +58,7 @@
       let tei = document.querySelector('div>tei-div[type="textpart"],[type="edition"],[type="section"],[type="commentary"]');
       app.loadData(tei);
       app.doSection($(tei));
-      let citables = {{ page.citables }};
+      let citables = {{ page.citables | jsonify }};
       let resolveCite = function() {
         window.location = citables[document.querySelector("input[name=getcite]").value.toString()];
       }

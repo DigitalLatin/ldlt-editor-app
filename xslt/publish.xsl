@@ -11,7 +11,12 @@
   
   <xsl:param name="edition-slug" as="xs:string" select="''"/>
   <xsl:param name="dir">./</xsl:param>
-  
+  <xsl:function name="dts:yaml-string" as="xs:string">
+    <xsl:param name="value" as="xs:string"/>
+    <xsl:sequence select="
+      serialize($value, map {'method': 'json'})
+    "/>
+  </xsl:function>  
   <!-- Generates a table of contents used as an index page and a sidebar -->
   <xsl:variable name="toc">
     <xsl:apply-templates select="//refsDecl" mode="toc"/>
@@ -39,7 +44,10 @@
   <xsl:template match="/">---
 layout: edition_index
 title: "{//text/front/titlePage/docTitle/titlePart}"
-citables: "{{<xsl:apply-templates select="$doc-with-ids//refsDecl/citeStructure" mode="citations"/>}}"
+citables:
+<xsl:apply-templates
+  select="$doc-with-ids//refsDecl/citeStructure"
+  mode="citations"/>
 ---
 <div id="tei">
   <xsl:apply-templates select="//titlePage"/>
@@ -243,7 +251,10 @@ citables: "{{<xsl:apply-templates select="$doc-with-ids//refsDecl/citeStructure"
       <xsl:result-document href="{lower-case(dts:resolve_id(.,$current))}.md">---
 layout: edition
 title: "{$doc//text/front/titlePage/docTitle/titlePart}: {head}"
-citables: "{{<xsl:apply-templates select="$doc-with-ids//refsDecl/citeStructure" mode="citations"/>}}"
+citables:
+<xsl:apply-templates
+  select="$doc-with-ids//refsDecl/citeStructure"
+  mode="citations"/>
 --- 
   <div id="prevNext">
     -
@@ -266,11 +277,13 @@ citables: "{{<xsl:apply-templates select="$doc-with-ids//refsDecl/citeStructure"
     </xsl:for-each>
   </div>
   <div id="controls" class="">
-    <div id="citesearch">
-      <form>
-        <label for="getcite">Find citation</label><xsl:text> </xsl:text><input type="text" name="getcite"/><xsl:text> </xsl:text><button onclick="resolveCite(); return false;">Go</button>
-      </form>
-    </div>
+  <div id="citesearch">
+    <form>
+      <label for="getcite">Find citation</label>
+      <input type="text" id="getcite" name="getcite"/>
+      <button type="submit">Go</button>
+    </form>
+  </div>
     
     <div id="editing">
       <ul>
@@ -376,47 +389,95 @@ citables: "{{<xsl:apply-templates select="$doc-with-ids//refsDecl/citeStructure"
   </xsl:template>
   
   <!-- Build a list of citations pointing to the file containing the cite and the cite itself -->
-  <xsl:template match="citeStructure" mode="citations">
-    <xsl:param name="context" select="$doc-with-ids/TEI"/>
-    <xsl:param name="parentcite" select="''"/>
-    <xsl:param name="parenttarget" select="''"/>
-    <xsl:param name="parentmatch" select="''"/>
-    <xsl:variable name="current" select="."/>
-    <xsl:variable name="matches" select="dts:resolve_citestructure($context,.)"/>
-    <xsl:choose>
-      <xsl:when test="@unit">
-        <xsl:variable name="use" select="'xs:string(' || @use || ')'"/>
-        <xsl:variable name="delim" select="@delim"/>
-        <xsl:for-each select="$matches">
-          <xsl:variable name="citationpart">
-            <xsl:evaluate context-item="." xpath="$use"/>
-          </xsl:variable>
-          <!-- when function is split do {@xml:id}.html -->
-          <xsl:choose>
-            <xsl:when test="dts:resolve_citedata(.,$current,'function') = 'split'">'{$parentcite || $delim || $citationpart}': '{dts:resolve_citedata(.,$current,'dc:identifier')}.html',<xsl:apply-templates select="$current/citeStructure" mode="citations">
-                <xsl:with-param name="context" select="."/>
-                <xsl:with-param name="parentcite" select="$parentcite || $delim || $citationpart"/>
-                <xsl:with-param name="parenttarget">{dts:resolve_citedata(.,$current,'dc:identifier')}.html</xsl:with-param>
-                <xsl:with-param name="parentmatch" select="$current/@match"/>
-              </xsl:apply-templates>
-            </xsl:when>
-            <xsl:otherwise>'{$parentcite || $delim || $citationpart}': '{$parenttarget}#{$parentcite || $delim || $citationpart}',<xsl:apply-templates select="$current/citeStructure" mode="citations">
-                <xsl:with-param name="context" select="."/>
-                <xsl:with-param name="parentcite" select="$parentcite || $delim || $citationpart"/>
-                <xsl:with-param name="parenttarget">{$parenttarget}</xsl:with-param>
-                <xsl:with-param name="parentmatch" select="$parentmatch || $current/@match"/>
-              </xsl:apply-templates>
-            </xsl:otherwise>
-          </xsl:choose>
-        </xsl:for-each>
-      </xsl:when>
-      <xsl:otherwise>
-        <xsl:apply-templates select="citeStructure" mode="citations">
-          <xsl:with-param name="context" select="$matches"/>
-        </xsl:apply-templates>
-      </xsl:otherwise>
-    </xsl:choose>
-  </xsl:template>
+  
+<xsl:template match="citeStructure" mode="citations">
+  <xsl:param name="context" select="$doc-with-ids/TEI"/>
+  <xsl:param name="parentcite" select="''"/>
+  <xsl:param name="parenttarget" select="''"/>
+  <xsl:param name="parentmatch" select="''"/>
+
+  <xsl:variable name="current" select="."/>
+  <xsl:variable name="matches"
+                select="dts:resolve_citestructure($context, .)"/>
+
+  <xsl:choose>
+    <xsl:when test="@unit">
+      <xsl:variable name="use" select="'xs:string(' || @use || ')'"/>
+      <xsl:variable name="delim" select="string(@delim)"/>
+
+      <xsl:for-each select="$matches">
+        <xsl:variable name="citationpart">
+          <xsl:evaluate context-item="." xpath="$use"/>
+        </xsl:variable>
+
+        <xsl:variable name="citation"
+                      select="$parentcite || $delim || $citationpart"/>
+
+        <xsl:choose>
+          <xsl:when test="
+            dts:resolve_citedata(., $current, 'function') = 'split'
+          ">
+            <xsl:variable name="target"
+              select="dts:resolve_citedata(
+                ., $current, 'dc:identifier'
+              ) || '.html'"/>
+
+            <xsl:value-of select="
+              '  ' ||
+              dts:yaml-string($citation) ||
+              ': ' ||
+              dts:yaml-string($target) ||
+              '&#10;'
+            "/>
+
+            <xsl:apply-templates
+              select="$current/citeStructure"
+              mode="citations">
+              <xsl:with-param name="context" select="."/>
+              <xsl:with-param name="parentcite" select="$citation"/>
+              <xsl:with-param name="parenttarget" select="$target"/>
+              <xsl:with-param name="parentmatch"
+                              select="$current/@match"/>
+            </xsl:apply-templates>
+          </xsl:when>
+
+          <xsl:otherwise>
+            <xsl:variable name="target"
+              select="$parenttarget || '#' || $citation"/>
+
+            <xsl:value-of select="
+              '  ' ||
+              dts:yaml-string($citation) ||
+              ': ' ||
+              dts:yaml-string($target) ||
+              '&#10;'
+            "/>
+
+            <xsl:apply-templates
+              select="$current/citeStructure"
+              mode="citations">
+              <xsl:with-param name="context" select="."/>
+              <xsl:with-param name="parentcite" select="$citation"/>
+              <xsl:with-param name="parenttarget"
+                              select="$parenttarget"/>
+              <xsl:with-param name="parentmatch"
+                              select="$parentmatch || $current/@match"/>
+            </xsl:apply-templates>
+          </xsl:otherwise>
+        </xsl:choose>
+      </xsl:for-each>
+    </xsl:when>
+
+    <xsl:otherwise>
+      <xsl:apply-templates
+        select="citeStructure"
+        mode="citations">
+        <xsl:with-param name="context" select="$matches"/>
+      </xsl:apply-templates>
+    </xsl:otherwise>
+  </xsl:choose>
+</xsl:template>
+
   
   <!-- Given a context element and a citeStructure, find the corresponding element(s) in the document -->
   <xsl:function name="dts:resolve_citestructure">
